@@ -1,0 +1,250 @@
+:root {
+  --ink: #23281f;
+  --ink-soft: #5a5f52;
+  --paper: #f6f2e7;
+  --paper-raised: #fffdf7;
+  --line: #d8d0ba;
+  --accent: #8a3b2f;
+  --focus: #b8842f;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.75rem;
+  background: var(--paper-raised);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand { display: flex; align-items: center; gap: 0.75rem; }
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--paper-raised);
+  font-size: 1.3rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.brand h1 { margin: 0; font-size: 1.25rem; letter-spacing: 0.01em; }
+.brand p { margin: 0.15rem 0 0; font-size: 0.8rem; color: var(--ink-soft); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+.picker { display: flex; gap: 0.9rem; align-items: flex-end; flex-wrap: wrap; }
+
+.picker label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+select {
+  font: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+  padding: 0.45rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--paper-raised);
+  color: var(--ink);
+  min-width: 170px;
+}
+
+select:focus, .reset-btn:focus { outline: 2px solid var(--focus); outline-offset: 1px; }
+
+.reset-btn {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.reset-btn:disabled { opacity: 0.4; cursor: default; }
+.reset-btn:not(:disabled):hover { background: var(--accent); color: var(--paper-raised); }
+
+.layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 0;
+  min-height: 0;
+}
+
+.map-pane {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.map-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.breadcrumb { font-size: 0.9rem; color: var(--ink-soft); }
+.breadcrumb strong { color: var(--ink); }
+.breadcrumb .crumb-link { cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.breadcrumb .crumb-link:hover { color: var(--accent); }
+
+.legend { display: flex; gap: 0.9rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--ink-soft); }
+.legend-item { display: inline-flex; align-items: center; gap: 0.35rem; }
+.legend-swatch { width: 0.7rem; height: 0.7rem; border-radius: 2px; display: inline-block; }
+
+#map { width: 100%; flex: 1; min-height: 420px; background: var(--paper-raised); border: 1px solid var(--line); border-radius: 10px; }
+
+.state-shape, .county-shape, .state-outline { vector-effect: non-scaling-stroke; }
+
+.state-shape { stroke: var(--paper-raised); stroke-width: 0.6; cursor: pointer; transition: filter 0.15s ease; }
+.state-shape:hover { filter: brightness(1.12); }
+.state-shape.selected { stroke: var(--ink); stroke-width: 1.6; }
+.state-shape.dimmed { opacity: 0.35; }
+
+.county-shape { stroke: var(--paper-raised); stroke-width: 0.4; cursor: pointer; transition: filter 0.15s ease; }
+.county-shape:hover { filter: brightness(1.15); }
+.county-shape.selected { stroke: var(--ink); stroke-width: 1.4; }
+.county-shape.county-excluded { fill: var(--line); cursor: default; opacity: 0.55; }
+.county-shape.county-excluded:hover { filter: none; }
+
+.state-outline { fill: none; stroke: var(--ink); stroke-width: 1.4; pointer-events: none; }
+
+.hint { margin: 0.6rem 0 0; font-size: 0.78rem; color: var(--ink-soft); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+.detail-pane {
+  border-left: 1px solid var(--line);
+  background: var(--paper-raised);
+  padding: 1.5rem;
+  overflow-y: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.detail-empty h2 { font-family: inherit; font-size: 1.05rem; margin: 0 0 0.5rem; }
+.detail-empty p { color: var(--ink-soft); font-size: 0.88rem; line-height: 1.5; }
+
+.detail-kicker { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-soft); margin: 0 0 0.2rem; }
+.detail-title { font-size: 1.4rem; margin: 0 0 0.15rem; font-family: "Iowan Old Style", Georgia, serif; }
+.detail-sub { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 1rem; }
+
+.type-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.type-pill-dot { width: 0.55rem; height: 0.55rem; border-radius: 50%; background: rgba(255,255,255,0.85); }
+
+.field-grid { display: grid; grid-template-columns: 1fr; gap: 0.9rem; margin-bottom: 1.1rem; }
+.field label { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 0.2rem; }
+.field p { margin: 0; font-size: 0.92rem; line-height: 1.45; }
+
+.type-desc { font-size: 0.85rem; line-height: 1.5; color: var(--ink-soft); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 0.75rem 0.9rem; margin-bottom: 1.1rem; }
+
+.county-flag {
+  font-size: 0.78rem;
+  line-height: 1.45;
+  background: #fbf0dd;
+  border: 1px solid #e6c98a;
+  color: #6b4d16;
+  border-radius: 8px;
+  padding: 0.7rem 0.85rem;
+  margin-bottom: 1.1rem;
+}
+
+.county-list-link { font-size: 0.85rem; color: var(--accent); background: none; border: none; padding: 0; cursor: pointer; text-decoration: underline; font-family: inherit; }
+
+.detail-section-title {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  border-top: 1px solid var(--line);
+  margin: 1.2rem 0 0.7rem;
+  padding-top: 0.9rem;
+}
+.detail-section-title:first-of-type { border-top: none; margin-top: 0.2rem; padding-top: 0; }
+
+.neighborhood-list { margin: 0 0 1.1rem; padding-left: 1.1rem; font-size: 0.88rem; line-height: 1.5; }
+.neighborhood-list li { margin-bottom: 0.4rem; }
+
+.source-note {
+  font-size: 0.74rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  border-top: 1px dashed var(--line);
+  padding-top: 0.7rem;
+  margin-top: 0.4rem;
+}
+.source-note a { color: var(--ink-soft); }
+
+.disclaimer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  padding: 0.85rem 1.75rem;
+  border-top: 1px solid var(--line);
+  background: var(--paper-raised);
+}
+
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; }
+  .detail-pane { border-left: none; border-top: 1px solid var(--line); }
+  #map { min-height: 340px; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #ece7d8;
+    --ink-soft: #a8a290;
+    --paper: #1c1a15;
+    --paper-raised: #262319;
+    --line: #3a3527;
+    color-scheme: dark;
+  }
+  .county-flag { background: #3a2c12; border-color: #6b4d16; color: #e8c98a; }
+}
