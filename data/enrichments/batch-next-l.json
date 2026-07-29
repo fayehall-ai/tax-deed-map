@@ -1,0 +1,1247 @@
+{
+  "05007": {
+    "notes": "Arkansas centralized tax-deed county. Benton County Collector certifies long-delinquent parcels to the Arkansas Commissioner of State Lands (COSL); the county does not run its own tax auction. COSL sells by Limited Warranty Deed at a public (live) auction scheduled by county, then moves unsold parcels to online post-auction sales at auction.cosl.org ~30 days later. Pre-sale redemption is primary (through COSL); limited post-sale redemption window applies under state rules before sale finality. Quiet title is the practical path to marketable/insurable title — budget legal cost beyond the bid.",
+    "auctionFormat": "In-person (COSL public auction); online post-auction (auction.cosl.org)",
+    "auctionPlatform": {
+      "label": "Arkansas Commissioner of State Lands — Real Estate / Tax-Delinquent Auctions",
+      "url": "https://cosl.org/Home/Realestate"
+    },
+    "auctionFrequency": "Annual COSL public auction by county schedule (Benton listed 8/20/2025 on cosl.org Next Year Dates; confirm current-year catalog). Unsold → daily online post-auction inventory ~30 days after live sale.",
+    "depositRules": "Register/bid per COSL Buyers Guide. Minimum bid = certified delinquent taxes through sale date. Live auction: personal/business check, credit/debit card, cashier’s check or money order (cash not accepted). Online post-auction: first $100 charged to registered card; balance due within 10 days (card or certified funds). Research county records before bidding; limited warranty deed only.",
+    "taxCollector": {
+      "label": "Benton County Collector (certifies to COSL) / COSL Real Estate Division",
+      "url": "https://cosl.org/Home/Realestate",
+      "phone": "501-324-9422"
+    },
+    "clerkOfCourt": {
+      "label": "Benton County Circuit Clerk (real property records)",
+      "url": "https://www.bentoncountyar.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Benton County Assessor — parcel search",
+      "url": "https://www.bentoncountyar.gov/"
+    },
+    "survivingLiens": "COSL Limited Warranty Deed is not free-and-clear marketable title. Municipal/improvement-district liens often survive; improper notice to interested parties can support sale challenges. Federal tax liens and access/easement issues require independent county-level search. COSL does not guarantee title, access, or parcel existence.",
+    "quietTitle": "Practically required for marketable/insurable title. Statutory 15-year marketability path is rarely useful for investors; expect quiet-title suit (often ~6+ months and $1,000+ legal fees) as part of true acquisition cost.",
+    "gisMap": {
+      "label": "Benton County parcel / GIS resources (confirm via county assessor)",
+      "url": "https://www.bentoncountyar.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Rogers / Pinnacle Hills corridor",
+        "why": "Retail, medical, and corporate employment density with strong single-family and multifamily absorption into NWA"
+      },
+      {
+        "name": "Bentonville / downtown–Crystal Bridges edge",
+        "why": "Walmart HQ and tourism amenity demand supporting premium and workforce housing liquidity"
+      },
+      {
+        "name": "Centerton / west Benton growth fringe",
+        "why": "Relatively lower entry prices and continued lot absorption versus core Bentonville/Rogers"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://cosl.org/Home/Realestate",
+      "https://cosl.org/Home/Buyers",
+      "https://cosl.org/Home/NextYearDates",
+      "https://auction.cosl.org",
+      "https://www.bentoncountyar.gov/"
+    ]
+  },
+  "13057": {
+    "notes": "Georgia redeemable tax-deed county (not tax-lien certificates). Cherokee County Tax Commissioner levies under OCGA Title 48 and sells tax deeds at public outcry when inventory is advertised. Opening bid generally equals taxes, penalties, interest, and costs. Purchaser receives a tax deed subject to statutory right of redemption (~12 months with 20% first-year premium under GA law). Offices in Canton (main) and Woodstock annex.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Cherokee County Tax Commissioner — Tax Sales",
+      "url": "https://www.cherokeecountytax.com/tax-sales.html",
+      "phone": "678-493-6400"
+    },
+    "auctionFrequency": "Periodic first-Tuesday-style sales when parcels are listed (not every month); properties advertised in legal notices — confirm current list on cherokeecountytax.com",
+    "depositRules": "Payment due at sale in cash or certified funds per Georgia tax-sale practice. Arrive early for bidder registration at Canton office / sale location (2780 Marietta Hwy, Canton). Confirm exact payment rules on the current Tax Commissioner notice before attending.",
+    "taxCollector": {
+      "label": "Cherokee County Tax Commissioner (Denise Mastroserio)",
+      "url": "https://www.cherokeecountytax.com/",
+      "phone": "678-493-6400"
+    },
+    "clerkOfCourt": {
+      "label": "Cherokee County Clerk of Superior Court (land records)",
+      "url": "https://www.cherokeega.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Cherokee County Board of Tax Assessors / qPublic parcel search",
+      "url": "https://qpublic.schneidercorp.com/Application.aspx?App=CherokeeCountyGA&Layer=Parcels&PageType=Search"
+    },
+    "survivingLiens": "Tax deed is subject to statutory redemption; junior liens may be affected but federal tax liens and some governmental interests can survive. Excess funds may be claimable by parties of interest. Full title search required before bidding.",
+    "quietTitle": "After redemption expires, barment of the right of redemption and/or quiet title is commonly required for insurable Georgia tax title before resale or conventional financing.",
+    "gisMap": {
+      "label": "Cherokee County qPublic / GIS parcel map",
+      "url": "https://qpublic.schneidercorp.com/Application.aspx?App=CherokeeCountyGA&Layer=Parcels&PageType=Search"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Woodstock / Towne Lake edge",
+        "why": "North-metro Atlanta job access and retail amenity density with strong SF resale liquidity"
+      },
+      {
+        "name": "Canton / I-575 county-seat corridor",
+        "why": "Government and local employment anchors with more entry inventory than south Cherokee"
+      },
+      {
+        "name": "Holly Springs / Hickory Flat growth fringe",
+        "why": "School-driven suburban demand and continued lot absorption between Woodstock and Canton"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.cherokeecountytax.com/tax-sales.html",
+      "https://www.cherokeecountytax.com/",
+      "https://qpublic.schneidercorp.com/Application.aspx?App=CherokeeCountyGA&Layer=Parcels&PageType=Search"
+    ]
+  },
+  "13117": {
+    "notes": "Georgia redeemable tax-deed county. Forsyth County Tax Commissioner conducts delinquent tax sales (courthouse/first-Tuesday pattern under GA statute when sales are scheduled). Official page stated all 2026 tax sales were already completed with no additional sales for the remainder of 2026 — check forsythcountytax.com for the next advertised cycle. Buyer receives tax deed subject to statutory redemption rights; not a certificate/lien auction.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Forsyth County Tax Commissioner — Delinquent Tax Sale",
+      "url": "https://forsythcountytax.com/delinquent-tax-sale/"
+    },
+    "auctionFrequency": "First Tuesday of months when a sale is planned (not every month). As of mid-2026 official page: all 2026 sales completed; monitor site for 2027 announcements.",
+    "depositRules": "Georgia tax sales expect immediate performance by the high bidder in cash or certified/cashier’s check. Confirm current registration and payment rules on the Tax Commissioner notice for the specific sale date.",
+    "taxCollector": {
+      "label": "Forsyth County Tax Commissioner",
+      "url": "https://forsythcountytax.com/"
+    },
+    "clerkOfCourt": {
+      "label": "Forsyth County Clerk of Superior Court (real estate records)",
+      "url": "https://www.forsythco.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Forsyth County Board of Tax Assessors / property search",
+      "url": "https://www.forsythco.com/"
+    },
+    "survivingLiens": "Redeemable tax deed subject to ~12-month statutory redemption with premium structure under OCGA. Federal tax liens and certain governmental interests can survive. Excess proceeds process may apply. Buyer beware — independent title search essential.",
+    "quietTitle": "Barment of right of redemption plus quiet title commonly needed for marketable/insurable title after Georgia tax deed.",
+    "gisMap": {
+      "label": "Forsyth County GIS / assessor parcel resources",
+      "url": "https://www.forsythco.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Cumming / GA-400 corridor",
+        "why": "North-metro job access and retail density supporting resilient SF demand into 2026"
+      },
+      {
+        "name": "South Forsyth / Johns Creek edge",
+        "why": "School-driven buyer pool and tighter inventory versus outer north-county tracts"
+      },
+      {
+        "name": "Coal Mountain / north Forsyth fringe",
+        "why": "Relatively more entry-level inventory with continued suburban expansion"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://forsythcountytax.com/delinquent-tax-sale/",
+      "https://forsythcountytax.com/",
+      "https://www.forsythco.com/"
+    ]
+  },
+  "05143": {
+    "notes": "Arkansas COSL tax-deed county (NWA). Washington County Collector certifies delinquencies to the Commissioner of State Lands; auctions are state-run, not county-run. Live public auction by COSL schedule (Washington grouped with Benton historically — e.g. 8/20/2025), then online post-auction at auction.cosl.org for unsold inventory. Limited warranty deed; quiet title expected for marketable title.",
+    "auctionFormat": "In-person (COSL public auction); online post-auction (auction.cosl.org)",
+    "auctionPlatform": {
+      "label": "Arkansas Commissioner of State Lands — tax-delinquent real estate auctions",
+      "url": "https://cosl.org/Home/Realestate"
+    },
+    "auctionFrequency": "Annual COSL public auction per published county date (Washington 8/20/2025 on cosl.org schedule; confirm live catalog). Post-auction online sales begin ~30 days after live sale.",
+    "depositRules": "Per COSL Buyers Guide: no cash at live auctions; check, card, cashier’s check, or money order accepted. Online: $100 initial card charge per parcel; full balance within 10 days. Minimum bid = taxes due through sale date. Independent county research strongly recommended.",
+    "taxCollector": {
+      "label": "Washington County Collector (certifies to COSL) / COSL Real Estate",
+      "url": "https://cosl.org/Home/Realestate",
+      "phone": "501-324-9422"
+    },
+    "clerkOfCourt": {
+      "label": "Washington County Circuit Clerk (deed records)",
+      "url": "https://www.washingtoncountyar.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Washington County Assessor / parcel records",
+      "url": "https://www.washingtoncountyar.gov/"
+    },
+    "survivingLiens": "Limited warranty tax deed; municipal and improvement-district liens frequently survive. Notice defects to interested parties can cloud title. Federal liens and access issues require full DD. COSL disclaims clear title warranty.",
+    "quietTitle": "Standard investor path to marketable title after COSL deed; 15-year statutory marketability alternative is usually impractical.",
+    "gisMap": {
+      "label": "Washington County GIS / assessor map resources",
+      "url": "https://www.washingtoncountyar.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Fayetteville / University of Arkansas core",
+        "why": "Student and professional housing demand with strong rental absorption"
+      },
+      {
+        "name": "Springdale / I-49 industrial corridor",
+        "why": "Logistics and food-processing employment supporting workforce housing turns"
+      },
+      {
+        "name": "Farmington / west Fayetteville fringe",
+        "why": "Suburban growth with relative value versus core campus neighborhoods"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://cosl.org/Home/Realestate",
+      "https://cosl.org/Home/Buyers",
+      "https://cosl.org/Home/NextYearDates",
+      "https://auction.cosl.org",
+      "https://www.washingtoncountyar.gov/"
+    ]
+  },
+  "13151": {
+    "notes": "Georgia tax-sale county using judicial in-rem tax sales (not only the standard non-judicial redeemable deed path). Henry County Tax Commissioner holds in-person sales first Tuesday monthly at 10:00 a.m., 140 Henry Parkway, McDonough. Judicial-in-rem process can shorten redemption (confirm terms on current notice — often ~60 days vs ~12 months non-judicial). Separate mobile-home sale lists are published. Online pre-registration required; funds must be verified in person sale morning.",
+    "auctionFormat": "In-person (judicial in-rem)",
+    "auctionPlatform": {
+      "label": "Henry County Tax Commissioner — Property for Tax Sale",
+      "url": "https://henrycountytax.com/172/Property-for-Tax-Sale",
+      "phone": "770-288-8180"
+    },
+    "auctionFrequency": "First Tuesday of each month at 10:00 a.m. (when inventory listed); confirm live list on henrycountytax.com Document Center",
+    "depositRules": "Register online before sale day (DocuWare bidder form). Morning of sale: appear at Property Tax Department with photo ID and actual funds in hand for verification — cash, money order, or certified check payable to Henry County Tax Commissioner / HCTC only (no personal checks or bank statements). Separate payment per parcel; cannot bid above verified funds. Payment due at sale; sales final.",
+    "taxCollector": {
+      "label": "Henry County Tax Commissioner",
+      "url": "https://henrycountytax.com/",
+      "phone": "770-288-8180"
+    },
+    "clerkOfCourt": {
+      "label": "Henry County Clerk of Superior Court (land records)",
+      "url": "https://www.henrycountyga.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Henry County Board of Tax Assessors / public property search",
+      "url": "https://www.henrycountyga.com/"
+    },
+    "survivingLiens": "Judicial-in-rem tax sale terms differ from pure non-judicial GA tax deeds — verify redemption window and lien cut-off on the judgment/sale notice. Federal tax liens can survive. Full title search still required.",
+    "quietTitle": "Even after judicial sale, title insurers often require confirmation of redemption bar and curative work before free-and-clear insurance.",
+    "gisMap": {
+      "label": "Henry County GIS / assessor parcel resources",
+      "url": "https://www.henrycountyga.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "McDonough / I-75 county-seat corridor",
+        "why": "South-metro job access and government employment with solid SF investor absorption"
+      },
+      {
+        "name": "Stockbridge / north Henry edge",
+        "why": "Closer-in Atlanta commute demand and denser multifamily/retail activity"
+      },
+      {
+        "name": "Locust Grove / south I-75 fringe",
+        "why": "Relative affordability and continued lot development versus north-county cores"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://henrycountytax.com/172/Property-for-Tax-Sale",
+      "https://henrycountytax.com/",
+      "https://docuware.co.henry.ga.us/DocuWare/Forms/tax-sale-bidder-form?orgID=0a68ef51-6321-4220-b767-d49c68d198c8"
+    ]
+  },
+  "01125": {
+    "notes": "Alabama tax-lien county (Sale of Lien method under Ala. Code §40-10-180 et seq., elected by Tax Collector Susan Jones). Annual online bid-down auction on GovEase — you buy a Certificate of Purchase (lien), not the property. Max interest 12% simple per annum bid down toward 0%; ties broken by random draw. ~3-year statutory redemption; foreclosure path if unredeemed. Unsold liens may be sold privately by the Tax Collector within ~45 days or re-offered later. Certificate fee applies ($5 noted on county page).",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "GovEase — Tuscaloosa County Tax Lien Auction",
+      "url": "https://www.govease.com/"
+    },
+    "auctionFrequency": "Annually late April (historically last week of April ~10:00 a.m. CT; e.g. 4/29/2026 cycle referenced in county materials). Registration opens weeks prior on GovEase.",
+    "depositRules": "Create GovEase account and register for Tuscaloosa auction; complete W-9 and any county approval steps. Winning bidders pay full lien amount (taxes, interest, penalties, fees, auction costs) via GovEase per platform deadlines. $5 certificate fee added. Sales final; research parcels on alproptax.com before bidding.",
+    "taxCollector": {
+      "label": "Tuscaloosa County Tax Collector — Tax Lien Sale",
+      "url": "https://www.tuscco.com/government/departments/tax-collector/tax-lien-sale/",
+      "phone": "205-464-8230"
+    },
+    "clerkOfCourt": {
+      "label": "Tuscaloosa County Probate Court (record tax lien certificates)",
+      "url": "https://www.tuscco.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Tuscaloosa County Tax Assessor / alproptax parcel research",
+      "url": "https://alproptax.com/"
+    },
+    "survivingLiens": "Certificate is a lien, not ownership. Municipal assessments, federal tax liens, and title defects remain relevant through the foreclosure/deed stage. Record certificate in probate; subsequent-year tax liens have priority rules for certificate holders.",
+    "quietTitle": "After tax deed/foreclosure of unredeemed lien, title insurers commonly require quiet title or extended curative work before marketable title for resale/finance.",
+    "gisMap": {
+      "label": "Tuscaloosa County GIS / parcel map resources",
+      "url": "https://www.tuscco.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Tuscaloosa / University of Alabama edge",
+        "why": "Student and institutional demand supporting rental turns near campus"
+      },
+      {
+        "name": "Northport / McFarland corridor",
+        "why": "Suburban workforce housing with relative value versus core university neighborhoods"
+      },
+      {
+        "name": "East Tuscaloosa / Alberta / I-20/59 edge",
+        "why": "Entry-level inventory and logistics access with higher vacancy risk than west-side suburbs"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.tuscco.com/government/departments/tax-collector/tax-lien-sale/",
+      "https://www.tuscco.com/tax-collector/tax-lien-sale/",
+      "https://www.govease.com/",
+      "https://alproptax.com/"
+    ]
+  },
+  "01117": {
+    "notes": "Alabama tax-lien county. Shelby County Property Tax Commissioner runs an annual online tax lien auction via GovEase (bid-down interest from 12%). Bidders must complete GovEase registration and make payment arrangements/approval with the County Tax Office — approval is not automatic from the platform alone. Certificate of Purchase is a lien with multi-year redemption and foreclosure path under Ala. Code Title 40 Chapter 10.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "GovEase — Shelby County Tax Lien Auction",
+      "url": "https://www.govease.com/"
+    },
+    "auctionFrequency": "Annually (registration historically opens early March; confirm current window on taxlienauction.shelbyal.com / GovEase)",
+    "depositRules": "Register on GovEase and complete county payment arrangements to be approved for bidding. Full payment of winning lien amounts due per GovEase/county deadline. Confirm deposit vs. full-payment rules for the specific auction year on the official storefront.",
+    "taxCollector": {
+      "label": "Shelby County Property Tax Commissioner — Tax Lien Auction",
+      "url": "http://taxlienauction.shelbyal.com/"
+    },
+    "clerkOfCourt": {
+      "label": "Shelby County Probate Court (recording)",
+      "url": "https://www.shelbyal.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Shelby County Property Tax / parcel search",
+      "url": "https://www.shelbyal.com/"
+    },
+    "survivingLiens": "Tax lien certificate does not clear all encumbrances. Research municipal liens, HOA (if any), federal tax liens, and environmental/access issues before bidding. Foreclosure to deed is a separate multi-year process if unredeemed.",
+    "quietTitle": "Post-deed marketable title typically requires quiet title or insurer-approved curative work in Alabama tax-deed scenarios.",
+    "gisMap": {
+      "label": "Shelby County GIS / parcel resources",
+      "url": "https://www.shelbyal.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Pelham / Highway 31 corridor",
+        "why": "South-Birmingham suburban employment and retail with strong SF liquidity"
+      },
+      {
+        "name": "Alabaster / Calera I-65 fringe",
+        "why": "School-driven demand and continued residential absorption south of the metro core"
+      },
+      {
+        "name": "Chelsea / east Shelby growth edge",
+        "why": "Higher-income suburban buyer pool with tighter inventory versus western industrial pockets"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "http://taxlienauction.shelbyal.com/",
+      "https://www.govease.com/",
+      "https://govease.helpscoutdocs.com/article/97-alabama-tax-lien-auction-overview",
+      "https://www.shelbyal.com/"
+    ]
+  },
+  "01101": {
+    "notes": "Alabama hybrid-election county still operating an in-person courthouse tax sale (Sale of Land / redeemable deed style process as practiced by the Revenue Commissioner), unlike many peer counties that moved to online GovEase lien auctions. 1819 News (Jan 2026 cycle coverage) reported the Montgomery County Tax Sale held Wednesday in Commission Chambers of Courthouse Annex III, 101 South Lawrence Street, 10:00 a.m.–4:00 p.m., under Revenue Commissioner Janet Buskey. Confirm current-year method, date, and whether lien vs. land sale has changed before registering — method is electable under Ala. Code §40-10-180.",
+    "auctionFormat": "In-person (confirm annually — peer AL counties increasingly use online liens)",
+    "auctionPlatform": {
+      "label": "Montgomery County Revenue Commissioner — Tax Sale (Courthouse Annex III)",
+      "url": "https://www.mc-ala.org/government/revenue-commissioner",
+      "phone": "334-832-1250"
+    },
+    "auctionFrequency": "Annually (historically spring/early-year windows; e.g. early 2026 Wednesday sale reported at Annex III). Confirm published list with Revenue Commissioner each year.",
+    "depositRules": "In-person sale: bring certified funds sufficient for intended bids; exact deposit and payment rules are set by the Revenue Commissioner for the published sale. Call 334-832-1250 for current bidder requirements before attending. Do not assume GovEase registration applies unless the county publishes a platform change.",
+    "taxCollector": {
+      "label": "Montgomery County Revenue Commissioner (Janet Buskey)",
+      "url": "https://www.mc-ala.org/government/revenue-commissioner",
+      "phone": "334-832-1250"
+    },
+    "clerkOfCourt": {
+      "label": "Montgomery County Probate Court (recording)",
+      "url": "https://www.mc-ala.org/"
+    },
+    "propertyAppraiser": {
+      "label": "Montgomery County Revenue / property tax records",
+      "url": "https://www.mc-ala.org/government/revenue-commissioner"
+    },
+    "survivingLiens": "If Sale of Land: certificate of purchase with ~3-year redemption at statutory interest (typically 12% land-sale path). Federal liens and municipal assessments require search. If county switches to lien method, investment vehicle changes to bid-down interest certificate — re-verify method annually.",
+    "quietTitle": "Alabama tax deeds commonly need quiet title or judicial confirmation for insurable marketable title after redemption expires.",
+    "gisMap": {
+      "label": "Montgomery County GIS / parcel map resources",
+      "url": "https://www.mc-ala.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "East Montgomery / Vaughn Road corridor",
+        "why": "Suburban retail and employment density with stronger resale liquidity than west-side inventory"
+      },
+      {
+        "name": "Downtown / Riverfront redevelopment edge",
+        "why": "Government and institutional employment supporting select urban rehab plays"
+      },
+      {
+        "name": "Pike Road / east county growth fringe",
+        "why": "School-driven suburban demand and newer housing stock versus older central tracts"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.mc-ala.org/government/revenue-commissioner",
+      "https://1819news.com/news/item/alabama-democratic-conference-building-listed-in-montgomery-county-auction-for-unpaid-property-taxes"
+    ]
+  },
+  "13245": {
+    "notes": "Georgia tax-sale market in consolidated Augusta-Richmond County. Tax Commissioner publishes non-judicial tax sale lists (12-month redemption + 20% first-year premium) and separate judicial-in-rem lists (~60-day redemption). Sales at 535 Telfair Street, Augusta; next sale advertised for Tuesday, August 4, 2026, starting 10:00 a.m. with 9:30 a.m. presale info session. Opening process follows GA tax-sale practice; properties sold as-is subject to redemption type on the list.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Augusta-Richmond County Tax Commissioner — Tax Sale Lists",
+      "url": "https://arctax.com/property/tax-sale-lists/",
+      "phone": "706-821-2391"
+    },
+    "auctionFrequency": "First Tuesday of months when sales are held (e.g. next listed Aug 4, 2026); confirm each cycle on arctax.com",
+    "depositRules": "Attend presale session 9:30 a.m.; sale 10:00 a.m. at 535 Telfair St. Payment typically cash or certified funds same day — confirm brochure rules. Call 706-821-2391 for current lists and bidder requirements. Know whether parcel is non-judicial vs judicial-in-rem before bidding (redemption terms differ).",
+    "taxCollector": {
+      "label": "Augusta-Richmond County Tax Commissioner",
+      "url": "https://arctax.com/",
+      "phone": "706-821-2391"
+    },
+    "clerkOfCourt": {
+      "label": "Richmond County Superior Court Clerk (land records)",
+      "url": "https://www.augustaga.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Richmond County Board of Assessors / parcel search",
+      "url": "https://www.augustaga.gov/"
+    },
+    "survivingLiens": "Non-judicial deeds subject to 12-month redemption + premium; judicial-in-rem uses shorter redemption — read the list type carefully. Federal tax liens can survive. Excess funds processes may apply. Full title search required.",
+    "quietTitle": "Barment/quiet title commonly required for marketable Georgia tax title after redemption ends.",
+    "gisMap": {
+      "label": "Augusta-Richmond GIS / assessor parcel map",
+      "url": "https://www.augustaga.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Augusta / medical corridor",
+        "why": "Augusta University and hospital employment supporting urban multifamily and rehab demand"
+      },
+      {
+        "name": "Martinez / Evans edge (north toward Columbia Co.)",
+        "why": "Suburban buyer preference and relative price resilience versus south-side inventory"
+      },
+      {
+        "name": "South Augusta / Fort Eisenhower workforce belt",
+        "why": "Military and logistics employment with more entry-level SF product"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://arctax.com/property/tax-sale-lists/",
+      "https://arctax.com/",
+      "https://arctax.com/wp-content/uploads/2024/03/Delinquent-Tax-Sales-Brochure-for-Web-CJ-1.pdf"
+    ]
+  },
+  "13215": {
+    "notes": "Georgia redeemable tax-deed county in consolidated Columbus-Muscogee. Tax Commissioner conducts courthouse-step tax sales on first Tuesdays when scheduled (e.g. Aug 4, 2026 10:00 a.m. publicly announced). Unusual investor requirement: prospective bidders should complete Tax Sale Class registration through the Tax Commissioner’s Delinquent Tax page before participating. Tax deed subject to statutory GA redemption; not a lien-certificate sale.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Columbus/Muscogee Tax Commissioner — Tax Sales / Class Registration",
+      "url": "https://columbusga.gov/taxcommissioner/Delinquent-Tax/Tax-Sale-Class-Registration"
+    },
+    "auctionFrequency": "First Tuesday of months with a planned sale (confirm announcements; Aug 4, 2026 cycle publicly noted)",
+    "depositRules": "Complete Tax Sale Class registration as required by the Tax Commissioner. Payment at sale in certified funds per Georgia practice. Confirm current class schedule and payment rules on columbusga.gov Tax Commissioner pages before sale day.",
+    "taxCollector": {
+      "label": "Muscogee County / Columbus Tax Commissioner — Delinquent Tax",
+      "url": "https://columbusga.gov/taxcommissioner/Delinquent-Tax",
+      "phone": "706-653-4208"
+    },
+    "clerkOfCourt": {
+      "label": "Muscogee County Clerk of Superior Court (land records)",
+      "url": "https://columbusga.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Muscogee County Board of Tax Assessors / parcel search",
+      "url": "https://columbusga.gov/"
+    },
+    "survivingLiens": "Georgia tax deed subject to statutory redemption; federal liens and some municipal interests can survive. Excess funds claim process may apply. Independent title search required.",
+    "quietTitle": "Barment of redemption + quiet title commonly needed for insurable title after GA tax deed.",
+    "gisMap": {
+      "label": "Columbus-Muscogee GIS / parcel resources",
+      "url": "https://columbusga.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Midtown / downtown Columbus revitalization",
+        "why": "Riverfront and institutional redevelopment supporting select multifamily and rehab plays"
+      },
+      {
+        "name": "North Columbus / Bradley Park corridor",
+        "why": "Suburban retail and medical employment with stronger SF liquidity"
+      },
+      {
+        "name": "Fort Moore / east workforce housing belt",
+        "why": "Military-driven rental demand with higher turnover risk than north-side suburbs"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://columbusga.gov/taxcommissioner/Delinquent-Tax/Tax-Sale-Class-Registration",
+      "https://columbusga.gov/taxcommissioner/Delinquent-Tax",
+      "https://columbusga.org/taxcommissioner/Delinquent-Tax/Tax-Sale-Class-Registration"
+    ]
+  },
+  "01081": {
+    "notes": "Alabama Sale of Land county (in-person tax sale, not GovEase lien auction). Official Lee County Revenue Commissioner page: Tax Sale held first Wednesday in May each year at the Lee County Courthouse on South 9th Street in Opelika. Accounts delinquent Jan 1; no personal checks on real property after Jan 31. Business personal property must be paid before real-property payments accepted. Certificate of purchase / redeemable interest under Ala. Code Title 40 Chapter 10 with multi-year redemption — confirm current election letter if county ever switches to lien method.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Lee County Courthouse — Annual Tax Sale (Revenue Commissioner)",
+      "url": "https://www.leecountyrevenuecommissioner.com/Default.asp?ID=359&pg=Tax+Sale+Information"
+    },
+    "auctionFrequency": "Annually, first Wednesday in May at Lee County Courthouse, Opelika",
+    "depositRules": "Attend in person at the Opelika courthouse; bring certified funds per Revenue Commissioner instructions for the published sale year. Confirm registration, bidder number, and same-day payment rules directly with the office before sale day. Research parcels via county online property search.",
+    "taxCollector": {
+      "label": "Lee County Revenue Commissioner — Tax Sale Information",
+      "url": "https://www.leecountyrevenuecommissioner.com/Default.asp?ID=359&pg=Tax+Sale+Information"
+    },
+    "clerkOfCourt": {
+      "label": "Lee County Probate Court (recording)",
+      "url": "https://www.leecountyrevenuecommissioner.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Lee County Revenue — Online Property Search & Pay",
+      "url": "https://www.leecountyrevenuecommissioner.com/Default.asp?ID=314&pg=Taxpayer+Search+%26+Pay"
+    },
+    "survivingLiens": "Tax sale certificate/deed process under Alabama land-sale rules with ~3-year redemption (12% interest path typical for land sales). Federal tax liens and municipal assessments can survive. Full title and parcel DD required.",
+    "quietTitle": "Commonly needed after redemption period for marketable/insurable Alabama tax title.",
+    "gisMap": {
+      "label": "Lee County property search / map resources",
+      "url": "https://www.leecountyrevenuecommissioner.com/Default.asp?ID=314&pg=Taxpayer+Search+%26+Pay"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Auburn / University corridor",
+        "why": "Student and research employment demand with strong rental absorption"
+      },
+      {
+        "name": "Opelika / downtown–Tiger Town edge",
+        "why": "County-seat amenities and relative value versus core Auburn campus housing"
+      },
+      {
+        "name": "Smiths Station / east Lee fringe",
+        "why": "Columbus, GA metro spillover and entry-level SF demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.leecountyrevenuecommissioner.com/Default.asp?ID=359&pg=Tax+Sale+Information",
+      "https://www.leecountyrevenuecommissioner.com/"
+    ]
+  },
+  "13153": {
+    "notes": "Georgia redeemable tax-deed county (Warner Robins / Perry). Houston County Tax Commissioner (Mark Kushinka) publishes tax sale lists (e.g. August list PDF on houstoncountytax.com) and holds in-person sales under GA first-Tuesday statute when inventory is advertised. Opening bid typically taxes + costs; purchaser receives tax deed subject to statutory redemption. Assessor data via qPublic for DD.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Houston County Tax Commissioner — Tax Sales",
+      "url": "https://www.houstoncountytax.com/tax-sales.html",
+      "phone": "478-542-2110"
+    },
+    "auctionFrequency": "First Tuesday of months when a sale is planned; confirm advertised list/PDF on houstoncountytax.com (August 2026 list published mid-cycle)",
+    "depositRules": "Cash or certified funds same day per Georgia tax-sale practice. Confirm exact bidder registration and payment rules with Tax Commissioner (Warner Robins office 202 Carl Vinson Pkwy; Perry office also listed by county).",
+    "taxCollector": {
+      "label": "Houston County Tax Commissioner (Mark Kushinka)",
+      "url": "https://www.houstoncountytax.com/",
+      "phone": "478-542-2110"
+    },
+    "clerkOfCourt": {
+      "label": "Houston County Clerk of Superior Court",
+      "url": "https://www.houstoncountyga.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Houston County Tax Assessors / qPublic",
+      "url": "https://www.qpublic.net/ga/houston/"
+    },
+    "survivingLiens": "Redeemable GA tax deed; federal liens and some governmental interests can survive. Research FIFA/levy history and excess funds. Full title search required.",
+    "quietTitle": "Barment of right of redemption and quiet title commonly required for insurable title.",
+    "gisMap": {
+      "label": "Houston County qPublic parcel map",
+      "url": "https://qpublic.schneidercorp.com/Application.aspx?App=HoustonCountyGA&Layer=Parcels&PageType=Search"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Warner Robins / Robins AFB corridor",
+        "why": "Military and aerospace employment supporting consistent rental and SF demand"
+      },
+      {
+        "name": "Perry / south Houston county seat",
+        "why": "Relative affordability and local government employment versus WR core"
+      },
+      {
+        "name": "Centerville / north Houston edge",
+        "why": "Closer-in suburban product between Warner Robins and I-75"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.houstoncountytax.com/tax-sales.html",
+      "https://www.houstoncountytax.com/",
+      "https://www.qpublic.net/ga/houston/",
+      "https://www.houstoncountyga.gov/residents/tax-commissioner.cms"
+    ]
+  },
+  "13073": {
+    "notes": "Georgia redeemable tax-deed / sheriff’s tax-sale county. Columbia County Tax Commissioner Delinquent Tax Division collects via levy and tax sale when necessary. Official page: auction-type sale starting at taxes owed; held first Tuesday of the month when needed; legal ads in Augusta Chronicle ~one month prior. Next sale listed August 4, 2026 at Evans Market, 1005 Market Street, Evans, GA 30809 (not always classic courthouse steps — confirm location each cycle). Parcel list with amounts published on county Delinquent Taxes page.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Columbia County Tax Commissioner — Delinquent Taxes / Tax Sales",
+      "url": "https://www.columbiacountyga.gov/186/Delinquent-Taxes",
+      "phone": "706-261-8299"
+    },
+    "auctionFrequency": "First Tuesday monthly when inventory requires (office coordinates every month if needed); next listed Aug 4, 2026 at Evans Market",
+    "depositRules": "Public auction; high bidder expected to pay in certified funds same day per GA practice. Confirm payment form and any bidder registration with Property Tax Division (706-261-8299) before sale. Review live parcel list and legal ads.",
+    "taxCollector": {
+      "label": "Columbia County Tax Commissioner — Property Tax Division",
+      "url": "https://www.columbiacountyga.gov/158/Property-Tax-Division",
+      "phone": "706-261-8299"
+    },
+    "clerkOfCourt": {
+      "label": "Columbia County Clerk of Superior Court",
+      "url": "https://www.columbiacountyga.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Columbia County Board of Tax Assessors / digest",
+      "url": "https://www.columbiacountyga.gov/183/Columbia-County-Digest"
+    },
+    "survivingLiens": "GA tax deed subject to statutory redemption; federal liens can survive. Excess funds and junior interest rules apply. Title search essential before bidding on Evans-area parcels.",
+    "quietTitle": "Standard GA post-redemption barment/quiet title path for marketable title.",
+    "gisMap": {
+      "label": "Columbia County GIS / property resources",
+      "url": "https://www.columbiacountyga.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Evans / Washington Road corridor",
+        "why": "Primary retail and school-driven suburban demand north of Augusta"
+      },
+      {
+        "name": "Martinez / south Columbia edge",
+        "why": "Established neighborhoods with strong resale liquidity into CSRA"
+      },
+      {
+        "name": "Grovetown / west growth fringe",
+        "why": "Military and logistics spillover with more entry inventory than Evans core"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.columbiacountyga.gov/186/Delinquent-Taxes",
+      "https://www.columbiacountyga.gov/158/Property-Tax-Division",
+      "https://www.columbiacountyga.gov/"
+    ]
+  },
+  "13077": {
+    "notes": "Georgia redeemable tax-deed county. Coweta County Tax Commissioner (Justin McMichael) acts as ex-officio sheriff for tax sales under OCGA 48-3/48-4. Official Tax Sale Information PDF: titles not warranted; independent title search required. Sales follow Georgia first-Tuesday public outcry pattern when advertised; tax sale page on cowetataxcom.com. Opening bid generally taxes/costs due; 12-month statutory redemption with premium structure applies to non-judicial sales.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Coweta County Tax Commissioner — Tax Sales",
+      "url": "https://www.cowetataxcom.com/tax-sales.html",
+      "phone": "770-254-2670"
+    },
+    "auctionFrequency": "First Tuesday of months when a sale is planned and advertised; confirm legal ads and cowetataxcom.com list",
+    "depositRules": "Cash or certified funds at sale per Georgia practice. Review Coweta County Tax Sale Information PDF (cowetataxcom.com resources) for current bidder rules. Contact 770-254-2670 / jtmcmichael@coweta.ga.us with questions. County does not warrant title.",
+    "taxCollector": {
+      "label": "Coweta County Tax Commissioner (Justin McMichael)",
+      "url": "https://www.cowetataxcom.com/",
+      "phone": "770-254-2670"
+    },
+    "clerkOfCourt": {
+      "label": "Coweta County Clerk of Superior Court",
+      "url": "https://www.coweta.ga.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Coweta County Board of Tax Assessors / parcel search",
+      "url": "https://www.coweta.ga.us/"
+    },
+    "survivingLiens": "Redeemable tax deed; federal tax liens and some municipal interests can survive. Excess funds claims may exist. Full title search required — TC disclaims title warranty.",
+    "quietTitle": "Barment + quiet title commonly required for marketable/insurable GA tax title.",
+    "gisMap": {
+      "label": "Coweta County GIS / assessor resources",
+      "url": "https://www.coweta.ga.us/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Newnan / downtown–Ashley Park corridor",
+        "why": "South-metro job access and retail amenities with strong SF demand"
+      },
+      {
+        "name": "Senoia / north Coweta film-and-commuter edge",
+        "why": "Lifestyle demand and relative scarcity supporting price resilience"
+      },
+      {
+        "name": "Sharpsburg / Turin growth fringe",
+        "why": "More entry inventory and lot absorption versus core Newnan"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.cowetataxcom.com/tax-sales.html",
+      "https://www.cowetataxcom.com/",
+      "https://www.cowetataxcom.com/resources/sites/cowetacountyga/docs/Coweta%20County%20Tax%20Sale%20Information.pdf"
+    ]
+  },
+  "05045": {
+    "notes": "Arkansas COSL tax-deed county. Faulkner County Collector certifies long-delinquent parcels to the Commissioner of State Lands; COSL runs the public auction (Faulkner listed 9/23/2025 on cosl.org schedule) and online post-auction sales. Limited warranty deed; quiet title expected. County collector does not auction tax deeds independently.",
+    "auctionFormat": "In-person (COSL); online post-auction (auction.cosl.org)",
+    "auctionPlatform": {
+      "label": "Arkansas Commissioner of State Lands — Real Estate Auctions",
+      "url": "https://cosl.org/Home/Realestate"
+    },
+    "auctionFrequency": "Annual COSL public auction per county date (Faulkner 9/23/2025 on published schedule; confirm current year). Unsold → auction.cosl.org ~30 days later.",
+    "depositRules": "COSL Buyers Guide: no cash; check, card, cashier’s check, or money order at live sale. Online post-auction $100 card hold + balance within 10 days. Minimum bid = certified taxes through sale date.",
+    "taxCollector": {
+      "label": "Faulkner County Collector (certifies to COSL) / COSL",
+      "url": "https://www.faulknercountyar.gov/government/departments/collector/",
+      "phone": "501-324-9422"
+    },
+    "clerkOfCourt": {
+      "label": "Faulkner County Circuit Clerk",
+      "url": "https://www.faulknercountyar.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Faulkner County Assessor / parcel records",
+      "url": "https://www.faulknercountyar.gov/"
+    },
+    "survivingLiens": "Limited warranty deed; municipal/improvement district liens often survive; notice defects create challenge risk. Federal liens and access require county research.",
+    "quietTitle": "Standard practical requirement for marketable title after COSL tax deed.",
+    "gisMap": {
+      "label": "Faulkner County GIS / assessor map resources",
+      "url": "https://www.faulknercountyar.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Conway / UCA and downtown core",
+        "why": "University and regional employment supporting rental and SF demand"
+      },
+      {
+        "name": "West Conway / Dave Ward corridor",
+        "why": "Suburban retail and household growth with strong absorption"
+      },
+      {
+        "name": "Greenbrier / north Faulkner fringe",
+        "why": "Relative affordability and commuter demand toward Little Rock/Conway"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://cosl.org/Home/Realestate",
+      "https://cosl.org/Home/Buyers",
+      "https://cosl.org/Home/NextYearDates",
+      "https://www.faulknercountyar.gov/government/departments/collector/"
+    ]
+  },
+  "05131": {
+    "notes": "Arkansas COSL tax-deed county (Fort Smith region). Sebastian County certifies delinquencies to COSL; state runs live auction (Sebastian listed 7/23/2025) and post-auction online inventory. County publishes State Land Sales guidance and GIS tools for locating delinquent parcels — useful DD adjunct but auction authority remains COSL.",
+    "auctionFormat": "In-person (COSL); online post-auction (auction.cosl.org)",
+    "auctionPlatform": {
+      "label": "Arkansas Commissioner of State Lands / Sebastian County State Land Sales info",
+      "url": "https://www.sebastiancountyar.gov/Property-Taxes/State-Land-Sales"
+    },
+    "auctionFrequency": "Annual COSL public auction (Sebastian 7/23/2025 on cosl.org schedule; confirm current). Post-auction online ~30 days after live sale.",
+    "depositRules": "Follow COSL Buyers Guide payment rules (no cash at live auction; card/check/certified funds). Online post-auction: $100 initial card charge, full payment within 10 days.",
+    "taxCollector": {
+      "label": "Sebastian County — State Land Sales / COSL",
+      "url": "https://www.sebastiancountyar.gov/Property-Taxes/State-Land-Sales",
+      "phone": "501-324-9422"
+    },
+    "clerkOfCourt": {
+      "label": "Sebastian County Circuit Clerk",
+      "url": "https://www.sebastiancountyar.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Sebastian County Assessor / GIS",
+      "url": "https://www.sebastiancountyar.gov/"
+    },
+    "survivingLiens": "COSL limited warranty deed risks: surviving municipal liens, notice challenges, federal liens, access/easements. County GIS helps locate parcels but does not clear title.",
+    "quietTitle": "Budget quiet title for marketable title after purchase.",
+    "gisMap": {
+      "label": "Sebastian County GIS / State Land Sales mapping tools",
+      "url": "https://www.sebastiancountyar.gov/Property-Taxes/State-Land-Sales"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Fort Smith / downtown–medical corridor",
+        "why": "Regional employment hub with selective urban rehab and multifamily demand"
+      },
+      {
+        "name": "Barling / east Sebastian edge",
+        "why": "Workforce housing near industrial and logistics nodes"
+      },
+      {
+        "name": "Greenwood / south Sebastian",
+        "why": "Suburban family demand with relative value versus Fort Smith core"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.sebastiancountyar.gov/Property-Taxes/State-Land-Sales",
+      "https://cosl.org/Home/Realestate",
+      "https://cosl.org/Home/Buyers",
+      "https://cosl.org/Home/NextYearDates",
+      "https://auction.cosl.org"
+    ]
+  },
+  "13059": {
+    "notes": "Georgia redeemable tax-deed county in consolidated Athens-Clarke County. Tax Commissioner is ex-officio sheriff for tax sales. Official rules: sales begin 10:00 a.m. first Tuesday of the month in front of the courthouse; public outcry; opening bid = taxes due plus costs; may continue next day at 10:00 a.m. if parcels remain after 4:00 p.m. Payment by cashier’s or certified check (FDIC/FSLIC insured). Tax deed recorded and mailed to purchaser. Advertised four consecutive weeks in legal notices (Athens Banner-Herald).",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Athens-Clarke County Tax Commissioner — Tax Sales",
+      "url": "https://www.accgov.com/1719/Tax-Sales"
+    },
+    "auctionFrequency": "First Tuesday of each month at 10:00 a.m. when parcels are advertised; continues Wednesday if needed",
+    "depositRules": "Payment at time of sale by cashier’s or certified check; provide current mailing address. Failure to perform can result in resale with deficiency liability. Confirm any registration steps on the current sale notice / Online Tax Sale List portal.",
+    "taxCollector": {
+      "label": "Athens-Clarke County Tax Commissioner — Delinquent Tax Division",
+      "url": "https://www.accgov.com/1703/Delinquent-Tax-Division"
+    },
+    "clerkOfCourt": {
+      "label": "Athens-Clarke County Clerk of Superior Court",
+      "url": "https://www.accgov.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Athens-Clarke County Board of Tax Assessors",
+      "url": "https://www.accgov.com/"
+    },
+    "survivingLiens": "Tax deed subject to GA statutory redemption; purchaser responsible for subsequent taxes (may add to redemption price). Federal liens can survive. Full title search required.",
+    "quietTitle": "Barment of redemption and quiet title commonly required for marketable title.",
+    "gisMap": {
+      "label": "Athens-Clarke County GIS / property maps",
+      "url": "https://www.accgov.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown / UGA campus edge",
+        "why": "Student and institutional demand with strong rental absorption"
+      },
+      {
+        "name": "Eastside / Lexington Road corridor",
+        "why": "Suburban family housing with steady resale liquidity"
+      },
+      {
+        "name": "Westside / Atlanta Highway edge",
+        "why": "Relative value and workforce housing versus core campus premiums"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.accgov.com/1719/Tax-Sales",
+      "https://www.accgov.com/1703/Delinquent-Tax-Division",
+      "https://www.accgov.com/"
+    ]
+  },
+  "13045": {
+    "notes": "Georgia redeemable tax-deed county. Carroll County Tax Commissioner (Vickie Bearden) holds public outcry sales before the courthouse door in Carrollton between legal hours (10:00 a.m.–4:00 p.m.), first Tuesday when advertised, continuing Wednesday if needed. Official tax-sales page lists next sale (e.g. July 7, 2026) and excess-funds materials. Bidder registration directed via gtsweb.com contact form selecting Carroll County. Cash, certified funds, or bank letter required.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Carroll County Tax Commissioner — Tax Sales",
+      "url": "https://carrollcountygatax.com/tax-sales-2/",
+      "phone": "770-830-5826"
+    },
+    "auctionFrequency": "First Tuesday of months with advertised sales (e.g. July 7, 2026 listed); may continue next day",
+    "depositRules": "Bring cash, certified funds, or bank letter. Register via gtsweb.com (select Carroll County). Purchaser pays title/transfer costs, taxes, advertising, and recording fees as stated on legal notice. Sales final subject to statutory redemption.",
+    "taxCollector": {
+      "label": "Carroll County Tax Commissioner (Vickie Bearden)",
+      "url": "https://carrollcountygatax.com/",
+      "phone": "770-830-5826"
+    },
+    "clerkOfCourt": {
+      "label": "Carroll County Clerk of Superior Court",
+      "url": "https://www.carrollcountyga.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Carroll County Board of Tax Assessors / qPublic",
+      "url": "https://qpublic.net/ga/carroll/"
+    },
+    "survivingLiens": "GA tax deed with statutory redemption; federal liens can survive. Excess funds list and claim process published by TC. Full title search required.",
+    "quietTitle": "Barment + quiet title typically needed for insurable marketable title.",
+    "gisMap": {
+      "label": "Carroll County qPublic parcel map",
+      "url": "https://qpublic.schneidercorp.com/Application.aspx?App=CarrollCountyGA&Layer=Parcels&PageType=Search"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Carrollton / UWG and downtown corridor",
+        "why": "University and county-seat employment supporting rental and SF demand"
+      },
+      {
+        "name": "Villa Rica / I-20 east edge",
+        "why": "Atlanta commute access with stronger liquidity than rural west Carroll"
+      },
+      {
+        "name": "Temple / north Carroll fringe",
+        "why": "Relative entry pricing and lot growth along US-27/I-20 feeder corridors"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://carrollcountygatax.com/tax-sales-2/",
+      "https://carrollcountygatax.com/",
+      "https://qpublic.net/ga/carroll/",
+      "https://www.gtsweb.com/contact-4"
+    ]
+  },
+  "01103": {
+    "notes": "Alabama tax-lien county. Morgan County Revenue Commissioner elected Sale of Lien method and holds the annual Tax Lien Sale online via GovEase. 2026 sale for 2025 taxes began 10:00 a.m. Tuesday, May 12, 2026. Certificate of Purchase is a lien (not ownership); bid-down interest from 12%. Parcel list published as PDF on morgancountyrevenue.com. Research required before bidding; Alabama Code Title 40 Chapter 10 Article 7 governs.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "GovEase — Morgan County Tax Lien Sale",
+      "url": "https://www.govease.com/"
+    },
+    "auctionFrequency": "Annually in May (2026: May 12, 10:00 a.m.; typically second Tuesday of May)",
+    "depositRules": "Register on GovEase and complete bidder training/approval steps. Full payment of winning liens per GovEase/county rules after award. Download county flyer and final parcel list from morgancountyrevenue.com before bidding.",
+    "taxCollector": {
+      "label": "Morgan County Revenue Commissioner — Tax Sale",
+      "url": "https://www.morgancountyrevenue.com/tax-sale",
+      "phone": "256-351-4680"
+    },
+    "clerkOfCourt": {
+      "label": "Morgan County Probate Judge (recording)",
+      "url": "http://www.morgancountyprobate.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Morgan County Revenue — Property Search",
+      "url": "https://www.morgancountyrevenue.com/property-search"
+    },
+    "survivingLiens": "Lien certificate only until foreclosure after statutory redemption window. Municipal, federal, and other encumbrances require independent search. Record certificate timely.",
+    "quietTitle": "Post-deed title typically needs quiet title/curative work for insurance and resale.",
+    "gisMap": {
+      "label": "Morgan County property search / map resources",
+      "url": "https://www.morgancountyrevenue.com/property-search"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Decatur / downtown–river industrial edge",
+        "why": "Manufacturing and logistics employment supporting workforce housing demand"
+      },
+      {
+        "name": "Hartselle / south Morgan corridor",
+        "why": "Suburban family demand with relative value versus Decatur core"
+      },
+      {
+        "name": "Priceville / east Decatur fringe",
+        "why": "Growth residential nodes near industrial job centers"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.morgancountyrevenue.com/tax-sale",
+      "https://www.govease.com/",
+      "https://www.morgancountyrevenue.com/images/stories/PDFS/MorganCounty2026-flyer.pdf"
+    ]
+  },
+  "13113": {
+    "notes": "Georgia redeemable tax-deed county. Fayette County Tax Commissioner (Kristie King) holds tax sales on the steps of the Fayette County Courthouse on first Tuesdays (when scheduled) between 10:00 a.m. and 4:00 p.m. Official tax-sales page on fayettecountypay.com; sales announced when inventory is ready (not every month). Non-judicial redeemable tax deed under OCGA Title 48.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Fayette County Tax Commissioner — Tax Sales",
+      "url": "https://www.fayettecountypay.com/tax-sales.html",
+      "phone": "770-461-3652"
+    },
+    "auctionFrequency": "First Tuesday when a sale is announced (not every month); legal hours 10:00 a.m.–4:00 p.m. at courthouse steps",
+    "depositRules": "Cash or certified funds same day per GA practice. Confirm registration and payment details with Tax Commissioner (140 W. Stonewall Ave, Fayetteville) when a sale is advertised.",
+    "taxCollector": {
+      "label": "Fayette County Tax Commissioner (Kristie King)",
+      "url": "https://www.fayettecountypay.com/",
+      "phone": "770-461-3652"
+    },
+    "clerkOfCourt": {
+      "label": "Fayette County Clerk of Superior Court",
+      "url": "https://www.fayettecountyga.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Fayette County Board of Tax Assessors / parcel search",
+      "url": "https://www.fayettecountyga.gov/"
+    },
+    "survivingLiens": "Redeemable GA tax deed; federal liens can survive; excess funds processes may apply. Full title search required.",
+    "quietTitle": "Barment of redemption + quiet title commonly required for insurable title.",
+    "gisMap": {
+      "label": "Fayette County GIS / property maps",
+      "url": "https://www.fayettecountyga.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Fayetteville / GA-54 county-seat corridor",
+        "why": "South-metro amenities and government employment with strong SF demand"
+      },
+      {
+        "name": "Peachtree City / west Fayette planned community",
+        "why": "High household incomes and tight inventory supporting price resilience"
+      },
+      {
+        "name": "Tyrone / north Fayette edge",
+        "why": "Commuter access toward Atlanta Airport with relative value versus PTC"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.fayettecountypay.com/tax-sales.html",
+      "https://www.fayettecountypay.com/",
+      "https://www.fayettecountyga.gov/"
+    ]
+  },
+  "13185": {
+    "notes": "Georgia redeemable tax-deed county (Valdosta). Lowndes County Tax Commissioner publishes Tax Sale Procedures PDF and periodic sale lists (e.g. August 2026 Tax Sale List on lowndescountytax.com). In-person courthouse-style sales under GA first-Tuesday statute when advertised. Office: 300 N. Patterson Street, Valdosta.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Lowndes County Tax Commissioner — Tax Sales",
+      "url": "https://lowndescountytax.com/",
+      "phone": "229-671-2579"
+    },
+    "auctionFrequency": "First Tuesday of months with advertised inventory (e.g. August 2026 list published); confirm procedures PDF and list on lowndescountytax.com",
+    "depositRules": "Follow official Tax Sale Procedures handout (Government Window-hosted PDF). Cash or certified funds typical for GA sales. Contact 229-671-2579 for current bidder registration and payment rules.",
+    "taxCollector": {
+      "label": "Lowndes County Tax Commissioner",
+      "url": "https://www.lowndescountytax.com/",
+      "phone": "229-671-2579"
+    },
+    "clerkOfCourt": {
+      "label": "Lowndes County Clerk of Superior Court (FIFA/GED recording)",
+      "url": "https://www.lowndescounty.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Lowndes County Board of Tax Assessors / parcel search",
+      "url": "https://www.lowndescounty.com/"
+    },
+    "survivingLiens": "FiFa tax lien on GED before sale; tax deed subject to statutory redemption. Federal liens can survive. Full title search required.",
+    "quietTitle": "Barment + quiet title commonly needed for marketable GA tax title.",
+    "gisMap": {
+      "label": "Lowndes County GIS / property resources",
+      "url": "https://www.lowndescounty.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Valdosta / Moody AFB corridor",
+        "why": "Military and regional medical employment supporting rental demand"
+      },
+      {
+        "name": "North Valdosta / Bemiss Road edge",
+        "why": "Suburban retail and SF absorption with stronger liquidity than rural south county"
+      },
+      {
+        "name": "Hahira / north Lowndes fringe",
+        "why": "Relative affordability and I-75 access for entry investors"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://lowndescountytax.com/",
+      "https://www.lowndescountytax.com/",
+      "https://images-governmentwindow.s3.us-east-1.amazonaws.com/resources/sites/lowndescountyga/docs/Tax_Sale_procedures_handout.pdf"
+    ]
+  },
+  "01083": {
+    "notes": "Alabama hybrid-election county — method not clearly published on the Revenue Commission site at research time. Ala. Code §40-10-180 lets the tax collecting official choose Sale of Lien (often GovEase online bid-down) or traditional Sale of Land. A reasonable search did not confirm Limestone’s current election, platform, or 2026 sale date. Contact the Revenue Commission (256-233-6433) before planning bids; do not assume GovEase until the county publishes an official notice.",
+    "auctionFormat": "Confirm with county (lien online vs. land in-person)",
+    "auctionPlatform": {
+      "label": "Limestone County Revenue Commission — confirm current tax sale method",
+      "url": "https://www.limestonecounty-al.gov/Departments/Revenue-Commission",
+      "phone": "256-233-6433"
+    },
+    "auctionFrequency": "Typically spring annual cycle for AL counties — confirm exact 2026/2027 date with Revenue Commission",
+    "depositRules": "Obtain official bidder packet from Limestone County Revenue Commission before depositing funds anywhere. If lien method: expect GovEase-style registration and full payment of lien face. If land method: expect courthouse sale with certified funds. Verify in writing for the sale year.",
+    "taxCollector": {
+      "label": "Limestone County Revenue Commission",
+      "url": "https://www.limestonecounty-al.gov/Departments/Revenue-Commission",
+      "phone": "256-233-6433"
+    },
+    "clerkOfCourt": {
+      "label": "Limestone County Probate Court (recording)",
+      "url": "https://www.limestonecounty-al.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Limestone County Revenue / property tax records",
+      "url": "https://www.limestonecounty-al.gov/Departments/Revenue-Commission"
+    },
+    "survivingLiens": "Depends on elected method. Lien path: certificate only with multi-year redemption. Land path: certificate of purchase with ~3-year redemption at statutory interest. Federal liens and municipal assessments require search either way.",
+    "quietTitle": "Alabama tax deeds commonly need quiet title for marketable/insurable title after redemption ends.",
+    "gisMap": {
+      "label": "Limestone County GIS / parcel resources",
+      "url": "https://www.limestonecounty-al.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Athens / downtown–US-72 corridor",
+        "why": "County-seat amenities and Huntsville-metro spillover demand"
+      },
+      {
+        "name": "East Limestone / Huntsville edge",
+        "why": "Defense and aerospace job access driving SF absorption"
+      },
+      {
+        "name": "Madison / south Limestone fringe",
+        "why": "High-growth suburban demand with tighter inventory versus rural north county"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.limestonecounty-al.gov/Departments/Revenue-Commission",
+      "https://www.limestonecounty-al.gov/"
+    ]
+  },
+  "13015": {
+    "notes": "Georgia redeemable tax-deed county (Cartersville). Bartow County Tax Commissioner handles levy and tax sales under OCGA Title 48 when inventory is advertised (first-Tuesday pattern). Confirm current sale dates and lists with the Tax Commissioner office (135 W Cherokee Ave, Suite 217A, Cartersville; 770-387-5111). Assessor/qPublic used for parcel DD and maps.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Bartow County Tax Commissioner",
+      "url": "https://www.bartowcountyga.gov/departments/tax_commissioner/index.php",
+      "phone": "770-387-5111"
+    },
+    "auctionFrequency": "First Tuesday of months when a sale is planned and advertised; confirm with TC office (770-387-5111)",
+    "depositRules": "Cash or certified funds same day per Georgia tax-sale practice. Call Tax Commissioner for current bidder registration, list availability, and payment rules before attending.",
+    "taxCollector": {
+      "label": "Bartow County Tax Commissioner",
+      "url": "https://www.bartowcountyga.gov/departments/tax_commissioner/index.php",
+      "phone": "770-387-5111"
+    },
+    "clerkOfCourt": {
+      "label": "Bartow County Clerk of Superior Court",
+      "url": "https://www.bartowcountyga.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Bartow County Board of Assessors / qPublic",
+      "url": "https://www.qpublic.net/ga/bartow/"
+    },
+    "survivingLiens": "Redeemable GA tax deed; federal liens can survive. Full title and FIFA search required.",
+    "quietTitle": "Barment + quiet title commonly required for marketable title.",
+    "gisMap": {
+      "label": "Bartow County qPublic / ESRI maps",
+      "url": "https://qpublic.schneidercorp.com/Application.aspx?App=BartowCountyGA&Layer=Parcels&PageType=Search"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Cartersville / downtown–Main Street corridor",
+        "why": "County-seat retail and industrial employment supporting SF and rehab demand"
+      },
+      {
+        "name": "Adairsville / I-75 north fringe",
+        "why": "Logistics and manufacturing job access with relative entry pricing"
+      },
+      {
+        "name": "Euharlee / west Bartow edge",
+        "why": "Residential growth with more lot inventory than core Cartersville"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.bartowcountyga.gov/departments/tax_commissioner/index.php",
+      "https://www.qpublic.net/ga/bartow/",
+      "https://tax.bartowpay.com/"
+    ]
+  },
+  "01015": {
+    "notes": "Alabama tax-lien county. Calhoun County Revenue Commission conducts annual online Tax Lien Auction via GovEase under Ala. Code §40-10-180–200 (lien method effective from 2018 tax year). 2026 auction publicly noticed for May 5, 2026 at 8:30 a.m. CST; registration required; in-office payments deadline noted through April 30, 2026 (cash, cashier’s check, money order). Bid-down interest from 12%; 0% ties broken by random draw. Delinquent list also via altags.com/calhoun_revenue.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "GovEase — Calhoun County Tax Lien Auction",
+      "url": "https://www.govease.com/"
+    },
+    "auctionFrequency": "Annually in May (2026: May 5, 8:30 a.m. CST; continues across days until parcels processed)",
+    "depositRules": "Register on GovEase prior to auction. Follow county payment deadline for in-office arrangements (cash/cashier’s check/money order noted for 2026 cycle). Winning bidders pay full lien amounts per GovEase/county rules. Research parcels on GIS and delinquent listing before bidding.",
+    "taxCollector": {
+      "label": "Calhoun County Revenue Commission — Tax Lien Auction",
+      "url": "https://www.calhouncounty.org/revenue/",
+      "phone": "256-241-2800"
+    },
+    "clerkOfCourt": {
+      "label": "Calhoun County Probate Judge (recording)",
+      "url": "https://www.calhouncounty.org/probate/"
+    },
+    "propertyAppraiser": {
+      "label": "Calhoun County GIS Mapping and Tax System",
+      "url": "https://gis.calhouncounty.org/"
+    },
+    "survivingLiens": "Tax lien certificate is not ownership. Municipal assessments, federal tax liens, and title defects remain relevant through foreclosure. Record certificate in probate.",
+    "quietTitle": "After tax deed on unredeemed lien, quiet title commonly required for marketable/insurable title.",
+    "gisMap": {
+      "label": "Calhoun County GIS Mapping System",
+      "url": "https://gis.calhouncounty.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Oxford / I-20 retail corridor",
+        "why": "Commercial employment and stronger SF liquidity than older mill districts"
+      },
+      {
+        "name": "Anniston / downtown–medical edge",
+        "why": "Regional medical and government employment with selective rehab inventory"
+      },
+      {
+        "name": "Jacksonville / JSU corridor",
+        "why": "University-driven rental demand with student housing turnover"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.calhouncounty.org/revenue/",
+      "https://www.calhouncounty.org/revenue/taxlienauction.html",
+      "https://www.govease.com/",
+      "https://gis.calhouncounty.org/",
+      "https://altags.com/calhoun_revenue/Delinquent.aspx"
+    ]
+  },
+  "05031": {
+    "notes": "Arkansas COSL tax-deed county (Jonesboro region). Craighead County Tax Collector certifies delinquencies to the Commissioner of State Lands; COSL runs the public auction (Craighead listed 8/6/2025 with Mississippi/Poinsett grouping) and online post-auction sales. Limited warranty deed; quiet title is the investor norm for marketable title.",
+    "auctionFormat": "In-person (COSL); online post-auction (auction.cosl.org)",
+    "auctionPlatform": {
+      "label": "Arkansas Commissioner of State Lands — Real Estate Auctions",
+      "url": "https://cosl.org/Home/Realestate"
+    },
+    "auctionFrequency": "Annual COSL public auction (Craighead 8/6/2025 on cosl.org schedule; confirm current year). Unsold parcels → auction.cosl.org after ~30 days.",
+    "depositRules": "COSL Buyers Guide payment rules: no cash at live auction; check, card, cashier’s check, or money order. Online post-auction $100 card charge + balance within 10 days. Minimum bid = taxes due through sale date.",
+    "taxCollector": {
+      "label": "Craighead County Tax Collector’s Office (certifies to COSL) / COSL",
+      "url": "https://craigheadcountyar.gov/tax-collectors-office",
+      "phone": "501-324-9422"
+    },
+    "clerkOfCourt": {
+      "label": "Craighead County Circuit Clerk",
+      "url": "https://craigheadcountyar.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Craighead County Assessor / parcel records",
+      "url": "https://craigheadcountyar.gov/"
+    },
+    "survivingLiens": "Limited warranty tax deed; municipal/improvement-district liens often survive; notice defects create challenge risk. Federal liens and access require full county research.",
+    "quietTitle": "Standard path to marketable title after COSL deed; include legal cost in acquisition underwriting.",
+    "gisMap": {
+      "label": "Craighead County GIS / assessor map resources",
+      "url": "https://craigheadcountyar.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Jonesboro / A-State and medical corridor",
+        "why": "University and regional healthcare employment supporting rental absorption"
+      },
+      {
+        "name": "Southwest Jonesboro / Southwest Drive edge",
+        "why": "Retail and suburban SF demand with stronger liquidity than rural tracts"
+      },
+      {
+        "name": "Brookland / north Craighead fringe",
+        "why": "Relative affordability and residential growth along US-49"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://cosl.org/Home/Realestate",
+      "https://cosl.org/Home/Buyers",
+      "https://cosl.org/Home/NextYearDates",
+      "https://craigheadcountyar.gov/tax-collectors-office",
+      "https://auction.cosl.org"
+    ]
+  }
+}

@@ -1,0 +1,1249 @@
+{
+  "25023": {
+    "notes": "Massachusetts tax titles are MUNICIPAL, not county-run. Plymouth County cities/towns (Brockton, Plymouth, Hingham, Lakeville, etc.) each run their own tax taking/sale or assignment under M.G.L. c. 60. After tax title attaches, foreclosure of the right of redemption is typically via Massachusetts Land Court. Brockton and Town of Plymouth are large examples only — always research the specific municipality. Post-Tyler excess-proceeds scrutiny is active statewide.",
+    "auctionFormat": "Varies by municipality (in-person or online public auction / tax title assignment)",
+    "auctionPlatform": {
+      "label": "Municipal treasurer/collector (example: Town of Plymouth Treasurer-Collector; some towns use Bid4Assets)",
+      "url": "https://www.plymouth-ma.gov/801/Treasurer-Collector"
+    },
+    "auctionFrequency": "Periodically, as each city/town schedules tax sales, assignment auctions, or post–Land Court possession auctions",
+    "depositRules": "Set by each municipality’s tax collector/treasurer for that sale notice — no single county rule. Confirm deposit, certified funds, buyer’s premium, and registration with the specific town (Hingham and Lakeville examples have used public auction deposits and buyer premiums).",
+    "taxCollector": {
+      "label": "City/town Treasurer-Collector (Plymouth County has no county tax-sale office)",
+      "url": "https://www.mass.gov/info-details/tax-lien-foreclosure-informational-outline"
+    },
+    "clerkOfCourt": {
+      "label": "Plymouth County Registry of Deeds + Massachusetts Land Court for foreclosure",
+      "url": "https://www.mass.gov/orgs/land-court"
+    },
+    "propertyAppraiser": {
+      "label": "Municipal assessor for the specific city/town (no single county appraiser)",
+      "url": "https://www.mass.gov/info-details/tax-lien-foreclosure-informational-outline"
+    },
+    "survivingLiens": "Tax title / Land Court foreclosure process. Federal liens and some municipal betterments can survive. Verify water/sewer and local betterment liens with the municipality before bidding.",
+    "quietTitle": "Land Court foreclosure of the right of redemption is the standard path to marketable title after a tax taking/sale — that proceeding is effectively required, not optional.",
+    "gisMap": {
+      "label": "Municipal assessor / parcel maps (varies by town; Plymouth as example)",
+      "url": "https://www.plymouth-ma.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Plymouth Town Center / waterfront edge",
+        "why": "Tourism and historic-core demand with limited coastal inventory supporting year-round housing liquidity"
+      },
+      {
+        "name": "Brockton employment core",
+        "why": "Largest city in the county with relatively affordable workforce housing demand versus South Shore coastal towns"
+      },
+      {
+        "name": "Hingham / Norwell edge",
+        "why": "School-driven South Shore suburbs with strong resale liquidity and tighter inventory than inland Plymouth towns"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.mass.gov/info-details/tax-lien-foreclosure-informational-outline",
+      "https://www.plymouth-ma.gov/801/Treasurer-Collector",
+      "https://www.hingham-ma.gov/CivicAlerts.asp?AID=1992&ARC=3150",
+      "https://www.mass.gov/orgs/land-court",
+      "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter60"
+    ]
+  },
+  "27123": {
+    "notes": "Minnesota tax-deed (forfeiture) system — not a lien certificate sale. After statutory forfeiture to the State of Minnesota for unpaid taxes, Ramsey County Productive Properties (formerly Tax-Forfeited Land) appraises parcels and offers them at public auction, typically online via MNBid (mnbid.mn.gov). Minimum bid is appraised value; full payment required (no contract-for-deed on recent auctions). Most private liens/mortgages are canceled at forfeiture; federal/state tax liens can survive. Spring 2026 online auction referenced on county site; residential sales often restricted to owner-occupancy/noncommercial use — verify terms per sale.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "MNBid — Ramsey County Tax-Forfeited Public Sales",
+      "url": "https://mnbid.mn.gov"
+    },
+    "auctionFrequency": "Periodic public auctions (e.g. multi-week online windows; Spring 2026 auction posted); also parcels available for immediate purchase after unsold auctions",
+    "depositRules": "Register on MNBid. On award, payment of the full winning bid is typically due within ~14 business days by cashier’s check/money order to Surplus Services (per auction FAQ). No contract-for-deed; failure to pay voids award. Confirm current deposit/award terms on the live auction listing.",
+    "taxCollector": {
+      "label": "Ramsey County Productive Properties (tax-forfeited land)",
+      "url": "https://www.ramseycountymn.gov/residents/property-home/taxes-values/productive-properties/tax-forfeited-public-sales",
+      "phone": "651-266-2080"
+    },
+    "clerkOfCourt": {
+      "label": "Ramsey County Recorder / Property Records",
+      "url": "https://www.ramseycountymn.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Ramsey County Assessor / Property Search",
+      "url": "https://www.ramseycountymn.gov/residents/property-home/taxes-values"
+    },
+    "survivingLiens": "Most liens and mortgages (except federal and state tax liens) are canceled at forfeiture per county guidance — purchaser must still verify. Title is tax-forfeited stock sold as-is; buildability and zoning not warranted.",
+    "quietTitle": "Post-forfeiture county deed is the conveyance path; title insurers may still require seasoning, survey, or quiet title depending on parcel history and occupancy — budget legal review before resale.",
+    "gisMap": {
+      "label": "Ramsey County property / GIS resources",
+      "url": "https://www.ramseycountymn.gov/residents/property-home/taxes-values/productive-properties"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown St. Paul / Lowertown",
+        "why": "Employment and entertainment core with multifamily and adaptive-reuse demand into 2026"
+      },
+      {
+        "name": "Midway / University Avenue corridor",
+        "why": "Transit-oriented infill and workforce housing demand between Minneapolis and St. Paul cores"
+      },
+      {
+        "name": "Maplewood / eastern suburbs",
+        "why": "Suburban employment and relatively liquid starter-home inventory versus central-city price points"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.ramseycountymn.gov/residents/property-home/taxes-values/productive-properties/tax-forfeited-public-sales",
+      "https://www.ramseycountymn.gov/residents/property-home/taxes-values/productive-properties/tax-forfeited-public-sales/auction-frequently-asked-questions",
+      "https://mnbid.mn.gov",
+      "https://www.ramseycountymn.gov/residents/property-home/taxes-values/productive-properties"
+    ]
+  },
+  "39113": {
+    "notes": "Ohio hybrid market. Montgomery County Treasurer runs monthly in-person Treasurer’s Tax Sales (tax deed path for delinquent taxes) first Thursday at 10:00 a.m. EST, lower-level auditorium, 451 W. Third St., Dayton. Separately, Sheriff conducts online mortgage and third-party tax-lien foreclosure sales via RealAuction (montgomery.sheriffsaleauction.ohio.gov) Fridays at 9:00 a.m. EST. Do not confuse Treasurer deed sales with Sheriff lien/foreclosure auctions.",
+    "auctionFormat": "In-person (Treasurer tax sales) / Online (Sheriff tax-lien & mortgage foreclosures)",
+    "auctionPlatform": {
+      "label": "Treasurer: in-person at County Admin Building; Sheriff: RealAuction montgomery.sheriffsaleauction.ohio.gov",
+      "url": "https://www.mcohio.org/734/Foreclosure-Sales"
+    },
+    "auctionFrequency": "Treasurer tax sales: first Thursday monthly at 10:00 a.m. Sheriff RealAuction sales: Fridays at 9:00 a.m. EST",
+    "depositRules": "Treasurer sales: successful bidder deposits $1,000 plus transfer/recording fees (~$47.50 + $0.50 per additional parcel) immediately (cash, certified check, or local personal check with ID). Balance by certified/cashier’s check within 15 days of confirmation entry. Sheriff online sales: RealAuction registration/deposit rules apply (877-361-7325).",
+    "taxCollector": {
+      "label": "Montgomery County Treasurer",
+      "url": "https://www.mcohio.org/",
+      "phone": "937-225-4010"
+    },
+    "clerkOfCourt": {
+      "label": "Montgomery County Clerk of Courts / Sheriff Civil (foreclosure sales)",
+      "url": "https://www.mcohiosheriff.org/support_services/records_and_property/properties_for_sale.php"
+    },
+    "propertyAppraiser": {
+      "label": "Montgomery County Auditor (property values / search)",
+      "url": "https://www.mcohio.org/"
+    },
+    "survivingLiens": "Tax deed vs. lien foreclosure outcomes differ. Federal tax liens and certain governmental liens can survive; HOA and junior interests depend on process joined. Full title search required before bidding either track.",
+    "quietTitle": "Title companies often require quiet title or extended seasoning after tax/foreclosure deed purchases before insuring free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Montgomery County Auditor / GIS parcel resources",
+      "url": "https://www.mcohio.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Dayton / Oregon District edge",
+        "why": "Urban redevelopment and employment core supporting multifamily and adaptive-reuse demand"
+      },
+      {
+        "name": "Centerville / Kettering suburbs",
+        "why": "School-driven south-suburban demand with relatively strong resale liquidity"
+      },
+      {
+        "name": "Beavercreek / Wright-Patterson edge",
+        "why": "Military and tech employment base supporting steady housing absorption into 2026"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.mcohio.org/734/Foreclosure-Sales",
+      "https://www.mcohiosheriff.org/support_services/records_and_property/properties_for_sale.php",
+      "https://go.mcohio.org/applications/sheriffauction/sflistauction.cfm",
+      "https://montgomery.sheriffsaleauction.ohio.gov/"
+    ]
+  },
+  "20173": {
+    "notes": "Kansas judicial tax-deed county. Sedgwick County Treasurer identifies delinquent parcels for judicial tax foreclosure; District Court enters judgment; properties sell at public auction (historically online; Oct 2025 sale was administered by CivicSource — county later reported ~$1.3M proceeds theft dispute with that vendor, so confirm current auction platform before registering). 2026 foreclosure cases filed; no auction date set as of mid-2026 — sign up for Treasurer auction alerts. Redemption through close of business day before sale. Buyer pays year-of-sale taxes/specials; ~120 days typical before Sheriff’s deed mails after confirmation.",
+    "auctionFormat": "Online (confirm current vendor each cycle)",
+    "auctionPlatform": {
+      "label": "Sedgwick County Treasurer Tax Foreclosure Auctions (vendor TBD each cycle; alerts on county site)",
+      "url": "https://www.sedgwickcounty.org/treasurer/tax-foreclosure-auctions/"
+    },
+    "auctionFrequency": "Periodic after District Court judgment; 2026 cases filed — auction date posted when scheduled (sign up for email alerts)",
+    "depositRules": "Successful bidders pay winning bids at end of sale day; $21 deed filing fee per parcel at checkout (K.S.A. 79-2804). Failure to pay may bar future bidding. Confirm deposit/wire rules on the live platform once the sale is announced.",
+    "taxCollector": {
+      "label": "Sedgwick County Treasurer — Tax Foreclosure Auctions",
+      "url": "https://www.sedgwickcounty.org/treasurer/tax-foreclosure-auctions/",
+      "phone": "316-660-9110"
+    },
+    "clerkOfCourt": {
+      "label": "Sedgwick County District Court Clerk / Register of Deeds",
+      "url": "https://www.sedgwickcounty.org/"
+    },
+    "propertyAppraiser": {
+      "label": "Sedgwick County Appraiser / GIS foreclosure map",
+      "url": "https://gismaps.sedgwickcounty.org/treasurer/foreclosures/"
+    },
+    "survivingLiens": "Judicial tax foreclosure deed clears many private liens if properly joined, but federal tax liens and unjoined interests can survive. Buyer responsible for current-year taxes and all current/future special assessments — research MABCD/specials before bidding.",
+    "quietTitle": "Court confirmation precedes Sheriff’s deed; title insurers may still require quiet title or extended coverage depending on challenge period and occupancy.",
+    "gisMap": {
+      "label": "Sedgwick County Tax Foreclosure Mapping Application",
+      "url": "https://gismaps.sedgwickcounty.org/treasurer/foreclosures/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Wichita / Delano edge",
+        "why": "Urban revitalization and employment core supporting multifamily and starter-home demand"
+      },
+      {
+        "name": "Northeast Wichita / Greenwich corridor",
+        "why": "Suburban growth and logistics adjacency with ongoing single-family absorption"
+      },
+      {
+        "name": "Derby / Haysville edge",
+        "why": "South-suburban family buyer pool with relative affordability versus central Wichita"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.sedgwickcounty.org/treasurer/tax-foreclosure-auctions/",
+      "https://www.sedgwickcounty.org/treasurer/tax-foreclosure-auction-alerts/",
+      "https://gismaps.sedgwickcounty.org/treasurer/foreclosures/",
+      "https://www.sedgwickcounty.org/sheriff/support-bureau/administration/sheriff-sales/"
+    ]
+  },
+  "16001": {
+    "notes": "Idaho tax-deed county. After statutory delinquency, Ada County Treasurer issues tax deeds to the county; public auction of tax-deeded property is held within 14 months of tax deed issuance. Auctions have been online (historically Bid4Assets); 2022 tax-deed auction date listed TBD on treasurer page with pending list PDF — inventory is sparse compared with larger states. Minimum bid typically equals total delinquent taxes, late charges, interest, and costs. Redemption ends when tax deed issues / sale rules apply — verify current Idaho Code path per parcel.",
+    "auctionFormat": "Online when scheduled (confirm vendor)",
+    "auctionPlatform": {
+      "label": "Ada County Treasurer — Property Auction & Tax Delinquencies (confirm Bid4Assets/other vendor when listed)",
+      "url": "https://adacounty.id.gov/treasurer/property-auction-tax-delinquencies/"
+    },
+    "auctionFrequency": "As parcels go to tax deed; public auction within ~14 months of tax deed; dates posted when inventory warrants (low volume)",
+    "depositRules": "Historic Bid4Assets Ada sales used ~$250 deposit + $35 processing fee; confirm current deposit, wire, and final payment deadlines on the live storefront when a sale is posted. Contact Treasurer 208-287-6800.",
+    "taxCollector": {
+      "label": "Ada County Treasurer (ex officio tax collector)",
+      "url": "https://adacounty.id.gov/treasurer/",
+      "phone": "208-287-6800"
+    },
+    "clerkOfCourt": {
+      "label": "Ada County Clerk / Recorder",
+      "url": "https://adacounty.id.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Ada County Assessor — Property Search",
+      "url": "https://adacounty.id.gov/"
+    },
+    "survivingLiens": "Idaho tax deed is designed to convey free of most prior encumbrances except subsequent property taxes and certain special assessments — federal liens and title defects still require independent analysis. Sold as-is.",
+    "quietTitle": "Title insurers commonly require quiet title or extended seasoning after tax-deed purchase before insuring marketable title for resale/refinance.",
+    "gisMap": {
+      "label": "Ada County Assessor / GIS parcel resources",
+      "url": "https://adacounty.id.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Boise / Bench edge",
+        "why": "State capital employment core with strong multifamily and infill demand into 2026"
+      },
+      {
+        "name": "Meridian / Ten Mile corridor",
+        "why": "Fast-growing west-Ada suburb with school-driven single-family absorption"
+      },
+      {
+        "name": "Eagle / northwest Ada",
+        "why": "Higher-end suburban demand with tighter inventory and resilient resale liquidity"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://adacounty.id.gov/treasurer/property-auction-tax-delinquencies/",
+      "https://adacounty.id.gov/treasurer/",
+      "https://www.bid4assets.com/ada"
+    ]
+  },
+  "34007": {
+    "notes": "New Jersey municipal tax-lien system: each of Camden County's municipalities (not a single county auction) runs its own annual tax sale for delinquent taxes, water/sewer, and other municipal charges under N.J.S.A. 54:5. Buyers receive a tax sale certificate — not a deed. City of Camden (largest city) sells 2025 and prior delinquencies online via RealAuction/NewJerseyTaxSale platforms and also assigns municipally held certificates. Foreclosure of the certificate (typically after 2 years for third-party holders) is a separate Superior Court process. Separately, Camden County Sheriff runs mortgage foreclosure sales — not tax-deed sales.",
+    "auctionFormat": "Online (most larger municipalities) / varies by town",
+    "auctionPlatform": {
+      "label": "Municipal tax sales (often RealAuction / newjerseytaxsale.com) — City of Camden Revenue Collections as large example",
+      "url": "https://www.camdennj.gov/revenue-collections/"
+    },
+    "auctionFrequency": "Annual per municipality (commonly spring–fall; City of Camden posts online sale notices for prior-year delinquencies — verify each town’s date)",
+    "depositRules": "Set by each municipal tax collector and platform: typically pre-register online, post deposit/premium rules per sale notice, pay winning certificates by ACH or certified funds by the town’s deadline. Record certificate with County Clerk; redemption figures from the municipal tax collector.",
+    "taxCollector": {
+      "label": "Municipal tax collectors (Camden County municipalities) — City of Camden Bureau of Revenue Collections example",
+      "url": "https://www.camdennj.gov/revenue-collections/",
+      "phone": "856-757-7003"
+    },
+    "clerkOfCourt": {
+      "label": "Camden County Clerk (records certificates / cancellations)",
+      "url": "https://www.camdencounty.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Camden County Board of Taxation / municipal assessors",
+      "url": "https://www.camdencounty.com/service/board-of-taxation/"
+    },
+    "survivingLiens": "Tax sale certificate is a lien senior to most private liens but does not wipe junior interests until foreclosure judgment and deed. Federal tax liens and certain statutory liens require careful title analysis. Certificate holder has no right to possess before foreclosure.",
+    "quietTitle": "Marketable title after tax foreclosure generally requires completed Superior Court foreclosure of the tax certificate (not optional quiet title alone).",
+    "gisMap": {
+      "label": "Camden County / municipal assessment records search",
+      "url": "https://www.camdencounty.com/service/board-of-taxation/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Camden waterfront / downtown edge",
+        "why": "Institutional and waterfront redevelopment supporting adaptive-reuse and workforce housing demand"
+      },
+      {
+        "name": "Cherry Hill / Voorhees corridor",
+        "why": "Established suburban employment and retail core with strong resale liquidity"
+      },
+      {
+        "name": "Gloucester Township / Blackwood edge",
+        "why": "Relative inland affordability versus Cherry Hill with ongoing single-family absorption"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.camdennj.gov/revenue-collections/",
+      "https://www.camdencounty.com/service/board-of-taxation/",
+      "https://www.tctanj.org/cn/webpage.cfm?tpid=14659",
+      "https://nj.gov/dca/divisions/dlgs/programs/tax_collector_docs/elements_of_tax_sales_nj.pdf"
+    ]
+  },
+  "53011": {
+    "notes": "Washington tax-deed (foreclosure) system — not a tax lien state. Clark County Treasurer forecloses real property three or more years delinquent and sells at annual online auction usually in February via Bid4Assets (bid4assets.com/ClarkWA). Title reports posted on storefront; list of properties typically available each December. Owners may redeem until day before auction. February 2026 sale completed with published results. No tax lien certificates issued.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Bid4Assets — Clark County WA Tax Foreclosed Properties",
+      "url": "https://www.bid4assets.com/ClarkWA"
+    },
+    "auctionFrequency": "Annual, usually February (list posted ~December; Feb 2026 sale held)",
+    "depositRules": "Register with Bid4Assets; submit $2,500 deposit plus $35 processing fee by posted registration deadline. Full payment due on successful bid (cash, cashier’s check, or money order to Clark County Treasurer per terms). Review county Terms of Sale PDF each cycle.",
+    "taxCollector": {
+      "label": "Clark County Treasurer — Tax Foreclosure Auctions",
+      "url": "https://clark.wa.gov/treasurer/tax-foreclosure-auctions",
+      "phone": "564-397-2252"
+    },
+    "clerkOfCourt": {
+      "label": "Clark County Auditor (recording) / Superior Court",
+      "url": "https://clark.wa.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Clark County Assessor — Property Search",
+      "url": "https://clark.wa.gov/"
+    },
+    "survivingLiens": "Washington tax foreclosure deed clears many junior private liens if process is valid, but federal tax liens and certain statutory interests can survive. Sold as-is with title reports for diligence — still run independent title search.",
+    "quietTitle": "Title companies may require quiet title or extended seasoning after treasurer’s tax deed before insuring free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Clark County Maps Online / Assessor GIS",
+      "url": "https://gis.clark.wa.gov/mapsonline/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Vancouver / waterfront",
+        "why": "Portland-metro adjacent employment and mixed-use redevelopment supporting multifamily demand"
+      },
+      {
+        "name": "Salmon Creek / north Vancouver",
+        "why": "Suburban family demand along I-5 with ongoing single-family absorption"
+      },
+      {
+        "name": "Camas / Washougal edge",
+        "why": "East-county growth with school-driven demand and tighter inventory than west-side stock"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://clark.wa.gov/treasurer/tax-foreclosure-auctions",
+      "https://www.bid4assets.com/ClarkWA",
+      "https://clark.wa.gov/treasurer/overview",
+      "https://gis.clark.wa.gov/mapsonline/"
+    ]
+  },
+  "34031": {
+    "notes": "New Jersey municipal tax-lien system: each of Passaic County's municipalities (Paterson, Passaic, Clifton, Wayne, etc.) runs its own annual tax sale under N.J.S.A. 54:5. City of Passaic example: online sale at passaiccity.newjerseytaxsale.com (Dec 2025 cycle). Buyers receive a tax sale certificate — not a deed. Foreclosure after statutory wait is Superior Court process. Separately, Passaic County Sheriff conducts weekly mortgage foreclosure sales (CivilView) — not tax-deed sales. NJ A5664 community wealth preservation rules can affect sheriff sale bidder eligibility.",
+    "auctionFormat": "Online (most municipalities) / varies by town",
+    "auctionPlatform": {
+      "label": "Municipal tax sales (often RealAuction / newjerseytaxsale.com) — check each city/township",
+      "url": "https://www.tctanj.org/cn/webpage.cfm?tpid=14659"
+    },
+    "auctionFrequency": "Annual per municipality (commonly fall–winter; e.g. City of Passaic electronic sale mid-December cycle)",
+    "depositRules": "Set by each municipal tax collector and platform: pre-register online, follow deposit/premium and same-day payment rules in the sale notice. Record certificate with County Clerk; redeem through the municipal tax collector.",
+    "taxCollector": {
+      "label": "Municipal tax collectors (Passaic County municipalities) — not a single county collector for tax sales",
+      "url": "https://www.passaiccountynj.org/"
+    },
+    "clerkOfCourt": {
+      "label": "Passaic County Clerk (records certificates) / Sheriff Civil (mortgage sales)",
+      "url": "https://www.pcsheriff.org/county_resources/sheriff_s_sales/index.php"
+    },
+    "propertyAppraiser": {
+      "label": "Passaic County Board of Taxation / municipal assessors",
+      "url": "https://www.passaiccountynj.org/residents/board-of-taxation"
+    },
+    "survivingLiens": "Tax sale certificate is a lien senior to most private liens but does not wipe junior interests until foreclosure judgment and deed. Federal tax liens require careful analysis. No possessory rights before foreclosure.",
+    "quietTitle": "Marketable title after tax foreclosure generally requires completed Superior Court foreclosure of the tax certificate.",
+    "gisMap": {
+      "label": "Passaic County / municipal assessment resources",
+      "url": "https://www.passaiccountynj.org/residents/board-of-taxation"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Paterson downtown / Great Falls edge",
+        "why": "Urban revitalization and relatively affordable multifamily stock with transit access to NYC metro"
+      },
+      {
+        "name": "Clifton / Passaic River corridor",
+        "why": "Dense suburban demand between Paterson and Bergen with strong rental liquidity"
+      },
+      {
+        "name": "Wayne / north county suburbs",
+        "why": "School-driven single-family demand with higher price points and tighter inventory"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.cityofpassaic.com/DocumentCenter/View/11541/2025-Tax-Sale-Ad--PDF",
+      "https://www.passaiccountynj.org/residents/board-of-taxation",
+      "https://www.pcsheriff.org/county_resources/sheriff_s_sales/index.php",
+      "https://www.tctanj.org/cn/webpage.cfm?tpid=14659"
+    ]
+  },
+  "34027": {
+    "notes": "New Jersey municipal tax-lien system: each of Morris County's municipalities (Morristown, Morris Twp, Boonton Twp, East Hanover, etc.) runs its own annual tax sale under N.J.S.A. 54:5. Many towns use electronic RealAuction/NewJerseyTaxSale storefronts. Buyers receive a tax sale certificate — not a deed. Foreclosure is a separate Superior Court process (typically after 2 years for third-party holders). Separately, Morris County Sheriff conducts Thursday mortgage foreclosure sales in Morristown — not tax-deed sales.",
+    "auctionFormat": "Online (most municipalities) / varies by town",
+    "auctionPlatform": {
+      "label": "Municipal tax sales (often RealAuction / *.newjerseytaxsale.com) — check each township",
+      "url": "https://www.tctanj.org/cn/webpage.cfm?tpid=14659"
+    },
+    "auctionFrequency": "Annual per municipality (commonly fall; e.g. Morris Twp online sale examples in October cycles)",
+    "depositRules": "Set by each municipal tax collector and platform: pre-register, post deposits if required, pay certificates per town notice (often same-day certified funds/ACH). Record with County Clerk; redemption via municipal collector.",
+    "taxCollector": {
+      "label": "Municipal tax collectors (Morris County municipalities) — not a single county collector for tax sales",
+      "url": "https://www.morriscountynj.gov/"
+    },
+    "clerkOfCourt": {
+      "label": "Morris County Clerk (records certificates) / Sheriff Sales Unit",
+      "url": "https://www.morriscountynj.gov/Departments/Sheriff/Civil-Process/About-Sheriff%E2%80%99s-Sales"
+    },
+    "propertyAppraiser": {
+      "label": "Morris County Board of Taxation / municipal assessors",
+      "url": "https://www.morriscountynj.gov/"
+    },
+    "survivingLiens": "Tax sale certificate is a lien senior to most private liens but does not extinguish junior interests until foreclosure judgment and deed. Federal liens require independent analysis.",
+    "quietTitle": "Marketable title after tax foreclosure generally requires completed Superior Court foreclosure of the tax certificate.",
+    "gisMap": {
+      "label": "Morris County GIS / tax map resources",
+      "url": "https://www.morriscountynj.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Morristown / train station core",
+        "why": "County seat with NYC-commute transit and strong multifamily/office employment demand"
+      },
+      {
+        "name": "Parsippany / Route 10 corridor",
+        "why": "Corporate campus employment supporting workforce housing liquidity"
+      },
+      {
+        "name": "Madison / Chatham edge",
+        "why": "High-demand school suburbs with tight inventory and resilient resale values"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.boontontownship.com/ElectronicTaxSale",
+      "https://www.morriscountynj.gov/Departments/Sheriff/Civil-Process/About-Sheriff%E2%80%99s-Sales",
+      "https://www.tctanj.org/cn/webpage.cfm?tpid=14659",
+      "https://www.realauction.com/"
+    ]
+  },
+  "17089": {
+    "notes": "Illinois tax-lien (scavenger/annual sale) county. Kane County Treasurer holds the annual Real Estate and Mobile Home Tax Sale typically late October (e.g. Oct 27, 2025) at Kane County Government Center, Geneva. Bidding uses R.A.M.S. 2 Randomized Auction Management System: registered buyers submit percentage bids via USB; lowest bid-down penalty rate wins (from 18% statutory max). Certificate is not ownership; redemption through County Clerk; tax deed path after statutory period (2–3 years depending on property type) with further process. Single Bidder Rule (35 ILCS 200/21-205) applies.",
+    "auctionFormat": "In-person registration with electronic R.A.M.S. 2 bid submission",
+    "auctionPlatform": {
+      "label": "Kane County Treasurer — Annual Tax Sale (R.A.M.S. 2)",
+      "url": "https://treasurer.kanecountyil.gov/"
+    },
+    "auctionFrequency": "Annual, typically last Monday of October / late October (registration opens ~September)",
+    "depositRules": "Advance tax-buyer registration required (e.g. Sept 10–Oct 9 window for 2025 sale). Certified-funds deposit required for first-time buyers at check-in (historically $500-class deposits in IL practice — confirm packet). Personally check in 8:30–9:00 a.m. sale day with USB bid file. Contact Treasurer 630-232-3565 for current packet.",
+    "taxCollector": {
+      "label": "Kane County Treasurer",
+      "url": "https://treasurer.kanecountyil.gov/",
+      "phone": "630-232-3565"
+    },
+    "clerkOfCourt": {
+      "label": "Kane County Clerk (tax redemption / certificates)",
+      "url": "https://clerk2.kanecountyil.gov/TaxExtension/Pages/taxRedemption.aspx"
+    },
+    "propertyAppraiser": {
+      "label": "Kane County Supervisor of Assessments",
+      "url": "https://www.kanecountyil.gov/"
+    },
+    "survivingLiens": "Tax lien certificate does not extinguish mortgages or other encumbrances. Federal tax liens, municipal liens, and title defects remain relevant through the deed stage — full search required before bidding and before deed.",
+    "quietTitle": "After tax deed issues, title insurers commonly require quiet title or extended seasoning before insuring marketable title for resale.",
+    "gisMap": {
+      "label": "Kane County GIS / assessment maps",
+      "url": "https://www.kanecountyil.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Aurora / Fox River corridor",
+        "why": "Largest city employment base with ongoing multifamily and starter-home demand"
+      },
+      {
+        "name": "Elgin / Randall Road edge",
+        "why": "Retail and logistics employment supporting workforce housing absorption"
+      },
+      {
+        "name": "St. Charles / Geneva / Batavia (Tri-Cities)",
+        "why": "School-driven Fox Valley suburbs with stronger resale liquidity than outer exurbs"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://treasurer.kanecountyil.gov/Documents/Tax%20Sale%20Buyer%20Application%20Packet.pdf",
+      "https://treasurer.kanecountyil.gov/Documents/TaxSaleInformation.pdf",
+      "https://clerk2.kanecountyil.gov/TaxExtension/Pages/taxRedemption.aspx",
+      "https://www.kanecountyil.gov/"
+    ]
+  },
+  "19153": {
+    "notes": "Iowa tax-lien certificate county. Polk County Treasurer administers the annual tax sale under Iowa Code Ch. 446, typically in June (online via GovEase; 2025 sale June 16). Winning bidders receive tax sale certificates; redemption interest is 2% per month under Iowa law. After statutory wait (~1 year 9 months before deed process), certificate holders may pursue tax sale deed. Unsold parcels and subsequent sales follow county terms PDF each year.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "GovEase — Polk County Annual Tax Sale",
+      "url": "https://www.govease.com"
+    },
+    "auctionFrequency": "Annual in June (online bidding; terms PDF posted each year)",
+    "depositRules": "Register on govease.com per current Polk Tax Sale Terms & Conditions PDF. Platform deposit/ACH rules and payment deadlines are set in the annual terms — review 2026 Terms before bidding. Redemptions and certificate questions: Treasurer 515-286-3060.",
+    "taxCollector": {
+      "label": "Polk County Treasurer — Tax Sale Buyers",
+      "url": "https://www.polkcountyiowa.gov/treasurer/information-for-tax-sale-buyers/",
+      "phone": "515-286-3060"
+    },
+    "clerkOfCourt": {
+      "label": "Polk County Recorder / Clerk of Court",
+      "url": "https://www.polkcountyiowa.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Polk County Assessor",
+      "url": "https://www.assess.co.polk.ia.us/"
+    },
+    "survivingLiens": "Tax sale certificate is not ownership. Mortgages, federal liens, and municipal assessments can remain until a valid tax sale deed issues after the statutory process — full diligence required.",
+    "quietTitle": "After tax sale deed, title insurers commonly require quiet title or extended seasoning before insuring free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Polk County Assessor / GIS parcel search",
+      "url": "https://www.assess.co.polk.ia.us/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Des Moines / East Village",
+        "why": "State capital employment core with multifamily and adaptive-reuse demand into 2026"
+      },
+      {
+        "name": "West Des Moines / Jordan Creek edge",
+        "why": "Suburban employment and retail hub with strong single-family absorption"
+      },
+      {
+        "name": "Ankeny / northern suburbs",
+        "why": "Fast-growing family suburbs with school-driven demand and ongoing new supply"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.polkcountyiowa.gov/treasurer/information-for-tax-sale-buyers/",
+      "https://www.polkcountyiowa.gov/treasurer/news/2025-polk-county-property-tax-sale-is-june-16/",
+      "https://www.govease.com",
+      "https://taxsale.polkcountyiowa.gov/"
+    ]
+  },
+  "04021": {
+    "notes": "Arizona tax-lien county. Pinal County Treasurer holds an annual online tax lien sale each February (e.g. Feb 12, 2026 at pinal.arizonataxsale.com via RealAuction). Liens sold in hourly batches; bidding is bid-down from 16% statutory max interest. Certificate is not ownership or possession; owner may redeem anytime; after 3 years lien holder may foreclose under A.R.S. §42-18201. County also lists some state tax-deeded parcels separately.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Pinal County Arizona Tax Lien Sale (pinal.arizonataxsale.com)",
+      "url": "https://pinal.arizonataxsale.com"
+    },
+    "auctionFrequency": "Annual in February (online batches; registration opens ~2 weeks prior)",
+    "depositRules": "Register and submit initial deposit via Wire or ACH through RealAuction at least one day before the sale. No deposits at Treasurer’s office. All sales final. See Treasurer Tax Lien Sale Information Booklet for batch close times (first group ~8:00 a.m. MST through final ~4:00 p.m.).",
+    "taxCollector": {
+      "label": "Pinal County Treasurer — Tax Lien Sale",
+      "url": "https://treasurer.pinal.gov/ParcelInquiry/Main/TaxLienSale",
+      "phone": "520-866-6400"
+    },
+    "clerkOfCourt": {
+      "label": "Pinal County Recorder / Superior Court Clerk",
+      "url": "https://www.pinal.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Pinal County Assessor — Parcel Inquiry",
+      "url": "https://www.pinal.gov/ParcelInquiry/"
+    },
+    "survivingLiens": "Tax lien certificate is not ownership. On later foreclosure/deed, federal tax liens can survive; HOA, special district, and irrigation-district assessments require parcel-level research in fast-growing desert markets.",
+    "quietTitle": "After judicial foreclosure of the lien and deed, title insurers commonly require quiet title or extended seasoning before insuring marketable title.",
+    "gisMap": {
+      "label": "Pinal County Delinquent Tax Parcel Viewer / Assessor GIS",
+      "url": "https://experience.arcgis.com/experience/ad75946c98f44dc58ccc635553947a27"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "San Tan Valley / Queen Creek edge",
+        "why": "Rapid Phoenix-metro exurban growth with strong single-family absorption into 2026"
+      },
+      {
+        "name": "Casa Grande / I-10 logistics corridor",
+        "why": "Industrial and distribution employment supporting workforce housing demand"
+      },
+      {
+        "name": "Maricopa / Ak-Chin edge",
+        "why": "Southwest-county suburban expansion with relative affordability versus East Valley cores"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://treasurer.pinal.gov/ParcelInquiry/Main/TaxLienSale",
+      "https://treasurer.pinal.gov/",
+      "https://pinal.arizonataxsale.com",
+      "https://treasurer.pinal.gov/TaxLienBooklet.pdf"
+    ]
+  },
+  "47093": {
+    "notes": "Tennessee redeemable-deed tax sale. Knox County Trustee conducts large in-person delinquent tax auctions ordered through court process (Tax Sale 25 scheduled June 2, 2026 — 200+ parcels; Grande Event Center; registration early, bidding ~10:00 a.m.). Clerk and Master historically conducts sales; 1-year statutory redemption at 12% under TN framework. Surplus/county-held stock may later be re-offered online (e.g. Powell Auction) with statutory rebid rights. Properties sold as-is; title insurance often difficult without further clear-title work.",
+    "auctionFormat": "In-person (primary Trustee tax sale) / Online (surplus re-offers)",
+    "auctionPlatform": {
+      "label": "Knox County Trustee Tax Sale (in-person); surplus sometimes via Powell Auction & Realty",
+      "url": "https://trustee.knoxcounty.org/services/tax-sale"
+    },
+    "auctionFrequency": "Periodic court-scheduled sales (large annual-style Trustee sales; Tax Sale 25 June 2, 2026); surplus re-offers as inventory warrants",
+    "depositRules": "Bidders must be current on property taxes (delinquent taxpayers ineligible). Registration day-of with deposit/payment rules per sale notice — arrive early. Confirm certified funds requirements with Trustee before sale day. Surplus online sales use vendor deposit/rebid rules (10% rebid window under T.C.A. 67-5-2507 examples).",
+    "taxCollector": {
+      "label": "Knox County Trustee",
+      "url": "https://trustee.knoxcounty.org/",
+      "phone": "865-215-2305"
+    },
+    "clerkOfCourt": {
+      "label": "Knox County Clerk and Master / Chancery (tax sale process)",
+      "url": "https://www.knoxcounty.org/"
+    },
+    "propertyAppraiser": {
+      "label": "Knox County Property Assessor / KGIS",
+      "url": "https://www.kgis.org/"
+    },
+    "survivingLiens": "Tennessee tax sale is a redeemable deed structure; redemption rights and surviving governmental/federal liens require careful analysis. County materials warn title insurance may not be available at closing — full search essential.",
+    "quietTitle": "Marketable title after redemption period typically requires quiet title or related clear-title litigation before most insurers will insure — budget legal process and time.",
+    "gisMap": {
+      "label": "KGIS Maps — Property Tax Sale Maps",
+      "url": "https://www.kgis.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Knoxville / Old City",
+        "why": "Urban revitalization and UT-adjacent demand supporting multifamily and adaptive-reuse"
+      },
+      {
+        "name": "Farragut / west Knox",
+        "why": "School-driven suburban demand with stronger resale liquidity than east-county stock"
+      },
+      {
+        "name": "Hardin Valley / northwest corridor",
+        "why": "Ongoing residential expansion and employment access with continued absorption into 2026"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://trustee.knoxcounty.org/services/tax-sale",
+      "https://trustee.knoxcounty.org/",
+      "https://www.kgis.org/",
+      "https://www.powellauction.com/events/knoxcountysurplus/"
+    ]
+  },
+  "18089": {
+    "notes": "Indiana tax-lien (certificate) county with dual tracks. (1) Lake County Treasurer Tax Sale: annual online certificate auction via Zeus Auction (2026 sale Sept 4–8; registration July 22–Aug 14; $100 non-refundable paddle fee). (2) Commissioners’ Sale of unsold/county-held certificates (e.g. May 2026 online via Onyx/Zeus with shorter ~120-day redemption examples). After certificate purchase, redemption period and tax deed petition run through Auditor. High volume market (Gary, Hammond, East Chicago inventory).",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Zeus Auction (Treasurer sale) / Onyx Electronics (Commissioners certificate sale)",
+      "url": "https://lakecountyin.gov/departments/auditor-taxsales"
+    },
+    "auctionFrequency": "Treasurer sale annually (2026: Sept 4–8 online); Commissioners sale separately (e.g. May 2026 multi-day online)",
+    "depositRules": "Treasurer 2026: $100 non-refundable paddle/registration fee at zeusauction.com; complete bidder packet and ID per Auditor rules. Commissioners sale: higher deposit examples (~$500–$600 historically) — confirm live packet. Payments due per platform deadlines after sale ends.",
+    "taxCollector": {
+      "label": "Lake County Treasurer / Auditor Tax Sales",
+      "url": "https://lakecountyin.gov/departments/treasurer-taxsaleinfo",
+      "phone": "219-755-3760"
+    },
+    "clerkOfCourt": {
+      "label": "Lake County Auditor (certificates / tax deed path) & Recorder",
+      "url": "https://lakecountyin.gov/departments/auditor-taxsales",
+      "phone": "219-755-3155"
+    },
+    "propertyAppraiser": {
+      "label": "Lake County Assessor (XSoft) / GIS Hub",
+      "url": "https://engage.xsoftinc.com/lake"
+    },
+    "survivingLiens": "Tax sale certificate is not ownership. Mortgages, federal liens, municipal demolition/code liens, and environmental issues are common in older industrial cities — full search required before bidding and before deed.",
+    "quietTitle": "After tax deed, title insurers typically require quiet title before insuring marketable title, especially on vacant or multi-lien urban parcels.",
+    "gisMap": {
+      "label": "Lake County GIS Hub",
+      "url": "https://lakecountyhub-lakeingispro.hub.arcgis.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Hammond / Munster edge",
+        "why": "Chicago-commute northwest Indiana demand with relatively liquid starter-home inventory"
+      },
+      {
+        "name": "Merrillville / Crown Point corridor",
+        "why": "South-county suburban growth and retail employment supporting family housing demand"
+      },
+      {
+        "name": "Hobart / Lake Station edge",
+        "why": "Relative affordability versus Illinois collar counties with ongoing workforce housing needs"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://lakecountyin.gov/news-events/news/2026-lake-county-treasurer-tax-sale",
+      "https://lakecountyin.gov/departments/auditor-taxsales",
+      "https://lakecountyin.gov/departments/treasurer-taxsaleinfo",
+      "https://www.zeusauction.com"
+    ]
+  },
+  "36085": {
+    "notes": "NYC tax lien sale system (not a county tax-deed auction). Richmond County (Staten Island) properties with eligible delinquent property taxes/water/sewer charges have historically been included in the citywide Department of Finance tax lien sale to a private trust — buyers purchase liens, not deeds. SUSPENDED: In March 2026, Mayor Zohran Mamdani announced there will be no 2026 NYC tax lien sale pending a multi-month program review; FY2027 budget proposals have reduced expected lien-sale revenue. Existing sold liens remain; new citywide sale status is paused — monitor NYC DOF. Separate from mortgage foreclosure auctions.",
+    "auctionFormat": "Suspended (NYC citywide tax lien sale — not active for 2026 cycle)",
+    "auctionPlatform": {
+      "label": "NYC Department of Finance Tax Lien Sale (program suspended Mar 2026)",
+      "url": "https://www.nyc.gov/site/finance/taxes/property-lien-sales.page"
+    },
+    "auctionFrequency": "Historically annual citywide lien sale; 2026 sale cancelled/suspended pending administration review",
+    "depositRules": "Not applicable while sale is suspended. If program resumes, DOF trust sale rules (registration, deposit, eligible property classes, and surplus/homeowner protections) would be published in the sale notice — do not rely on prior-year mechanics without the new notice.",
+    "taxCollector": {
+      "label": "NYC Department of Finance (citywide; not a Richmond County tax sale office)",
+      "url": "https://www.nyc.gov/site/finance/index.page"
+    },
+    "clerkOfCourt": {
+      "label": "Richmond County Clerk (property records) / NYC DOF lien administration",
+      "url": "https://www.richmondcountyclerk.com/"
+    },
+    "propertyAppraiser": {
+      "label": "NYC Department of Finance Property Information / ACRIS",
+      "url": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop"
+    },
+    "survivingLiens": "Tax lien purchase is not ownership. Mortgages, federal liens, and other city charges can remain. Lien foreclosure (if pursued by trust/servicer) is a separate process from the initial sale.",
+    "quietTitle": "If a lien proceeds to foreclosure deed, marketable title typically still requires full foreclosure completion and often additional clear-title work before insurance/resale.",
+    "gisMap": {
+      "label": "NYC ZoLa / MapPLUTO parcel resources",
+      "url": "https://zola.planning.nyc.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "St. George / North Shore ferry terminal",
+        "why": "Transit to Manhattan and waterfront redevelopment supporting multifamily demand"
+      },
+      {
+        "name": "New Dorp / Mid-Island commercial corridor",
+        "why": "Established residential demand with relatively liquid single-family stock"
+      },
+      {
+        "name": "Tottenville / South Shore",
+        "why": "Family suburban character with tighter inventory and school-driven demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://gothamist.com/news/mamdani-halts-nycs-predatory-private-tax-lien-sale-process",
+      "https://www.ibo.nyc.gov/content/publications/2026-april-nycs-tax-lien-sale",
+      "https://www.nyc.gov/site/finance/index.page",
+      "https://takerootjustice.org/resources/current-campaign-abolish-the-tax-lien-sale/"
+    ]
+  },
+  "51153": {
+    "notes": "Virginia judicial tax-deed sales via Special Commissioner. Prince William County Tax Administration refers long-delinquent accounts (typically after Dec 31 of second anniversary of delinquency; sooner for blight/nuisance/low-value) to Taxing Authority Consulting Services (TACS) for Circuit Court foreclosure and public auction. Auctions may be in-person/simulcast (Dr. A.J. Ferlazzo Building, Woodbridge) or online-only (e.g. bidding closing July 13, 2026 cycle). Judicial sale generally conveys free and clear of liens including taxes when court-confirmed; non-judicial sales for limited parcel types use special warranty deeds.",
+    "auctionFormat": "Online and/or simulcast in-person (varies by sale notice)",
+    "auctionPlatform": {
+      "label": "TACS / Dudley Resources auctions for Prince William County tax sales",
+      "url": "https://taxva.com/rs-tax-sales/prince-william-county-real-estate-tax-sales/"
+    },
+    "auctionFrequency": "Periodic as decrees of sale issue (multiple times per year; online non-judicial and judicial special commissioner sales posted on taxva.com)",
+    "depositRules": "Terms vary by sale notice: typically register with auctioneer for online bidding; day-of deposit percentage of bid in certified funds for in-person; court confirmation required before deed on judicial sales. Bidders may not owe delinquent taxes to Prince William County. Review each sale’s general terms package.",
+    "taxCollector": {
+      "label": "Prince William County Tax Administration — Delinquent Tax Collections",
+      "url": "https://www.pwcva.gov/department/tax-administration/tax-enforcement-delinquent-tax-collections"
+    },
+    "clerkOfCourt": {
+      "label": "Prince William County Circuit Court Clerk",
+      "url": "https://www.pwcva.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Prince William County Real Estate Assessments",
+      "url": "https://www.pwcva.gov/"
+    },
+    "survivingLiens": "Judicial Special Commissioner sales are generally conveyed free and clear of liens including taxes after court approval. Non-judicial sales and federal liens require careful reading of that sale’s terms. Always verify with title counsel.",
+    "quietTitle": "Court confirmation is part of the judicial path; insurers may still require post-sale quiet title or extended coverage depending on notice quality and parcel type.",
+    "gisMap": {
+      "label": "Prince William County GIS / property mapper",
+      "url": "https://gisweb.pwcgov.org/webapps/CountyMapper/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Woodbridge / Potomac Mills edge",
+        "why": "Dense population center with retail employment and multifamily demand"
+      },
+      {
+        "name": "Gainesville / Haymarket corridor",
+        "why": "I-66 west growth with ongoing single-family absorption into 2026"
+      },
+      {
+        "name": "Dale City / Neabsco",
+        "why": "Established suburban workforce housing with relative liquidity versus western exurbs"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.pwcva.gov/department/tax-administration/tax-enforcement-delinquent-tax-collections",
+      "https://www.pwcva.gov/department/office-county-attorney/foreclosure-auction-list",
+      "https://taxva.com/rs-tax-sales/prince-william-county-real-estate-tax-sales/",
+      "https://www.pwcva.gov/assets/2022-07/TAX%20SALE%20FAQ_0.pdf"
+    ]
+  },
+  "12117": {
+    "notes": "Florida hybrid: (1) Tax Collector sells tax certificates annually online via LienHub (bid-down from 18%) when taxes unpaid by June 1; (2) after ~2 years, certificate holders may apply for tax deed; Clerk of Circuit Court auctions deeds online via RealAuction (seminole.realtaxdeed.com). Certificate is a lien only; deed sale is ownership path. County-held certificates also available.",
+    "auctionFormat": "Online (certificates on LienHub; deeds on RealAuction)",
+    "auctionPlatform": {
+      "label": "LienHub (tax certificates) / RealAuction seminole.realtaxdeed.com (tax deeds)",
+      "url": "https://lienhub.com/county/seminole"
+    },
+    "auctionFrequency": "Certificate sale: annual late spring (on/before June 1 cycle). Tax deed sales: throughout the year on Clerk calendar",
+    "depositRules": "Certificates: register on LienHub; follow platform deposit/ACH rules for awarded certificates. Deeds: register on RealAuction; advance deposit required to bid; ACH deposits need several business days to clear — confirm Clerk/RealAuction FAQ (877-361-7325).",
+    "taxCollector": {
+      "label": "Seminole County Tax Collector — Delinquent Taxes / Certificates",
+      "url": "https://seminolecounty.tax/services/property-taxes/delinquent-taxes/"
+    },
+    "clerkOfCourt": {
+      "label": "Seminole County Clerk of the Circuit Court — Tax Deed Sales",
+      "url": "https://www.seminoleclerk.org/tax-deed-sales/",
+      "phone": "407-665-4300"
+    },
+    "propertyAppraiser": {
+      "label": "Seminole County Property Appraiser",
+      "url": "https://www.scpafl.org/"
+    },
+    "survivingLiens": "A Florida tax deed extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal) or IRS liens (120-day federal redemption right) — run a lien search with county/city before bidding.",
+    "quietTitle": "Not always legally mandatory, but title companies commonly require quiet title or similar clear-title action after tax deed before insuring free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Seminole County Property Appraiser maps",
+      "url": "https://www.scpafl.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Lake Mary / Heathrow corridor",
+        "why": "Corporate campus employment along I-4 with strong multifamily and single-family demand"
+      },
+      {
+        "name": "Oviedo / University edge",
+        "why": "East-county growth and UCF-adjacent demand supporting absorption into 2026"
+      },
+      {
+        "name": "Sanford / historic downtown edge",
+        "why": "Relatively affordable urban-core inventory with SunRail access versus south-county price points"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://seminolecounty.tax/services/property-taxes/delinquent-taxes/",
+      "https://lienhub.com/county/seminole",
+      "https://www.seminoleclerk.org/tax-deed-sales/",
+      "https://seminole.realtaxdeed.com/"
+    ]
+  },
+  "06097": {
+    "notes": "California tax-deed county. Sonoma County Auditor-Controller-Treasurer-Tax Collector auctions tax-defaulted property (typically 5+ years unpaid) online via Bid4Assets (bid4assets.com/Sonoma). November 2025 auction: Nov 7–10 online; $5,000 deposit + $35 processing fee via Bid4Assets; final settlement ~Nov 13. Sold AS-IS, buyer beware, all sales final. Redemption rights end per R&T Code timing before sale. Excess proceeds claims available to parties of interest.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Bid4Assets — Sonoma County Tax Defaulted Properties",
+      "url": "https://www.bid4assets.com/Sonoma"
+    },
+    "auctionFrequency": "Periodic (often multi-year cycles; Nov 2025 auction held — next date when inventory approved by BOS)",
+    "depositRules": "Single $5,000 bid deposit plus $35 processing fee to Bid4Assets by deadline (wire or certified check). Final payment/settlement due to Bid4Assets by posted deadline after close. County does not register bidders or accept bids directly.",
+    "taxCollector": {
+      "label": "Sonoma County ACTTC — Tax-Defaulted Property Auctions",
+      "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/auditor-controller-treasurer-tax-collector/divisions/revenue-accounting/tax-defaulted-property-auctions"
+    },
+    "clerkOfCourt": {
+      "label": "Sonoma County Clerk-Recorder-Assessor",
+      "url": "https://sonomacounty.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Sonoma County Clerk-Recorder-Assessor — Property Search",
+      "url": "https://sonomacounty.gov/"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (IRS 120-day post-sale redemption right), as do taxes/assessments that become payable after the sale. Verify R&T Code §3712 exceptions parcel-by-parcel.",
+    "quietTitle": "Title companies often require quiet title or extended seasoning after tax deed before insuring marketable title for resale.",
+    "gisMap": {
+      "label": "Sonoma County GIS / Assessor parcel maps",
+      "url": "https://sonomacounty.ca.gov/CRA/Assessor/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Santa Rosa / downtown & Coddingtown edge",
+        "why": "County employment core with ongoing rebuild and multifamily demand post-wildfire recovery"
+      },
+      {
+        "name": "Petaluma / southern corridor",
+        "why": "Bay Area–adjacent demand with strong resale liquidity versus northern Sonoma towns"
+      },
+      {
+        "name": "Windsor / north county",
+        "why": "Suburban family market with relative affordability versus wine-country prestige inventory"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://sonomacounty.gov/administrative-support-and-fiscal-services/auditor-controller-treasurer-tax-collector/divisions/revenue-accounting/tax-defaulted-property-auctions",
+      "https://sonomacounty.gov/administrative-support-and-fiscal-services/auditor-controller-treasurer-tax-collector/divisions/revenue-accounting/tax-defaulted-property-auctions/auction-2025-11",
+      "https://www.bid4assets.com/Sonoma",
+      "https://www.sco.ca.gov/ardtax_public_auction.html"
+    ]
+  },
+  "06107": {
+    "notes": "California tax-deed county. Tulare County Treasurer-Tax Collector conducts internet auctions of tax-defaulted property under R&T Code §3691. 2026 primary auction March 3, 2026 at 10:00 a.m. on GovEase.com (BOS Resolution 2025-1040); unsold parcels re-offered May 19, 2026. Redemption ceases day before re-offer (May 18, 2026 5:00 p.m. for that cycle). Excess proceeds notice process for parties of interest. Prior cycles also used Bid4Assets — confirm live vendor each year.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "GovEase — Tulare County Tax Auction (confirm vendor each cycle)",
+      "url": "https://www.govease.com"
+    },
+    "auctionFrequency": "Periodic; 2026 auction March 3 with re-offer May 19 if needed",
+    "depositRules": "Register on GovEase per sale notice; deposit, ACH/wire, and final payment deadlines are platform-specific — review Tulare Tax Auction page and GovEase terms before bidding. Contact Tax Collector 559-636-5270.",
+    "taxCollector": {
+      "label": "Tulare County Treasurer-Tax Collector — Tax Auction",
+      "url": "https://tularecounty.ca.gov/treasurertaxcollector/tax-collector/tax-auction",
+      "phone": "559-636-5270"
+    },
+    "clerkOfCourt": {
+      "label": "Tulare County Clerk-Recorder",
+      "url": "https://tularecounty.ca.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Tulare County Assessor",
+      "url": "https://tularecounty.ca.gov/"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (IRS 120-day post-sale redemption right), as do taxes/assessments payable after the sale. Agricultural assessments and irrigation district liens warrant parcel-level review in Tulare.",
+    "quietTitle": "Title companies often require quiet title or extended seasoning after tax deed before insuring marketable title for resale.",
+    "gisMap": {
+      "label": "Tulare County Assessor / GIS parcel resources",
+      "url": "https://tularecounty.ca.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Visalia central / Caldwell corridor",
+        "why": "County seat employment and healthcare demand supporting multifamily and starter-home liquidity"
+      },
+      {
+        "name": "Tulare city / south county",
+        "why": "Agribusiness employment with relatively affordable housing stock versus Visalia core"
+      },
+      {
+        "name": "Porterville / southeast edge",
+        "why": "Regional service center with workforce housing demand and limited new supply"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://tularecounty.ca.gov/treasurertaxcollector/tax-collector/tax-auction",
+      "https://tularecounty.ca.gov/auditor/2026-tax-auction",
+      "https://www.govease.com",
+      "https://tularecounty.ca.gov/treasurertaxcollector/tax-collector"
+    ]
+  },
+  "12115": {
+    "notes": "Florida hybrid: (1) Tax Collector annual tax certificate sale online on LienHub (bid-down from 18%; no deposit historically for certificate sale — pay all awarded certificates); county-held certificates at 18% available after sale. (2) After ~2 years from delinquency, certificate holder may apply for tax deed (RealTDA); Clerk auctions deeds online Monday–Friday from 9:00 a.m. at sarasota.realtaxdeed.com. Homestead can raise opening bid by ½ assessed value. Tax deed is not a warranty deed.",
+    "auctionFormat": "Online (certificates on LienHub; deeds on RealAuction)",
+    "auctionPlatform": {
+      "label": "LienHub (tax certificates) / RealAuction sarasota.realtaxdeed.com (tax deeds)",
+      "url": "https://sarasota.realtaxdeed.com/"
+    },
+    "auctionFrequency": "Certificate sale: annual late spring. Tax deed auctions: online Mon–Fri excluding holidays, 9:00 a.m. EST/EDT",
+    "depositRules": "Certificates: pre-register on LienHub; no deposit historically but must pay all awarded certificates. Deeds: register on RealAuction; ACH deposit must clear before sale (plan several business days); balance due per Clerk rules after winning bid.",
+    "taxCollector": {
+      "label": "Sarasota County Tax Collector — Tax Certificate / Tax Deed",
+      "url": "https://www.sarasotataxcollector.gov/services/tax-services/property-tax/tax-cert-sale"
+    },
+    "clerkOfCourt": {
+      "label": "Sarasota Clerk of the Circuit Court — Tax Deed Auctions",
+      "url": "https://www.sarasotaclerk.com/Home-and-Property/Tax-Deeds/Tax-Deed-Auctions",
+      "phone": "941-861-7400"
+    },
+    "propertyAppraiser": {
+      "label": "Sarasota County Property Appraiser",
+      "url": "https://www.sc-pa.com/"
+    },
+    "survivingLiens": "A Florida tax deed extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal) or IRS liens (120-day federal redemption right) — run a lien search before bidding.",
+    "quietTitle": "Not always legally mandatory, but title companies commonly require quiet title after tax deed before insuring free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Sarasota County Property Appraiser maps",
+      "url": "https://www.sc-pa.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Sarasota / Rosemary District",
+        "why": "Coastal urban core with strong multifamily and second-home adjacent demand"
+      },
+      {
+        "name": "Lakewood Ranch / east corridor",
+        "why": "Master-planned growth engine with ongoing single-family absorption into 2026"
+      },
+      {
+        "name": "Venice / south county",
+        "why": "Retirement and family demand with relatively liquid inventory versus barrier-island price points"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.sarasotataxcollector.gov/services/tax-services/property-tax/tax-cert-sale",
+      "https://www.sarasotataxcollector.gov/services/tax-services/property-tax/tax-deed",
+      "https://www.sarasotaclerk.com/Home-and-Property/Tax-Deeds/Tax-Deed-Auctions",
+      "https://sarasota.realtaxdeed.com/",
+      "https://lienhub.com/county/sarasota"
+    ]
+  },
+  "34005": {
+    "notes": "New Jersey municipal tax-lien system: each of Burlington County's 40 municipalities runs its own annual tax sale under N.J.S.A. 54:5 (e.g. Burlington Twp Nov 2025 cycle; Willingboro and Eastampton publish local notices). Buyers receive a tax sale certificate — not a deed. Bid-down from 18% interest. Foreclosure after statutory wait is Superior Court process. Separately, Burlington County Sheriff runs mortgage foreclosure sales via CivilView — not tax-deed sales.",
+    "auctionFormat": "Online or in-person (varies by municipality)",
+    "auctionPlatform": {
+      "label": "Municipal tax sales (often RealAuction / newjerseytaxsale.com or in-person) — check each township",
+      "url": "https://www.tctanj.org/cn/webpage.cfm?tpid=14659"
+    },
+    "auctionFrequency": "Annual per municipality (commonly fall–winter; dates vary by town)",
+    "depositRules": "Set by each municipal tax collector: often immediate payment of certificate face at sale close (certified funds/ACH per local rules). Record certificate with Burlington County Clerk within 90 days. Redemption figures from municipal collector.",
+    "taxCollector": {
+      "label": "Municipal tax collectors (Burlington County municipalities) — not a single county collector for tax sales",
+      "url": "https://www.burlingtoncountynj.gov/"
+    },
+    "clerkOfCourt": {
+      "label": "Burlington County Clerk (records certificates / PRESS search)",
+      "url": "https://press.co.burlington.nj.us/press/clerk/ClerkHome.aspx?op=basic"
+    },
+    "propertyAppraiser": {
+      "label": "Burlington County Board of Taxation / municipal assessors",
+      "url": "https://www.burlingtoncountynj.gov/323/Board-Of-Taxation"
+    },
+    "survivingLiens": "Tax sale certificate is a lien senior to most private liens but does not wipe junior interests until foreclosure judgment and deed. Federal tax liens require careful title analysis.",
+    "quietTitle": "Marketable title after tax foreclosure generally requires completed Superior Court foreclosure of the tax certificate.",
+    "gisMap": {
+      "label": "Burlington County GIS / Board of Taxation resources",
+      "url": "https://www.burlingtoncountynj.gov/323/Board-Of-Taxation"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Mount Laurel / Moorestown corridor",
+        "why": "Established suburban employment and school-driven demand with strong resale liquidity"
+      },
+      {
+        "name": "Bordentown / Florence edge",
+        "why": "Turnpike/logistics access supporting workforce housing absorption"
+      },
+      {
+        "name": "Medford / east county",
+        "why": "Higher-end residential demand with tighter inventory than western river towns"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://twp.burlington.nj.us/tax-office",
+      "https://www.willingboronj.gov/departments/tax-collection-office/tax-sale-information",
+      "https://www.burlingtoncountynj.gov/323/Board-Of-Taxation",
+      "https://www.tctanj.org/cn/webpage.cfm?tpid=14659",
+      "https://press.co.burlington.nj.us/press/clerk/ClerkHome.aspx?op=basic"
+    ]
+  },
+  "36067": {
+    "notes": "New York county tax-deed (foreclosure) auction. Onondaga County Real Property Tax Services holds an annual online tax foreclosure auction (recently via Absolute Auction & Realty; multi-day October windows — e.g. Oct 2025 sessions). Properties already through foreclosure process; sold as-is. Post-Tyler (Tyler v. Hennepin), surplus beyond taxes must be available to former owners — county practice adjusted after 2024. Bidders cannot owe Onondaga County property taxes. Payment rules tier by bid size (full payment at close under $10k historically).",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Absolute Auction & Realty — Onondaga County Tax Foreclosure (confirm vendor each year)",
+      "url": "https://onondaga.gov/rpts/auction/"
+    },
+    "auctionFrequency": "Annual, typically October online multi-day auction (list posted ~September)",
+    "depositRules": "Register with the auction vendor; payment tiers per Terms of Sale (historically full pay at close for bids under $10,000; larger bids follow deposit/schedule in terms). Confirm current Terms PDF on onondaga.gov/rpts/auction before bidding.",
+    "taxCollector": {
+      "label": "Onondaga County Finance / Real Property Tax Services",
+      "url": "https://onondaga.gov/rpts/",
+      "phone": "315-435-2426"
+    },
+    "clerkOfCourt": {
+      "label": "Onondaga County Clerk",
+      "url": "https://onondaga.gov/clerk/"
+    },
+    "propertyAppraiser": {
+      "label": "Onondaga County RPTS / Beacon property search",
+      "url": "https://beacon.schneidercorp.com/Application.aspx?App=OnondagaCountyNY&PageType=Search"
+    },
+    "survivingLiens": "County tax foreclosure deed generally clears junior private liens if process is valid, but federal tax liens and certain statutory interests can survive. Sold as-is; environmental and occupancy issues common on vacant stock.",
+    "quietTitle": "Title insurers often require quiet title or extended seasoning after tax foreclosure deed before insuring marketable title for resale.",
+    "gisMap": {
+      "label": "Onondaga County Beacon / GIS parcel search",
+      "url": "https://beacon.schneidercorp.com/Application.aspx?App=OnondagaCountyNY&PageType=Search"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Syracuse / Armory Square",
+        "why": "Urban employment and university-adjacent demand supporting multifamily absorption"
+      },
+      {
+        "name": "Clay / Cicero northern suburbs",
+        "why": "Suburban family demand with relatively liquid single-family inventory"
+      },
+      {
+        "name": "Manlius / eastern suburbs",
+        "why": "School-driven demand corridor with stronger resale liquidity than city core"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://onondaga.gov/rpts/auction/",
+      "https://onondaga.gov/rpts/",
+      "https://aarauctions.com/",
+      "https://beacon.schneidercorp.com/Application.aspx?App=OnondagaCountyNY&PageType=Search"
+    ]
+  },
+  "12097": {
+    "notes": "Florida hybrid: Tax Collector sells certificates; after ~2 years certificate holders apply for tax deed; Osceola Clerk of Circuit Court & Comptroller auctions deeds online at osceola.realtaxdeed.com. Deposit with Clerk required by 3:00 p.m. day before sale (ACH needs ~4 business days to settle). High-growth county (Kissimmee, St. Cloud, theme-park edge) with active deed calendars year-round.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Osceola County Tax Deed Sales (osceola.realtaxdeed.com)",
+      "url": "https://www.osceola.realtaxdeed.com/"
+    },
+    "auctionFrequency": "Tax deed sales throughout the year on Clerk calendar; certificate sale annual late spring via Tax Collector platform",
+    "depositRules": "Register at osceola.realtaxdeed.com; submit required deposit to Clerk by 3:00 p.m. day prior to sale. ACH deposits must be initiated at least ~4 business days before auction. RealAuction support: 877-361-7325.",
+    "taxCollector": {
+      "label": "Osceola County Tax Collector — Tax Certificates",
+      "url": "https://osceolataxcollector.org/tax-certificate-information/"
+    },
+    "clerkOfCourt": {
+      "label": "Osceola Clerk of the Circuit Court — Tax Deed Records & Sales",
+      "url": "https://osceolaclerk.com/tax-deeds/",
+      "phone": "407-742-3500"
+    },
+    "propertyAppraiser": {
+      "label": "Osceola County Property Appraiser",
+      "url": "https://www.property-appraiser.org/"
+    },
+    "survivingLiens": "A Florida tax deed extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal) or IRS liens (120-day federal redemption right) — run a lien search before bidding.",
+    "quietTitle": "Not always legally mandatory, but title companies commonly require quiet title after tax deed before insuring free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Osceola County Property Appraiser maps",
+      "url": "https://www.property-appraiser.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Kissimmee / US-192 tourism corridor",
+        "why": "Theme-park employment and short-term rental adjacency supporting multifamily and workforce housing demand"
+      },
+      {
+        "name": "St. Cloud / eastern growth",
+        "why": "Fast-growing family suburbs with ongoing single-family absorption into 2026"
+      },
+      {
+        "name": "NeoCity / Celebration edge",
+        "why": "Tech/innovation district and master-planned adjacency with tighter inventory than older Kissimmee stock"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://osceolaclerk.com/tax-deeds/",
+      "https://www.osceola.realtaxdeed.com/",
+      "https://osceolataxcollector.org/tax-certificate-information/",
+      "https://www.property-appraiser.org/"
+    ]
+  },
+  "25013": {
+    "notes": "Massachusetts tax titles are MUNICIPAL, not county-run. Hampden County cities/towns (Springfield, Westfield, Chicopee, Holyoke, etc.) each run their own tax taking/sale or assignment under M.G.L. c. 60. City of Springfield maintains tax title lists and has used public auctions for collector’s deeds/assignments; Land Court foreclosure of the right of redemption is the path to marketable title. Always research the specific municipality. Post-Tyler excess-proceeds scrutiny is active statewide.",
+    "auctionFormat": "Varies by municipality (in-person or online public auction / tax title assignment)",
+    "auctionPlatform": {
+      "label": "Municipal treasurer/collector (example: City of Springfield Finance — Tax Liens)",
+      "url": "https://www.springfield-ma.gov/finance/tax-liens"
+    },
+    "auctionFrequency": "Periodically, as each city/town schedules tax sales, assignment auctions, or post–Land Court possession auctions",
+    "depositRules": "Set by each municipality’s tax collector/treasurer for that sale notice — no single county rule. Confirm deposit, certified funds, and registration with the specific city/town (Springfield Treasurer 36 Court Street for tax title payments).",
+    "taxCollector": {
+      "label": "City/town Treasurer-Collector (Hampden County has no county tax-sale office)",
+      "url": "https://www.mass.gov/info-details/tax-lien-foreclosure-informational-outline"
+    },
+    "clerkOfCourt": {
+      "label": "Hampden County Registry of Deeds + Massachusetts Land Court for foreclosure",
+      "url": "https://www.mass.gov/orgs/land-court"
+    },
+    "propertyAppraiser": {
+      "label": "Municipal assessor for the specific city/town (no single county appraiser)",
+      "url": "https://www.mass.gov/info-details/tax-lien-foreclosure-informational-outline"
+    },
+    "survivingLiens": "Tax title / Land Court foreclosure process. Federal liens and some municipal betterments can survive. Verify water/sewer and local betterment liens with the municipality before bidding.",
+    "quietTitle": "Land Court foreclosure of the right of redemption is the standard path to marketable title after a tax taking/sale — that proceeding is effectively required, not optional.",
+    "gisMap": {
+      "label": "Municipal assessor / parcel maps (Springfield as largest-city example)",
+      "url": "https://www.springfield-ma.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown Springfield / Metro Center",
+        "why": "Regional employment and casino-adjacent revitalization supporting urban-core demand"
+      },
+      {
+        "name": "West Springfield / Riverdale corridor",
+        "why": "Retail employment and relatively liquid suburban inventory versus city core"
+      },
+      {
+        "name": "Longmeadow / East Longmeadow edge",
+        "why": "School-driven residential demand with stronger resale liquidity than older mill-city stock"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.springfield-ma.gov/finance/tax-liens",
+      "https://www.mass.gov/info-details/tax-lien-foreclosure-informational-outline",
+      "https://www.mass.gov/orgs/land-court",
+      "https://www.cityofwestfield.org/699/Tax-Title",
+      "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter60"
+    ]
+  },
+  "12081": {
+    "notes": "Florida hybrid: (1) Manatee Tax Collector annual tax certificate sale on unpaid real estate taxes on/before June 1 (online platform; county-held certificates available after sale); (2) after ~2 years from delinquency, certificate holder may apply for tax deed; Clerk auctions deeds online at manatee.realforeclose.com. Application requires paying all outstanding certificates plus fees (application, title search, Clerk fee). Opening bid = taxes/fees/interest invested; public sale advertised 4 consecutive weeks.",
+    "auctionFormat": "Online (certificates via Tax Collector platform; deeds on RealAuction/RealForeclose)",
+    "auctionPlatform": {
+      "label": "Manatee Tax Collector certificate sale / manatee.realforeclose.com tax deeds",
+      "url": "https://www.manatee.realforeclose.com/"
+    },
+    "auctionFrequency": "Certificate sale: annual late spring. Tax deed sales: throughout the year on Clerk RealForeclose calendar",
+    "depositRules": "Deeds: register on manatee.realforeclose.com; ACH deposits must be made ~4–5 business days before sale; Clerk will not accept deposits within one hour of sale. Certificates: follow Tax Collector annual sale registration/payment rules (2026 calendar of events posted). Contact Tax Collector 941-741-4800 area resources.",
+    "taxCollector": {
+      "label": "Manatee County Tax Collector — Tax Certificates",
+      "url": "https://www.taxcollector.com/services/property-tax/tax-certs.cfm"
+    },
+    "clerkOfCourt": {
+      "label": "Manatee County Clerk of the Circuit Court — Tax Deeds",
+      "url": "https://www.manateeclerk.com/departments/tax-deeds/",
+      "phone": "941-741-4058"
+    },
+    "propertyAppraiser": {
+      "label": "Manatee County Property Appraiser",
+      "url": "https://www.manateepao.gov/"
+    },
+    "survivingLiens": "A Florida tax deed extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal) or IRS liens (120-day federal redemption right) — run a lien search before bidding.",
+    "quietTitle": "Not always legally mandatory, but title companies commonly require quiet title after tax deed before insuring free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Manatee County Property Appraiser maps",
+      "url": "https://www.manateepao.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Lakewood Ranch / east Manatee",
+        "why": "Major master-planned growth engine spanning Manatee/Sarasota with strong absorption into 2026"
+      },
+      {
+        "name": "Bradenton / downtown riverfront",
+        "why": "County seat revitalization and waterfront multifamily demand"
+      },
+      {
+        "name": "Parrish / northeast corridor",
+        "why": "Rapid single-family expansion with relative affordability versus coastal barrier islands"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.manateeclerk.com/departments/tax-deeds/",
+      "https://www.manatee.realforeclose.com/",
+      "https://www.taxcollector.com/services/property-tax/tax-certs.cfm",
+      "https://helpcenter.taxcollector.com/hc/en-us/articles/27682332956429-Tax-Certificates-Tax-Deeds",
+      "https://www.manateepao.gov/"
+    ]
+  }
+}

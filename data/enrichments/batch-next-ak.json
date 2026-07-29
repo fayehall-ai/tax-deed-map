@@ -1,0 +1,1402 @@
+{
+  "28067": {
+    "notes": "Mississippi tax-sale (certificate-to-deed) county. Jones County (Laurel / Ellisville / Pine Belt) Tax Assessor-Collector conducts the annual delinquent land sale under Miss. Code Ann. § 27-41; peer MS counties use GovEase online premium-bid auctions beginning the last Monday in August (2026 statewide fall windows commonly open ~Aug 31). Buyer receives tax-sale interest, not free-and-clear fee title; 2-year redemption at 1.5% per month on the face amount, then tax-deed path via Chancery Clerk. Confirm current Jones platform, registration open date, and parcel list with the Tax Collector (Laurel) and GovEase before funding. Overbids often earn no interest on redemption — read MS/GovEase rules carefully. Title is frequently litigated in Mississippi — verify notice quality.",
+    "auctionFormat": "Online (GovEase tax sale — confirm current Jones storefront)",
+    "auctionPlatform": {
+      "label": "GovEase — Jones County MS tax sale (confirm with Tax Collector)",
+      "url": "https://www.govease.com/",
+      "phone": "769-208-5050"
+    },
+    "auctionFrequency": "Annually late August pattern (last Monday in August class statewide); multi-day until sold — confirm 2026 Jones start date",
+    "depositRules": "Register on GovEase before sale; follow platform deposit and payment rules (full payment windows are short). Certificate/interest only until redemption expires and deed issues through Chancery. Research parcels via Chancery land records before bidding. Confirm any county-specific fees with Jones Tax Collector.",
+    "taxCollector": {
+      "label": "Jones County Tax Assessor-Collector",
+      "url": "https://tscmaps.com/cnty/jones-ms/",
+      "phone": "601-649-1636"
+    },
+    "clerkOfCourt": {
+      "label": "Jones County Chancery Clerk (land records / tax deeds)",
+      "url": "https://www.jonescountyms.org/"
+    },
+    "propertyAppraiser": {
+      "label": "Jones County Tax Assessor — parcel / tax research",
+      "url": "https://tscmaps.com/cnty/jones-ms/",
+      "phone": "601-649-1636"
+    },
+    "survivingLiens": "After the tax deed matures post-redemption, most private liens are cut off; federal liens can survive. Title is frequently litigated — verify notice quality and Chancery abstract carefully.",
+    "quietTitle": "Very commonly required in Mississippi for marketable/insurable tax title before resale.",
+    "gisMap": {
+      "label": "Jones County parcel / assessor mapping (Tri-State)",
+      "url": "https://tscmaps.com/cnty/jones-ms/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Laurel city / downtown–hospital edge",
+        "why": "County-seat medical, retail, and government jobs with more liquid SF than rural townships"
+      },
+      {
+        "name": "Ellisville / JCJC campus corridor",
+        "why": "Community-college employment and rental demand with US-11/I-59 access"
+      },
+      {
+        "name": "North Laurel / Moselle fringe",
+        "why": "Entry-priced SF and land with local industrial and timber employment"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://tscmaps.com/cnty/jones-ms/",
+      "https://www.govease.com/",
+      "https://www.govease.com/tax-sale-property-auctions"
+    ]
+  },
+  "42025": {
+    "notes": "Pennsylvania tax-deed county under the Real Estate Tax Sale Law (RETSL). Carbon County Tax Claim Bureau (Jim Thorpe) runs Upset Sale, Judicial Sale, and Repository Sale tracks — not lien certificates. Upset is the first offering after ~2 years delinquency; mortgages and many private liens typically survive Upset. Judicial Sale (historically following-year November class) is designed to sell free and clear of most private liens when notice is proper. No post-Upset statutory owner redemption; objections to confirmation nisi run on a short court clock. Contact Tax Claim Bureau 570-325-3635 / carbontaxclaim@carboncounty.net. Poconos / Jim Thorpe–Lehighton–Palmerton market — HOA/POA, septic, and flood DD essential.",
+    "auctionFormat": "In-person (Tax Claim Bureau Upset / Judicial / Repository auctions)",
+    "auctionPlatform": {
+      "label": "Carbon County Tax Claim Bureau — Upset / Judicial / Repository Sales",
+      "url": "https://www.carboncountypa.gov/services/tax_claim_bureau/index.php",
+      "phone": "570-325-3635"
+    },
+    "auctionFrequency": "Annual Upset (typically September class statewide); Judicial and Repository on published schedules — confirm current year dates with Bureau",
+    "depositRules": "Pre-register per Tax Claim Bureau packet and Act 33 bidder-affidavit rules before sale day. Payment is typically cash or certified funds the day of sale for the winning bid; confirm exact terms in the current Upset/Judicial Q&A PDFs on the Bureau site. Sold AS IS — Upset buyers take subject to many existing liens.",
+    "taxCollector": {
+      "label": "Carbon County Tax Claim Bureau",
+      "url": "https://www.carboncountypa.gov/services/tax_claim_bureau/index.php",
+      "phone": "570-325-3635"
+    },
+    "clerkOfCourt": {
+      "label": "Carbon County Prothonotary / Recorder of Deeds",
+      "url": "https://www.carboncountypa.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Carbon County Assessment / parcel research",
+      "url": "https://www.carboncountypa.gov/"
+    },
+    "survivingLiens": "Upset Sale: buyer generally takes subject to mortgages and many private liens. Judicial Sale: most private liens can be cut off if parties are properly noticed. Federal tax liens and some municipal claims can survive. Full title search mandatory before bid.",
+    "quietTitle": "Often required for title insurance after Upset; Judicial deed is stronger but insurers may still want quiet title or extended review.",
+    "gisMap": {
+      "label": "Carbon County GIS / assessment parcel resources",
+      "url": "https://www.carboncountypa.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Jim Thorpe / Lehigh Gorge tourism core",
+        "why": "County-seat tourism and second-home demand with stronger SF turnover than outer townships"
+      },
+      {
+        "name": "Lehighton–Weissport / US-209 corridor",
+        "why": "Local retail and workforce housing with highway access toward Allentown"
+      },
+      {
+        "name": "Palmerton–Bowmanstown / Blue Mountain fringe",
+        "why": "Entry-priced SF; underwrite environmental legacy and flood risk carefully"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.carboncountypa.gov/services/tax_claim_bureau/index.php",
+      "https://www.carboncountypa.gov/services/tax_claim_bureau/Document%20Center/Service/Tax%20Claim%20Bureau/2024/Upset%20Tax%20Sale%20Questions%20&%20Answers%20(Updated%205-2024)update.pdf",
+      "https://www.carboncountypa.gov/"
+    ]
+  },
+  "01127": {
+    "notes": "Alabama tax-lien certificate county (not a deed sale). Walker County Revenue Commission sells unpaid ad valorem tax liens online via GovEase under Ala. Code Title 40 Ch. 10 Art. 7. Tax Lien Auction is held online on the first Monday in May each year (2025 Tax Lien Auction held May 4, 2026 at 8:30 a.m. on GovEase). Registration opens 30 days prior and must be completed by 4:00 p.m. CST the Friday before auction. Bidding is lowest interest rate starting at statutory maximum (12% class). Jasper / Walker County coal-basin market — underwrite mining legacy, flood, and occupancy carefully.",
+    "auctionFormat": "Online (GovEase tax lien certificate auction)",
+    "auctionPlatform": {
+      "label": "GovEase — Walker County tax lien auction",
+      "url": "https://www.govease.com/",
+      "phone": "769-208-5050"
+    },
+    "auctionFrequency": "Annually first Monday in May (2025 TY liens sold May 4, 2026; confirm next cycle on walkercountyrevenue.com)",
+    "depositRules": "Pre-register on GovEase (opens ~30 days prior; deadline 4:00 p.m. CST Friday before sale). Payment by debit/credit, cash, or certified funds per GovEase/county rules within the published settlement window after close. Review current Rules of Tax Lien Auction PDF and flyer on walkercountyrevenue.com. Certificate mailed after sale; unsold liens may be available over the counter.",
+    "taxCollector": {
+      "label": "Walker County Revenue Commission — Tax Lien Auction",
+      "url": "https://www.walkercountyrevenue.com/",
+      "phone": "205-384-7267"
+    },
+    "clerkOfCourt": {
+      "label": "Walker County Probate / land records resources",
+      "url": "https://www.walkercounty.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Walker County Revenue — assessments / delinquent list",
+      "url": "https://altags.com/walker_revenue/default.aspx",
+      "phone": "205-384-7267"
+    },
+    "survivingLiens": "At the certificate stage the buyer holds a lien, not clear title — owner redemption extinguishes the certificate. Other encumbrances remain. After a tax deed issues following foreclosure, most private liens are cut off, but federal tax liens (IRS 120-day post-sale redemption) and some governmental assessments can survive.",
+    "quietTitle": "Practically recommended after a tax deed issues. Title companies often require a quiet title action (or the equivalent judicial confirmation path under Ala. Code Title 40) before insuring for resale.",
+    "gisMap": {
+      "label": "Walker County parcel / tax research (ALTAGs)",
+      "url": "https://altags.com/walker_revenue/default.aspx"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Jasper city / downtown–medical edge",
+        "why": "County-seat services and local employment with more turnover than rural mining townships"
+      },
+      {
+        "name": "Cordova–Parrish / I-22 corridor",
+        "why": "Highway access toward Birmingham with entry-priced workforce SF"
+      },
+      {
+        "name": "Sumiton–Dora east fringe",
+        "why": "Birmingham metro spillover demand with attainable SF inventory"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.walkercountyrevenue.com/",
+      "https://www.govease.com/",
+      "https://altags.com/Walker_Revenue/Delinquent.aspx"
+    ]
+  },
+  "33001": {
+    "notes": "New Hampshire tax-deed system is municipal, not county-administered. Belknap County FIPS is a geographic label only — each city/town (Laconia, Gilford, Belmont, Alton, Meredith, Barnstead, etc.) liens for unpaid taxes and later takes a tax deed, then sells town-owned property by sealed bid, auction, or negotiated sale under local rules. Laconia example: unpaid taxes lien by following March; if unpaid ~2 years and one day from lien date, property may be deeded to the City and sold (historically sealed bid). Barnstead and other towns have used Bid4Assets or local auctioneers for tax-deeded parcels. Research the specific municipality where a parcel sits; do not treat one town's calendar as countywide. Lakes Region / Winnipesaukee market — seasonal occupancy and shoreline zoning are core DD.",
+    "auctionFormat": "Municipal sealed bid / public auction / online (varies by town after tax deed)",
+    "auctionPlatform": {
+      "label": "Individual Belknap towns (e.g. Laconia Tax / town auction notices) — not a single county platform",
+      "url": "https://www.laconianh.gov/276/Tax"
+    },
+    "auctionFrequency": "As each municipality deeds and elects to sell inventory — no fixed countywide annual calendar",
+    "depositRules": "Set by the selling town's notice (deposit, certified funds, and balance deadlines vary). Confirm registration and payment with the specific tax collector or town administrator before funding. Redemption generally ends upon deeding under NH practice — read the town deed/sale packet carefully.",
+    "taxCollector": {
+      "label": "Municipal tax collectors (Belknap towns) — start with Laconia Tax for county seat",
+      "url": "https://www.laconianh.gov/276/Tax"
+    },
+    "clerkOfCourt": {
+      "label": "Belknap County Registry of Deeds (land records)",
+      "url": "https://www.belknapcounty.org/"
+    },
+    "propertyAppraiser": {
+      "label": "Municipal assessing offices (parcel research by town)",
+      "url": "https://www.belknapcounty.org/"
+    },
+    "survivingLiens": "Municipal tax deed sales are intended to clear most private liens when notice is proper; federal liens can survive. Verify water/sewer, association, and local assessments with the specific town.",
+    "quietTitle": "Commonly used to obtain marketable title after a New Hampshire municipal tax deed, especially for Lakes Region resale.",
+    "gisMap": {
+      "label": "Municipal GIS / assessing maps (by town)",
+      "url": "https://www.laconianh.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Laconia / Weirs Beach–downtown corridor",
+        "why": "County-seat and lake tourism employment with selective SF and multifamily demand"
+      },
+      {
+        "name": "Gilford / Route 11 lake fringe",
+        "why": "Year-round and second-home demand near Gunstock and lake access"
+      },
+      {
+        "name": "Meredith–Center Harbor north lake",
+        "why": "Strong seasonal and retirement demand; underwrite occupancy and short-term rental rules"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.laconianh.gov/276/Tax",
+      "https://www.belknapcounty.org/",
+      "https://nhtaxdeedauctions.com/"
+    ]
+  },
+  "05115": {
+    "notes": "Arkansas tax-deed system administered statewide by the Commissioner of State Lands (COSL) — not a county-run auction. Certified delinquent parcels from Pope County (Russellville / Arkansas River Valley) are offered at regional public auctions and then post-auction / online residual sales. Documented 2026 Pope catalog sale: July 30, 2026, 10:00 a.m. (see cosl.org CatalogView for Pope). Effective July 1, 2023, parcels sold through COSL cannot be redeemed after sale — redemption deadline is 4:00 p.m. the last business day prior to the sale date. County Collector Jennifer Haley handles current taxes (479-968-7016). Sold AS IS.",
+    "auctionFormat": "In-person public auction (statewide COSL) + post-auction / online residuals",
+    "auctionPlatform": {
+      "label": "Arkansas Commissioner of State Lands — Public Auction Catalog (Pope)",
+      "url": "https://cosl.org/Home/CatalogView?county=POPE&saledate=7%2F30%2F2026%2010%3A00%3A00%20AM",
+      "phone": "501-324-9422"
+    },
+    "auctionFrequency": "Statewide regional auction calendar; Pope parcels on published COSL dates (2026: July 30) plus post-auction online residuals",
+    "depositRules": "Register per COSL auction rules (registration often morning-of). Cash is not accepted — follow COSL bidder packet for certified funds / accepted payment. Post-auction sales of unsold certified parcels open per COSL schedule (~30 days class). Review Buyers Guide and Rules on cosl.org before bidding.",
+    "taxCollector": {
+      "label": "Pope County Tax Collector (current taxes) / COSL (delinquent certified land sales)",
+      "url": "https://www.popecountyar.gov/tax-collector",
+      "phone": "479-968-7016"
+    },
+    "clerkOfCourt": {
+      "label": "Pope County Circuit Clerk / Recorder",
+      "url": "https://www.popecountyar.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Pope County Assessor",
+      "url": "https://www.arcountydata.com/county.asp?county=Pope",
+      "phone": "479-968-7418"
+    },
+    "survivingLiens": "Tax deed from COSL process; federal liens and certain interests can survive. Always search county records for unjoined parties, municipal liens, and flood/environmental flags. No post-sale owner redemption on COSL sales after July 1, 2023.",
+    "quietTitle": "Commonly required by Arkansas title underwriters before insuring free-and-clear marketable title after a tax deed.",
+    "gisMap": {
+      "label": "Pope County Assessor / parcel research (ARCountyData)",
+      "url": "https://www.arcountydata.com/propsearch.asp?county=Pope"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Russellville city / downtown–ATU edge",
+        "why": "Arkansas Tech and county-seat employment supporting rental and SF demand"
+      },
+      {
+        "name": "I-40 / AR-7 commercial corridor",
+        "why": "Retail and logistics jobs with workforce housing absorption"
+      },
+      {
+        "name": "Dover–Hector north county",
+        "why": "Entry-priced SF and land with local employment; underwrite rural access and utilities"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.popecountyar.gov/real-estate-land-auctions-commissioner-of-state-lands",
+      "https://cosl.org/",
+      "https://cosl.org/Home/CatalogView?county=POPE&saledate=7%2F30%2F2026%2010%3A00%3A00%20AM",
+      "https://www.popecountyar.gov/tax-collector"
+    ]
+  },
+  "04001": {
+    "notes": "Arizona tax-lien certificate county. Apache County Treasurer holds its annual tax lien auction every February (date usually announced in December) online at apache.arizonataxsale.com (RealAuction). Investors may bid down the interest rate on the lien (statutory maximum 16% class) or bid up a premium. Certificate is not ownership — 3-year path to treasurer's deed. Over-the-counter tax lien list is published after the auction (e.g. OTC list as of April 1, 2026). St. Johns / Window Rock / Show Low Pines fringe market — remote access, tribal boundary, and vacant-land DD essential.",
+    "auctionFormat": "Online (RealAuction tax lien certificate auction)",
+    "auctionPlatform": {
+      "label": "Apache County Official Tax Lien Auction (apache.arizonataxsale.com)",
+      "url": "https://apache.arizonataxsale.com/"
+    },
+    "auctionFrequency": "Annually every February; OTC liens after auction until next cycle",
+    "depositRules": "Register and fund on RealAuction per county terms before the February window. Successful bidders pay advertised tax/interest/costs plus any premium and certificate fees per platform rules. Confirm registration deadline (often day before) and payment methods on apache.arizonataxsale.com and Treasurer page.",
+    "taxCollector": {
+      "label": "Apache County Treasurer — Tax Lien Sales",
+      "url": "https://www.apachecountyaz.gov/treasurer"
+    },
+    "clerkOfCourt": {
+      "label": "Apache County Recorder / Clerk (land records)",
+      "url": "https://www.apachecountyaz.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Apache County Assessor",
+      "url": "https://www.apachecountyaz.gov/"
+    },
+    "survivingLiens": "Certificate purchase does not clear liens — the owner can redeem until a treasurer's deed issues (after the statutory period). Once a treasurer's deed issues, most private liens are cleared, but state/federal liens can survive.",
+    "quietTitle": "Arizona treasurer's deeds are widely treated as weak title; most investors pursue quiet title before sale or refinance even when not strictly required to hold the deed.",
+    "gisMap": {
+      "label": "Apache County Assessor / GIS parcel resources",
+      "url": "https://www.apachecountyaz.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "St. Johns / county-seat core",
+        "why": "Local government employment with selective SF demand versus remote acreage"
+      },
+      {
+        "name": "Eagar–Springerville mountain fringe",
+        "why": "Recreation and second-home demand; underwrite seasonality and access"
+      },
+      {
+        "name": "Show Low Pines / southern subdivision fringe",
+        "why": "Entry-priced lots near White Mountains recreation; many OTC lien parcels historically"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.apachecountyaz.gov/treasurer",
+      "https://apache.arizonataxsale.com/",
+      "https://www.apachecountyaz.gov/accnt_591117/site_591118/Documents/Over-the-Counter-Tax-Lien-List.pdf"
+    ]
+  },
+  "54033": {
+    "notes": "West Virginia hybrid tax-sale system. Harrison County (Clarksburg / Bridgeport / I-79 north-central WV) Sheriff collects taxes (tax office 304-624-8685; online search harrison.softwaresystems.com). Post-SB 552, the WV State Auditor's Office County Collections / Land Sales program administers statewide delinquent-land sales for most counties — confirm current-year bid windows and handouts at wvsao.gov. Historical Bid4Assets live lien notices exist for Harrison; match each parcel to the correct sale type (sheriff lien path vs. Auditor land sale). 18-month redemption class with 12% statutory interest on the lien path. Clarksburg–Bridgeport market with FBI CJIS and energy employment — mineral severances common.",
+    "auctionFormat": "Mail-in / online per WV State Auditor land-sale cycle; confirm any county lien-sale component with Sheriff",
+    "auctionPlatform": {
+      "label": "WV State Auditor — County Collections / Land Sales (Harrison parcels)",
+      "url": "https://www.wvsao.gov/CountyCollections/Default.aspx",
+      "phone": "877-982-9148"
+    },
+    "auctionFrequency": "Annual statewide Auditor land-sale cycles (bid windows published on wvsao.gov; dates shift year to year)",
+    "depositRules": "Auditor land sales: online pre-registration; bids often by mail/check per statewide Land Sales Handouts — confirm current-year deadlines, deposit, and payment on wvsao.gov. Match each parcel to the correct sale type. Sold AS IS subject to statutory redemption where applicable.",
+    "taxCollector": {
+      "label": "Harrison County Sheriff — Tax Office",
+      "url": "http://harrison.softwaresystems.com/",
+      "phone": "304-624-8685"
+    },
+    "clerkOfCourt": {
+      "label": "Harrison County Clerk (land records)",
+      "url": "https://www.harrisoncountywv.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Harrison County Assessor",
+      "url": "https://www.harrisoncountyassessor.com/",
+      "phone": "304-624-8510"
+    },
+    "survivingLiens": "After tax deed matures post-redemption (~18 months typical WV path), most private liens may be cut off; federal liens can survive. Mineral severances common — run full mineral/title search.",
+    "quietTitle": "Commonly used to obtain marketable title after a WV tax deed.",
+    "gisMap": {
+      "label": "Harrison County Assessor / GIS parcel resources",
+      "url": "https://www.harrisoncountyassessor.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Bridgeport / I-79–FBI CJIS corridor",
+        "why": "Federal and logistics employment with stronger SF liquidity than pure rural tracts"
+      },
+      {
+        "name": "Clarksburg downtown–medical edge",
+        "why": "County-seat services and hospital jobs supporting selective rental demand"
+      },
+      {
+        "name": "Nutter Fort–Anmoore fringe",
+        "why": "Entry-priced SF with local industrial employment"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.wvsao.gov/CountyCollections/Default.aspx",
+      "http://harrison.softwaresystems.com/",
+      "https://www.harrisoncountywv.com/",
+      "https://www.harrisoncountyassessor.com/"
+    ]
+  },
+  "41011": {
+    "notes": "Oregon tax-foreclosure county under ORS 312 / ORS 275. Coos County forecloses delinquent taxes, then offers tax-foreclosed property at a Land Agent public auction (distinct from Coos County Sheriff lender-foreclosure auctions on oregonsheriffssales.org). County page stated no Land Sale Auction for 2025 year — email mbaumer@co.coos.or.us for future-auction contact list. When held: proof of funds at registration; certified funds only; 20% of winning bid due at sale; separate $86 deed-recording funds payable to Coos County Clerk. Coastal market (Coos Bay, North Bend, Coquille, Bandon) — tsunami/flood zones, short-term rental rules, and timber/port employment cycles are core DD.",
+    "auctionFormat": "In-person Land Agent auction when inventory posts (none scheduled for 2025 cycle as published)",
+    "auctionPlatform": {
+      "label": "Coos County Land Agent — Tax Foreclosure / Auction and Sale Information",
+      "url": "https://co.coos.or.us/auction-and-sale-information",
+      "phone": "541-396-7800"
+    },
+    "auctionFrequency": "As tax-foreclosed inventory accumulates (2025 land sale cancelled; join contact list for next cycle)",
+    "depositRules": "MUST show proof of funds at registration. Certified funds only (cash, cashier's check, or money order) — no personal checks or credit cards for property purchases. Bring 20% of your maximum bid capacity; winning bid portion due at sale. Separate certified funds for Coos County Clerk deed filing fee (~$86). Make purchase checks payable to Coos County Land Agent.",
+    "taxCollector": {
+      "label": "Coos County Land Agent / Tax Foreclosure Auctions",
+      "url": "https://co.coos.or.us/land-agent"
+    },
+    "clerkOfCourt": {
+      "label": "Coos County Clerk (deed recording)",
+      "url": "https://co.coos.or.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Coos County Assessor",
+      "url": "https://co.coos.or.us/"
+    },
+    "survivingLiens": "Foreclosure judgment and subsequent deed generally cut off most private liens; federal liens can survive. Coastal environmental and land-use encumbrances need separate analysis.",
+    "quietTitle": "Often used after county tax-foreclosure deed for insurable title, especially improved coastal residential.",
+    "gisMap": {
+      "label": "Coos County GIS / Assessor parcel resources",
+      "url": "https://co.coos.or.us/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Coos Bay–North Bend / bayfront–hospital edge",
+        "why": "Port, medical, and retail employment with more liquid SF than remote coastal timberland"
+      },
+      {
+        "name": "Bandon / US-101 south coast",
+        "why": "Tourism and retirement demand; underwrite vacation occupancy and coastal hazards"
+      },
+      {
+        "name": "Coquille / county-seat inland",
+        "why": "Entry-priced SF with local government and timber employment"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://co.coos.or.us/auction-and-sale-information",
+      "https://co.coos.or.us/land-agent",
+      "https://oregonsheriffssales.org/county/coos/"
+    ]
+  },
+  "49003": {
+    "notes": "Utah tax-deed county (not a lien certificate sale). Box Elder County Auditor conducts the annual tax sale of parcels conveyed to the county for unpaid general taxes. 2026 Tax Sale held May 21, 2026 online via Public Surplus beginning 10:00 a.m.; bidding starts at total taxes, interest, penalties, and administrative costs. Listings post on county site ~6 weeks prior and in Box Elder News Journal ~4 weeks prior. Auditor 435-734-3388 for eligibility questions (age 18+, no outstanding Box Elder tax debts, ordinance compliance). Brigham City / Tremonton / I-15 north corridor market.",
+    "auctionFormat": "Online (Public Surplus)",
+    "auctionPlatform": {
+      "label": "Public Surplus — Box Elder County Tax Sale",
+      "url": "https://www.publicsurplus.com/",
+      "phone": "435-734-3388"
+    },
+    "auctionFrequency": "Annually mid-May pattern (2026: May 21; confirm next year on boxeldercountyut.gov Tax Sale page)",
+    "depositRules": "Register on Public Surplus and meet county eligibility ordinance before bidding. Payment and deposit rules follow Public Surplus and Box Elder Tax Sale ordinance — default can forfeit deposits and ban future participation. Zoning non-compliance notices may be recorded on some parcels — read sale materials carefully. Sold AS IS; redemption ends at sale under Utah practice.",
+    "taxCollector": {
+      "label": "Box Elder County Auditor — Tax Sale / Treasurer (delinquent list)",
+      "url": "https://www.boxeldercountyut.gov/273/Tax-Sale",
+      "phone": "435-734-3388"
+    },
+    "clerkOfCourt": {
+      "label": "Box Elder County Recorder / Clerk",
+      "url": "https://www.boxeldercountyut.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Box Elder County Assessor",
+      "url": "https://www.boxeldercountyut.gov/"
+    },
+    "survivingLiens": "County tax deed sales typically cut off most private liens that attached before the tax deed, subject to federal liens and sale-specific exceptions. Utah does not sell retail tax lien certificates at this auction.",
+    "quietTitle": "Title companies often require quiet title or extended seasoning before insuring tax-deed property.",
+    "gisMap": {
+      "label": "Box Elder County Tax Sale Map (ArcGIS)",
+      "url": "https://arcg.is/1ff5Hi3"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Brigham City / downtown–I-15 edge",
+        "why": "County-seat and aerospace/manufacturing employment with stronger SF liquidity"
+      },
+      {
+        "name": "Tremonton–Garland north corridor",
+        "why": "I-15 logistics and agribusiness jobs supporting workforce housing"
+      },
+      {
+        "name": "Perry–Willard south fringe",
+        "why": "Ogden metro spillover with attainable SF inventory"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.boxeldercountyut.gov/273/Tax-Sale",
+      "https://www.boxeldercountyut.gov/598/Delinquent-List",
+      "https://www.publicsurplus.com/"
+    ]
+  },
+  "17001": {
+    "notes": "Illinois tax-lien certificate county. Adams County Treasurer (Quincy) holds the annual tax sale of delinquent real estate taxes under the Property Tax Code — interest-rate bid-down certificate sale, not a deed. Treasurer 507 Vermont St Ste G12, Quincy; 217-277-2245. Peer western Illinois pattern is late-year annual sale after final collections (final tax distribution historically mid-November after the sale). After sale, call Adams County Clerk 217-277-2162 for redemption amounts. Certificate of purchase is not ownership; tax deed requires later judicial process after redemption expires (2–3 years class by property type). Quincy / Mississippi River / I-172 market.",
+    "auctionFormat": "In-person (Treasurer tax lien certificate sale; confirm any sealed-bid components)",
+    "auctionPlatform": {
+      "label": "Adams County Treasurer — annual Tax Sale",
+      "url": "https://www.adamscountyil.gov/government/departments/treasurer/tax-sale",
+      "phone": "217-277-2245"
+    },
+    "auctionFrequency": "Annually (historically after fall collection cycle / mid-November class distribution — confirm exact 2026 date with Treasurer)",
+    "depositRules": "Register with the Treasurer before the sale per office instructions (217-277-2245). Illinois certificate sales require payment of taxes purchased plus penalties as bid; bring certified funds capacity as directed. Confirm collateral/registration fee in writing before sale day. Certificate is not ownership.",
+    "taxCollector": {
+      "label": "Adams County Treasurer",
+      "url": "https://www.adamscountyil.gov/government/departments/treasurer",
+      "phone": "217-277-2245"
+    },
+    "clerkOfCourt": {
+      "label": "Adams County Clerk (tax redemptions / records)",
+      "url": "https://www.adamscountyil.gov/",
+      "phone": "217-277-2162"
+    },
+    "propertyAppraiser": {
+      "label": "Adams County property tax inquiry (Devnet)",
+      "url": "https://adamsil.devnetwedge.com/"
+    },
+    "survivingLiens": "Buyer receives a certificate of purchase, not the property. Owner redemption extinguishes the claim. Surviving-lien analysis mainly matters after a tax deed is pursued through the judicial process post-redemption.",
+    "quietTitle": "Obtaining a tax deed requires a judicial petition/notice process after redemption expires — that process functions like quiet title and is a required court step, not optional.",
+    "gisMap": {
+      "label": "Adams County Assessor / parcel research resources",
+      "url": "https://adamsil.devnetwedge.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Quincy / downtown–Blessing Hospital edge",
+        "why": "Regional medical and river-city employment with more liquid SF than rural townships"
+      },
+      {
+        "name": "East Quincy / Columbus Road fringe",
+        "why": "Suburban SF absorption with I-172 access"
+      },
+      {
+        "name": "Camp Point–Clayton rural east",
+        "why": "Entry-priced SF and land; underwrite vacancy and agricultural adjacency"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.adamscountyil.gov/government/departments/treasurer/tax-sale",
+      "https://www.adamscountyil.gov/government/departments/treasurer",
+      "https://adamsil.devnetwedge.com/",
+      "https://iltaxsale.com/new/index.php/county/Adams/ADM"
+    ]
+  },
+  "32019": {
+    "notes": "Nevada tax-deed county (not a lien certificate sale). Lyon County Treasurer and Ex-Officio Tax Receiver offers properties with delinquent taxes at public auction every odd year online via Bid4Assets (bid4assets.com/lyon). June 17, 2025 auction closed; next Tax Receiver auction scheduled June 2027. Minimum bid plus recording fees, real property transfer tax, and a 10% buyer premium. Property becomes tax-deeded to the Treasurer as trustee after ~2 years from lien filing if unredeemed (NRS 361 path). Dayton / Fernley / Yerington / US-50 & I-80 fringe market — Reno-Sparks spillover and rural desert land mix.",
+    "auctionFormat": "Online (Bid4Assets)",
+    "auctionPlatform": {
+      "label": "Bid4Assets — Lyon County NV Tax Defaulted Properties Auction",
+      "url": "https://www.bid4assets.com/lyon"
+    },
+    "auctionFrequency": "Every odd year in June (2025 held; next June 2027)",
+    "depositRules": "Single $500 deposit (plus non-refundable processing fee historically ~$35) required to participate per Bid4Assets Lyon storefront. Winning bidder pays minimum bid + recording + transfer tax + 10% buyer premium per Terms of Sale. Confirm current deposit and settlement deadlines on Bid4Assets before funding. Sold AS IS after tax deed path.",
+    "taxCollector": {
+      "label": "Lyon County Clerk-Treasurer — Tax Sale Information",
+      "url": "https://www.lyon-county.org/1113/Tax-Sale-Information"
+    },
+    "clerkOfCourt": {
+      "label": "Lyon County Clerk-Treasurer / Recorder",
+      "url": "https://www.lyon-county.org/16/Clerk-Treasurer"
+    },
+    "propertyAppraiser": {
+      "label": "Lyon County Assessor",
+      "url": "https://www.lyon-county.org/"
+    },
+    "survivingLiens": "County tax deed sales typically cut off most private liens that attached before the tax deed, subject to federal liens and sale-specific exceptions. Nevada does not sell retail tax lien certificates at this auction. 2-year protest/challenge considerations may apply — verify current NRS and deed terms.",
+    "quietTitle": "Title companies often require quiet title or extended seasoning before insuring Nevada tax-deed property.",
+    "gisMap": {
+      "label": "Lyon County Assessor / GIS parcel resources",
+      "url": "https://www.lyon-county.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Fernley / I-80 logistics edge",
+        "why": "Warehouse and Reno-commute growth with stronger SF absorption than pure rural tracts"
+      },
+      {
+        "name": "Dayton / US-50 west corridor",
+        "why": "Carson City–Reno spillover residential demand"
+      },
+      {
+        "name": "Yerington / Smith Valley",
+        "why": "County-seat and agricultural employment; entry-priced SF and land"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.lyon-county.org/1113/Tax-Sale-Information",
+      "https://www.bid4assets.com/lyon",
+      "https://www.lyon-county.org/164/Delinquent-Penalties"
+    ]
+  },
+  "35005": {
+    "notes": "New Mexico delinquent property tax auctions are run by the State Taxation and Revenue Department Property Tax Division (PTD) — not a county lien certificate sale. After multi-year delinquency, the County Treasurer turns properties over to the State and PTD auctions them. Chaves County (Roswell) has hosted PTD auctions at the Chaves County Administrative Center (#1 St. Mary's Pl, Roswell) — e.g. prior June cycle at 10:00 a.m. Confirm next Chaves date on tax.newmexico.gov Delinquent Property Tax Auctions schedule. Minimum bid = taxes + penalty + interest + costs. County Treasurer 575-624-6618 supports research but does not run the deed auction. Roswell / dairy-ag and aerospace market.",
+    "auctionFormat": "In-person (State PTD oral public auction)",
+    "auctionPlatform": {
+      "label": "NM Taxation & Revenue — Property Tax Division Delinquent Auctions (Chaves venue when scheduled)",
+      "url": "https://www.tax.newmexico.gov/businesses/property-tax-overview/delinquent-property-tax-auctions/",
+      "phone": "505-827-0883"
+    },
+    "auctionFrequency": "Typically annual at Roswell Administrative Center when scheduled — confirm on PTD schedule",
+    "depositRules": "In-person registration morning of sale; cash/certified funds per PTD terms for the full winning bid (minimum = taxes, penalty, interest, costs). Verify day-before that the parcel was not pulled/redeemed. County Treasurer supports research but does not run the real-property auction.",
+    "taxCollector": {
+      "label": "Chaves County Treasurer (research/delinquency; State PTD runs real-property auction)",
+      "url": "https://www.chavescounty.gov/your-county/departments/treasurer-s-office",
+      "phone": "575-624-6618"
+    },
+    "clerkOfCourt": {
+      "label": "Chaves County Clerk (land records)",
+      "url": "https://www.chavescounty.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Chaves County Assessor (EagleWeb)",
+      "url": "https://eagleweb.chavescounty.gov/assessor/web/"
+    },
+    "survivingLiens": "State PTD tax deed process after multi-year delinquency is designed to convey title subject to federal liens and interests preserved by statute or sale terms. 2-year challenge period class under NM practice — verify current statute and deed terms. Full title search essential.",
+    "quietTitle": "Often used after a NM tax deed for insurable title, especially improved residential in Roswell.",
+    "gisMap": {
+      "label": "Chaves County Assessor EagleWeb / parcel resources",
+      "url": "https://eagleweb.chavescounty.gov/assessor/web/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Roswell / downtown–Main Street core",
+        "why": "County-seat retail and tourism with selective SF rehab demand"
+      },
+      {
+        "name": "North Roswell / hospital–college edge",
+        "why": "Medical and education employment supporting rental and workforce SF"
+      },
+      {
+        "name": "Dexter–Hagerman dairy corridor",
+        "why": "Entry-priced SF and land with agribusiness employment; underwrite odor/water issues"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.tax.newmexico.gov/businesses/property-tax-overview/delinquent-property-tax-auctions/",
+      "https://www.chavescounty.gov/your-county/departments/treasurer-s-office",
+      "https://chavescountynm-tsrweb.tylerhost.net/treasurer/web/",
+      "https://eagleweb.chavescounty.gov/assessor/web/"
+    ]
+  },
+  "42005": {
+    "notes": "Pennsylvania tax-deed county under RETSL. Armstrong County Tax Claim Bureau (Kittanning) runs Upset, Judicial, and Repository sales. Upset Sale scheduled September 24, 2026 at 10:00 a.m., Armstrong County Court House, 500 Market St., Court Room 3, Kittanning. ALL SALES ARE BUYER BEWARE. Prospective bidders must pre-register in person at the Tax Claim office not less than 10 days prior ($15 registration fee; no exceptions). Winning amount must be paid by 3:00 p.m. day of sale by cash or certified check to Armstrong County Tax Claim Bureau. Upset buyers typically take subject to mortgages/liens; Judicial is the free-and-clear track when notice is proper. Kittanning / Ford City / Allegheny River market.",
+    "auctionFormat": "In-person (Tax Claim Bureau Upset / Judicial / Repository)",
+    "auctionPlatform": {
+      "label": "Armstrong County Tax Claim Bureau — Upset Sale",
+      "url": "https://www.co.armstrong.pa.us/index.php/county-government-m/tax-claim-m"
+    },
+    "auctionFrequency": "Annual Upset (2026: September 24, 10:00 a.m.); Judicial and Repository on published dates",
+    "depositRules": "In-person pre-registration required ≥10 days before sale; $15 fee; no day-of exceptions. Winning bid paid by 3:00 p.m. sale day by cash or certified check payable to Armstrong County Tax Claim Bureau. Review Conditions of Upset Sale PDF before attending. Sold AS IS.",
+    "taxCollector": {
+      "label": "Armstrong County Tax Claim Bureau",
+      "url": "https://www.co.armstrong.pa.us/index.php/county-government-m/tax-claim-m"
+    },
+    "clerkOfCourt": {
+      "label": "Armstrong County Prothonotary / Recorder of Deeds",
+      "url": "https://www.co.armstrong.pa.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Armstrong County Assessment",
+      "url": "https://www.co.armstrong.pa.us/"
+    },
+    "survivingLiens": "Upset Sale: buyer generally takes subject to mortgages and many private liens. Judicial Sale: most private liens can be cut off if parties are properly noticed. Federal tax liens and some municipal claims can survive. Full title search mandatory.",
+    "quietTitle": "Often required for title insurance after Upset; Judicial deed is stronger but insurers may still want quiet title.",
+    "gisMap": {
+      "label": "Armstrong County GIS / assessment parcel resources",
+      "url": "https://www.co.armstrong.pa.us/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Kittanning / downtown–courthouse core",
+        "why": "County-seat employment with selective SF rehab demand"
+      },
+      {
+        "name": "Ford City–Manorville river corridor",
+        "why": "Entry-priced SF along Allegheny River; underwrite flood risk"
+      },
+      {
+        "name": "Freeport–South Buffalo / south county fringe",
+        "why": "Pittsburgh metro north-spillover commute demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.co.armstrong.pa.us/index.php/county-government-m/tax-claim-m",
+      "https://www.co.armstrong.pa.us/images/departments/taxclaim/upsetconditionsofsaleform.pdf"
+    ]
+  },
+  "05069": {
+    "notes": "Arkansas tax-deed system administered statewide by COSL — not a county-run auction. Jefferson County (Pine Bluff / White Hall / SE Arkansas) certified delinquents are sold at regional public auctions at the Pine Bluff Convention Center and then post-auction / online residuals. COSL catalog lists Jefferson sale windows in summer (e.g. Aug 11, 2026 10:00 a.m. class at Pine Bluff Convention Center banquet halls; press notices have also cited early-August dates — always verify live cosl.org catalog). Effective July 1, 2023, parcels sold through COSL cannot be redeemed after sale. Recent prior auction sold hundreds of parcels for >$570k. Sold AS IS.",
+    "auctionFormat": "In-person public auction (statewide COSL) + post-auction / online residuals",
+    "auctionPlatform": {
+      "label": "Arkansas Commissioner of State Lands — Public Auction Catalog (Jefferson)",
+      "url": "https://cosl.org/catalog.aspx",
+      "phone": "501-324-9422"
+    },
+    "auctionFrequency": "Statewide regional auction calendar; Jefferson parcels at Pine Bluff Convention Center dates (confirm live cosl.org) plus post-auction online residuals",
+    "depositRules": "Register per COSL auction rules (registration often morning-of ~9:00 a.m. for 10:00 a.m. start). Cash not accepted — follow COSL bidder packet. Review Buyers Guide and Rules on cosl.org. Post-auction unsold list at cosl.org ~30 days after offering.",
+    "taxCollector": {
+      "label": "Jefferson County Collector (current taxes) / COSL (certified delinquent land sales)",
+      "url": "https://cosl.org/",
+      "phone": "501-324-9422"
+    },
+    "clerkOfCourt": {
+      "label": "Jefferson County Circuit Clerk / Recorder",
+      "url": "https://www.jeffersoncountyar.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Jefferson County Assessor / DataScout parcel research",
+      "url": "https://www.arcountydata.com/county.asp?county=Jefferson"
+    },
+    "survivingLiens": "Tax deed from COSL process; federal liens and certain interests can survive. Search county records for municipal liens, drainage districts, and flood flags. No post-sale owner redemption on COSL sales after July 1, 2023.",
+    "quietTitle": "Commonly required by Arkansas title underwriters before insuring free-and-clear marketable title after a tax deed.",
+    "gisMap": {
+      "label": "Jefferson County Assessor / parcel research resources",
+      "url": "https://www.arcountydata.com/propsearch.asp?county=Jefferson"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "White Hall / north Jefferson fringe",
+        "why": "Relatively stronger SF demand and school-district preference versus core Pine Bluff"
+      },
+      {
+        "name": "Pine Bluff / downtown–medical edge",
+        "why": "Regional hospital and government employment with selective rehab opportunities"
+      },
+      {
+        "name": "Redfield–Jefferson industrial corridor",
+        "why": "I-530 access toward Little Rock with workforce housing absorption"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://cosl.org/catalog.aspx",
+      "https://cosl.org/",
+      "https://cosl.org/Home/PostAuctionView?county=JEFFERSON",
+      "https://www.pbcommercial.com/jefferson-county-to-hold-tax-auction-on-land/"
+    ]
+  },
+  "21125": {
+    "notes": "Kentucky certificate-of-delinquency (tax lien) county under KRS 134.128. Laurel County Clerk (London) handles third-party sales of certificates after the Sheriff transfers unpaid bills; statewide Department of Revenue publishes the annual county sale schedule (typically mid-July through late summer). Clerk delinquent-tax page: laurelcountyclerk.ky.gov/delinquent-taxes/ — 606-864-5158 / tony.brown@ky.gov; view bills via kydtax.smllc.us. Purchase is a certificate/lien interest, not a deed — foreclosure of the certificate is a separate court process. London / I-75 / Corbin fringe market.",
+    "auctionFormat": "In-person / clerk-administered certificate of delinquency sale (KRS 134.128 process)",
+    "auctionPlatform": {
+      "label": "Laurel County Clerk — Delinquent Taxes / certificates of delinquency",
+      "url": "https://laurelcountyclerk.ky.gov/delinquent-taxes/",
+      "phone": "606-864-5158"
+    },
+    "auctionFrequency": "Annually per KY DOR county schedule (typically mid-summer through early fall — confirm 2026 Laurel date with Clerk)",
+    "depositRules": "Third-party purchasers register with the County Clerk per KRS 134.128 and DOR rules; certificates listed on clerk resources at least 30 days prior. Volume purchasers must register with KY DOR when over statutory thresholds. Confirm payment method, priority rights for prior-year certificate holders, and lottery/assignment mechanics with 606-864-5158 before the sale window.",
+    "taxCollector": {
+      "label": "Laurel County Clerk — Delinquent Taxes",
+      "url": "https://laurelcountyclerk.ky.gov/delinquent-taxes/",
+      "phone": "606-864-5158"
+    },
+    "clerkOfCourt": {
+      "label": "Laurel County Clerk (land records / certificates)",
+      "url": "https://laurelcountyclerk.ky.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Laurel County PVA",
+      "url": "https://laurelpva.com/",
+      "phone": "606-864-2889"
+    },
+    "survivingLiens": "Certificate of delinquency is a lien interest. After foreclosure/deed, most junior private liens may be cut off; federal and some governmental liens can survive. Full title search before certificate foreclosure is essential.",
+    "quietTitle": "Foreclosure of the certificate is a court process; additional quiet title may be needed for resale insurance.",
+    "gisMap": {
+      "label": "Laurel County PVA / parcel research resources",
+      "url": "https://laurelpva.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "London city / I-75 interchange core",
+        "why": "County-seat retail and highway logistics with more liquid SF than outer hollows"
+      },
+      {
+        "name": "North Laurel / East Bernstadt fringe",
+        "why": "Entry-priced SF with local industrial employment"
+      },
+      {
+        "name": "Corbin fringe / south Laurel",
+        "why": "Cross-county commerce and workforce housing near US-25E"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://laurelcountyclerk.ky.gov/delinquent-taxes/",
+      "https://kydtax.smllc.us/DTaxList.htm",
+      "https://laurelpva.com/",
+      "https://revenue.ky.gov/Property/Pages/Third-Party-Purchaser.aspx"
+    ]
+  },
+  "39009": {
+    "notes": "Ohio hybrid tax-lien / tax-foreclosure county. Athens County Treasurer holds an annual tax lien sale to collect outstanding delinquent taxes; after one year, if lien charges and interest are not fully paid, the lien holder may foreclose. Separately, the Prosecutor may file foreclosure in the name of the Treasurer; properties proceed toward sheriff sale (athens.sheriffsaleauction.ohio.gov / RealAuction) if unpaid. Treasurer also posts current foreclosure lists and excess-funds claims. Do not confuse mortgage sheriff sales with tax-lien certificates. Athens / Ohio University / Hocking Hills fringe market — student rental and rural vacancy DD essential.",
+    "auctionFormat": "In-person or as noticed for tax lien certificates; online RealAuction for sheriff foreclosure sales",
+    "auctionPlatform": {
+      "label": "Athens County Treasurer — tax lien sale / foreclosure list; Sheriff sales via RealAuction",
+      "url": "https://www.athenscountytreasurer.com/foreclosures/",
+      "phone": "740-592-3231"
+    },
+    "auctionFrequency": "Annual tax lien sale; foreclosure/sheriff sales as cases reach sale (Wednesdays when scheduled on RealAuction)",
+    "depositRules": "Tax lien sale: register and pay per Treasurer instructions for certificates purchased. Sheriff judicial sales: register on athens.sheriffsaleauction.ohio.gov and post deposit per RealAuction/ORC rules. Confirm which path applies to each parcel before funding.",
+    "taxCollector": {
+      "label": "Athens County Treasurer — Foreclosures / tax lien",
+      "url": "https://www.athenscountytreasurer.com/foreclosures/",
+      "phone": "740-592-3231"
+    },
+    "clerkOfCourt": {
+      "label": "Athens County Clerk of Courts",
+      "url": "https://eservices.athenscommonpleas.com/eservices/home.page.11"
+    },
+    "propertyAppraiser": {
+      "label": "Athens County Auditor",
+      "url": "https://www.athenscountyauditor.org/"
+    },
+    "survivingLiens": "Certificate path vs. tax foreclosure/sheriff sale path differ. After a proper tax deed/foreclosure or confirmed judicial sale, most junior private liens are cut off; federal liens can survive. Read each case caption carefully.",
+    "quietTitle": "Often used after tax deed or to cure residual defects; judicial foreclosure judgment is the main clearing step on the foreclosure path.",
+    "gisMap": {
+      "label": "Athens County Auditor parcel search / GIS",
+      "url": "https://www.athenscountyauditor.org/Search"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Athens city / OU campus edge",
+        "why": "University employment and student rental demand with stronger turnover than rural townships"
+      },
+      {
+        "name": "The Plains / US-33 corridor",
+        "why": "Retail and workforce housing with highway access"
+      },
+      {
+        "name": "Nelsonville–Glouster Hocking Valley",
+        "why": "Entry-priced SF; underwrite vacancy and rehab costs carefully"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.athenscountytreasurer.com/foreclosures/",
+      "https://www.athenscountyauditor.org/",
+      "https://athens.sheriffsaleauction.ohio.gov",
+      "https://www.athenssheriff.com/sheriff-sales"
+    ]
+  },
+  "08045": {
+    "notes": "Colorado tax-lien certificate county. Garfield County Treasurer (Glenwood Springs) runs the annual tax lien sale online via RealAuction at garfield.coloradotaxsale.com. Documented 2025 cycle: sale November 7, 2025; registration/list open September 29, 2025 with daily updates. Successful bidders pay advertised price (delinquent tax, interest, advertising fee) plus $16 certificate fee and any premium bid; certificates of purchase emailed, originals kept by Treasurer. 3-year path toward treasurer's deed. Unsold/subsequent sales administered by Treasurer (historically dates such as the 5th and 12th class — confirm). Contact 970-945-6382. Roaring Fork / Rifle–Glenwood–Carbondale energy and resort-commute market.",
+    "auctionFormat": "Online (RealAuction / coloradotaxsale.com)",
+    "auctionPlatform": {
+      "label": "Garfield County Tax Lien Sale — garfield.coloradotaxsale.com",
+      "url": "https://garfield.coloradotaxsale.com/",
+      "phone": "970-945-6382"
+    },
+    "auctionFrequency": "Annually early November pattern (2025: Nov 7); subsequent/OTC sales per Treasurer calendar",
+    "depositRules": "Register on RealAuction when the county window opens (2025: Sept 29). Pay full advertised amount + certificate fee + premium per platform settlement rules after winning. Confirm 2026 date, registration open, and funding deadlines with Treasurer 970-945-6382 before funding. Certificate is not ownership.",
+    "taxCollector": {
+      "label": "Garfield County Treasurer — Tax Lien Sale",
+      "url": "https://www.garfieldcountyco.gov/treasurer/tax-lien-sale/",
+      "phone": "970-945-6382"
+    },
+    "clerkOfCourt": {
+      "label": "Garfield County Clerk & Recorder",
+      "url": "https://www.garfieldcountyco.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Garfield County Assessor",
+      "url": "https://www.garfieldcountyco.gov/"
+    },
+    "survivingLiens": "Buying a tax lien certificate does not convey the property. After a treasurer's deed issues, most junior private liens are cut off, but federal liens and some governmental assessments can survive.",
+    "quietTitle": "Treasurer's deeds frequently need quiet title (or equivalent) before title companies will insure for resale.",
+    "gisMap": {
+      "label": "Garfield County Assessor / GIS parcel resources",
+      "url": "https://www.garfieldcountyco.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Rifle / I-70 energy corridor",
+        "why": "Energy and logistics employment with more attainable SF than up-valley resort towns"
+      },
+      {
+        "name": "Glenwood Springs / downtown–roaring fork edge",
+        "why": "County-seat and tourism employment with constrained inventory"
+      },
+      {
+        "name": "Carbondale–Silt mid-valley",
+        "why": "Aspen-commute workforce housing demand; underwrite price competition carefully"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.garfieldcountyco.gov/treasurer/tax-lien-sale/",
+      "https://garfield.coloradotaxsale.com/"
+    ]
+  },
+  "37087": {
+    "notes": "North Carolina judicial tax foreclosure county. Haywood County (Waynesville / Canton / Maggie Valley / Great Smoky Mountains west) posts tax-foreclosure actions that culminate in commissioner sales at/near the courthouse with a statutory 10-day upset-bid period at the Clerk of Superior Court (eCourts Smart Search for status). Owner may redeem until court confirmation. Mountain tourism and retirement market — flood, landslide, short-term rental ordinance, and septic DD are core. Confirm current commissioner contacts, sale notices, and deposit terms with the Tax Office and Clerk before attending any sale.",
+    "auctionFormat": "In-person (judicial foreclosure / courthouse steps) with 10-day upset-bid period",
+    "auctionPlatform": {
+      "label": "Haywood County Courthouse tax foreclosure sales + Clerk of Superior Court upset bids",
+      "url": "https://www.haywoodcountync.gov/"
+    },
+    "auctionFrequency": "Periodically as individual tax foreclosure actions reach sale (no fixed annual retail calendar); newspaper and courthouse notices",
+    "depositRules": "Deposit and balance rules are set in the court order/notice (NC peer pattern: cash deposit of 20% of bid or $750 class, whichever greater — confirm Haywood notice). Upset bids: deposit 5% of upset bid or $750 class at Clerk with AOC forms. After confirmation, last high bidder pays balance to the commissioner on the published timeline or risks deposit forfeiture.",
+    "taxCollector": {
+      "label": "Haywood County Tax Office",
+      "url": "https://www.haywoodcountync.gov/"
+    },
+    "clerkOfCourt": {
+      "label": "Haywood County Clerk of Superior Court (upset bids / eCourts)",
+      "url": "https://www.nccourts.gov/locations/haywood-county"
+    },
+    "propertyAppraiser": {
+      "label": "Haywood County Tax Assessor / GIS",
+      "url": "https://www.haywoodcountync.gov/"
+    },
+    "survivingLiens": "Proper NC judicial tax foreclosure with joined parties generally cuts off junior liens; omitted lienholders and federal tax liens create residual risk. Upset bids can restart the 10-day clock and delay closing. Full title search mandatory.",
+    "quietTitle": "Completed judicial foreclosure often supports marketable title; quiet title may still be used if notice or party defects appear.",
+    "gisMap": {
+      "label": "Haywood County GIS / parcel mapping",
+      "url": "https://www.haywoodcountync.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Waynesville / downtown–hospital edge",
+        "why": "County-seat services and tourism gateway with more liquid SF than remote hollows"
+      },
+      {
+        "name": "Maggie Valley / US-19 recreation corridor",
+        "why": "Seasonal tourism and second-home demand; underwrite STR rules and occupancy"
+      },
+      {
+        "name": "Canton–Clyde / I-40 fringe",
+        "why": "Highway access and relative value housing toward Asheville commute"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.haywoodcountync.gov/",
+      "https://www.nccourts.gov/locations/haywood-county"
+    ]
+  },
+  "31079": {
+    "notes": "Nebraska tax-lien certificate county. Hall County Treasurer (Grand Island) runs the annual public tax sale under Neb. Rev. Stat. Ch. 77. ALL 2024 and prior delinquent taxes were purchased at the public tax sale on March 2, 2026 — no remaining delinquent taxes for sale as of mid-2026 list notice. Statewide pattern is first Monday in March. Investor packet: registration form, W-9, TAX SALE CERT INVESTOR INSTRUCTIONS 2026 (currently $25 non-refundable fee per certificate class). 14% statutory interest context until redemption. Contact Alaina Verplank, Treasurer, 200 S Sycamore St Ste 2, Grand Island, 308-385-5025. Grand Island / I-80 central Nebraska market.",
+    "auctionFormat": "In-person public tax lien certificate sale",
+    "auctionPlatform": {
+      "label": "Hall County Treasurer — Tax Sale Certificates",
+      "url": "https://www.hallcountyne.gov/departments/treasurer/delinquent_tax_list.php",
+      "phone": "308-385-5025"
+    },
+    "auctionFrequency": "Annually first Monday in March pattern (2026: March 2; next cycle March 2027 class)",
+    "depositRules": "Pre-register with Treasurer (investor registration form, W-9, nonrefundable certificate fee — 2026 packet cites $25 per certificate). Bring payment method as directed (blank-check practice common in NE for certificates purchased). Confirm exact next-year registration deadline and fees at 308-385-5025 before the sale.",
+    "taxCollector": {
+      "label": "Hall County Treasurer",
+      "url": "https://www.hallcountyne.gov/departments/treasurer/index.php",
+      "phone": "308-385-5025"
+    },
+    "clerkOfCourt": {
+      "label": "Hall County Clerk / Register of Deeds",
+      "url": "https://www.hallcountyne.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Hall County Assessor / Nebraska Taxes Online",
+      "url": "https://nebraskataxesonline.us/search.aspx?county=Hall"
+    },
+    "survivingLiens": "Certificate then tax deed after redemption period. Federal liens can survive a tax deed; verify governmental assessments. Certificate purchase is not ownership.",
+    "quietTitle": "Commonly used to obtain marketable title after a treasurer's tax deed.",
+    "gisMap": {
+      "label": "Hall County Assessor / parcel research resources",
+      "url": "https://nebraskataxesonline.us/search.aspx?county=Hall"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Grand Island / downtown–hospital edge",
+        "why": "Regional medical and agribusiness employment with more liquid SF than rural townships"
+      },
+      {
+        "name": "South Locust / US-281 commercial corridor",
+        "why": "Retail and logistics jobs supporting workforce housing"
+      },
+      {
+        "name": "Northwest Grand Island residential growth",
+        "why": "Newer SF subdivisions with stronger resale liquidity than outer agricultural tracts"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.hallcountyne.gov/departments/treasurer/delinquent_tax_list.php",
+      "https://www.hallcountyne.gov/departments/treasurer/index.php",
+      "https://nebraskataxesonline.us/search.aspx?county=Hall"
+    ]
+  },
+  "45031": {
+    "notes": "South Carolina redeemable tax-deed county (S.C. Code Title 12, Ch. 51). Darlington County Tax Collector (Mae Helen Burch) holds the Delinquent Tax Sale on Real Estate and Mobile Homes in December beginning at 10:00 a.m. in the gym at Darlington Middle School, 150 Pinedale Drive, Darlington, SC 29532. Call 843-398-4170 for the specific date. Advertised in Darlington News & Press (3 consecutive weeks for real property). Bidders cannot register day of sale — registration opens in October. Owners cannot pay day-of for parcels on the block (must pay by 5:00 p.m. day prior). All bids paid in full by 5:00 p.m. same day with cash, cashier's check, or money order ($500 fine per unpaid bid). Redemption: 1 year and 1 day; tax deed thereafter (not warranty title). Darlington–Hartsville Pee Dee market.",
+    "auctionFormat": "In-person (live auction at Darlington Middle School gym)",
+    "auctionPlatform": {
+      "label": "Darlington County Tax Collector — Delinquent Tax Sale",
+      "url": "https://www.darcosc.com/departments/tax_collector.php",
+      "phone": "843-398-4170"
+    },
+    "auctionFrequency": "Annually in December at 10:00 a.m. (confirm exact 2026 date with Tax Collector)",
+    "depositRules": "Pre-register when registration opens in October — no day-of registration. Pay winning bids in full by 5:00 p.m. sale day with cash, cashier's check, or money order only. Unpaid bid fine $500 per bid. One year and one day statutory redemption before tax deed issues.",
+    "taxCollector": {
+      "label": "Darlington County Tax Collector (Delinquent Taxes)",
+      "url": "https://www.darcosc.com/departments/tax_collector.php",
+      "phone": "843-398-4170"
+    },
+    "clerkOfCourt": {
+      "label": "Darlington County Register of Deeds / Clerk of Court",
+      "url": "https://www.darcosc.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Darlington County Assessor (qPublic)",
+      "url": "https://www.qpublic.net/sc/darlington/"
+    },
+    "survivingLiens": "Tax deed subject to 1-year (+1 day) redemption. After redemption expires, most private liens are cut off; federal liens and some assessments can survive. Research ROD before bidding.",
+    "quietTitle": "Frequently used after the redemption period to obtain insurable title for residential resale.",
+    "gisMap": {
+      "label": "Darlington County Assessor / GIS parcel resources",
+      "url": "https://www.qpublic.net/sc/darlington/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Hartsville / downtown–Coker College edge",
+        "why": "College and manufacturing employment with more liquid SF than pure rural tracts"
+      },
+      {
+        "name": "Darlington city / raceway–courthouse core",
+        "why": "County-seat and tourism events supporting selective rental demand"
+      },
+      {
+        "name": "Lamar–Society Hill rural fringe",
+        "why": "Entry-priced SF and land; underwrite vacancy carefully"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.darcosc.com/departments/tax_collector.php",
+      "https://www.qpublic.net/sc/darlington/",
+      "https://darlingtontreasurer.qpaybill.com/"
+    ]
+  },
+  "42103": {
+    "notes": "Pennsylvania tax-deed county under RETSL. Pike County Tax Claim Bureau (Milford — 506 Broad St, 570-296-3407 / taxclaim@pikepa.org) collects delinquent real estate taxes for 3 school districts and 13 municipalities. Interest accrues at 9% annually; $25 fee per claim on return. Runs Upset, Judicial, and Repository sales. 2025 Upset Sale complete as of mid-2026 page status — confirm next Upset/Judicial dates on pikepa.org. YOU RECEIVE A TAX CLAIM DEED, NOT CLEAR TITLE. Most title companies will not insure without quiet title. Poconos / Delaware River / NY metro second-home market — HOA, septic, and flood DD essential.",
+    "auctionFormat": "In-person (Tax Claim Bureau Upset / Judicial / Repository auctions)",
+    "auctionPlatform": {
+      "label": "Pike County Tax Claim Bureau — Upset / Judicial / Repository Sales",
+      "url": "https://www.pikepa.org/government/tax_claim/index.php",
+      "phone": "570-296-3407"
+    },
+    "auctionFrequency": "Annual Upset (typically September class); Judicial and Repository on published schedules — confirm current year dates",
+    "depositRules": "ALL prospective bidders required to pre-register (historically ~10 days prior; packet on county site). Payment cash/certified funds per Conditions of Sale. Review Act 33 bidder-affidavit requirements. Sold AS IS — Upset buyers take subject to many existing liens.",
+    "taxCollector": {
+      "label": "Pike County Tax Claim Bureau",
+      "url": "https://www.pikepa.org/government/tax_claim/index.php",
+      "phone": "570-296-3407"
+    },
+    "clerkOfCourt": {
+      "label": "Pike County Prothonotary / Recorder of Deeds",
+      "url": "https://www.pikepa.org/"
+    },
+    "propertyAppraiser": {
+      "label": "Pike County Assessment",
+      "url": "https://www.pikepa.org/"
+    },
+    "survivingLiens": "Upset Sale: buyer generally takes subject to mortgages and many private liens. Judicial Sale: most private liens can be cut off if parties are properly noticed. Federal tax liens, HOA, and municipal claims need careful review. Full title search mandatory.",
+    "quietTitle": "Bureau expressly notes most title companies will not insure without quiet title or equivalent — budget accordingly.",
+    "gisMap": {
+      "label": "Pike County GIS / assessment parcel resources",
+      "url": "https://www.pikepa.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Milford / Delaware Water Gap edge",
+        "why": "County-seat and tourism gateway with selective SF demand"
+      },
+      {
+        "name": "Matamoras–Westfall / I-84 NY fringe",
+        "why": "NY metro commute and second-home demand with highway access"
+      },
+      {
+        "name": "Hemlock Farms–Lords Valley planned communities",
+        "why": "HOA communities with entry-priced SF; underwrite association dues and rules carefully"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.pikepa.org/government/tax_claim/index.php",
+      "https://www.pikepa.org/government/tax_claim/upset_tax_sale/index.php",
+      "https://www.pikepa.org/government/tax_claim/judicial_sale/index.php"
+    ]
+  },
+  "05033": {
+    "notes": "Arkansas tax-deed system administered statewide by COSL — not a county-run auction. Crawford County (Van Buren / Alma / Fort Smith MSA east bank of the Arkansas River) certified delinquents are sold at regional public auctions (historically grouped with Sebastian/Logan/Franklin at Fort Smith Convention Center — e.g. July 21, 2026 class regional sales) and then post-auction / online residuals. Confirm live Crawford dates on cosl.org catalog. Effective July 1, 2023, parcels sold through COSL cannot be redeemed after sale — redemption deadline is 4:00 p.m. the last business day prior to the sale. Sold AS IS.",
+    "auctionFormat": "In-person public auction (statewide COSL) + post-auction / online residuals",
+    "auctionPlatform": {
+      "label": "Arkansas Commissioner of State Lands — Public Auction Catalog (Crawford)",
+      "url": "https://cosl.org/catalog.aspx",
+      "phone": "501-324-9422"
+    },
+    "auctionFrequency": "Statewide regional auction calendar; Crawford parcels in River Valley / Fort Smith regional sale dates plus post-auction online residuals",
+    "depositRules": "Register per COSL auction rules (registration often morning-of). Cash not accepted. Review Buyers Guide and Rules on cosl.org. Post-auction unsold list at cosl.org. No post-sale owner redemption on sold COSL parcels after July 1, 2023.",
+    "taxCollector": {
+      "label": "Crawford County Collector (current taxes) / COSL (certified delinquent land sales)",
+      "url": "https://cosl.org/",
+      "phone": "501-324-9422"
+    },
+    "clerkOfCourt": {
+      "label": "Crawford County Circuit Clerk / Recorder",
+      "url": "https://www.crawfordcountyar.org/"
+    },
+    "propertyAppraiser": {
+      "label": "Crawford County Assessor",
+      "url": "https://www.arcountydata.com/county.asp?county=Crawford"
+    },
+    "survivingLiens": "Tax deed from COSL process; federal liens and certain interests can survive. Search county records for municipal liens and flood flags. No post-sale owner redemption on COSL sales after July 1, 2023.",
+    "quietTitle": "Commonly required by Arkansas title underwriters before insuring free-and-clear marketable title after a tax deed.",
+    "gisMap": {
+      "label": "Crawford County Assessor / parcel research (ARCountyData)",
+      "url": "https://www.arcountydata.com/propsearch.asp?county=Crawford"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Van Buren / I-40–downtown edge",
+        "why": "County-seat and Fort Smith MSA employment with more liquid SF than rural Ozark tracts"
+      },
+      {
+        "name": "Alma / I-40 east corridor",
+        "why": "Highway retail and workforce housing with school-district demand"
+      },
+      {
+        "name": "Mountainburg–Cedarville north fringe",
+        "why": "Entry-priced SF and land; underwrite access and utilities carefully"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://cosl.org/catalog.aspx",
+      "https://cosl.org/",
+      "https://cosl.org/Home/PostAuctionView?county=CRAWFORD",
+      "https://www.rivervalleydemocratgazette.com/news/2026/jul/13/tax-delinquent-land-auction-set-for-july-21-in/"
+    ]
+  },
+  "47167": {
+    "notes": "Tennessee judicial redeemable-deed county. Tipton County (Covington / Munford / Atoka / Memphis north fringe) delinquent real property tax sales are handled through Chancery Court Clerk & Master Gina D. Smith (1801 S College St Ste 110, Covington; 901-476-0209) under TCA Title 67 Ch. 5 pattern — periodic public auction for county and municipal delinquencies, court confirmation, then statutory redemption (commonly 1 year; court may vary). Confirm next sale date, format (in-person vs. any online experiment), and bidder instructions with Clerk & Master before travel. Memphis MSA north-suburb growth market — flood, septic, and title DD essential on rural tracts.",
+    "auctionFormat": "In-person Chancery / Clerk & Master tax sale (confirm any online component)",
+    "auctionPlatform": {
+      "label": "Tipton County Chancery Court Clerk & Master — delinquent tax sale",
+      "url": "https://tiptonco.com/government/courts/chancery/index.php",
+      "phone": "901-476-0209"
+    },
+    "auctionFrequency": "Periodic — often annual or as docketed; confirm next sale with Clerk & Master 901-476-0209",
+    "depositRules": "Chancery/Clerk & Master sale rules — deposit and balance deadlines set in the sale notice/order (typically certified funds day of sale). Obtain bidder instructions from the Clerk & Master's Office before sale day. Sale incomplete until Order Confirming Sale; properties subject to statutory redemption after confirmation.",
+    "taxCollector": {
+      "label": "Tipton County Trustee (current taxes) / Clerk & Master (delinquent tax sale)",
+      "url": "https://tiptonco.com/government/courts/chancery/index.php",
+      "phone": "901-476-0209"
+    },
+    "clerkOfCourt": {
+      "label": "Tipton County Chancery Court Clerk & Master (Gina D. Smith)",
+      "url": "https://tiptonco.com/government/courts/chancery/index.php",
+      "phone": "901-476-0209"
+    },
+    "propertyAppraiser": {
+      "label": "Tipton County Property Assessor",
+      "url": "https://tiptonco.com/"
+    },
+    "survivingLiens": "Judicial tax sale subject to redemption. After confirmation and redemption expire, most junior private liens are cut off; federal liens can survive. Full title search mandatory.",
+    "quietTitle": "Often used after redemption expires to obtain insurable title for Memphis-metro resale.",
+    "gisMap": {
+      "label": "Tipton County Assessor / GIS parcel resources",
+      "url": "https://www.tiptonco.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Atoka–Munford / US-51 growth corridor",
+        "why": "Memphis north-suburb demand with stronger SF absorption than pure rural tracts"
+      },
+      {
+        "name": "Covington / downtown–courthouse core",
+        "why": "County-seat employment with selective SF rehab demand"
+      },
+      {
+        "name": "Brighton–Mason east county",
+        "why": "Entry-priced SF and land with local industrial employment"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://tiptonco.com/government/courts/chancery/index.php",
+      "https://tncourts.gov/courts/state-court-clerks/clerks/gina-d-smith",
+      "https://tiptonco.com/"
+    ]
+  },
+  "39129": {
+    "notes": "Ohio hybrid tax-lien / tax-deed county. Pickaway County (Circleville / Ashville / south Columbus exurb) Treasurer and Auditor administer delinquent taxes; Ohio counties may sell tax certificates and/or pursue foreclosure/sheriff sale paths under ORC. Confirm whether the current cycle is a certificate sale, forfeited-land disposition, or prosecutor-driven tax foreclosure before funding. Sheriff mortgage/execution sales (if any) are a separate track from tax certificates. Circleville Pumpkin Show / Rickenbacker-logistics fringe market — Columbus metro spillover supports SF demand in northern townships.",
+    "auctionFormat": "Tax certificate sale and/or judicial tax foreclosure as noticed (confirm current path with Treasurer)",
+    "auctionPlatform": {
+      "label": "Pickaway County Treasurer — delinquent tax / certificate sale (confirm current vendor)",
+      "url": "https://www.pickaway.org/"
+    },
+    "auctionFrequency": "Annual certificate sale pattern and/or as foreclosure cases reach sale — confirm with Treasurer",
+    "depositRules": "Follow the published Treasurer or court notice for the specific sale type. Certificate sales require registration and payment of taxes purchased plus bid penalties; foreclosure/sheriff sales use platform or court deposit rules. Confirm payment method and deadlines in writing before sale day.",
+    "taxCollector": {
+      "label": "Pickaway County Treasurer",
+      "url": "https://www.pickaway.org/"
+    },
+    "clerkOfCourt": {
+      "label": "Pickaway County Clerk of Courts",
+      "url": "https://www.pickaway.org/"
+    },
+    "propertyAppraiser": {
+      "label": "Pickaway County Auditor",
+      "url": "https://www.pickaway.org/"
+    },
+    "survivingLiens": "Certificate path vs. tax foreclosure/sheriff sale path differ. After a proper tax deed/forfeiture or confirmed judicial sale, most junior private liens are cut off; federal liens can survive. Read each case caption carefully.",
+    "quietTitle": "Often used after tax deed; judicial foreclosure judgment is the main clearing step on the foreclosure path.",
+    "gisMap": {
+      "label": "Pickaway County Auditor / GIS parcel resources",
+      "url": "https://www.pickaway.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Ashville–South Bloomfield / US-23 north",
+        "why": "Columbus metro spillover with stronger SF demand than southern rural townships"
+      },
+      {
+        "name": "Circleville / downtown–hospital edge",
+        "why": "County-seat and logistics employment with selective rental demand"
+      },
+      {
+        "name": "Commercial Point / Rickenbacker fringe",
+        "why": "Warehouse and industrial job growth supporting workforce housing"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.pickaway.org/",
+      "https://ohioauditor.gov/"
+    ]
+  },
+  "47105": {
+    "notes": "Tennessee judicial redeemable-deed county. Loudon County Clerk & Master (Lisa Scott) manages Chancery Court delinquent property tax sales. Official tax-sale page: next tax sale Monday, October 18, 2027 (865-458-2630 / scottl@loudoncounty-tn.gov). Updated property information is made available ~30 days prior to a sale. Court terms April, August, December. Statutory redemption after confirmation (commonly 1 year class under TCA Title 67 Ch. 5 — confirm order). Loudon / Lenoir City / Tellico Village / I-75 Knoxville metro west-spillover market — lakefront HOA and TVA shoreline DD essential.",
+    "auctionFormat": "In-person Chancery / Clerk & Master tax sale",
+    "auctionPlatform": {
+      "label": "Loudon County Clerk & Master — Tax Sale Properties",
+      "url": "https://www.loudoncountychancery.com/tax_sale_active.html",
+      "phone": "865-458-2630"
+    },
+    "auctionFrequency": "As scheduled by Clerk & Master (next published: October 18, 2027)",
+    "depositRules": "Chancery/Clerk & Master sale rules — deposit and balance deadlines set in the sale notice/order (typically certified funds). Obtain bidder instructions from the Clerk & Master's Office before sale day. Sale incomplete until Order Confirming Sale; properties subject to statutory redemption after confirmation.",
+    "taxCollector": {
+      "label": "Loudon County Trustee (current taxes) / Clerk & Master (delinquent tax sale)",
+      "url": "https://loudoncounty-tn.gov/clerk-and-master/",
+      "phone": "865-458-2630"
+    },
+    "clerkOfCourt": {
+      "label": "Loudon County Clerk & Master of Chancery Court",
+      "url": "https://www.loudoncountychancery.com/",
+      "phone": "865-458-2630"
+    },
+    "propertyAppraiser": {
+      "label": "Loudon County Property Assessor",
+      "url": "https://loudoncounty-tn.gov/"
+    },
+    "survivingLiens": "Judicial tax sale subject to redemption. After confirmation and redemption expire, most junior private liens are cut off; federal liens can survive. Full title search mandatory — especially HOA/POA on Tellico and lakefront stock.",
+    "quietTitle": "Often used after redemption expires to obtain insurable title for Knoxville-metro resale.",
+    "gisMap": {
+      "label": "Loudon County Assessor / GIS parcel resources",
+      "url": "https://loudoncounty-tn.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Lenoir City / I-75–US-321 edge",
+        "why": "Knoxville west-spillover retail and logistics with stronger SF absorption"
+      },
+      {
+        "name": "Loudon town / downtown–river core",
+        "why": "County-seat employment with selective SF rehab demand"
+      },
+      {
+        "name": "Tellico Village–Greenback lake fringe",
+        "why": "Retirement and second-home demand; underwrite HOA dues and shoreline rules"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.loudoncountychancery.com/tax_sale_active.html",
+      "https://www.loudoncountychancery.com/",
+      "https://loudoncounty-tn.gov/clerk-and-master/"
+    ]
+  },
+  "53071": {
+    "notes": "Washington tax-deed (judicial foreclosure) county. Walla Walla County Treasurer (Gordon Heimbigner) files Certificate of Delinquency and sells via online auction. COD filed as of 11/17/2025 with amendments from 12/18/2025; as of mid-2026 NO SALE DATE SET and page states no foreclosure sale currently scheduled. All foreclosure sales conducted via online auction per RCW 36.16.145 and administered by GovEase (govease.com) — register there for future sales. Contact Treasurer 509-524-2750 / treasurer@wwcowa.gov. Excess funds lists post on county foreclosure page. Walla Walla wine-country / Whitman College market — irrigation, water rights, and ag-adjacent title DD essential.",
+    "auctionFormat": "Online (GovEase) when judgment sale inventory posts",
+    "auctionPlatform": {
+      "label": "GovEase — Walla Walla County WA Tax Foreclosure",
+      "url": "https://www.govease.com/"
+    },
+    "auctionFrequency": "As COD judgment sale is set (COD filed late 2025; no sale date set as of mid-2026 — monitor Treasurer page)",
+    "depositRules": "Register on GovEase and post required deposit per platform and county terms when a sale is scheduled. Winning bidder pays balance by electronic funds within published window. Non-winning deposits refunded per platform rules. Sold AS IS after tax judgment. Confirm current terms with 509-524-2750 before funding.",
+    "taxCollector": {
+      "label": "Walla Walla County Treasurer — Foreclosure",
+      "url": "https://www.wwcowa.gov/government/treasurer/foreclosure.php",
+      "phone": "509-524-2750"
+    },
+    "clerkOfCourt": {
+      "label": "Walla Walla County Auditor / Superior Court Clerk (recording)",
+      "url": "https://www.wwcowa.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Walla Walla County Assessor — Property Search",
+      "url": "https://propertysearch.co.walla-walla.wa.us/PropertyAccess/propertysearch.aspx?cid=0"
+    },
+    "survivingLiens": "Treasurer's deed after tax judgment sale generally extinguishes most private liens; federal tax liens can survive. Verify local improvement district, irrigation, and other assessments. Water rights and ag leases need separate analysis.",
+    "quietTitle": "Practically often required for title insurance on Washington tax-deed property.",
+    "gisMap": {
+      "label": "Walla Walla County Assessor property search / map",
+      "url": "https://propertysearch.co.walla-walla.wa.us/PropertyAccess/propertysearch.aspx?cid=0"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Walla Walla city / downtown–college edge",
+        "why": "Wine tourism, Whitman College, and medical employment with more liquid SF than pure rural tracts"
+      },
+      {
+        "name": "College Place / west residential",
+        "why": "Suburban SF absorption with local institutional employment"
+      },
+      {
+        "name": "Burbank–Touchet east/south fringe",
+        "why": "Entry-priced SF and ag-adjacent land; underwrite irrigation and flood risk"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.wwcowa.gov/government/treasurer/foreclosure.php",
+      "https://www.wwcowa.gov/departments/treasurer/index.php",
+      "https://www.govease.com/",
+      "https://propertysearch.co.walla-walla.wa.us/PropertyAccess/propertysearch.aspx?cid=0"
+    ]
+  },
+  "40047": {
+    "notes": "Oklahoma tax-deed resale county. Garfield County Treasurer Kevin R. Postier (Enid) conducts a public auction on the second Monday of each June for real estate with unpaid ad valorem taxes or special assessments (cleaning/mowing). Lists available from the office in May. 2026 Notice of Resale: sale at County Treasurer's Office in the Courthouse, beginning June 8, 2026 at 9:00 a.m. continuing through 4:00 p.m. and day to day as needed; highest competitive bidder for cash, cashier's check, or money order for total taxes, penalties, interest, and costs. Phone 580-237-0246; oktaxrolls.com/county/garfield. Enid / Vance AFB / north-central OK market.",
+    "auctionFormat": "In-person (courthouse Treasurer resale auction)",
+    "auctionPlatform": {
+      "label": "Garfield County Treasurer — June Tax Resale",
+      "url": "https://oktaxrolls.com/county/garfield",
+      "phone": "580-237-0246"
+    },
+    "auctionFrequency": "Annually second Monday in June (2026: June 8, 9:00 a.m.)",
+    "depositRules": "Public auction for cash, cashier's check, or money order for the total amount due as advertised. Confirm any pre-registration or deposit practice with Treasurer 580-237-0246 before attending. Owner may redeem prior to commencement of the resale auction under Oklahoma statute. Sold AS IS.",
+    "taxCollector": {
+      "label": "Garfield County Treasurer",
+      "url": "https://oktaxrolls.com/county/garfield",
+      "phone": "580-237-0246"
+    },
+    "clerkOfCourt": {
+      "label": "Garfield County Clerk (land records)",
+      "url": "https://www.garfieldok.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Garfield County Assessor",
+      "url": "https://www.assessor.garfieldok.com/"
+    },
+    "survivingLiens": "Resale tax deed generally extinguishes most private liens; federal liens can survive. Verify mineral and governmental interests separately in Oklahoma — mineral severances are common.",
+    "quietTitle": "Commonly used after a county tax resale deed for insurable title.",
+    "gisMap": {
+      "label": "Garfield County Assessor / parcel research resources",
+      "url": "https://www.assessor.garfieldok.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Enid / downtown–medical edge",
+        "why": "Regional hospital and government employment with more liquid SF than pure rural tracts"
+      },
+      {
+        "name": "Vance AFB / west residential",
+        "why": "Military training base supports rental and workforce SF demand near base gates"
+      },
+      {
+        "name": "North Enid–Kremlin fringe",
+        "why": "Entry-priced SF with agribusiness and industrial employment"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://oktaxrolls.com/county/garfield",
+      "https://marketplace.enidnews.com/enid-ok/public-notices/published-in-the-enid-news-am/AC1E05ED0cb9e01332rw4cC289B9",
+      "https://www.assessor.garfieldok.com/"
+    ]
+  },
+  "21209": {
+    "notes": "Kentucky certificate-of-delinquency (tax lien) county under KRS 134.128. Scott County Clerk (Georgetown) handles third-party sales of certificates after the Sheriff transfers unpaid bills around April 15; statewide Department of Revenue publishes the annual county sale schedule (typically mid-July through late summer). Purchase is a certificate/lien interest, not a deed — foreclosure of the certificate is a separate court process. Volume purchasers must register with KY DOR when over statutory thresholds. Georgetown / Toyota / I-75 Lexington north-spillover growth market — competition for certificates can be strong relative to rural KY counties.",
+    "auctionFormat": "In-person / clerk-administered certificate of delinquency sale (KRS 134.128 process)",
+    "auctionPlatform": {
+      "label": "Scott County Clerk — Delinquent Taxes / certificates of delinquency",
+      "url": "https://scottcountyclerk.com/",
+      "phone": "502-863-7875"
+    },
+    "auctionFrequency": "Annually per KY DOR county schedule (typically mid-summer through early fall — confirm 2026 Scott date with Clerk)",
+    "depositRules": "Third-party purchasers register with the County Clerk per KRS 134.128 and DOR rules; registration/priority-list fees and full certificate payment practice are set by the clerk's packet. Certificates listed at least 30 days prior. Confirm payment method, priority rights for prior-year holders, and lottery/assignment mechanics with the Clerk before the sale window. State third-party purchaser registration for volume buyers.",
+    "taxCollector": {
+      "label": "Scott County Clerk — Delinquent Property Taxes",
+      "url": "https://scottcountyclerk.com/",
+      "phone": "502-863-7875"
+    },
+    "clerkOfCourt": {
+      "label": "Scott County Clerk (land records / certificates)",
+      "url": "https://scottcountyclerk.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Scott County PVA",
+      "url": "https://scottcountypva.com/"
+    },
+    "survivingLiens": "Certificate of delinquency is a lien interest. After foreclosure/deed, most junior private liens may be cut off; federal and some governmental liens can survive. Full title search before certificate foreclosure is essential.",
+    "quietTitle": "Foreclosure of the certificate is a court process; additional quiet title may be needed for resale insurance.",
+    "gisMap": {
+      "label": "Scott County PVA / parcel research resources",
+      "url": "https://scottcountypva.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Georgetown / Toyota–I-75 corridor",
+        "why": "Auto manufacturing and Lexington commute demand with strong SF absorption"
+      },
+      {
+        "name": "Stamping Ground–Sadieville north fringe",
+        "why": "Relative value housing with local employment outside core Georgetown"
+      },
+      {
+        "name": "Great Crossing–west residential growth",
+        "why": "Newer subdivisions with school-district demand and resale liquidity"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://scottcountyclerk.com/",
+      "https://kydtax.smllc.us/DTaxList.htm",
+      "https://revenue.ky.gov/Property/Pages/Third-Party-Purchaser.aspx",
+      "https://scottcountypva.com/"
+    ]
+  }
+}

@@ -1,0 +1,1258 @@
+{
+  "48441": {
+    "notes": "Texas redeemable tax-deed. Taylor County posts Delinquent Tax / Sheriff’s Sale information at the Courthouse and on the Central Appraisal District site (taylor-cad.org). Quarterly tax sales on the first Tuesday in March, June, September & December in the Taylor County Courthouse Lobby, 300 Oak Street, Abilene (legal hours 10:00 a.m.–4:00 p.m.). Bid4Assets has also listed Taylor live tax redeemable deed sales in past cycles — confirm whether the active month is courthouse-only or dual-listed. Mortgage substitute-trustee sales run separately first Tuesday monthly; read each notice carefully. Abilene MSA / Dyess AFB influence.",
+    "auctionFormat": "In-person (Courthouse Lobby; confirm any Bid4Assets dual listing per notice)",
+    "auctionPlatform": {
+      "label": "Taylor County Sheriff — Civil / Delinquent Tax Sale (Courthouse Lobby)",
+      "url": "https://www.taylorcounty.texas.gov/259/Civil",
+      "phone": "325-691-7400"
+    },
+    "auctionFrequency": "Quarterly tax sales first Tuesday Mar/Jun/Sep/Dec when inventory posts; confirm CAD and courthouse postings",
+    "depositRules": "Cash/certified funds same day per officer rules typical of West Texas tax sales. Bring cashier’s check capacity for full bid. Obtain any required no-delinquent-tax statement from Tax Assessor-Collector before deed issues. Sold AS IS, redeemable deed (180-day or 2-year homestead/ag/mineral).",
+    "taxCollector": {
+      "label": "Taylor County Tax Assessor-Collector / CAD tax-sale postings",
+      "url": "https://www.taylor-cad.org/"
+    },
+    "clerkOfCourt": {
+      "label": "Taylor County Clerk (records; foreclosure notice filings)",
+      "url": "https://www.taylorcounty.texas.gov/408/Foreclosure-Information"
+    },
+    "propertyAppraiser": {
+      "label": "Central Appraisal District of Taylor County",
+      "url": "https://www.taylor-cad.org/"
+    },
+    "survivingLiens": "Redeemable tax deed subject to statutory redemption (180 days standard; 2 years homestead/ag/mineral with 25%/50% premiums). HOA/POA liens can survive if not properly joined; federal tax liens survive (IRS rights). Post-judgment taxes may remain. Full title search mandatory.",
+    "quietTitle": "Common after redemption expires for insurable title; sheriff tax deeds are no-warranty instruments.",
+    "gisMap": {
+      "label": "Taylor CAD parcel / mapping resources",
+      "url": "https://www.taylor-cad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Abilene core / medical-education belt",
+        "why": "County-seat hospital, university, and service employment supporting workforce SF absorption"
+      },
+      {
+        "name": "Dyess AFB / southwest Abilene fringe",
+        "why": "Military and contractor demand with relatively liquid starter inventory"
+      },
+      {
+        "name": "South 14th / Buffalo Gap corridor",
+        "why": "Suburban retail spine with school-driven local resale"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.taylorcounty.texas.gov/259/Civil",
+      "https://www.taylor-cad.org/",
+      "https://www.taylorcounty.texas.gov/408/Foreclosure-Information"
+    ]
+  },
+  "48397": {
+    "notes": "Texas redeemable tax-deed. Rockwall County tax foreclosure sales follow first-Tuesday statutory windows at the designated courthouse location (confirm current posting site with County Clerk / Sheriff Civil). Separate mortgage substitute-trustee notices post monthly. Rockwall is Dallas MSA northeast — high-growth lake and highway corridor (I-30 / SH-205). CAD (rockwallcad.com) is primary parcel/assessment source. Confirm active cycle (courthouse vs any online platform) on each notice.",
+    "auctionFormat": "In-person (first Tuesday courthouse tax sale; confirm notice)",
+    "auctionPlatform": {
+      "label": "Rockwall County Sheriff / Constable — Tax Foreclosure Sale",
+      "url": "https://www.rockwallcountytexas.com/"
+    },
+    "auctionFrequency": "First Tuesday of the month when tax orders of sale post (not every month has inventory)",
+    "depositRules": "Certified funds day-of per officer conducting sale. Purchaser typically must present Tax Assessor-Collector written statement of no delinquent taxes owed before deed issues. Sold AS IS, redeemable deed.",
+    "taxCollector": {
+      "label": "Rockwall County Tax Assessor-Collector",
+      "url": "https://www.rockwallcountytexas.com/"
+    },
+    "clerkOfCourt": {
+      "label": "Rockwall County Clerk",
+      "url": "https://www.rockwallcountytexas.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Rockwall Central Appraisal District",
+      "url": "https://www.rockwallcad.com/"
+    },
+    "survivingLiens": "Redeemable tax deed; HOA/POA and federal liens can survive; post-judgment taxes may remain. Independent title search mandatory before bidding in this high-HOA suburban market.",
+    "quietTitle": "Common after redemption expires for marketable/insurable title.",
+    "gisMap": {
+      "label": "Rockwall CAD GIS / parcel search",
+      "url": "https://www.rockwallcad.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Rockwall city / Harbor / I-30 lakefront edge",
+        "why": "Primary job/retail node with Lake Ray Hubbard amenity demand"
+      },
+      {
+        "name": "Fate / SH-66 growth corridor",
+        "why": "Fast SF absorption on Dallas-northeast fringe with new-build spillover"
+      },
+      {
+        "name": "Royse City / I-30 east",
+        "why": "Relative entry pricing versus Rockwall core with commute liquidity"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.rockwallcountytexas.com/",
+      "https://www.rockwallcad.com/"
+    ]
+  },
+  "48231": {
+    "notes": "Texas redeemable tax-deed — Hunt County does not sell tax liens. Tax Foreclosure/Constable’s Sales held first Tuesday each month at 10:00 a.m. on the second floor of the Hunt County Courthouse, 2500 Lee Street, Greenville. Properties advertised three weeks prior. Attorney lists (e.g. Perdue Brandon) also post monthly Hunt PDFs. Unsold parcels may enter Judgment Properties then annual sealed-bid Resale after redemption expires. Bidder Certificate required from Tax Office ($10 annual) before deed preparation. Dallas MSA east / I-30 Greenville–Commerce.",
+    "auctionFormat": "In-person (Constable’s sale, Courthouse 2nd floor)",
+    "auctionPlatform": {
+      "label": "Hunt County Tax Foreclosure / Constable’s Sale",
+      "url": "https://hctax.info/bid-instructions-and-rules/",
+      "phone": "903-408-4024"
+    },
+    "auctionFrequency": "First Tuesday monthly at 10:00 a.m. when notices post; annual sealed-bid Resale for remaining inventory",
+    "depositRules": "Payment in full by 2:00 p.m. sale day to Constable’s Office by cashier’s check or U.S. Postal money order only (payable to Hunt County Constable’s Office). Current Bidder Certificate from Tax Office required before deed. Resale track: 100% cashier’s check/money order to Tax Assessor-Collector; deed processing can take 90+ days. Sold AS IS, deed without warranty.",
+    "taxCollector": {
+      "label": "Hunt County Tax Assessor-Collector — Property Sales / Bidder Certificate",
+      "url": "https://hctax.info/",
+      "phone": "903-408-4024"
+    },
+    "clerkOfCourt": {
+      "label": "Hunt County Clerk",
+      "url": "https://www.huntcounty.net/"
+    },
+    "propertyAppraiser": {
+      "label": "Hunt County Appraisal District",
+      "url": "https://www.hunt-cad.org/"
+    },
+    "survivingLiens": "Redeemable tax deed without warranty; HOA and federal liens can survive; current taxes not in bid may be buyer’s. Title insurance often difficult until quiet title/redemption ends.",
+    "quietTitle": "Common after redemption for insurable title; deeds without warranty.",
+    "gisMap": {
+      "label": "Hunt CAD / county parcel resources",
+      "url": "https://www.hunt-cad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Greenville core / industrial park edge",
+        "why": "County-seat manufacturing and logistics employment with primary urban inventory"
+      },
+      {
+        "name": "Commerce / university fringe",
+        "why": "Texas A&M–Commerce student and staff rental demand"
+      },
+      {
+        "name": "Royse City / Caddo Mills I-30 west edge",
+        "why": "Dallas-commute SF growth with relatively liquid starter stock"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://hctax.info/bid-instructions-and-rules/",
+      "https://hctax.info/property-sales/",
+      "https://www.hunt-cad.org/",
+      "https://www.pbfcm.com/taxsale.html"
+    ]
+  },
+  "48291": {
+    "notes": "Texas redeemable tax-deed. Liberty County Sheriff conducts first-Tuesday tax sales at the Courthouse door in Liberty (begin ~10:00 a.m., legal hours to 4:00 p.m.). Notice of Sale lists (e.g. August 4, 2026 cycle) posted via delinquent-tax counsel (Davis, Fielder & Sylvia / related notices). Purchaser must obtain unexpired written no-delinquent-tax statement from Liberty County Tax Assessor-Collector — requests must be submitted two weeks prior. Foreclosure auction notices also on notices.libertycountytx.com. Houston MSA northeast / US-90 / SH-146 industrial-residential mix (Liberty, Dayton, Cleveland fringe).",
+    "auctionFormat": "In-person (Courthouse door, City of Liberty)",
+    "auctionPlatform": {
+      "label": "Liberty County Sheriff — Tax Foreclosure Sale",
+      "url": "https://dfstxlaw.com/appraisal-menu-and-forms/",
+      "phone": "936-336-4115"
+    },
+    "auctionFrequency": "First Tuesday monthly when orders of sale issue (e.g. documented Aug 4, 2026 list)",
+    "depositRules": "Register with officer conducting sale when auction begins; cash sale to highest bidder. Produce unexpired Tax Assessor-Collector statement (request 2 weeks ahead) that bidder owes no delinquent ad valorem taxes to county/schools/cities. Sheriff’s deed without warranty. Buyer may owe taxes due after judgment date. Sold AS IS, redeemable.",
+    "taxCollector": {
+      "label": "Liberty County Tax Assessor-Collector (Richard Brown)",
+      "url": "https://www.co.liberty.tx.us/page/liberty.county.assessor.collector",
+      "phone": "936-336-4633"
+    },
+    "clerkOfCourt": {
+      "label": "Liberty County Clerk / District Clerk (orders of sale)",
+      "url": "https://www.co.liberty.tx.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Liberty County Central Appraisal District",
+      "url": "http://www.libertycad.com"
+    },
+    "survivingLiens": "Redeemable sheriff tax deed without warranty; federal liens and improperly joined HOA interests can survive; post-judgment tax years may remain buyer’s responsibility.",
+    "quietTitle": "Common after redemption expires for marketable title.",
+    "gisMap": {
+      "label": "Liberty CAD parcel maps",
+      "url": "http://www.libertycad.com"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Dayton / US-90 industrial corridor",
+        "why": "Petrochemical and logistics employment with primary inventory node"
+      },
+      {
+        "name": "Liberty city core",
+        "why": "County-seat services and relative entry SF versus Houston core"
+      },
+      {
+        "name": "Cleveland / US-59 north fringe",
+        "why": "Commuter and retail demand on the Montgomery/Hardin edge"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://dfstxlaw.com/appraisal-menu-and-forms/",
+      "https://www.co.liberty.tx.us/page/liberty.county.assessor.collector",
+      "https://notices.libertycountytx.com/auctions",
+      "http://www.libertycad.com"
+    ]
+  },
+  "48021": {
+    "notes": "Texas redeemable tax-deed. Bastrop County Sheriff’s Office Civil Process hosts county tax sales several times per year; sale lists and procedures via MVBA (mvbalaw.com / mvbataxsales.com). Bid4Assets has also hosted Bastrop live tax redeemable deed sales in past cycles — confirm platform per notice. Foreclosure notice PDFs (tax and trustee) post via County Clerk. Tax Assessor-Collector Ellen Owens issues Form 50-307 no-delinquent-tax statements for bidders. Austin MSA east / SH-71 / SH-21 growth (Bastrop, Elgin, Smithville) with Colorado River flood-risk diligence required.",
+    "auctionFormat": "In-person (Sheriff tax sale; confirm any online MVBA/Bid4Assets cycle)",
+    "auctionPlatform": {
+      "label": "Bastrop County Sheriff — Civil Process Tax Sale (lists via MVBA)",
+      "url": "https://www.bastropcounty.gov/page/lec.civil_process",
+      "phone": "512-549-5053"
+    },
+    "auctionFrequency": "Several times per year when inventory and attorney notices post; first-Tuesday statutory window when scheduled",
+    "depositRules": "Register per sale notice (in-person or online platform rules). Certified funds day-of for courthouse sales. Request Tax Assessor-Collector written statement re: no delinquent taxes before deed. Sold AS IS, redeemable deed.",
+    "taxCollector": {
+      "label": "Bastrop County Tax Assessor/Collector — Ellen Owens",
+      "url": "https://www.bastropcounty.gov/page/co.tax_assessor",
+      "phone": "512-581-7161"
+    },
+    "clerkOfCourt": {
+      "label": "Bastrop County Clerk — Foreclosure Notice Postings",
+      "url": "https://www.bastropcounty.gov/page/co.county_clerk_foreclosure"
+    },
+    "propertyAppraiser": {
+      "label": "Bastrop Central Appraisal District",
+      "url": "https://www.bastropcad.org/"
+    },
+    "survivingLiens": "Redeemable tax deed; HOA/POA and federal liens can survive; flood-zone, access, and septic issues common on fringe parcels — independent title and survey recommended.",
+    "quietTitle": "Common after redemption for insurable title.",
+    "gisMap": {
+      "label": "Bastrop CAD / county GIS parcel resources",
+      "url": "https://www.bastropcad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Bastrop city / SH-71 commercial spine",
+        "why": "County-seat retail and Austin-commute employment with primary SF absorption"
+      },
+      {
+        "name": "Elgin / SH-95 north",
+        "why": "Rapid growth on Austin-east fringe with school-driven demand"
+      },
+      {
+        "name": "Cedar Creek / Paige fringe",
+        "why": "Relative land/entry inventory; underwrite flood and septic carefully"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.bastropcounty.gov/page/lec.civil_process",
+      "https://www.bastropcounty.gov/page/co.tax_assessor",
+      "https://www.bastropcounty.gov/page/co.county_clerk_foreclosure",
+      "https://mvbalaw.com/tax-sales/",
+      "https://www.bastropcad.org/"
+    ]
+  },
+  "48037": {
+    "notes": "Texas redeemable tax-deed. Bowie County posts foreclosure and sheriff-sale notices on the county site (co.bowie.tx.us). Tax sales have run as online MVBA Tax Sales cycles (e.g. Bowie CAD / County online property tax sale documented on mvbataxsales.com) and traditional first-Tuesday courthouse sales — confirm active format on the current attorney/county notice. Tax Assessor-Collector at Courthouse, 710 James Bowie Drive, New Boston. CAD: bowieappraisal.com. Texarkana bi-state MSA / I-30 corridor.",
+    "auctionFormat": "Online (MVBA cycles) and/or in-person first Tuesday — confirm per notice",
+    "auctionPlatform": {
+      "label": "Bowie County Tax Foreclosure (MVBA online / Sheriff per notice)",
+      "url": "https://www.co.bowie.tx.us/page/bowie.Foreclosures"
+    },
+    "auctionFrequency": "First Tuesday when inventory posts; periodic MVBA online tax-sale events when scheduled",
+    "depositRules": "Online: register on mvbataxsales.com at least 24 hours before sale per MVBA rules; deposit/settlement per platform terms. In-person: certified funds day-of. No-delinquent-tax statement from Tax Assessor-Collector often required before deed. Sold AS IS, redeemable.",
+    "taxCollector": {
+      "label": "Bowie County Tax Assessor-Collector",
+      "url": "https://www.co.bowie.tx.us/page/bowie.county.assessor.collector",
+      "phone": "903-628-6730"
+    },
+    "clerkOfCourt": {
+      "label": "Bowie County Clerk — Foreclosure postings",
+      "url": "https://www.co.bowie.tx.us/page/bowie.Foreclosures"
+    },
+    "propertyAppraiser": {
+      "label": "Bowie Central Appraisal District",
+      "url": "https://bowieappraisal.com/"
+    },
+    "survivingLiens": "Redeemable tax deed; federal and HOA liens can survive; verify municipal liens in Texarkana city limits.",
+    "quietTitle": "Common after redemption for marketable title.",
+    "gisMap": {
+      "label": "Bowie CAD parcel / GIS resources",
+      "url": "https://bowieappraisal.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Texarkana / I-30 commercial corridor",
+        "why": "Bi-state retail and logistics employment with primary housing demand"
+      },
+      {
+        "name": "New Boston / county-seat edge",
+        "why": "Government and school employment with relative entry inventory"
+      },
+      {
+        "name": "Wake Village / Nash fringe",
+        "why": "Suburban SF liquidity adjacent to Texarkana core"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.co.bowie.tx.us/page/bowie.Foreclosures",
+      "https://www.co.bowie.tx.us/page/bowie.county.assessor.collector",
+      "https://bowieappraisal.com/",
+      "https://mvbalaw.com/tax-sales/"
+    ]
+  },
+  "48469": {
+    "notes": "Texas redeemable tax-deed. Victoria County Tax Office states tax sale properties sell first Tuesday of every month at 10:00 a.m. (or next business day if holiday). Linebarger Goggan Blair & Sampson assists delinquent collection and posts tax-sale/resale properties; online auction registration also points to RealForeclose — victoria.texas.sheriffsaleauctions.com. CAD: victoriacad.org. Coastal Bend regional hub (Victoria city) with petrochemical and healthcare employment; flood diligence on Guadalupe/Lavaca drainages.",
+    "auctionFormat": "Online (RealForeclose / sheriff sale auctions) with monthly first-Tuesday schedule",
+    "auctionPlatform": {
+      "label": "Victoria County Tax Sale (Linebarger list + RealForeclose registration)",
+      "url": "https://victoria.texas.sheriffsaleauctions.com",
+      "phone": "361-576-3671"
+    },
+    "auctionFrequency": "First Tuesday every month at 10:00 a.m. when inventory posts",
+    "depositRules": "Register on victoria.texas.sheriffsaleauctions.com per platform rules before bidding. Deposit and settlement per RealForeclose/county terms for the cycle. Confirm any same-day certified-funds requirement on the sale notice. Sold AS IS, redeemable deed.",
+    "taxCollector": {
+      "label": "Victoria County Tax Office — Tax Sale Properties",
+      "url": "https://www.vctx.org/page/tax.office.tax.sale.properties",
+      "phone": "361-576-3671"
+    },
+    "clerkOfCourt": {
+      "label": "Victoria County Clerk — Foreclosure Sales & Resales",
+      "url": "https://www.vctx.org/page/county.clerk.foreclosures"
+    },
+    "propertyAppraiser": {
+      "label": "Victoria Central Appraisal District",
+      "url": "http://www.victoriacad.org/"
+    },
+    "survivingLiens": "Redeemable tax deed; federal and HOA liens can survive; post-judgment taxes may remain. Independent title search mandatory.",
+    "quietTitle": "Common after redemption for insurable title.",
+    "gisMap": {
+      "label": "Victoria CAD / parcel mapping",
+      "url": "http://www.victoriacad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Victoria medical / Northside corridor",
+        "why": "Regional hospital and professional-service employment supporting SF demand"
+      },
+      {
+        "name": "Cuero Hwy / southeast industrial fringe",
+        "why": "Workforce housing near petrochemical and logistics sites"
+      },
+      {
+        "name": "Nursery / Bloomington edge",
+        "why": "Relative entry inventory with school-driven local turns"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.vctx.org/page/tax.office.tax.sale.properties",
+      "https://victoria.texas.sheriffsaleauctions.com",
+      "http://www.victoriacad.org/",
+      "https://taxsales.lgbs.com/"
+    ]
+  },
+  "48213": {
+    "notes": "Texas redeemable tax-deed. Henderson County Tax Assessor/Collector (Peggy Goodall, Athens) refers delinquent tax sales to MVBA (903-675-6182, mvbalaw.com) and Linebarger (publicans/lgbs). Online MVBA tax-sale cycles documented (e.g. Sep 2, 2025 10 a.m.–4 p.m.); traditional first-Tuesday courthouse sales also occur (front door Henderson County Courthouse, Athens). Purchaser must present written no-delinquent-tax statement from Tax Office ($10, valid 90 days, photo ID, Athens main office) before deed. CAD: henderson-cad.org. East Texas / Cedar Creek Lake second-home and Dallas-commute fringe (Athens, Gun Barrel City, Chandler).",
+    "auctionFormat": "Online (MVBA cycles) and/or in-person first Tuesday courthouse — confirm per notice",
+    "auctionPlatform": {
+      "label": "Henderson County Tax Sale (MVBA / Sheriff per notice)",
+      "url": "https://www.henderson-county.com/departments/county-tax-assessor-collector",
+      "phone": "903-675-6182"
+    },
+    "auctionFrequency": "First Tuesday when inventory posts; periodic MVBA online tax sales",
+    "depositRules": "Online: register at mvbataxsales.com ≥24 hours before sale; deposit/settlement per MVBA storefront. In-person: certified funds day-of. $10 no-delinquent-tax statement from Athens Tax Office required (valid 90 days). Sold AS IS, redeemable.",
+    "taxCollector": {
+      "label": "Henderson County Tax Assessor/Collector — Peggy Goodall",
+      "url": "https://www.henderson-county.com/departments/county-tax-assessor-collector",
+      "phone": "903-675-6134"
+    },
+    "clerkOfCourt": {
+      "label": "Henderson County Clerk — Foreclosure Sales Listings",
+      "url": "https://www.henderson-county.com/departments/county-clerk/county-clerk-foreclosure-sales-listings"
+    },
+    "propertyAppraiser": {
+      "label": "Henderson County Appraisal District",
+      "url": "http://www.henderson-cad.org/",
+      "phone": "903-675-9296"
+    },
+    "survivingLiens": "Redeemable tax deed; federal/HOA liens can survive; lake and flood-zone diligence essential on Cedar Creek parcels.",
+    "quietTitle": "Common after redemption for marketable title.",
+    "gisMap": {
+      "label": "Henderson CAD parcel resources",
+      "url": "http://www.henderson-cad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Athens core / medical edge",
+        "why": "County-seat hospital and services employment with primary urban inventory"
+      },
+      {
+        "name": "Gun Barrel City / Mabank lake fringe",
+        "why": "Cedar Creek second-home and retiree demand with constrained waterfront stock"
+      },
+      {
+        "name": "Chandler / Seven Points east DFW commute",
+        "why": "Relative entry SF with Dallas-east job spillover"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.henderson-county.com/departments/county-tax-assessor-collector",
+      "https://www.henderson-county.com/departments/county-clerk/county-clerk-foreclosure-sales-listings",
+      "https://mvbalaw.com/tax-sales/",
+      "http://www.henderson-cad.org/"
+    ]
+  },
+  "48099": {
+    "notes": "Texas redeemable tax-deed. Coryell County Clerk posts monthly foreclosure sales listings (2026 series on coryellcountyclerk.com). Trustee/mortgage sales at north door of Courthouse, 620 E Main, Gatesville, first Tuesday. Bid4Assets has listed Coryell live tax redeemable deed sales in past cycles — confirm whether active tax month is courthouse-only or dual-listed. Tax Assessor-Collector Justin K. Carothers (coryellcountytax.com / tac@coryelltax.com). Fort Cavazos (formerly Hood) adjacency drives military and contractor housing demand (Gatesville, Copperas Cove fringe, Oglesby).",
+    "auctionFormat": "In-person (Courthouse first Tuesday; confirm any Bid4Assets tax listing)",
+    "auctionPlatform": {
+      "label": "Coryell County Sheriff / Clerk — Foreclosure & Tax Sales",
+      "url": "https://coryellcountyclerk.com/foreclosure-sales/",
+      "phone": "254-865-5911"
+    },
+    "auctionFrequency": "First Tuesday monthly when notices post (Clerk publishes monthly FCS packets)",
+    "depositRules": "Certified funds day-of per officer rules. Confirm any bidder certificate / no-delinquent-tax statement with Tax Assessor-Collector before deed. Sold AS IS, redeemable deed.",
+    "taxCollector": {
+      "label": "Coryell County Tax Assessor-Collector",
+      "url": "https://coryellcountytax.com/",
+      "phone": "254-248-3142"
+    },
+    "clerkOfCourt": {
+      "label": "Coryell County Clerk — Jennifer Newton (Foreclosure Sales)",
+      "url": "https://coryellcountyclerk.com/2026-foreclosure-sales/",
+      "phone": "254-865-5911"
+    },
+    "propertyAppraiser": {
+      "label": "Coryell Central Appraisal District",
+      "url": "https://www.coryellcad.org/"
+    },
+    "survivingLiens": "Redeemable tax deed; federal/HOA liens can survive; verify occupancy near base housing markets.",
+    "quietTitle": "Common after redemption for insurable title.",
+    "gisMap": {
+      "label": "Coryell CAD parcel maps",
+      "url": "https://www.coryellcad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Gatesville core / services edge",
+        "why": "County-seat and prison-system employment supporting local SF demand"
+      },
+      {
+        "name": "Copperas Cove fringe / Fort Cavazos west",
+        "why": "Military family and contractor rental/SF absorption"
+      },
+      {
+        "name": "Oglesby / Flat / SH-36 corridor",
+        "why": "Relative entry inventory on agricultural fringe with school-driven turns"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://coryellcountyclerk.com/foreclosure-sales/",
+      "https://coryellcountyclerk.com/2026-foreclosure-sales/",
+      "https://coryellcountytax.com/",
+      "https://www.coryellcad.org/",
+      "https://www.coryellcounty.org/page/coryell.Foreclosure"
+    ]
+  },
+  "37125": {
+    "notes": "North Carolina tax-deed / judicial foreclosure county (N.C.G.S. §105-374) — no tax-lien certificates. Moore County Tax Department uses Zacchaeus Legal Services for tax foreclosure sales. Auctions in the lobby of the Moore County Court House / Courts Facility, 102 Monroe Street, Carthage. Notices posted ~two consecutive weeks (Clerk bulletin board, Tax Customer Service, The Pilot classifieds). 10-day upset-bid period at Clerk of Superior Court. Commissioner’s deed after confirmation. Sandhills / Pinehurst–Southern Pines resort and retiree market with strong second-home demand.",
+    "auctionFormat": "In-person (Courthouse lobby + Clerk upset-bid process)",
+    "auctionPlatform": {
+      "label": "Moore County Tax Foreclosures — Zacchaeus Legal Services",
+      "url": "https://www.zls-nc.com/property-for-sale"
+    },
+    "auctionFrequency": "Rolling as judgments and notices ready (no fixed annual mega-sale); list on ZLS site",
+    "depositRules": "Certified check or cash deposit of 20% of highest bid due at sale. Balance due on deed delivery (~30 days after Clerk confirmation). 10-day upset period at Clerk (min +5% or $750). Financing not available; default forfeits deposit and can trigger deficiency/resale liability. Sold AS IS; buyer pays recording fees. Owner may redeem until confirmation.",
+    "taxCollector": {
+      "label": "Moore County Tax Department — Collections / Tax Foreclosures",
+      "url": "https://www.moorecountync.gov/204/Collections",
+      "phone": "910-947-2255"
+    },
+    "clerkOfCourt": {
+      "label": "Moore County Clerk of Superior Court (upset bids)",
+      "url": "https://www.nccourts.gov/locations/moore-county"
+    },
+    "propertyAppraiser": {
+      "label": "Moore County Tax / parcel search",
+      "url": "https://www.moorecountync.gov/202/Tax"
+    },
+    "survivingLiens": "Proper judicial tax foreclosure with named parties generally extinguishes junior private liens; omitted lienholders and federal tax liens create residual risk. Sale subject to taxes not in the judgment.",
+    "quietTitle": "Commissioner’s deed after confirmation is strong; quiet title still used for insurer comfort or notice defects.",
+    "gisMap": {
+      "label": "Moore County GIS / Tax maps",
+      "url": "https://www.moorecountync.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Pinehurst / Southern Pines village core",
+        "why": "Resort, medical, and retiree demand with constrained village inventory"
+      },
+      {
+        "name": "Aberdeen / US-1 commercial spine",
+        "why": "Workforce and retail employment supporting more affordable SF stock"
+      },
+      {
+        "name": "Carthage / Whispering Pines fringe",
+        "why": "County-seat and lake-adjacent growth with school-driven liquidity"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.moorecountync.gov/204/Collections",
+      "https://www.zls-nc.com/property-for-sale",
+      "https://www.nccourts.gov/locations/moore-county"
+    ]
+  },
+  "37049": {
+    "notes": "North Carolina tax-deed / judicial foreclosure county — no tax-lien certificates. Craven County Tax Department (Tax Collection Division, 226 Pollock Street, New Bern) posts Property Foreclosures and also runs county-owned parcel offers (GIS “Property Available for Purchase” with deposit rules). Primary judicial tax foreclosure follows §105-374 with courthouse sale and 10-day Clerk upset bids. Coastal / New Bern–Havelock (MCAS Cherry Point) market with military and tourism demand; flood-zone diligence critical.",
+    "auctionFormat": "In-person (courthouse / commissioner sale + Clerk upset bids; confirm notice)",
+    "auctionPlatform": {
+      "label": "Craven County Tax Department — Property Foreclosures",
+      "url": "https://www.cravencountync.gov/2283/Property-Foreclosures",
+      "phone": "252-636-6605"
+    },
+    "auctionFrequency": "Rolling as foreclosure judgments and notices of sale are ready",
+    "depositRules": "Follow Notice of Sale; typical NC pattern is percentage deposit in cash/certified funds at sale, then 10-day upset period at Clerk (min +5% or $750). County surplus/offer track (separate) may require greater of $500 or 10% with offer. Confirm current deposit % on the active notice. Sold AS IS; Commissioner’s deed after confirmation.",
+    "taxCollector": {
+      "label": "Craven County Tax Collection Division",
+      "url": "https://www.cravencountync.gov/2283/Property-Foreclosures",
+      "phone": "252-636-6605"
+    },
+    "clerkOfCourt": {
+      "label": "Craven County Clerk of Superior Court (upset bids)",
+      "url": "https://www.nccourts.gov/locations/craven-county"
+    },
+    "propertyAppraiser": {
+      "label": "Craven County Tax / GIS",
+      "url": "https://gis.cravencountync.gov/"
+    },
+    "survivingLiens": "Proper judicial sale generally extinguishes junior private liens of named parties; federal liens and omitted interests remain risks. Independent title mandatory — coastal flood and elevation issues common.",
+    "quietTitle": "Commissioner’s deed after confirmation; quiet title still used for marketable/insurable title.",
+    "gisMap": {
+      "label": "Craven County GIS / parcel maps",
+      "url": "https://gis.cravencountync.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "New Bern historic / Trent River edge",
+        "why": "Tourism, county-seat jobs, and waterfront second-home demand"
+      },
+      {
+        "name": "Havelock / MCAS Cherry Point corridor",
+        "why": "Military family rental and SF absorption"
+      },
+      {
+        "name": "James City / Bridgeton fringe",
+        "why": "Relative entry inventory with New Bern commute liquidity"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.cravencountync.gov/2283/Property-Foreclosures",
+      "https://gis.cravencountync.gov/County_Property_Available_For_Purchase.aspx",
+      "https://www.nccourts.gov/locations/craven-county"
+    ]
+  },
+  "37045": {
+    "notes": "North Carolina tax-deed / judicial foreclosure county — no tax-lien certificates. Cleveland County holds tax-foreclosure auctions in the Administrative Building Commissioners’ Room, 2nd floor, 311 E. Marion Street, Shelby (not surplus property). Legal Department (704-476-3089) and Kania Law Firm listings also cover some files. Documented 5% deposit of final bid in cash/certified funds to attorney/commissioner; 10-day in-person-only upset bids at Clerk of Superior Court (min +$750 or 5%); balance due within 10 days after upset period closes or deposit forfeited. Charlotte-west / I-85 industrial corridor (Shelby, Kings Mountain, Boiling Springs).",
+    "auctionFormat": "In-person (Commissioners’ Room + Clerk upset-bid process)",
+    "auctionPlatform": {
+      "label": "Cleveland County Tax Foreclosures (County Legal / Kania listings)",
+      "url": "https://www.clevelandcounty.com/main/departments/find_tax_foreclosures___county_owned_properties_for_sale/index.php",
+      "phone": "704-476-3089"
+    },
+    "auctionFrequency": "As scheduled when cases ready (e.g. documented mid-2026 auction blocks); check county page and Kania list",
+    "depositRules": "No pre-registration required. Opening bid announced at sale. Deposit = 5% of final bid in cash or certified funds (cashier’s check/money order) to attorney/commissioner. 10-day upset period in person only at Clerk (deposit 5% or $750 greater). After clean 10 days, balance in cash/certified funds to Cleveland County paralegal within 10 days or forfeit. Buyer pays deed recordation. Sold AS IS.",
+    "taxCollector": {
+      "label": "Cleveland County Tax (inquiry/payments portal)",
+      "url": "http://www.clevelandcountytaxes.com/"
+    },
+    "clerkOfCourt": {
+      "label": "Cleveland County Clerk of Superior Court (upset bids in person)",
+      "url": "https://www.nccourts.gov/locations/cleveland-county",
+      "phone": "704-476-7803"
+    },
+    "propertyAppraiser": {
+      "label": "Cleveland County Tax / parcel data",
+      "url": "http://www.clevelandcountytaxes.com/"
+    },
+    "survivingLiens": "Judicial tax foreclosure generally cuts off junior private liens of parties before the court; federal liens and omitted parties create residual risk. Review complaint at Clerk by CVD file number.",
+    "quietTitle": "Commissioner’s deed after confirmation; quiet title still used when insurer requires additional comfort.",
+    "gisMap": {
+      "label": "Cleveland County GIS / tax maps",
+      "url": "https://www.clevelandcounty.com/main/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Shelby core / Uptown revitalization",
+        "why": "County-seat employment and relative value versus Charlotte metro"
+      },
+      {
+        "name": "Kings Mountain / I-85 logistics edge",
+        "why": "Interstate industrial and warehouse job growth supporting workforce housing"
+      },
+      {
+        "name": "Boiling Springs / Gardner-Webb fringe",
+        "why": "University-adjacent rental and SF demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.clevelandcounty.com/main/departments/find_tax_foreclosures___county_owned_properties_for_sale/index.php",
+      "https://kanialawfirm.com/tax-foreclosures/foreclosure-listings/",
+      "http://www.clevelandcountytaxes.com/"
+    ]
+  },
+  "37127": {
+    "notes": "North Carolina tax-deed / judicial foreclosure county — no tax-lien certificates. Nash County Tax Collections uses standard Machinery Act remedies including foreclosure after delinquency advertising (N.C.G.S. §105-369 lists). Notices of sale / county property sale page on nashcountync.gov; process is judicial with 10-day Clerk upset bids and Commissioner’s deed after confirmation. Rocky Mount MSA / I-95 and US-64 logistics corridor (Rocky Mount, Nashville, Red Oak). Confirm active foreclosure counsel and deposit % on each Notice of Sale.",
+    "auctionFormat": "In-person (courthouse commissioner sale + Clerk upset-bid process)",
+    "auctionPlatform": {
+      "label": "Nash County Tax Foreclosures / Notice of Sale",
+      "url": "https://nashcountync.gov/509/Nash-County-Property-for-Sale"
+    },
+    "auctionFrequency": "Rolling as judgments and notices of sale are ready",
+    "depositRules": "Per Notice of Sale — typical NC judicial tax sale requires cash/certified deposit at auction (often 5–20%), 10-day upset period at Clerk (min +5% or $750), balance after confirmation. No financing. Sold AS IS; buyer records deed. Owner may redeem until confirmation.",
+    "taxCollector": {
+      "label": "Nash County Tax Collections",
+      "url": "https://nashcountync.gov/428/Collections"
+    },
+    "clerkOfCourt": {
+      "label": "Nash County Clerk of Superior Court (upset bids)",
+      "url": "https://www.nccourts.gov/locations/nash-county"
+    },
+    "propertyAppraiser": {
+      "label": "Nash County Tax Administration / parcel search",
+      "url": "https://nashcountync.gov/"
+    },
+    "survivingLiens": "Proper judicial tax foreclosure generally extinguishes junior private liens of named parties; federal liens and omitted interests remain risks.",
+    "quietTitle": "Commissioner’s deed after confirmation; quiet title still used for insurer comfort.",
+    "gisMap": {
+      "label": "Nash County GIS / tax maps",
+      "url": "https://nashcountync.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Rocky Mount / US-64 & I-95 logistics belt",
+        "why": "Distribution and manufacturing employment with primary urban inventory"
+      },
+      {
+        "name": "Nashville / county-seat edge",
+        "why": "Government and school employment with relative entry SF"
+      },
+      {
+        "name": "Red Oak / Dortches north fringe",
+        "why": "Suburban SF demand with Rocky Mount commute liquidity"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://nashcountync.gov/428/Collections",
+      "https://nashcountync.gov/509/Nash-County-Property-for-Sale",
+      "https://www.nccourts.gov/locations/nash-county"
+    ]
+  },
+  "37109": {
+    "notes": "North Carolina tax-deed / judicial foreclosure county — no tax-lien certificates. Lincoln County Tax Foreclosures performed by The Kania Law Firm under N.C.G.S. §105-374 (828-252-8010; listings at kanialawfirm.com). All sales on the front steps of Lincoln County Courthouse, 120 Justice Drive, Lincolnton. 5% deposit cash/certified funds day of sale; 10-day upset period at Clerk Civil (704-742-7800 opt. 2); balance plus recording fees/revenue stamps after upset closes. Charlotte MSA northwest / Lake Norman west shore growth (Lincolnton, Denver, Maiden).",
+    "auctionFormat": "In-person (Courthouse steps + Clerk upset-bid process)",
+    "auctionPlatform": {
+      "label": "Lincoln County Tax Foreclosures — Kania Law Firm",
+      "url": "https://www.lincolncountync.gov/2368/Foreclosures",
+      "phone": "828-252-8010"
+    },
+    "auctionFrequency": "As Kania/county schedule notices of sale (check listings page periodically)",
+    "depositRules": "5% of high bid due day of sale in cash or certified funds. Upset bids at Clerk must exceed prior bid by 5% or $750 (greater). After upset period, successful bidder pays balance plus Register of Deeds recording fees and revenue stamps. Sold AS IS.",
+    "taxCollector": {
+      "label": "Lincoln County Tax Department",
+      "url": "https://www.lincolncountync.gov/"
+    },
+    "clerkOfCourt": {
+      "label": "Lincoln County Clerk of Superior Court — Civil (upset bids)",
+      "url": "https://www.nccourts.gov/locations/lincoln-county",
+      "phone": "704-742-7800"
+    },
+    "propertyAppraiser": {
+      "label": "Lincoln County Tax / GIS parcel resources",
+      "url": "https://www.lincolncountync.gov/"
+    },
+    "survivingLiens": "Proper judicial sale generally extinguishes junior private liens of named parties; federal liens and omitted parties create residual risk.",
+    "quietTitle": "Commissioner’s deed after confirmation; quiet title still used for marketable title.",
+    "gisMap": {
+      "label": "Lincoln County GIS / tax maps",
+      "url": "https://www.lincolncountync.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Denver / Lake Norman west shore",
+        "why": "Charlotte-commute waterfront and master-planned SF demand"
+      },
+      {
+        "name": "Lincolnton core / US-321",
+        "why": "County-seat employment with relative entry inventory versus lake prices"
+      },
+      {
+        "name": "Maiden / industrial park edge",
+        "why": "Manufacturing employment supporting workforce housing"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.lincolncountync.gov/2368/Foreclosures",
+      "https://kanialawfirm.com/tax-foreclosures/foreclosure-listings/",
+      "https://www.nccourts.gov/locations/lincoln-county"
+    ]
+  },
+  "37157": {
+    "notes": "North Carolina tax-deed / judicial foreclosure county — no tax-lien certificates. Rockingham County Tax Administrator (combined assessor/collector) has historically conducted public tax-foreclosure auctions at the county complex in Wentworth (documented courthouse-area sales ~10:00 a.m.). Process follows §105-374/375 with 10-day Clerk upset bids and Commissioner’s deed after confirmation. Confirm current counsel, deposit percentage, and sale location on the active Notice of Sale / Tax Department posting. Piedmont / Eden–Reidsville–Madison manufacturing corridor north of Greensboro.",
+    "auctionFormat": "In-person (county complex / courthouse + Clerk upset-bid process)",
+    "auctionPlatform": {
+      "label": "Rockingham County Tax Administrator — Tax Foreclosure Sales",
+      "url": "https://www.rockinghamcountync.gov/21342/tax",
+      "phone": "336-342-8382"
+    },
+    "auctionFrequency": "Periodically when foreclosure judgments and notices of sale are ready",
+    "depositRules": "Per Notice of Sale — expect cash/certified deposit at auction, 10-day upset period at Clerk (min +5% or $750), balance after confirmation. No financing. Sold AS IS. Independent title search mandatory.",
+    "taxCollector": {
+      "label": "Rockingham County Tax Collector / Tax Administrator",
+      "url": "https://www.rockinghamcountync.gov/21342/tax",
+      "phone": "336-342-8382"
+    },
+    "clerkOfCourt": {
+      "label": "Rockingham County Clerk of Superior Court (upset bids)",
+      "url": "https://www.nccourts.gov/locations/rockingham-county"
+    },
+    "propertyAppraiser": {
+      "label": "Rockingham County Tax Assessment / parcel data",
+      "url": "https://www.rockinghamcountync.gov/21342/tax"
+    },
+    "survivingLiens": "Proper judicial tax foreclosure generally extinguishes junior private liens of named parties; federal liens and omitted interests remain risks.",
+    "quietTitle": "Commissioner’s deed after confirmation; quiet title still used for insurer comfort.",
+    "gisMap": {
+      "label": "Rockingham County GIS / tax maps",
+      "url": "https://www.rockinghamcountync.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Reidsville / US-29 commercial spine",
+        "why": "Primary retail and service employment with liquid SF stock"
+      },
+      {
+        "name": "Eden / Dan River industrial edge",
+        "why": "Manufacturing employment and relative entry inventory"
+      },
+      {
+        "name": "Madison–Mayodan / US-220 fringe",
+        "why": "Small-city demand with Greensboro-north commute optionality"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.rockinghamcountync.gov/21342/tax",
+      "https://www.nccourts.gov/locations/rockingham-county"
+    ]
+  },
+  "37037": {
+    "notes": "North Carolina tax-deed / judicial foreclosure county — no tax-lien certificates. Chatham County uses Zacchaeus Legal Services for tax foreclosure sales (upcoming example: September 16, 2026, properties TBD). Sales in the lobby of the Justice Center (Chatham Street, Pittsboro). Notices on Tax website, Clerk bulletin board, GIS/Tax Mapping entrance, and Chatham News & Record for two weeks. 20% deposit cash/certified check payable to Zacchaeus Legal Services at sale; 10-day upset bids via Clerk (919-545-3500); balance plus recording fees/revenue stamps before confirmation. Research Triangle / Jordan Lake west-of-Cary growth (Pittsboro, Siler City, northeast Chatham).",
+    "auctionFormat": "In-person (Justice Center lobby + Clerk upset-bid process)",
+    "auctionPlatform": {
+      "label": "Chatham County Tax Foreclosure Sales — Zacchaeus Legal Services",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-i-z/tax-administration/tax-foreclosure-sales"
+    },
+    "auctionFrequency": "As scheduled (e.g. Sep 16, 2026 cycle); e-notifications available on county site",
+    "depositRules": "20% of highest bid immediately at sale — cash or certified check to Zacchaeus Legal Services only. 10-day upset period at Clerk. Successful bidder pays balance plus Register of Deeds fees/stamps before confirmation. Financing not available. Owner may redeem until judicial confirmation. Sold AS IS free of liens except taxes not in judgment (unless notice states otherwise).",
+    "taxCollector": {
+      "label": "Chatham County Tax Administration / Tax Collector",
+      "url": "https://www.chathamcountync.gov/government/departments-programs-i-z/tax-administration/tax-foreclosure-sales",
+      "phone": "919-542-8224"
+    },
+    "clerkOfCourt": {
+      "label": "Chatham County Clerk of Superior Court (upset bids / excess funds)",
+      "url": "https://www.nccourts.gov/locations/chatham-county",
+      "phone": "919-545-3500"
+    },
+    "propertyAppraiser": {
+      "label": "Chatham County Tax Assessor / property inquiry",
+      "url": "https://chathamnc.devnetwedge.com/"
+    },
+    "survivingLiens": "Unless notice states otherwise, sale free and clear of other liens except taxes not included in judgment; federal liens and omitted parties remain residual risks.",
+    "quietTitle": "Commissioner’s deed after confirmation; quiet title still used for insurer comfort.",
+    "gisMap": {
+      "label": "Chatham County GIS / Tax Mapping",
+      "url": "https://www.chathamcountync.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Northeast Chatham / Jordan Lake–Cary fringe",
+        "why": "Triangle commute growth with strong SF absorption and school demand"
+      },
+      {
+        "name": "Pittsboro core / US-15-501",
+        "why": "County-seat revitalization and primary services employment"
+      },
+      {
+        "name": "Siler City / US-64 west",
+        "why": "Relative entry inventory with industrial and workforce housing demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.chathamcountync.gov/government/departments-programs-i-z/tax-administration/tax-foreclosure-sales",
+      "https://www.zls-nc.com/property-for-sale",
+      "https://chathamnc.devnetwedge.com/",
+      "https://www.nccourts.gov/locations/chatham-county"
+    ]
+  },
+  "37027": {
+    "notes": "North Carolina tax-deed / judicial foreclosure county — no tax-lien certificates. Caldwell County tax foreclosures commonly handled via Kania Law Firm (city of Lenoir and county listings; search “Caldwell” on kanialawfirm.com foreclosure listings). Sales on the front steps of Caldwell County Courthouse, 216 Main St SW, Lenoir (documented start times vary — often afternoon for city strategic sales; confirm notice). Standard 10-day Clerk upset-bid process. Foothills / US-321 corridor (Lenoir, Hudson, Granite Falls) with manufacturing and Hickory MSA spillover.",
+    "auctionFormat": "In-person (Courthouse steps + Clerk upset-bid process)",
+    "auctionPlatform": {
+      "label": "Caldwell County Tax Foreclosures (Kania Law Firm listings)",
+      "url": "https://kanialawfirm.com/tax-foreclosures/foreclosure-listings/",
+      "phone": "828-252-8010"
+    },
+    "auctionFrequency": "Rolling as judgments and notices of sale post",
+    "depositRules": "Per Notice of Sale — expect cash/certified deposit at auction (city Lenoir materials reference courthouse-steps process; confirm % on active notice), 10-day upset at Clerk (min +5% or $750), balance after confirmation. Sold AS IS. Tax Office: caldwellcountynctax.com / 828-757-1340.",
+    "taxCollector": {
+      "label": "Caldwell County Tax Office",
+      "url": "https://caldwellcountynctax.com/",
+      "phone": "828-757-1340"
+    },
+    "clerkOfCourt": {
+      "label": "Caldwell County Clerk of Superior Court (upset bids)",
+      "url": "https://www.nccourts.gov/locations/caldwell-county"
+    },
+    "propertyAppraiser": {
+      "label": "Caldwell County Tax / parcel data",
+      "url": "https://caldwellcountynctax.com/"
+    },
+    "survivingLiens": "Proper judicial tax foreclosure generally extinguishes junior private liens of named parties; federal liens and omitted interests remain risks.",
+    "quietTitle": "Commissioner’s deed after confirmation; quiet title still used for marketable title.",
+    "gisMap": {
+      "label": "Caldwell County GIS / tax maps",
+      "url": "https://www.caldwellcountync.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Lenoir core / US-321 commercial spine",
+        "why": "County-seat manufacturing and retail employment with primary inventory"
+      },
+      {
+        "name": "Hudson / Sawmills corridor",
+        "why": "Industrial employment supporting workforce SF demand"
+      },
+      {
+        "name": "Granite Falls / Lake Rhodhiss fringe",
+        "why": "Water-adjacent and Hickory-commute demand with school-driven turns"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://kanialawfirm.com/tax-foreclosures/foreclosure-listings/",
+      "https://www.cityoflenoir.com/566/Strategic-Tax-Foreclosures",
+      "https://caldwellcountynctax.com/",
+      "https://www.nccourts.gov/locations/caldwell-county"
+    ]
+  },
+  "39169": {
+    "notes": "Ohio hybrid / sheriff tax-foreclosure county (ORC ch. 5721 / 2329). Wayne County Sheriff Civil Division (Wooster) runs real-estate foreclosure sales; statewide RealAuction platform (wayne.sheriffsaleauction.ohio.gov pattern under Ohio DAS contract) is the standard online channel for mortgage foreclosures — confirm current tax-sale track (online vs in-person) with Sheriff Civil before bidding. Auditor parcel/GIS at waynecountyauditor.org. Northeast Ohio / Amish Country edge and Wooster–Orrville manufacturing (Wooster, Orrville, Rittman, Doylestown).",
+    "auctionFormat": "Online (RealAuction sheriff sales; confirm tax-track format with Civil)",
+    "auctionPlatform": {
+      "label": "RealAuction — Wayne County Sheriff’s Sale",
+      "url": "https://wayne.sheriffsaleauction.ohio.gov",
+      "phone": "330-287-5766"
+    },
+    "auctionFrequency": "Per posted RealAuction / Sheriff calendar when orders of sale issue",
+    "depositRules": "Register on RealAuction; ACH/wire deposits per statutory tiers ($2k/$5k/$10k by appraised value) with wire typically due ~2 business days before sale. Balance after confirmation. Tax-foreclosure third-party buyers may need ORC 5721.19(J) no-delinquent-tax affidavit. Sold AS IS; purchaser may owe costs/taxes not covered by proceeds (ORC 2329.21).",
+    "taxCollector": {
+      "label": "Wayne County Sheriff — Civil / Foreclosure Sales",
+      "url": "https://waynecountysheriff.com/",
+      "phone": "330-287-5766"
+    },
+    "clerkOfCourt": {
+      "label": "Wayne County Clerk of Courts (confirmation)",
+      "url": "https://www.wayneohio.org/"
+    },
+    "propertyAppraiser": {
+      "label": "Wayne County Auditor — Real Estate / GIS",
+      "url": "https://waynecountyauditor.org/",
+      "phone": "330-287-5411"
+    },
+    "survivingLiens": "Proper judicial tax foreclosure after confirmation generally cuts off junior private liens; federal tax liens and some governmental interests can survive. Run independent title before bidding.",
+    "quietTitle": "Court confirmation of sheriff sale is primary; quiet title still used if chain issues or insurer demands extra comfort.",
+    "gisMap": {
+      "label": "Wayne County Auditor GIS Parcel Viewer",
+      "url": "https://waynecountyauditor.org/map"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Wooster core / college-medical edge",
+        "why": "County-seat university and hospital employment with primary SF demand"
+      },
+      {
+        "name": "Orrville / industrial park corridor",
+        "why": "Food processing and manufacturing jobs supporting workforce housing"
+      },
+      {
+        "name": "Doylestown / Rittman north fringe",
+        "why": "Akron-south commute liquidity with school-driven buyer pool"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://waynecountysheriff.com/",
+      "https://wayne.sheriffsaleauction.ohio.gov",
+      "https://waynecountyauditor.org/",
+      "https://www.wayneohio.org/current-auctions/"
+    ]
+  },
+  "39109": {
+    "notes": "Ohio hybrid / sheriff foreclosure county. Miami County Sheriff conducts all real estate subject to foreclosure on RealAuction (miami.sheriffsaleauction.ohio.gov) under Ohio DAS contract — effective June 22, 2022. Mortgage foreclosure sales typically Wednesdays at 10:00 a.m. EST with 7-day proxy bidding. Deposit tiers $2,000 / $5,000 / $10,000 by appraised value via ACH/wire only. Dayton MSA north (Troy, Piqua, Tipp City, West Milton) with I-75 industrial corridor demand.",
+    "auctionFormat": "Online (RealAuction)",
+    "auctionPlatform": {
+      "label": "RealAuction — Miami County Official Foreclosure Auctions",
+      "url": "https://miami.sheriffsaleauction.ohio.gov/",
+      "phone": "877-361-7325"
+    },
+    "auctionFrequency": "Mortgage foreclosure sales typically every Wednesday 10:00 a.m. when inventory ordered; confirm tax-track calendar with Sheriff Sales (937-440-3467)",
+    "depositRules": "Register on miami.sheriffsaleauction.ohio.gov and complete Purchaser Information Form. Deposit $2k (≤$10k appraisal) / $5k ($10k–$200k) / $10k (>$200k) by ACH or wire — no cash. Wire by 5 p.m. EST five business days before sale (per county page). Balance after confirmation. Sold AS IS. Tax-foreclosure purchasers may need ORC 5721.19(J) affidavit.",
+    "taxCollector": {
+      "label": "Miami County Sheriff — Real Estate / Sheriff Sales",
+      "url": "https://www.miamicountyohio.gov/real-estate-sales/",
+      "phone": "937-440-3467"
+    },
+    "clerkOfCourt": {
+      "label": "Miami County Clerk of Courts",
+      "url": "https://www.miamicountyohio.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Miami County Auditor / Treasurer tax & parcel data",
+      "url": "https://www.miamicountyohio.gov/",
+      "phone": "937-440-6045"
+    },
+    "survivingLiens": "Judicial sheriff sale after confirmation generally cuts off junior private liens when parties were before the court; federal liens can survive. Independent title required.",
+    "quietTitle": "Confirmation is primary; quiet title common if insurer demands additional comfort beyond sheriff’s deed.",
+    "gisMap": {
+      "label": "Miami County Auditor GIS / parcel maps",
+      "url": "https://www.miamicountyohio.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Troy core / I-75 employment belt",
+        "why": "County-seat manufacturing and logistics with primary SF absorption"
+      },
+      {
+        "name": "Tipp City / Monroe Township",
+        "why": "Dayton-north suburban school-driven demand with resilient resale"
+      },
+      {
+        "name": "Piqua / US-36 industrial edge",
+        "why": "Workforce housing near plant and distribution employment"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.miamicountyohio.gov/real-estate-sales/",
+      "https://miami.sheriffsaleauction.ohio.gov/",
+      "https://www.realauction.com/"
+    ]
+  },
+  "39003": {
+    "notes": "Ohio hybrid / sheriff tax-foreclosure county. Allen County Sheriff sells all real estate subject to foreclosure on RealAuction (allen.sheriffsaleauction.ohio.gov). Online auctions Wednesdays at 11:00 a.m. EST with ≥7-day proxy bidding. Tax sales (Treasurer foreclosures) are intermingled with weekly foreclosure sales — no over-the-counter tax sales; advertised three consecutive weeks; unsold after two attempts may go to forfeiture/Auditor sale. Deposit tiers $2k/$5k/$10k by appraisal via ACH/wire. Lima MSA / I-75 industrial (Lima, Delphos, Bluffton).",
+    "auctionFormat": "Online (RealAuction; tax sales intermingled on weekly calendar)",
+    "auctionPlatform": {
+      "label": "RealAuction — Allen County Official Public Sheriff’s Sale",
+      "url": "https://allen.sheriffsaleauction.ohio.gov",
+      "phone": "419-993-1408"
+    },
+    "auctionFrequency": "Wednesdays 11:00 a.m. EST when properties are ordered; tax cases advertised 3 consecutive weeks",
+    "depositRules": "Register on allen.sheriffsaleauction.ohio.gov. Deposits: $2,000 (appraisal $1–$10k), $5,000 ($10,001–$200k), $10,000 (>$200k) by wire (by 5 p.m. EST 2 business days before) or ACH (initiate by 4 p.m. EST 5 business days before). Balance by cashier’s check/money order to Sheriff after confirmation (~30 days). Failure can forfeit deposit and risk contempt. Sold AS IS; no interior access pre-sale.",
+    "taxCollector": {
+      "label": "Allen County Sheriff — Sheriff’s Sales (Cynthia Reynolds)",
+      "url": "https://acso-oh.us/sheriff-sales/",
+      "phone": "419-993-1408"
+    },
+    "clerkOfCourt": {
+      "label": "Allen County Clerk of Courts — Civil",
+      "url": "http://clerkofcourts.allencountyohio.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Allen County Auditor — real estate search",
+      "url": "https://allencountyohauditor.com/"
+    },
+    "survivingLiens": "Liens marshaled from sale proceeds; federal liens can survive. Sheriff does not guarantee clear title — independent title search required. Tax-sale purchasers: ORC 5721.19(J) affidavit may apply.",
+    "quietTitle": "Confirmation is primary path; quiet title used for residual defects or insurer requirements.",
+    "gisMap": {
+      "label": "Allen County Auditor GIS / parcel maps",
+      "url": "https://allencountyohauditor.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Lima core / hospital-industrial edge",
+        "why": "Regional medical and manufacturing employment with primary urban inventory"
+      },
+      {
+        "name": "Delphos / US-30 corridor",
+        "why": "Logistics and plant employment with relative entry SF"
+      },
+      {
+        "name": "Bluffton / I-75 north fringe",
+        "why": "College town and freeway access supporting resilient demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://acso-oh.us/sheriff-sales/",
+      "https://allen.sheriffsaleauction.ohio.gov",
+      "https://allencountyohauditor.com/"
+    ]
+  },
+  "39029": {
+    "notes": "Ohio hybrid / sheriff tax-foreclosure county. Columbiana County: mortgage foreclosure sales every Tuesday (if scheduled) online at columbiana.sheriffsaleauction.ohio.gov starting 10:00 a.m. Delinquent tax sales held every Tuesday (if scheduled) in person at Columbiana County Courthouse, 105 South Market Street, Lisbon, starting 10:00 a.m. Foreclosure deposit minimum $2k/$5k/$10k by appraisal due Sheriff by noon day of sale (online track). Youngstown–Pittsburgh fringe / US-30 & OH-11 (East Liverpool, Salem, Lisbon, Columbiana).",
+    "auctionFormat": "Hybrid — Online RealAuction (mortgage) + in-person Courthouse (delinquent tax)",
+    "auctionPlatform": {
+      "label": "RealAuction + Columbiana County Courthouse Tax Sales",
+      "url": "https://columbiana.sheriffsaleauction.ohio.gov/",
+      "phone": "330-424-7255"
+    },
+    "auctionFrequency": "Tuesdays when scheduled — online 10:00 a.m. foreclosures; in-person 10:00 a.m. tax sales at Courthouse",
+    "depositRules": "Online foreclosure: RealAuction registration + $2k/$5k/$10k deposit tiers; deposit due Sheriff no later than noon day of sale per county notice. In-person tax: cash/certified funds per sale terms at Courthouse. Balance after confirmation. Sold AS IS. Confirm tax vs mortgage track before bidding.",
+    "taxCollector": {
+      "label": "Columbiana County Sheriff — Sheriff’s Sales",
+      "url": "http://www.colcountysheriff.com/sheriff-s-sales",
+      "phone": "330-424-7255"
+    },
+    "clerkOfCourt": {
+      "label": "Columbiana County Clerk of Courts",
+      "url": "https://www.columbianacountyohio.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Columbiana County Auditor — property/tax records",
+      "url": "https://www.columbianacountyohio.gov/"
+    },
+    "survivingLiens": "Proper judicial sale after confirmation generally cuts off junior private liens; federal liens can survive. Independent title mandatory.",
+    "quietTitle": "Confirmation primary; quiet title still used for insurer comfort.",
+    "gisMap": {
+      "label": "Columbiana County GIS / Auditor maps",
+      "url": "https://www.columbianacountyohio.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Salem / US-62 commercial core",
+        "why": "Largest local retail node with relatively liquid SF inventory"
+      },
+      {
+        "name": "East Liverpool / OH river industrial edge",
+        "why": "Relative entry pricing; underwrite condition and flood carefully"
+      },
+      {
+        "name": "Columbiana village / Boardman commute fringe",
+        "why": "Youngstown-south school-driven suburban demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "http://www.colcountysheriff.com/sheriff-s-sales",
+      "https://columbiana.sheriffsaleauction.ohio.gov/",
+      "https://www.realauction.com/"
+    ]
+  },
+  "39007": {
+    "notes": "Ohio hybrid / sheriff foreclosure county. Ashtabula County Sheriff Sales held online via RealAuction (ashtabula.sheriffsaleauction.ohio.gov) — typically first Monday of every month at 10:00 a.m. (not on federal holidays). Register and deposit per RealAuction statutory tiers. Lake Erie northeast Ohio (Ashtabula, Conneaut, Geneva, Jefferson) with port, tourism, and industrial inventory; flood and lakefront title diligence important.",
+    "auctionFormat": "Online (RealAuction)",
+    "auctionPlatform": {
+      "label": "RealAuction — Ashtabula County Sheriff Sales",
+      "url": "https://ashtabula.sheriffsaleauction.ohio.gov/",
+      "phone": "877-361-7325"
+    },
+    "auctionFrequency": "Typically first Monday monthly at 10:00 a.m. when inventory posts (confirm county Sheriff Sales page)",
+    "depositRules": "Register at ashtabula.sheriffsaleauction.ohio.gov. ACH/wire deposits per $2k/$5k/$10k appraisal tiers and RealAuction deadlines. Balance after court confirmation. Sold AS IS. Tax-foreclosure buyers may need ORC 5721.19(J) affidavit. Confirm any separate Treasurer tax-sale track with Sheriff.",
+    "taxCollector": {
+      "label": "Ashtabula County Sheriff — Sheriff Sales",
+      "url": "https://www.ashtabulacounty.us/731/Sheriff-Sales"
+    },
+    "clerkOfCourt": {
+      "label": "Ashtabula County Clerk of Courts",
+      "url": "https://www.ashtabulacounty.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Ashtabula County Auditor — real estate / tax data",
+      "url": "https://www.ashtabulacounty.us/"
+    },
+    "survivingLiens": "Judicial sheriff sale after confirmation generally cuts off junior private liens; federal liens can survive. Independent title required — especially on lakefront and industrial parcels.",
+    "quietTitle": "Confirmation primary; quiet title common for residual defects.",
+    "gisMap": {
+      "label": "Ashtabula County GIS / Auditor maps",
+      "url": "https://www.ashtabulacounty.us/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Ashtabula Harbor / downtown edge",
+        "why": "Port tourism and adaptive-reuse inventory with primary urban demand"
+      },
+      {
+        "name": "Geneva / wine-country US-20 corridor",
+        "why": "Tourism and second-home demand with school-driven local turns"
+      },
+      {
+        "name": "Conneaut / I-90 industrial fringe",
+        "why": "Relative entry inventory with logistics employment"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.ashtabulacounty.us/731/Sheriff-Sales",
+      "https://ashtabula.sheriffsaleauction.ohio.gov/",
+      "https://www.realauction.com/"
+    ]
+  },
+  "39055": {
+    "notes": "Ohio hybrid / sheriff tax-foreclosure county. Geauga County: mortgage/land foreclosure sales online at geauga.sheriffsaleauction.ohio.gov. Treasurer’s (delinquent tax) sales held in person at Geauga County Common Pleas Courthouse, 100 Short Court Street, Chardon — typically Thursdays 10:00 a.m. or scheduled date; front steps (inside if weather). Treasurer sale down payment = 10% of purchase price; cash or certified check only (no personal checks). Cleveland MSA east / semi-rural townships (Chardon, Bainbridge, Chesterland, Middlefield) with strong school-driven demand.",
+    "auctionFormat": "Hybrid — Online RealAuction (foreclosure) + in-person Courthouse (Treasurer tax sales)",
+    "auctionPlatform": {
+      "label": "RealAuction + Geauga County Treasurer’s In-Person Tax Sales",
+      "url": "https://geauga.sheriffsaleauction.ohio.gov/",
+      "phone": "440-279-2009"
+    },
+    "auctionFrequency": "Online land sales per RealAuction calendar; Treasurer tax sales typically Thursdays 10:00 a.m. when scheduled (lists posted on Sheriff Civil page)",
+    "depositRules": "Online: register at geauga.sheriffsaleauction.ohio.gov; RealAuction deposit tiers/deadlines. Treasurer tax sales: 10% of purchase price down in cash or certified check at Courthouse sale; no personal checks. Verify whether target parcel is foreclosure vs tax sale. Sold AS IS. ORC 5721.19(J) may apply to tax-foreclosure third-party buyers.",
+    "taxCollector": {
+      "label": "Geauga County Sheriff — Civil / Sheriff’s Sales",
+      "url": "https://sheriff.co.geauga.oh.us/civil/sheriffs-sales/",
+      "phone": "440-279-2009"
+    },
+    "clerkOfCourt": {
+      "label": "Geauga County Clerk of Courts",
+      "url": "https://co.geauga.oh.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Geauga County Auditor — Real Estate / Forfeited Land",
+      "url": "https://auditor.geauga.oh.gov/"
+    },
+    "survivingLiens": "Proper judicial tax foreclosure after confirmation generally cuts off junior private liens; federal liens can survive. Independent title mandatory.",
+    "quietTitle": "Confirmation primary; quiet title used for insurer comfort or residual defects. Auditor also runs separate forfeited-land sales (typically fall).",
+    "gisMap": {
+      "label": "Geauga County Auditor GIS / parcel maps",
+      "url": "https://auditor.geauga.oh.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Bainbridge / US-422 corporate fringe",
+        "why": "Cleveland-east professional employment with premium school demand"
+      },
+      {
+        "name": "Chardon core / county-seat edge",
+        "why": "Government and medical services with liquid village SF inventory"
+      },
+      {
+        "name": "Chesterland / Mayfield Rd corridor",
+        "why": "Established suburban buyer pool with resilient resale"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://sheriff.co.geauga.oh.us/civil/sheriffs-sales/",
+      "https://geauga.sheriffsaleauction.ohio.gov/",
+      "https://auditor.geauga.oh.gov/real-estate/forfeited-land-sale/"
+    ]
+  },
+  "39157": {
+    "notes": "Ohio hybrid / sheriff tax-foreclosure county. Tuscarawas County: mortgage foreclosures sold online Thursdays 9:00 a.m. on RealAuction (tuscarawas.sheriffsaleauction.ohio.gov) since Sept 1, 2022. Tax foreclosures still held in the lobby of the Tuscarawas County Sheriff’s Office on Thursdays at 10:00 a.m. Online deposit tiers $2k/$5k/$10k via ACH/wire; final payment cashier’s/certified check to Sheriff after confirmation. East-central Ohio / US-250 & I-77 (New Philadelphia, Dover, Uhrichsville, Sugarcreek).",
+    "auctionFormat": "Hybrid — Online RealAuction (mortgage) + in-person Sheriff lobby (tax) Thursdays",
+    "auctionPlatform": {
+      "label": "RealAuction + Tuscarawas County Sheriff Lobby Tax Sales",
+      "url": "https://tuscarawas.sheriffsaleauction.ohio.gov/",
+      "phone": "877-361-7325"
+    },
+    "auctionFrequency": "Thursdays: online mortgage 9:00 a.m.; tax foreclosures in Sheriff lobby 10:00 a.m. when scheduled",
+    "depositRules": "Online: register on tuscarawas.sheriffsaleauction.ohio.gov; $2k/$5k/$10k deposits by wire (by 5 p.m. EST 2 business days before) or ACH (initiate by 4 p.m. EST 5 business days before). Final balance cashier’s/certified check to Sheriff’s Office after confirmation. In-person tax: cash/certified per lobby sale terms. Sold AS IS; purchaser responsible for costs/taxes sale proceeds do not cover.",
+    "taxCollector": {
+      "label": "Tuscarawas County Sheriff — Sheriff Sales",
+      "url": "https://www.co.tuscarawas.oh.us/government/sheriff/sheriff_sales.php"
+    },
+    "clerkOfCourt": {
+      "label": "Tuscarawas County Clerk of Courts",
+      "url": "https://www.co.tuscarawas.oh.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Tuscarawas County Auditor — real estate / tax data",
+      "url": "https://www.co.tuscarawas.oh.us/"
+    },
+    "survivingLiens": "Proper judicial sale after confirmation generally cuts off junior private liens; federal liens can survive. Independent title required.",
+    "quietTitle": "Confirmation primary; quiet title still used for residual defects or insurer requirements.",
+    "gisMap": {
+      "label": "Tuscarawas County GIS / Auditor maps",
+      "url": "https://www.co.tuscarawas.oh.us/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "New Philadelphia–Dover twin-city core",
+        "why": "County-seat retail and manufacturing employment with primary SF liquidity"
+      },
+      {
+        "name": "Sugarcreek / Amish Country tourism edge",
+        "why": "Tourism and small-business demand with constrained village inventory"
+      },
+      {
+        "name": "Uhrichsville–Dennison / US-250 corridor",
+        "why": "Relative entry inventory with industrial and school-driven turns"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.co.tuscarawas.oh.us/government/sheriff/sheriff_sales.php",
+      "https://www.co.tuscarawas.oh.us/government/sheriff/current_sheriff_sales/index.php",
+      "https://tuscarawas.sheriffsaleauction.ohio.gov/"
+    ]
+  },
+  "39119": {
+    "notes": "Ohio hybrid / sheriff tax-foreclosure county. Muskingum County Sheriff conducts foreclosed real estate and delinquent tax sales online Thursdays at 10:00 a.m. via RealAuction (muskingum.sheriffsaleauction.ohio.gov); pre-registration required. Sale notices published in the Zanesville Times Recorder. Civil contact historically Jodi Moody (740-452-3637 ext. 6126). Zanesville / I-70 & US-40 corridor (Zanesville, South Zanesville, New Concord) with regional medical and retail hub status southeast of Columbus.",
+    "auctionFormat": "Online (RealAuction)",
+    "auctionPlatform": {
+      "label": "RealAuction — Muskingum County Sheriff Sales",
+      "url": "https://muskingum.sheriffsaleauction.ohio.gov/",
+      "phone": "740-452-3637"
+    },
+    "auctionFrequency": "Thursdays at 10:00 a.m. online when inventory is ordered; newspaper ad is legal notice",
+    "depositRules": "Pre-register at muskingum.sheriffsaleauction.ohio.gov. ACH/wire deposits per RealAuction $2k/$5k/$10k appraisal tiers and deadlines. Balance after confirmation. Sold AS IS. Tax-foreclosure third-party buyers may need ORC 5721.19(J) no-delinquent-tax affidavit. Confirm any residual in-person tax-track exceptions with Sheriff Civil.",
+    "taxCollector": {
+      "label": "Muskingum County Sheriff — Sheriff Sales",
+      "url": "https://www.ohiomuskingumsheriff.org/Sheriff-Sales/About/",
+      "phone": "740-452-3637"
+    },
+    "clerkOfCourt": {
+      "label": "Muskingum County Clerk of Courts",
+      "url": "https://www.muskingumcountyoh.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Muskingum County Auditor — real estate search",
+      "url": "https://www.muskingumcountyauditor.org/"
+    },
+    "survivingLiens": "Proper judicial sheriff sale after confirmation generally cuts off junior private liens; federal liens can survive. Independent title mandatory.",
+    "quietTitle": "Confirmation primary; quiet title still used for insurer comfort or residual defects.",
+    "gisMap": {
+      "label": "Muskingum County Auditor GIS / parcel maps",
+      "url": "https://www.muskingumcountyauditor.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Zanesville medical / Maple Avenue corridor",
+        "why": "Regional hospital and retail employment with primary urban SF demand"
+      },
+      {
+        "name": "New Concord / Muskingum University fringe",
+        "why": "University-driven rental demand and I-70 access"
+      },
+      {
+        "name": "South Zanesville / Maysville Pike edge",
+        "why": "Relative entry inventory with workforce housing turns"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.ohiomuskingumsheriff.org/Sheriff-Sales/About/",
+      "https://muskingum.sheriffsaleauction.ohio.gov/",
+      "https://www.muskingumcountyauditor.org/",
+      "https://www.muskingumcountyoh.gov/"
+    ]
+  }
+}

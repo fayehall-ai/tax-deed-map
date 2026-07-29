@@ -1,0 +1,1250 @@
+{
+  "06007": {
+    "notes": "California tax-deed county (no lien certificates). Butte County Treasurer-Tax Collector sells tax-defaulted property online via Bid4Assets after ~5 years delinquency (power to sell). June 2026 primary auction held; August 7–10, 2026 re-offer sale of ~105 parcels listed (8:00 a.m.–1:00 p.m. PDT staggered closes). Properties sold AS IS; right of redemption ends 5:00 p.m. the last business day before auction. Excess proceeds claims under R&T Code §4675.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Bid4Assets — Butte County Tax-Defaulted Properties",
+      "url": "https://www.bid4assets.com/storefront/ButteJun26"
+    },
+    "auctionFrequency": "Typically annual summer primary + optional re-offer (e.g. June 2026 primary; August 7–10, 2026 re-offer)",
+    "depositRules": "Register on Bid4Assets before bidding. Bid deposit and $35 non-refundable processing fee posted per sale cycle on the storefront (confirm deadline for the August 2026 re-offer). Full settlement per Bid4Assets/county terms after winning; documentary transfer tax collected with purchase. Non-payment forfeits deposit and can ban future auctions. Research zoning/access via county interactive maps before bidding.",
+    "taxCollector": {
+      "label": "Butte County Treasurer-Tax Collector — Property Tax Auctions",
+      "url": "https://www.buttecounty.net/1041/Property-Tax-Auctions",
+      "phone": "530-552-3700"
+    },
+    "clerkOfCourt": {
+      "label": "Butte County Clerk-Recorder (records tax deeds)",
+      "url": "https://www.buttecounty.net/"
+    },
+    "propertyAppraiser": {
+      "label": "Butte County Assessor — parcel / land-use data",
+      "url": "https://www.buttecounty.net/512/Interactive-Maps"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale (R&T Code §3712), but federal tax liens survive (IRS 120-day post-sale redemption), as do taxes/assessments that become payable after the sale. Special assessments, 1915 Act bonds, and Mello-Roos may remain if not satisfied from sale proceeds — verify parcel-by-parcel.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most CA title insurers will not insure a tax-deed property without quiet title (commonly 3–6 months, $3,000–$8,000+) or extended waiting after recording; one-year challenge period under R&T Code can delay free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Butte County Interactive Maps / Data Search",
+      "url": "https://www.buttecounty.net/512/Interactive-Maps"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Chico / downtown–university edge",
+        "why": "CSU Chico employment and student/renter demand supporting liquid SF and small multifamily turns"
+      },
+      {
+        "name": "Oroville / Highway 70 corridor",
+        "why": "County-seat services and relative entry pricing versus Chico core"
+      },
+      {
+        "name": "Paradise rebuild corridor",
+        "why": "Post-Camp Fire rebuild pipeline and insurance-driven reconstruction demand into 2026"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.buttecounty.net/1041/Property-Tax-Auctions",
+      "https://www.bid4assets.com/auction/1294175",
+      "https://www.buttecounty.net/512/Interactive-Maps",
+      "https://www.sco.ca.gov/ardtax_public_auction.html"
+    ]
+  },
+  "06017": {
+    "notes": "California tax-deed county. El Dorado County Treasurer-Tax Collector runs annual online tax-defaulted property auctions on Bid4Assets (real property + timeshares). November 5, 2025 sale completed (~41 real parcels advertised); next auction listed Friday, November 6, 2026. Right of redemption ends close of business last business day before auction. Sold AS IS under R&T Code; Tahoe Basin parcels need TRPA/zoning DD.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Bid4Assets — El Dorado County",
+      "url": "https://www.bid4assets.com/eldorado"
+    },
+    "auctionFrequency": "Typically annual November internet auction (e.g. Nov 5, 2025; next Nov 6, 2026)",
+    "depositRules": "Register on Bid4Assets; bid deposit required before bidding (confirm amount/deadline on storefront — e.g. deposit deadline ~1 week before sale in recent cycles). Full payment to Bid4Assets by 4:00 p.m. ET three business days from sale date; California documentary transfer tax added. Default forfeits deposit and can ban future sales. TTC does not register bidders (530-621-5800 for general info only).",
+    "taxCollector": {
+      "label": "El Dorado County Treasurer-Tax Collector — Tax-Defaulted Public Auction",
+      "url": "https://www.eldoradocounty.ca.gov/County-Government/County-Departments/Treasurer-Tax-Collector/Tax-Defaulted-Public-Auction-Tax-Sale",
+      "phone": "530-621-5800"
+    },
+    "clerkOfCourt": {
+      "label": "El Dorado County Recorder-Clerk (records tax deeds)",
+      "url": "https://www.eldoradocounty.ca.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "El Dorado County Assessor — parcel search",
+      "url": "https://www.eldoradocounty.ca.gov/"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale (R&T Code §3712), but federal tax liens survive (IRS 120-day post-sale redemption), as do taxes/assessments that become payable after the sale. Special assessments, 1915 Act bonds, and Mello-Roos may remain if not satisfied from sale proceeds — verify parcel-by-parcel. Tahoe Regional Planning Agency and HOA/timeshare association liens require separate review on basin parcels.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most CA title insurers will not insure a tax-deed property without quiet title (commonly 3–6 months, $3,000–$8,000+) or extended waiting after recording; one-year challenge period under R&T Code can delay free-and-clear marketable title.",
+    "gisMap": {
+      "label": "El Dorado County GIS / parcel resources",
+      "url": "https://www.eldoradocounty.ca.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "El Dorado Hills / Highway 50 corridor",
+        "why": "Sacramento-east suburban job access and strong SF demand versus foothill towns"
+      },
+      {
+        "name": "Cameron Park / Shingle Springs",
+        "why": "Mid-county family housing with relative value to EDH price points"
+      },
+      {
+        "name": "South Lake Tahoe / basin edge",
+        "why": "Tourism and second-home liquidity; TRPA constraints tighten buildable inventory"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.eldoradocounty.ca.gov/County-Government/County-Departments/Treasurer-Tax-Collector/Tax-Defaulted-Public-Auction-Tax-Sale",
+      "https://www.bid4assets.com/eldorado",
+      "https://www.eldoradocounty.ca.gov/files/assets/county/v/1/documents/government/treasurer/public-auction-tax-sale/faqs-tax-sale-auction.pdf",
+      "https://liquidityservices.com/press-releases/bid4assets-host-online-tax-defaulted-property-auctions-el-dorado"
+    ]
+  },
+  "06025": {
+    "notes": "California tax-deed county. Imperial County Treasurer-Tax Collector sells tax-defaulted parcels online via Bid4Assets; large annual inventories historically (hundreds of parcels including desert/ag fringe lots). February 20–23, 2026 auction cycle listed on Bid4Assets. Power to sell after 5 years delinquency (3 years certain nonresidential commercial). Sold AS IS; many parcels are vacant land — verify water rights, IID assessments, and access.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Bid4Assets — Imperial County",
+      "url": "https://www.bid4assets.com/storefront/ImperialFeb26"
+    },
+    "auctionFrequency": "Typically annual winter online auction (e.g. February 20–23, 2026); confirm next cycle on county TTC / Bid4Assets",
+    "depositRules": "Register on Bid4Assets and fund the published bid deposit + processing fee by the storefront deadline before auction open. Settlement per Bid4Assets terms after winning (documentary transfer tax applied). Unsuccessful deposits refunded per platform policy; default can forfeit deposit. Contact Imperial County TTC (442) 265-1300 for county-specific questions.",
+    "taxCollector": {
+      "label": "Imperial County Treasurer-Tax Collector",
+      "url": "https://treasurer-taxcollector.imperialcounty.org/",
+      "phone": "442-265-1300"
+    },
+    "clerkOfCourt": {
+      "label": "Imperial County Clerk-Recorder",
+      "url": "https://www.co.imperial.ca.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Imperial County Assessor — parcel search",
+      "url": "https://www.co.imperial.ca.us/"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale (R&T Code §3712), but federal tax liens survive (IRS 120-day post-sale redemption), as do taxes/assessments that become payable after the sale. Special assessments, 1915 Act bonds, and Mello-Roos may remain if not satisfied from sale proceeds — verify parcel-by-parcel. Irrigation/Imperial Irrigation District assessments and ag-related liens are common DD items on Valley parcels.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most CA title insurers will not insure a tax-deed property without quiet title (commonly 3–6 months, $3,000–$8,000+) or extended waiting after recording; one-year challenge period under R&T Code can delay free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Imperial County GIS / assessor maps",
+      "url": "https://www.co.imperial.ca.us/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "El Centro / Imperial Avenue corridor",
+        "why": "County commercial core and border-region services supporting workforce housing"
+      },
+      {
+        "name": "Calexico / international border edge",
+        "why": "Cross-border retail and logistics employment with constrained mid-market inventory"
+      },
+      {
+        "name": "Brawley / north Valley ag towns",
+        "why": "Ag employment base and relative affordability versus Imperial/El Centro cores"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.bid4assets.com/storefront/ImperialFeb26",
+      "https://www.bid4assets.com/county-tax-sales",
+      "https://treasurer-taxcollector.imperialcounty.org/",
+      "https://www.sco.ca.gov/ardtax_public_auction.html"
+    ]
+  },
+  "06031": {
+    "notes": "California tax-deed county. Kings County Finance / Tax Collector sells tax-defaulted property at public auction (historically Bid4Assets online cycles). County posts excess-proceeds claim process under R&T Code §4674. Confirm current platform, parcel list, and next sale date on the Tax Sale page before registering — inventory and cadence vary year to year. Power to sell after statutory delinquency; sold AS IS.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Kings County Tax Collector — Tax Sale (confirm Bid4Assets per cycle)",
+      "url": "https://www.countyofkingsca.gov/departments/administration/finance-department/tax-collector/delinquent-taxes/tax-sale"
+    },
+    "auctionFrequency": "Periodic when inventory is ready (statutory minimum once every four years); check county Tax Sale page for next date",
+    "depositRules": "When a sale is scheduled, register on the published auction platform and post the required bid deposit by the deadline on the notice. Full payment and documentary transfer tax per county/platform terms. Excess proceeds claims must be postmarked within 12 months of tax-sale deed recordation. Contact Kings County Tax Collector for current deposit amounts.",
+    "taxCollector": {
+      "label": "Kings County Finance Department / Tax Collector — Tax Sale",
+      "url": "https://www.countyofkingsca.gov/departments/administration/finance-department/tax-collector/delinquent-taxes/tax-sale"
+    },
+    "clerkOfCourt": {
+      "label": "Kings County Clerk-Recorder",
+      "url": "https://www.countyofkingsca.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Kings County Assessor — parcel / assessment",
+      "url": "https://www.countyofkingsca.gov/"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale (R&T Code §3712), but federal tax liens survive (IRS 120-day post-sale redemption), as do taxes/assessments that become payable after the sale. Special assessments, 1915 Act bonds, and Mello-Roos may remain if not satisfied from sale proceeds — verify parcel-by-parcel.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most CA title insurers will not insure a tax-deed property without quiet title (commonly 3–6 months, $3,000–$8,000+) or extended waiting after recording; one-year challenge period under R&T Code can delay free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Kings County GIS / parcel maps",
+      "url": "https://www.countyofkingsca.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Hanford / downtown–Highway 198",
+        "why": "County-seat retail and medical employment anchoring mid-Valley housing demand"
+      },
+      {
+        "name": "Lemoore / NAS Lemoore edge",
+        "why": "Military and related contractor demand supporting rental and starter-home liquidity"
+      },
+      {
+        "name": "Corcoran / south county ag corridor",
+        "why": "Lower entry prices with ag/institutional employment; higher vacancy risk than Hanford"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.countyofkingsca.gov/departments/administration/finance-department/tax-collector/delinquent-taxes/tax-sale",
+      "https://www.bid4assets.com/storefront/KingsMar17",
+      "https://www.sco.ca.gov/ardtax_public_auction.html"
+    ]
+  },
+  "06039": {
+    "notes": "California tax-deed county. Madera County Treasurer-Tax Collector partners with Bid4Assets for the annual defaulted land tax sale. May 11, 2026 sale closed (property listing updated on county page). Sold strictly AS IS; buyer must research access, water, zoning, and flood risk — large ag and foothill inventory. No tax-lien certificates.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Bid4Assets — Madera County",
+      "url": "https://www.bid4assets.com/storefront/MaderaMay26"
+    },
+    "auctionFrequency": "Typically annual spring sale (e.g. May 11, 2026); confirm next cycle on county Defaulted Property Tax Sale page",
+    "depositRules": "Register on Bid4Assets; Madera requires prospective bidders to complete county-specific forms as posted on the storefront. Bid deposit + processing fee due by platform deadline. Payment of winning balance per Bid4Assets/county terms; all sales final, no refunds. Contact TTC 559-675-7703 for terms packet.",
+    "taxCollector": {
+      "label": "Madera County Treasurer-Tax Collector — Defaulted Property Tax Sale",
+      "url": "https://www.maderacounty.com/government/treasurer-tax-collector/property-tax/defaulted-taxes/online-tax-sale",
+      "phone": "559-675-7703"
+    },
+    "clerkOfCourt": {
+      "label": "Madera County Clerk-Recorder",
+      "url": "https://www.maderacounty.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Madera County Assessor — parcel search",
+      "url": "https://www.maderacounty.com/"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale (R&T Code §3712), but federal tax liens survive (IRS 120-day post-sale redemption), as do taxes/assessments that become payable after the sale. Special assessments, 1915 Act bonds, and Mello-Roos may remain if not satisfied from sale proceeds — verify parcel-by-parcel.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most CA title insurers will not insure a tax-deed property without quiet title (commonly 3–6 months, $3,000–$8,000+) or extended waiting after recording; one-year challenge period under R&T Code can delay free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Madera County GIS / assessor maps",
+      "url": "https://www.maderacounty.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Madera / Highway 99 corridor",
+        "why": "North Valley logistics and relative affordability versus Fresno metro core"
+      },
+      {
+        "name": "Madera Ranchos / foothill edge",
+        "why": "Suburban SF demand with school-driven buyer pool"
+      },
+      {
+        "name": "Chowchilla / north county",
+        "why": "Lower entry prices and institutional/ag employment; thinner resale depth"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.maderacounty.com/government/treasurer-tax-collector/property-tax/defaulted-taxes/online-tax-sale",
+      "https://www.bid4assets.com/storefront/MaderaMay26",
+      "https://www.maderacounty.com/government/treasurer-tax-collector/property-tax-related-links/defaulted-taxes/online-tax-sale/tax-sale",
+      "https://maderatribune.com/tax-collector-announces-sale-for-taxes/"
+    ]
+  },
+  "06047": {
+    "notes": "California tax-deed county — does not sell tax lien certificates. Merced County Treasurer-Tax Collector auctions tax-defaulted property (5+ years delinquency) online through GovEase. January 2026 auction minimum-bid list published via Board materials; registration and webinar training on govease.com. Right of redemption ceases 5:00 p.m. last business day prior to auction. Sold AS IS; documentary transfer tax added to purchase price.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "GovEase — Merced County tax sale",
+      "url": "http://www.govease.com"
+    },
+    "auctionFrequency": "Periodic online auctions when inventory is ready (e.g. early 2026 cycle with published minimum bids); confirm next date on county Defaulted Tax Information page",
+    "depositRules": "Register at liveauctions.govease.com. Deposit and full-payment deadlines are in GovEase conditions of sale for the cycle; successful bidders notified by platform. No refunds of purchase or deposit. Contact GovEase (769) 208-5050 ext. 2 for platform help; Merced County may reject bids or withdraw parcels anytime before deed issues.",
+    "taxCollector": {
+      "label": "Merced County Treasurer-Tax Collector — Defaulted Tax Information",
+      "url": "https://www.countyofmerced.com/2515/Defaulted-Tax-Information"
+    },
+    "clerkOfCourt": {
+      "label": "Merced County Recorder (records tax deeds)",
+      "url": "https://www.countyofmerced.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Merced County Assessor — maps / parcel research",
+      "url": "https://www.countyofmerced.com/",
+      "phone": "209-385-7631"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale (R&T Code §3712), but federal tax liens survive (IRS 120-day post-sale redemption), as do taxes/assessments that become payable after the sale. Special assessments, 1915 Act bonds, and Mello-Roos may remain if not satisfied from sale proceeds — verify parcel-by-parcel.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most CA title insurers will not insure a tax-deed property without quiet title (commonly 3–6 months, $3,000–$8,000+) or extended waiting after recording; one-year challenge period under R&T Code can delay free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Merced County Assessor maps / GIS resources",
+      "url": "https://www.countyofmerced.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Merced / UC Merced edge",
+        "why": "University and related employment supporting multifamily and starter-home demand"
+      },
+      {
+        "name": "Atwater / Castle Airport corridor",
+        "why": "Logistics and relative value on Highway 99 north of Merced"
+      },
+      {
+        "name": "Los Banos / I-5 west county",
+        "why": "Bay Area commuter spillover and more liquid SF market than deep ag tracts"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.countyofmerced.com/2515/Defaulted-Tax-Information",
+      "http://www.govease.com",
+      "https://www.sco.ca.gov/ardtax_public_auction.html"
+    ]
+  },
+  "06079": {
+    "notes": "California tax-deed county. San Luis Obispo County ACTTC sells tax-defaulted real property (5+ years unpaid; power of sale recorded) at internet auction on Bid4Assets — no in-person sales. Typical May cycle (e.g. May 30–June 2, 2025); optional June re-offer of unsold parcels. List available in February when a sale is scheduled. Right of redemption ends close of business last business day prior to auction. Sold AS IS; no tax lien certificates.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Bid4Assets — San Luis Obispo County",
+      "url": "https://www.bid4assets.com/SLO"
+    },
+    "auctionFrequency": "Typically once yearly in May when inventory warrants (statutory minimum once every four years); re-offer possible in June",
+    "depositRules": "$5,000 deposit required for real-property auction participation. Winning bidder must pay in full by cashier's check, wire, or cash to SLO County Tax Collector within 72 hours after auction end or forfeit deposit and face ban from future sales. Timeshare auctions: no deposit but same 72-hour full payment. Register on bid4assets.com. Redemption Division (805) 781-5836.",
+    "taxCollector": {
+      "label": "San Luis Obispo County ACTTC — Public Auction of Tax-Defaulted Property",
+      "url": "https://www.slocounty.ca.gov/departments/auditor-controller-treasurer-tax-collector-public/tax-collector/services/public-auction-of-tax-defaulted-property",
+      "phone": "805-781-5836"
+    },
+    "clerkOfCourt": {
+      "label": "San Luis Obispo County Clerk-Recorder",
+      "url": "https://www.slocounty.ca.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "San Luis Obispo County Assessor",
+      "url": "https://www.slocounty.ca.gov/",
+      "phone": "805-781-5643"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale (R&T Code §3712), but federal tax liens survive (IRS 120-day post-sale redemption), as do taxes/assessments that become payable after the sale. Special assessments, 1915 Act bonds, and Mello-Roos may remain if not satisfied from sale proceeds — verify parcel-by-parcel.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most CA title insurers will not insure a tax-deed property without quiet title (commonly 3–6 months, $3,000–$8,000+) or extended waiting after recording; one-year challenge period under R&T Code can delay free-and-clear marketable title.",
+    "gisMap": {
+      "label": "SLO County Land Use View (Planning & Building)",
+      "url": "https://gis.slocounty.ca.gov/Html5Viewer/Index.html?configBase=/Geocortex/Essentials/REST/sites/PL_LandUseView/viewers/PL_LandUseView/virtualdirectory/Resources/Config/Default"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "San Luis Obispo / downtown–Cal Poly edge",
+        "why": "University and tourism employment with tight SF inventory and strong rents"
+      },
+      {
+        "name": "Paso Robles / North County wine corridor",
+        "why": "Hospitality and second-home demand with more lot inventory than coastal SLO"
+      },
+      {
+        "name": "Nipomo / South County",
+        "why": "Relative affordability and Santa Maria adjacency supporting workforce housing"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.slocounty.ca.gov/departments/auditor-controller-treasurer-tax-collector-public/tax-collector/services/public-auction-of-tax-defaulted-property",
+      "https://www.bid4assets.com/SLO",
+      "https://gis.slocounty.ca.gov/Html5Viewer/Index.html?configBase=/Geocortex/Essentials/REST/sites/PL_LandUseView/viewers/PL_LandUseView/virtualdirectory/Resources/Config/Default"
+    ]
+  },
+  "06089": {
+    "notes": "California tax-deed county. Shasta County Treasurer-Tax Collector holds online property tax auctions on Bid4Assets (bid4assets.com/Shasta). February 27, 2026 primary auction and March 27, 2026 re-offer (~3 parcels) completed; next full public online auction announced for Friday, February 26, 2027, 5:00 a.m.–3:00 p.m. PST. Tax-defaulted parcels sold AS IS after 5-year default (3-year nonresidential commercial). Auction GIS web app available for parcel research.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Bid4Assets — Shasta County",
+      "url": "http://www.bid4assets.com/Shasta"
+    },
+    "auctionFrequency": "Typically annual winter primary + optional re-offer (e.g. Feb/Mar 2026; next primary Feb 26, 2027)",
+    "depositRules": "Register on Bid4Assets; deposit amount and deadline posted per auction on storefront. Properties sold AS IS; research hazards and access via county auction GIS. Redemption of defaulted taxes near auction requires credit/debit, cash, or cashier's check only within 3 weeks of auction. Contact TTC 1450 Court Street, Room 227, Redding.",
+    "taxCollector": {
+      "label": "Shasta County Treasurer-Tax Collector — Tax Auction",
+      "url": "https://www.shastacounty.gov/tax-collector/page/tax-auction"
+    },
+    "clerkOfCourt": {
+      "label": "Shasta County Clerk-Recorder",
+      "url": "https://www.shastacounty.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Shasta County Assessor — parcel search",
+      "url": "https://www.shastacounty.gov/"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale (R&T Code §3712), but federal tax liens survive (IRS 120-day post-sale redemption), as do taxes/assessments that become payable after the sale. Special assessments, 1915 Act bonds, and Mello-Roos may remain if not satisfied from sale proceeds — verify parcel-by-parcel.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most CA title insurers will not insure a tax-deed property without quiet title (commonly 3–6 months, $3,000–$8,000+) or extended waiting after recording; one-year challenge period under R&T Code can delay free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Shasta County Property Tax Auction Web App",
+      "url": "https://gis.shastacounty.gov/PropertyTaxAuction"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Redding / downtown–medical corridor",
+        "why": "Regional medical and retail hub for far-north CA with strongest resale liquidity"
+      },
+      {
+        "name": "Anderson / south Redding edge",
+        "why": "Relative affordability and I-5 access supporting workforce SF demand"
+      },
+      {
+        "name": "Shasta Lake / north recreation edge",
+        "why": "Lifestyle and lake-oriented demand with thinner institutional financing"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.shastacounty.gov/tax-collector/page/tax-auction",
+      "https://www.shastacounty.gov/tax-collector/page/public-online-property-tax-auction",
+      "http://www.bid4assets.com/Shasta",
+      "https://gis.shastacounty.gov/PropertyTaxAuction",
+      "https://www.bid4assets.com/storefront/ShastaMar26"
+    ]
+  },
+  "06113": {
+    "notes": "California tax-deed county. Yolo County Financial Services / Property Tax runs online tax-defaulted public auction on Bid4Assets. May 15–18, 2026 auction (~13 parcels) with bidder registration and deposits due by May 11, 2026; parcel list published on county site. Sold AS IS after statutory power-to-sell period; no lien certificates. UC Davis / Sacramento edge markets drive stronger demand than deep ag parcels.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Bid4Assets — Yolo County",
+      "url": "https://www.bid4assets.com/storefront/YoloMay26"
+    },
+    "auctionFrequency": "Typically annual spring online auction when inventory is available (e.g. May 15–18, 2026)",
+    "depositRules": "Bid4Assets bidder registration and deposits must be complete by the published deadline (e.g. May 11, 2026 for the May 2026 sale). Confirm deposit amount on storefront. Settlement per Bid4Assets terms after winning. Contact taxinfo@yolocounty.gov / (530) 666-8625 for property tax questions.",
+    "taxCollector": {
+      "label": "Yolo County Financial Services — Property Tax / Tax Sales",
+      "url": "https://www.yolocounty.gov/government/general-government-departments/financial-services/property-tax",
+      "phone": "530-666-8625"
+    },
+    "clerkOfCourt": {
+      "label": "Yolo County Clerk-Recorder",
+      "url": "https://www.yolocounty.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Yolo County Assessor — parcel search",
+      "url": "https://www.yolocounty.gov/"
+    },
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale (R&T Code §3712), but federal tax liens survive (IRS 120-day post-sale redemption), as do taxes/assessments that become payable after the sale. Special assessments, 1915 Act bonds, and Mello-Roos may remain if not satisfied from sale proceeds — verify parcel-by-parcel.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most CA title insurers will not insure a tax-deed property without quiet title (commonly 3–6 months, $3,000–$8,000+) or extended waiting after recording; one-year challenge period under R&T Code can delay free-and-clear marketable title.",
+    "gisMap": {
+      "label": "Yolo County GIS / parcel maps",
+      "url": "https://www.yolocounty.gov/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Davis / UC Davis edge",
+        "why": "University employment and constrained supply supporting strong rents and resale"
+      },
+      {
+        "name": "West Sacramento / riverfront",
+        "why": "Sacramento CBD adjacency and multifamily pipeline into 2026"
+      },
+      {
+        "name": "Woodland / I-5 corridor",
+        "why": "County-seat logistics and relative value versus Davis/West Sac cores"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.yolocounty.gov/government/general-government-departments/financial-services/property-tax",
+      "https://www.bid4assets.com/storefront/YoloMay26",
+      "https://www.sco.ca.gov/ardtax_public_auction.html"
+    ]
+  },
+  "12001": {
+    "notes": "Florida hybrid: Tax Collector sells annual tax certificates (lien); after ~2 years a certificate holder may apply for a tax deed sold by the Clerk online via RealAuction (alachua.realtaxdeed.com). Sales ~10:00 a.m. ET online. Owner may redeem until full payment of winning bid. Unsold county applications may go to List of Lands Available. Separate from mortgage foreclosures.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Alachua County Tax Deeds",
+      "url": "https://alachua.realtaxdeed.com/"
+    },
+    "auctionFrequency": "Periodic online tax deed sales when applications are ready (calendar on realtaxdeed.com; often mid-month)",
+    "depositRules": "Advance deposit of $200 or 5% of the bid (whichever greater) required before bidding. Hand-delivered deposits by 3:00 p.m. last business day before sale; ACH at least 4 days in advance. Cash, money order, certified/cashier's check, or wire — no personal checks. Winning balance (incl. recording fees, doc stamps) due within 24 hours; deposit non-refundable on win. Tax Deeds (352) 374-3615 / taxdeeds@alachuaclerk.org.",
+    "taxCollector": {
+      "label": "Alachua County Tax Collector — certificates / delinquent",
+      "url": "https://www.alachuacollector.com/property-taxes/"
+    },
+    "clerkOfCourt": {
+      "label": "Alachua County Clerk of Court — Tax Deed Sales",
+      "url": "https://alachuacounty.us/Depts/Clerk/TaxDeeds/pages/taxdeedsales.aspx",
+      "phone": "352-374-3615"
+    },
+    "propertyAppraiser": {
+      "label": "Alachua County Property Appraiser",
+      "url": "https://www.acpafl.org/"
+    },
+    "survivingLiens": "A Florida tax deed generally extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding. Sales are as-is without warranty as to title or condition.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard practice.",
+    "gisMap": {
+      "label": "Alachua County Property Appraiser / GIS",
+      "url": "https://www.acpafl.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Gainesville / UF and Innovation Square edge",
+        "why": "University and health-care employment supporting multifamily and student-adjacent SF"
+      },
+      {
+        "name": "Newberry / west growth corridor",
+        "why": "Suburban expansion with more new-construction inventory than core Gainesville"
+      },
+      {
+        "name": "Alachua / north county industrial edge",
+        "why": "Relative affordability and logistics adjacency on US-441"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://alachuacounty.us/Depts/Clerk/TaxDeeds/pages/taxdeedsales.aspx",
+      "https://alachua.realtaxdeed.com/",
+      "https://www.alachuacollector.com/property-taxes/",
+      "https://www.alachuaclerk.org/civil/taxlands.cfm"
+    ]
+  },
+  "12005": {
+    "notes": "Florida hybrid: Tax Collector annual tax certificate sale (lienhub.com/county/bay); certificate holders apply for tax deeds after ~2 years. Clerk conducts online tax deed auctions at bay.realtaxdeed.com. Properties sold as-is; owner may redeem until sale is fully funded. Search tax deed files via Clerk records portal.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Bay County Tax Deeds",
+      "url": "https://bay.realtaxdeed.com/"
+    },
+    "auctionFrequency": "Periodic online sales per RealAuction calendar when applications are ready",
+    "depositRules": "Register on bay.realtaxdeed.com; fund platform deposit before bidding per RealAuction FAQ (typically $200 or 5% of intended bid). Successful high bidder posts nonrefundable deposit portion; balance due per Clerk/platform deadline (often next business day). Support: RealAuction 877-361-7325. Clerk (850) 747-5100.",
+    "taxCollector": {
+      "label": "Bay County Tax Collector — Delinquent Property Taxes",
+      "url": "https://baycountyfltax.gov/property-taxes/delinquent-property-taxes/"
+    },
+    "clerkOfCourt": {
+      "label": "Bay County Clerk of Court & Comptroller — Tax Deed Auctions",
+      "url": "https://www.baycoclerk.com/public-records/property-sales/tax-deed-auctions/",
+      "phone": "850-747-5100"
+    },
+    "propertyAppraiser": {
+      "label": "Bay County Property Appraiser (qPublic)",
+      "url": "https://qpublic.schneidercorp.com/Application.aspx?App=BayCountyFL&Layer=Parcels&PageType=Search"
+    },
+    "survivingLiens": "A Florida tax deed generally extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding. Sales are as-is without warranty as to title or condition.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard practice.",
+    "gisMap": {
+      "label": "Bay County Property Appraiser map search",
+      "url": "https://qpublic.schneidercorp.com/Application.aspx?App=BayCountyFL&Layer=Parcels&PageType=Search"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Panama City Beach / tourism corridor",
+        "why": "STR and second-home demand with post-storm rebuild inventory turns"
+      },
+      {
+        "name": "Panama City / downtown–port edge",
+        "why": "Employment and redevelopment core for the metro"
+      },
+      {
+        "name": "Lynn Haven / north Bay",
+        "why": "Family SF demand with school-driven liquidity versus barrier-island seasonal stock"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.baycoclerk.com/public-records/property-sales/tax-deed-auctions/",
+      "https://bay.realtaxdeed.com/",
+      "https://baycountyfltax.gov/property-taxes/delinquent-property-taxes/",
+      "https://lienhub.com/county/bay/certsale/main"
+    ]
+  },
+  "12019": {
+    "notes": "Florida hybrid: Clay County Tax Collector sells tax certificates online (lienhub.com/county/clay; e.g. 2025 certificates sale May 28, 2026). After ~2 years, certificate holders apply for tax deeds sold online by the Clerk at clay.realtaxdeed.com. All tax deed sales online; search files at landmark.clayclerk.com/TaxDeed. Opening bids can change before sale — recheck listing.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Clay County Tax Deeds",
+      "url": "https://clay.realtaxdeed.com/"
+    },
+    "auctionFrequency": "Periodic online tax deed sales per Clerk calendar when applications are ready",
+    "depositRules": "Create account on clay.realtaxdeed.com and fund deposit before bidding per RealAuction rules (typically $200 or 5% of bid). Full payment window and certified-funds rules posted on platform/Clerk FAQ. Tax Deed Department Clerk Tina Altman (904) 529-4221.",
+    "taxCollector": {
+      "label": "Clay County Tax Collector — Delinquent Taxes / Certificates",
+      "url": "https://www.claycountytax.com/property_taxes/delinquent_taxes.php"
+    },
+    "clerkOfCourt": {
+      "label": "Clay County Clerk — Tax Deeds & Foreclosures",
+      "url": "https://clayclerk.com/tax-deeds-foreclosures/",
+      "phone": "904-529-4221"
+    },
+    "propertyAppraiser": {
+      "label": "Clay County Property Appraiser",
+      "url": "https://www.ccpao.com/"
+    },
+    "survivingLiens": "A Florida tax deed generally extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding. Sales are as-is without warranty as to title or condition.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard practice.",
+    "gisMap": {
+      "label": "Clay County Property Appraiser / GIS",
+      "url": "https://www.ccpao.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Orange Park / Fleming Island",
+        "why": "Jacksonville south-suburban job access and school demand with strong SF liquidity"
+      },
+      {
+        "name": "Middleburg / west Clay",
+        "why": "Relative affordability and lot inventory versus riverside cores"
+      },
+      {
+        "name": "Green Cove Springs / county seat",
+        "why": "St. Johns River amenities and government employment anchoring mid-market demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://clayclerk.com/tax-deeds-foreclosures/",
+      "https://clay.realtaxdeed.com/",
+      "https://www.claycountytax.com/property_taxes/delinquent_taxes.php",
+      "https://lienhub.com/county/clay/certsale/",
+      "https://landmark.clayclerk.com/TaxDeed/"
+    ]
+  },
+  "12061": {
+    "notes": "Florida hybrid: Indian River Tax Collector sells tax certificates (lienhub.com/county/indianriver); after ~2 years certificate holders apply for tax deeds. Clerk of Circuit Court & Comptroller conducts online tax deed sales at indianriver.realtaxdeed.com (also indian-river.realtaxdeed.com). Governed by Ch. 197 F.S.; sold as-is, buyer beware. Certificate process is separate from the deed auction.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Indian River County Tax Deeds",
+      "url": "https://indianriver.realtaxdeed.com/"
+    },
+    "auctionFrequency": "Periodic online auctions when tax deed applications are ready (Clerk calendar)",
+    "depositRules": "Register and deposit on indianriver.realtaxdeed.com per RealAuction terms before bidding (typically $200 or 5% of bid). Winning bidder funds balance per platform/Clerk deadline. Tax Deeds (772) 226-3166; main Clerk (772) 226-3100.",
+    "taxCollector": {
+      "label": "Indian River County Tax Collector — Delinquent / Certificates",
+      "url": "https://services.irctax.com/hc/en-us/articles/41503735324435-Delinquent-Real-Estate-Tax"
+    },
+    "clerkOfCourt": {
+      "label": "Indian River County Clerk — Tax Deeds",
+      "url": "https://indianriverclerk.com/recording-services/tax-deeds/",
+      "phone": "772-226-3166"
+    },
+    "propertyAppraiser": {
+      "label": "Indian River County Property Appraiser",
+      "url": "https://www.ircpa.org/"
+    },
+    "survivingLiens": "A Florida tax deed generally extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding. Sales are as-is without warranty as to title or condition.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard practice.",
+    "gisMap": {
+      "label": "Indian River County Property Appraiser / GIS",
+      "url": "https://www.ircpa.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Vero Beach / beachside–downtown",
+        "why": "Coastal amenities and constrained supply supporting higher price floors"
+      },
+      {
+        "name": "Sebastian / north county",
+        "why": "Relative value and family demand versus core Vero Beach"
+      },
+      {
+        "name": "Fellsmere / inland west",
+        "why": "Lower entry prices and ag/edge growth; thinner tourism liquidity"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://indianriverclerk.com/recording-services/tax-deeds/",
+      "https://indianriverclerk.com/recording-services/tax-deed-faqs/",
+      "https://indianriver.realtaxdeed.com/",
+      "https://taxdeeds.indian-river.org/TaxDeeds",
+      "https://lienhub.com/county/indianriver"
+    ]
+  },
+  "12085": {
+    "notes": "Florida hybrid: Martin County Tax Collector sells tax certificates (lienhub.com/county/martin); certificate holders may apply for tax deeds after two years from delinquency. Clerk & Comptroller runs online tax deed auctions at martin.realtaxdeed.com (typically 10:00 a.m. or as advertised). Tax deed files searchable via TaxSmart. Sold as-is; public terminals available at Official Records in Stuart.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Martin County Tax Deeds",
+      "url": "https://martin.realtaxdeed.com/"
+    },
+    "auctionFrequency": "Periodic online sales at ~10:00 a.m. when advertised (confirm calendar on realtaxdeed.com)",
+    "depositRules": "Register on martin.realtaxdeed.com and fund deposit per RealAuction rules before sale. High bidder pays nonrefundable deposit portion and balance per Clerk terms. Tax Deeds (772) 288-5554 / TaxDeeds@MartinClerk.com.",
+    "taxCollector": {
+      "label": "Martin County Tax Collector — Tax Certificates",
+      "url": "https://martintaxcollector.com/property-tax/faq-tax-certificate-sale/"
+    },
+    "clerkOfCourt": {
+      "label": "Martin County Clerk & Comptroller — Tax Deeds",
+      "url": "https://www.martinclerk.com/258/Tax-Deeds",
+      "phone": "772-288-5554"
+    },
+    "propertyAppraiser": {
+      "label": "Martin County Property Appraiser",
+      "url": "https://www.pa.martin.fl.us/"
+    },
+    "survivingLiens": "A Florida tax deed generally extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding. Sales are as-is without warranty as to title or condition.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard practice.",
+    "gisMap": {
+      "label": "Martin County Property Appraiser / GIS",
+      "url": "https://www.pa.martin.fl.us/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Stuart / downtown–St. Lucie River",
+        "why": "County-seat amenities and constrained coastal inventory supporting resale"
+      },
+      {
+        "name": "Palm City / west of bridge",
+        "why": "Family SF demand with stronger school-driven liquidity"
+      },
+      {
+        "name": "Hobe Sound / south county",
+        "why": "Lifestyle buyer demand and limited new supply versus inland counties"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.martinclerk.com/258/Tax-Deeds",
+      "https://martin.realtaxdeed.com/",
+      "https://martintaxcollector.com/",
+      "https://lienhub.com/county/martin"
+    ]
+  },
+  "12109": {
+    "notes": "Florida hybrid with in-person tax deeds: Tax Collector sells certificates online via Zeus/SRI (zeusauction.com; 2026 sale May 29, 2026 @ 9:00 a.m.). Tax deed sales are held live at the Richard O. Watson Judicial Center, 4010 Lewis Speedway, St. Augustine — generally Wednesdays at 12:00 p.m. EST several times per month (confirm schedule). Not fully online for deeds. Certificate sale separate from deed auction.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "St. Johns County Clerk — Tax Deed Sales (courthouse auction)",
+      "url": "https://stjohnsclerk.com/foreclosure/tax-deeds-2/"
+    },
+    "auctionFrequency": "Several times per month, generally Wednesdays at 12:00 p.m. EST (confirm on Clerk Tax Deed page)",
+    "depositRules": "No pre-registration deposit. Arrive ~15 minutes early. After winning, deposit of $200 or 5% of winning bid (whichever greater) required; full payment in cash or certified funds within 24 hours or deposit forfeited and possible ban. Opening bid = taxes + fees + interest. Tax Deeds taxdeeds@stjohnsclerk.com / (904) 819-3600.",
+    "taxCollector": {
+      "label": "St. Johns County Tax Collector — Tax Certificate Sales",
+      "url": "https://sjctax.us/tax-certificate-sales/"
+    },
+    "clerkOfCourt": {
+      "label": "St. Johns County Clerk of Court — Tax Deeds",
+      "url": "https://stjohnsclerk.com/foreclosure/tax-deeds-2/",
+      "phone": "904-819-3600"
+    },
+    "propertyAppraiser": {
+      "label": "St. Johns County Property Appraiser",
+      "url": "http://www.sjcpa.us/Search.html"
+    },
+    "survivingLiens": "A Florida tax deed generally extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding. Sales are as-is without warranty as to title or condition.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard practice.",
+    "gisMap": {
+      "label": "St. Johns County Property Appraiser search / maps",
+      "url": "http://www.sjcpa.us/Search.html"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Nocatee / northeast growth",
+        "why": "Master-planned family demand and school-driven absorption among Florida's fastest-growing corridors"
+      },
+      {
+        "name": "St. Augustine / historic–world golf village edge",
+        "why": "Tourism employment and constrained coastal supply"
+      },
+      {
+        "name": "St. Johns / northwest county (I-95)",
+        "why": "Jacksonville spillover and relative value versus beachside product"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://stjohnsclerk.com/foreclosure/tax-deeds-2/",
+      "https://stjohnsclerk.com/foreclosure/tax-deeds-2/frequently-asked-questions/",
+      "https://sjctax.us/tax-certificate-sales/",
+      "https://www.sjcfl.us/sjc-2026-delinquent-tax-certificate-sale/",
+      "http://www.sjcpa.us/Search.html"
+    ]
+  },
+  "12111": {
+    "notes": "Florida hybrid: St. Lucie Tax Collector sells tax certificates; after 2+ years certificate holders apply for tax deed (Deed Express / lienhub). Clerk conducts online tax deed (and foreclosure) auctions via RealAuction at stlucie.realforeclose.com. Clerk fee $70 per tax deed application plus advertising/service costs in opening bid. Owner may redeem until Clerk receives full sale payment. Deposit 5% of final bid or $200, whichever greater, at sale.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — St. Lucie County Tax Deeds / Foreclosures",
+      "url": "https://stlucie.realforeclose.com/"
+    },
+    "auctionFrequency": "Periodic online auctions per RealAuction calendar when applications are scheduled",
+    "depositRules": "Register on stlucie.realforeclose.com. Successful high bidder pays non-refundable deposit equal to 5% of final bid or $200, whichever greater, at time of sale; balance per Clerk/platform terms. Properties sold AS IS — full title/lien research required. Finance / Tax Deed Dept (772) 462-6900.",
+    "taxCollector": {
+      "label": "St. Lucie County Tax Collector — Delinquent / Tax Deed Application",
+      "url": "https://tcslc.com/208/Property-Tax-Deed-Application"
+    },
+    "clerkOfCourt": {
+      "label": "St. Lucie County Clerk & Comptroller — Tax Deeds",
+      "url": "https://stlucieclerk.gov/services/auctions/tax-deeds",
+      "phone": "772-462-6900"
+    },
+    "propertyAppraiser": {
+      "label": "St. Lucie County Property Appraiser",
+      "url": "https://www.paslc.org/"
+    },
+    "survivingLiens": "A Florida tax deed generally extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding. Sales are as-is without warranty as to title or condition.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard practice.",
+    "gisMap": {
+      "label": "St. Lucie County Property Appraiser / GIS",
+      "url": "https://www.paslc.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Port St. Lucie / Tradition–St. Lucie West",
+        "why": "Large planned communities and population growth supporting SF and multifamily absorption"
+      },
+      {
+        "name": "Fort Pierce / downtown–midtown",
+        "why": "County-seat revitalization and relative entry pricing versus PSL cores"
+      },
+      {
+        "name": "Tradition / west PSL employment nodes",
+        "why": "Jobs and new-construction pipeline capturing Treasure Coast migration"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://stlucieclerk.gov/services/auctions/tax-deeds",
+      "https://stlucie.realforeclose.com/",
+      "https://tcslc.com/208/Property-Tax-Deed-Application",
+      "https://tcslc.com/205/Delinquent-Property-Taxes",
+      "https://www.paslc.org/"
+    ]
+  },
+  "48041": {
+    "notes": "Redeemable tax deed (Texas Tax Code Ch. 34). Brazos County tax foreclosure sales are conducted by the Sheriff/constable process on the first Tuesday of each month when judgments are set (in-person; historically advertised via Bid4Assets notices and local counsel). Lists via Perdue Brandon / LGBS-style tax-sale firms when active. Obtain statement of no delinquent taxes before deed issues (§34.015). Sold without warranty subject to statutory redemption.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Brazos County Sheriff / Tax Office — Tax Foreclosure Sale (first Tuesday)",
+      "url": "https://www.brazoscountytx.gov/140/Property-Taxes"
+    },
+    "auctionFrequency": "First Tuesday of each month when sales are scheduled (10:00 a.m.–4:00 p.m. legal hours)",
+    "depositRules": "Typically no platform deposit — appear with capacity for cash/cashier's check for full purchase same day. Obtain written statement of no delinquent taxes from Brazos County Tax Assessor-Collector ($10 fee process under §34.015; allow processing time before sale). Post-judgment taxes may be due beyond minimum bid. Confirm exact payment payee and cutoff with Sheriff Civil / Tax Office before sale day.",
+    "taxCollector": {
+      "label": "Brazos County Tax Assessor-Collector",
+      "url": "http://www.brazostax.org/"
+    },
+    "clerkOfCourt": {
+      "label": "Brazos County Clerk (real property records)",
+      "url": "https://www.brazoscountytx.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Brazos Central Appraisal District (Brazos CAD)",
+      "url": "https://brazoscad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may remain — search deed records and the appraisal district before bidding. Sheriff/constable deed is without warranty.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights (homestead/ag up to 2 years; others ~180 days) and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Brazos CAD property search / maps",
+      "url": "https://brazoscad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "College Station / Northgate–Texas A&M edge",
+        "why": "University employment and student housing demand with high rental absorption"
+      },
+      {
+        "name": "Bryan / downtown–Highway 6",
+        "why": "County services and relative value versus College Station cores"
+      },
+      {
+        "name": "South College Station / BioCorridor",
+        "why": "Research and medical growth supporting mid-market SF and multifamily"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.brazoscountytx.gov/140/Property-Taxes",
+      "http://www.brazostax.org/",
+      "https://brazoscad.org/",
+      "https://www.pbfcm.com/taxsale.html",
+      "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.34.htm"
+    ]
+  },
+  "48139": {
+    "notes": "Redeemable tax deed. Ellis County Tax Office runs online tax foreclosure auctions via RealAuction at ellis.texas.sheriffsaleauctions.com on the first Tuesday of every month at 10:00 a.m. Property lists via taxsales.lgbs.com (Linebarger). Payment in full required day of sale. Post-judgment taxes may be due from buyer. Separate from mortgage execution sales.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Ellis County Sheriff Tax Sales",
+      "url": "https://ellis.texas.sheriffsaleauctions.com/"
+    },
+    "auctionFrequency": "First Tuesday of every month at 10:00 a.m.",
+    "depositRules": "Register on ellis.texas.sheriffsaleauctions.com. Platform deposit/wire rules and cleared-funds deadlines are posted per sale on RealAuction. Payment in full required of winning bidder on sale day. Obtain any required written statement of no delinquent taxes from Ellis County Tax Assessor-Collector (Richard Rozier; 972-825-5150) before deed issues (Tax Code §34.015).",
+    "taxCollector": {
+      "label": "Ellis County Tax Assessor-Collector",
+      "url": "https://ellistaxoffice.com/tax-sales-2/",
+      "phone": "972-825-5150"
+    },
+    "clerkOfCourt": {
+      "label": "Ellis County Clerk (real property records)",
+      "url": "https://www.co.ellis.tx.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Ellis Appraisal District",
+      "url": "https://www.elliscad.com/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may remain — search deed records and the appraisal district before bidding. Sheriff/constable deed is without warranty.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights (homestead/ag up to 2 years; others ~180 days) and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Ellis CAD property search / GIS",
+      "url": "https://www.elliscad.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Waxahachie / downtown–I-35E",
+        "why": "County-seat growth and DFW south-suburban job access"
+      },
+      {
+        "name": "Midlothian / Highway 67 industrial",
+        "why": "Industrial employment and strong SF absorption into 2026"
+      },
+      {
+        "name": "Ennis / east county",
+        "why": "Relative affordability and logistics adjacency versus Midlothian/Waxahachie cores"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://ellistaxoffice.com/tax-sales-2/",
+      "https://ellis.texas.sheriffsaleauctions.com/",
+      "https://taxsales.lgbs.com/",
+      "https://www.elliscad.com/"
+    ]
+  },
+  "48209": {
+    "notes": "Redeemable tax deed. Hays County tax foreclosure sales are conducted as constable sales (Perdue Brandon posts Hays County Constable's Sale lists). First Tuesday monthly when scheduled; in-person at designated San Marcos location (e.g. 712 South Stagecoach Trail area per sale notices). Not bank/mortgage foreclosure sales. Buyer-beware research via Hays CAD and deed records.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Hays County Constable — Tax Foreclosure Sale (PBFCM lists)",
+      "url": "https://www.pbfcm.com/taxsale.html"
+    },
+    "auctionFrequency": "First Tuesday of each month when judgments are set (10:00 a.m.–4:00 p.m.)",
+    "depositRules": "In-person bidding; payment typically cash or cashier's check same day for exact amount. Obtain Statement of No Delinquent Taxes / bidder authorization from Hays County Tax Assessor-Collector under Tax Code §34.015 before a constable's deed issues. Confirm current payee, registration, and any pre-sale form requirements with the constable/tax office for the sale month. Post-judgment taxes may be due beyond judgment amount.",
+    "taxCollector": {
+      "label": "Hays County Tax Assessor-Collector",
+      "url": "https://www.hayscountytx.gov/"
+    },
+    "clerkOfCourt": {
+      "label": "Hays County Clerk (real property records)",
+      "url": "https://www.hayscountytx.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Hays Central Appraisal District",
+      "url": "https://www.hayscad.com/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may remain — search deed records and the appraisal district before bidding. Sheriff/constable deed is without warranty.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights (homestead/ag up to 2 years; others ~180 days) and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Hays CAD property search / maps",
+      "url": "https://www.hayscad.com/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "San Marcos / Texas State edge",
+        "why": "University employment and I-35 corridor demand between Austin and San Antonio"
+      },
+      {
+        "name": "Kyle / Buda growth corridor",
+        "why": "Austin south-suburban spillover with strong SF builder pipeline"
+      },
+      {
+        "name": "Dripping Springs / Highway 290 west",
+        "why": "Hill Country lifestyle demand and higher price floors versus east Hays"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.pbfcm.com/taxsale.html",
+      "https://www.hayscountytx.gov/200/Foreclosures",
+      "https://www.hayscad.com/",
+      "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.34.htm"
+    ]
+  },
+  "48245": {
+    "notes": "Redeemable tax deed. Jefferson County Tax Office publishes sheriff tax sale schedule (not every first Tuesday has a sale). 2026 dates include March 3, June 2 (re-sale), October 6, and December 1 original/re-sale cycles. In-person at Jefferson County Courthouse (e.g. Jury Impaneling Room, 1085 Pearl St, Beaumont). Cash or cashier's check to Jefferson County Sheriff's Department by 4:00 p.m. sale day; exact funds recommended.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Jefferson County Sheriff — Delinquent Tax Sale",
+      "url": "https://jeffcotax.com/property-tax/delinquent-tax-sale/"
+    },
+    "auctionFrequency": "Scheduled sheriff sales (2026: Mar 3, Jun 2 re-sale, Oct 6, Dec 1 — subject to change; not every month)",
+    "depositRules": "Guidelines and eligibility standards posted on JeffCo Tax delinquent tax sale page. Pay cash or cashier's check payable to Jefferson County Sheriff's Department by 4:00 p.m. sale day. Obtain any required no-delinquent-tax statement under §34.015 before deed issues. Research CAD and city code liens (Beaumont/Port Arthur) before bidding.",
+    "taxCollector": {
+      "label": "Jefferson County Tax Assessor-Collector",
+      "url": "https://jeffcotax.com/",
+      "phone": "409-835-8516"
+    },
+    "clerkOfCourt": {
+      "label": "Jefferson County Clerk (real property records)",
+      "url": "https://jeffersoncountytx.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Jefferson Central Appraisal District",
+      "url": "https://www.jcad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may remain — search deed records and the appraisal district before bidding. Sheriff/constable deed is without warranty.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights (homestead/ag up to 2 years; others ~180 days) and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Jefferson CAD property search / maps",
+      "url": "https://www.jcad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Beaumont / downtown–medical corridor",
+        "why": "Regional medical and petrochemical services anchoring workforce housing"
+      },
+      {
+        "name": "Port Arthur / refinery belt",
+        "why": "Industrial employment base with lower entry prices versus Beaumont core"
+      },
+      {
+        "name": "Nederland / Mid-County",
+        "why": "Family suburban demand between Beaumont and Port Arthur"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://jeffcotax.com/property-tax/delinquent-tax-sale/",
+      "https://jeffcotax.com/",
+      "https://www.jcad.org/",
+      "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.34.htm"
+    ]
+  },
+  "48303": {
+    "notes": "Redeemable tax deed. Lubbock County tax foreclosure sales follow Texas first-Tuesday sheriff/constable process when judgments are set. Confirm monthly lists via local tax counsel (LGBS/PBFCM) and Lubbock County Tax Assessor-Collector / Sheriff Civil. Buyer receives sheriff/constable deed without warranty subject to statutory redemption. Research Lubbock CAD and city liens before bidding.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Lubbock County Sheriff / Tax Office — Tax Foreclosure Sale",
+      "url": "https://www.lubbockcounty.gov/"
+    },
+    "auctionFrequency": "First Tuesday of each month when sales are scheduled (10:00 a.m.–4:00 p.m.)",
+    "depositRules": "Typically in-person payment in full with certified funds same day; no remote bids unless a platform is announced for a given sale. Obtain written statement of no delinquent taxes from Lubbock County Tax Assessor-Collector under §34.015 before deed issues. Confirm payee (Sheriff) and any registration rules with the office posting the notice.",
+    "taxCollector": {
+      "label": "Lubbock County Tax Assessor-Collector",
+      "url": "https://www.lubbockcounty.gov/"
+    },
+    "clerkOfCourt": {
+      "label": "Lubbock County Clerk (real property records)",
+      "url": "https://www.lubbockcounty.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Lubbock Central Appraisal District",
+      "url": "https://www.lubbockcad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may remain — search deed records and the appraisal district before bidding. Sheriff/constable deed is without warranty.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights (homestead/ag up to 2 years; others ~180 days) and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Lubbock CAD property search / GIS",
+      "url": "https://www.lubbockcad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Southwest Lubbock / Quaker–Slide corridor",
+        "why": "Primary growth sector for SF and multifamily with medical/retail employment"
+      },
+      {
+        "name": "Texas Tech / overton edge",
+        "why": "Student and university-driven rental demand with high turnover"
+      },
+      {
+        "name": "East Lubbock / industrial edge",
+        "why": "Lower entry prices and workforce housing near logistics nodes"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.lubbockcounty.gov/",
+      "https://www.lubbockcad.org/",
+      "https://taxsales.lgbs.com/",
+      "https://www.pbfcm.com/taxsale.html",
+      "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.34.htm"
+    ]
+  },
+  "48329": {
+    "notes": "Redeemable tax deed. Midland County tax sales are in-person sheriff sales (no mail/phone/internet bids per Midland tax-sale information). First Tuesday when scheduled. Cashier's check payable to Midland County Sheriff's Department for exact purchase price. Deed issues only in the name of the person who bid (§34.015(b)). Use/possession subject to prior owner's redemption rights; writ of possession available ~20 days after deed recording.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Midland County Sheriff — Tax Sale (CAD info packet)",
+      "url": "https://midcad.org/"
+    },
+    "auctionFrequency": "First Tuesday of each month when judgments set (in-person only)",
+    "depositRules": "Bidders must be present; no remote bids. Exact cashier's check to Midland County Sheriff's Department for purchase price. Business entities need power of attorney/authorization to bid. Statement of no delinquent taxes / deed grantee rules under Tax Code §34.015 apply. Contact Midland CAD (4631 Andrews Hwy) and Sheriff for current notice and eligibility.",
+    "taxCollector": {
+      "label": "Midland County Tax Office / Midland CAD tax sale information",
+      "url": "https://midcad.org/"
+    },
+    "clerkOfCourt": {
+      "label": "Midland County Clerk (real property records)",
+      "url": "https://www.co.midland.tx.us/"
+    },
+    "propertyAppraiser": {
+      "label": "Midland Central Appraisal District",
+      "url": "https://midcad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may remain — search deed records and the appraisal district before bidding. Sheriff/constable deed is without warranty.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights (homestead/ag up to 2 years; others ~180 days) and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Midland CAD property search / maps",
+      "url": "https://midcad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "North Midland / Loop 250 edge",
+        "why": "Oil-field cycle employment and newer SF inventory with stronger liquidity"
+      },
+      {
+        "name": "West Midland / energy corridor",
+        "why": "Corporate and contractor housing demand tied to Permian activity"
+      },
+      {
+        "name": "South Midland / entry product",
+        "why": "Relative affordability versus north-loop new construction"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://midcad.org/wp-content/uploads/2023/04/MIDLAND_TAX_SALE_INFORMATION.pdf",
+      "https://midcad.org/",
+      "https://www.pbfcm.com/taxforeclosuresalefaq.html",
+      "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.34.htm"
+    ]
+  },
+  "48355": {
+    "notes": "Redeemable tax deed. Nueces County delinquent property tax sales are conducted online via RealAuction at nueces.texas.sheriffsaleauctions.com (linked from County Tax Assessor-Collector external agencies page). First Tuesday monthly cycle when sales are set. Research Corpus Christi code liens and CAD data before bidding; struck-off inventory may have separate resale process.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Nueces County Sheriff Tax Sales",
+      "url": "https://nueces.texas.sheriffsaleauctions.com/"
+    },
+    "auctionFrequency": "First Tuesday of each month when auctions are scheduled (confirm platform calendar)",
+    "depositRules": "Register on RealAuction; fund any required bid deposit by wire/ACH per platform FAQ and sale notice (often days before sale). Balance and payment method (wire vs. certified funds) posted per sale. Obtain written statement of no delinquent taxes from Nueces County Tax Assessor-Collector before deed issues (§34.015). Tax office (361) 888-0230 / Nueces.Tax@nuecescountytx.gov.",
+    "taxCollector": {
+      "label": "Nueces County Tax Assessor-Collector",
+      "url": "https://www.nuecesco.com/county-services/tax-assessor-collector/external-agencies",
+      "phone": "361-888-0230"
+    },
+    "clerkOfCourt": {
+      "label": "Nueces County Clerk (real property records)",
+      "url": "https://www.nuecesco.com/"
+    },
+    "propertyAppraiser": {
+      "label": "Nueces County Appraisal District",
+      "url": "https://www.nuecescad.net/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may remain — search deed records and the appraisal district before bidding. Sheriff/constable deed is without warranty.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights (homestead/ag up to 2 years; others ~180 days) and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Nueces CAD property search / GIS",
+      "url": "https://www.nuecescad.net/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Southside Corpus Christi / Staples corridor",
+        "why": "Primary retail and SF absorption corridor for the metro"
+      },
+      {
+        "name": "Calallen / northwest",
+        "why": "Family suburban demand with school-driven liquidity"
+      },
+      {
+        "name": "Portland / North Bay",
+        "why": "Industrial and port-adjacent growth across the bay from Corpus core"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.nuecesco.com/county-services/tax-assessor-collector/external-agencies",
+      "https://nueces.texas.sheriffsaleauctions.com/",
+      "https://www.nuecescad.net/",
+      "https://taxsales.lgbs.com/"
+    ]
+  },
+  "48367": {
+    "notes": "Redeemable tax deed. Parker County Constables conduct tax and judgment sales (constable deed without warranty). Opening bid on tax sales includes taxes delinquent at judgment; additional post-judgment taxes may be due. Payment cash, cashier's check, or money order to Parker County Constable by 4:00 p.m. sale day. First Tuesday when scheduled (Weatherford area). Research Parker CAD and HOA before bidding.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Parker County Constable Sale",
+      "url": "https://www.parkercountytx.gov/517/Constable-Sale"
+    },
+    "auctionFrequency": "First Tuesday of each month when sales are posted (confirm constable notice)",
+    "depositRules": "All property sold for cash; cashier's checks or money orders payable to Parker County Constable accepted. Money due no later than 4:00 p.m. sale day. Constable's deed is without warranty; offices do not take possession or guarantee title. Obtain §34.015 no-delinquent-tax statement from Parker County Tax Office before deed issues. Confirm precinct handling tax sales for the sale month.",
+    "taxCollector": {
+      "label": "Parker County Tax Assessor-Collector",
+      "url": "https://www.parkercountytx.gov/"
+    },
+    "clerkOfCourt": {
+      "label": "Parker County Clerk (real property records)",
+      "url": "https://www.parkercountytx.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Parker County Appraisal District",
+      "url": "https://www.parkercad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may remain — search deed records and the appraisal district before bidding. Sheriff/constable deed is without warranty.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights (homestead/ag up to 2 years; others ~180 days) and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Parker CAD property search / maps",
+      "url": "https://www.parkercad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Weatherford / I-20 corridor",
+        "why": "County-seat services and Fort Worth west-suburban job access"
+      },
+      {
+        "name": "Aledo / east Parker",
+        "why": "High-demand school district and DFW spillover with strong SF liquidity"
+      },
+      {
+        "name": "Springtown / north county",
+        "why": "Relative affordability and lot inventory versus Aledo/Weatherford cores"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.parkercountytx.gov/517/Constable-Sale",
+      "https://www.parkercad.org/",
+      "https://www.pbfcm.com/taxsale.html",
+      "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.34.htm"
+    ]
+  },
+  "48479": {
+    "notes": "Redeemable tax deed. Webb County Tax Assessor-Collector posts Sheriff Sales information; tax foreclosure sales follow first-Tuesday Texas process via Webb County Sheriff when judgments are set (Laredo Justice Center area for related foreclosure postings). Confirm monthly list with Tax Office (956-523-4200) and counsel lists (LGBS/PBFCM). Deed without warranty subject to statutory redemption; research city code liens carefully in Laredo.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Webb County Sheriff Sales / Tax Assessor-Collector",
+      "url": "https://www.webbcountytx.gov/TaxAssessorCollector/SheriffSales/"
+    },
+    "auctionFrequency": "First Tuesday of each month when tax foreclosure sales are scheduled",
+    "depositRules": "In-person sheriff tax sale rules: certified funds same day for winning bid; obtain written statement of no delinquent taxes from Webb County Tax Assessor-Collector under §34.015 before deed issues. Confirm registration, payee, and exact location with Sheriff Civil / Tax Office for the sale month. Post-judgment taxes may remain due.",
+    "taxCollector": {
+      "label": "Webb County Tax Assessor-Collector (Patricia A. Barrera)",
+      "url": "https://www.webbcountytx.gov/TaxAssessorCollector/",
+      "phone": "956-523-4200"
+    },
+    "clerkOfCourt": {
+      "label": "Webb County Clerk (real property / official records)",
+      "url": "https://www.webbcountytx.gov/CountyClerk/"
+    },
+    "propertyAppraiser": {
+      "label": "Webb County Appraisal District",
+      "url": "https://www.webbcad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may remain — search deed records and the appraisal district before bidding. Sheriff/constable deed is without warranty.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights (homestead/ag up to 2 years; others ~180 days) and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Webb CAD property search / maps",
+      "url": "https://www.webbcad.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "North Laredo / Mines Road corridor",
+        "why": "Primary residential growth and retail expansion north of the historic core"
+      },
+      {
+        "name": "South Laredo / downtown–bridge edge",
+        "why": "Trade and logistics employment with older housing stock turns"
+      },
+      {
+        "name": "Del Mar / loop commercial edge",
+        "why": "Medical and commercial nodes supporting mid-market SF demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.webbcountytx.gov/TaxAssessorCollector/SheriffSales/",
+      "https://www.webbcountytx.gov/TaxAssessorCollector/",
+      "https://www.webbcountytx.gov/CountyClerk/Foreclosures/default.aspx",
+      "https://taxsales.lgbs.com/",
+      "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.34.htm"
+    ]
+  }
+}

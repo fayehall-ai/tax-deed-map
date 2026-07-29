@@ -1,0 +1,571 @@
+{
+  "48113": {
+    "notes": "Redeemable deed (Texas Tax Code Ch. 34). Dallas County Sheriff runs monthly tax foreclosure sales as a live online auction via RealAuction (distinct from the separate in-person Writ of Execution sheriff's sale). Struck-off / tax foreclosure resales are handled by Dallas County Public Works.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Dallas County Sheriff Sale Auctions",
+      "url": "https://dallas.texas.sheriffsaleauctions.com"
+    },
+    "auctionFrequency": "First Tuesday of every month, online bidding begins 9:00 a.m. CST",
+    "depositRules": "Register on the RealAuction site (877-361-7325 / customerservice@realauction.com). Tax-sale payments are by wire transfer only via RealAuction; deposit amount and cleared-funds deadline are posted on the platform per sale. Obtain any required written statement of no delinquent taxes from the Tax Office before a deed can issue (Texas Tax Code §34.015).",
+    "taxCollector": {
+      "label": "Dallas County Tax Assessor-Collector",
+      "url": "https://www.dallascounty.org/departments/tax/"
+    },
+    "clerkOfCourt": {
+      "label": "Dallas County Clerk (official public / real property records)",
+      "url": "https://www.dallascounty.org/government/county-clerk/"
+    },
+    "propertyAppraiser": {
+      "label": "Dallas Central Appraisal District (DCAD)",
+      "url": "https://www.dallascad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Post-judgment taxes and unjoined municipal liens may also remain — search deed records before bidding.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "DCAD Find Property on Map",
+      "url": "https://maps.dcad.org/prd/dpm/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Bishop Arts / North Oak Cliff",
+        "why": "Sustained urban-core redevelopment and transit-adjacent demand on the south side of Dallas proper into 2026"
+      },
+      {
+        "name": "West Dallas / Design District corridor",
+        "why": "Industrial-to-mixed-use conversion and Trinity Riverfront adjacency supporting multifamily and creative-office absorption"
+      },
+      {
+        "name": "Garland / Mesquite edge (eastern Dallas County)",
+        "why": "Relative affordability versus inner-ring DFW cores with ongoing infill and school-driven buyer demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.dallascounty.org/departments/tax/sheriff-sales.php",
+      "https://www.dallascounty.org/departments/sheriff/writ-enforcement-section/",
+      "https://dallas.texas.sheriffsaleauctions.com",
+      "https://www.dallascounty.org/departments/pubworks/property-division.php",
+      "https://www.dallascad.org/",
+      "https://maps.dcad.org/prd/dpm/",
+      "https://www.dallascounty.org/government/county-clerk/",
+      "https://dallas.tx.publicsearch.us/"
+    ]
+  },
+  "48439": {
+    "notes": "Redeemable deed. In-person constable tax sales (Constable Precinct 3 posts the delinquent tax sale lists). Not bank/mortgage foreclosure sales. Buyer-beware; research liens via TAD and deed records before bidding.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Tarrant County Constable Pct. 3 — Delinquent Tax Sales",
+      "url": "https://www.tarrantcountytx.gov/en/constables/constable-3/delinquent-tax-sales.html"
+    },
+    "auctionFrequency": "First Tuesday of each month, approximately 10:00 a.m. (register before 10:00 a.m.; no late registration once sale begins)",
+    "depositRules": "No advance cash deposit. Bidder Authorization from the Tarrant County Tax Assessor-Collector ($10 fee; allow ~2 weeks) is required before a constable's deed issues. Payment: cashier's checks or money orders only, exact funds, payable to Constable Darrell Huffman; up to one hour after the sale. Online bidder registration available on the Constable page; bring authorization + ID on sale day.",
+    "taxCollector": {
+      "label": "Tarrant County Tax Assessor-Collector",
+      "url": "https://www.tarrantcountytx.gov/en/tax.html"
+    },
+    "clerkOfCourt": {
+      "label": "Tarrant County Clerk (real property / official public records)",
+      "url": "https://www.tarrantcountytx.gov/en/county-clerk.html"
+    },
+    "propertyAppraiser": {
+      "label": "Tarrant Appraisal District (TAD)",
+      "url": "https://www.tad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive (IRS rights). Always search deed records for association and municipal liens before bidding.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "TAD Interactive Map",
+      "url": "https://experience.arcgis.com/experience/ce3039d388944e9da38bb53f3403fa33"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Near Southside / Medical District (Fort Worth)",
+        "why": "Hospital employment base and adaptive-reuse multifamily continue to support urban Fort Worth absorption into 2026"
+      },
+      {
+        "name": "Alliance / North Fort Worth",
+        "why": "Logistics and employment-node growth along I-35W keeps housing demand elevated versus softer outer rings"
+      },
+      {
+        "name": "Arlington / Grand Prairie corridor",
+        "why": "Mid-cities job access and relative value versus core Fort Worth/Dallas price points"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.tarrantcountytx.gov/en/constables/constable-3/delinquent-tax-sales.html",
+      "https://www.tad.org/",
+      "https://experience.arcgis.com/experience/ce3039d388944e9da38bb53f3403fa33",
+      "https://www.tarrantcountytx.gov/en/county-clerk.html",
+      "https://tarrant.tx.publicsearch.us/",
+      "https://tax.tarrantcountytx.gov/search"
+    ]
+  },
+  "48029": {
+    "notes": "Redeemable deed. Bexar County Sheriff (Judicial Services Civil Division) conducts in-person tax foreclosure auctions. Property lists historically via taxsales.lgbs.com; sold by legal description. Municipal code-compliance liens not included in the judgment can survive.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Bexar County Sheriff — Tax Sale (Judicial Services Civil Division)",
+      "url": "https://www.bexar.org/DocumentCenter/View/2370/Sheriff-Tax-Sale-Manual-English"
+    },
+    "auctionFrequency": "First Tuesday of every month, 10:00 a.m., west side of Bexar County Courthouse (100 Dolorosa / E. Nueva & S. Main area), San Antonio",
+    "depositRules": "No advance deposit. Obtain a Written Statement Regarding Delinquent Taxes / bidder certificate from the Bexar County Tax Assessor-Collector ($10 fee; allow ~10 business days; valid 90 days). Register with the Sheriff's Judicial Services office (200 N. Comal) the week before the sale and the Monday before — day-of registration is not allowed; re-register each sale. Payment: exact cashier's check or money order payable to Bexar County Sheriff's Office due the day of sale (up to ~2 hours after). Failure to pay can ban bidding for one year.",
+    "taxCollector": {
+      "label": "Bexar County Tax Assessor-Collector",
+      "url": "https://www.bexar.org/1515/Tax-Assessor-Collector"
+    },
+    "clerkOfCourt": {
+      "label": "Bexar County Clerk (real property / official records)",
+      "url": "https://www.bexar.org/CountyClerk"
+    },
+    "propertyAppraiser": {
+      "label": "Bexar Appraisal District (BCAD)",
+      "url": "https://bcad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive. City code-compliance liens not included in the tax judgment are not extinguished by the sale — research with City Code Compliance and deed records before bidding.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "BCAD Map Search",
+      "url": "https://bexar.trueautomation.com/mapSearch/?cid=110"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Southtown / King William",
+        "why": "Walkable core adjacent to downtown San Antonio with continued adaptive reuse and tourism/job adjacency into 2026"
+      },
+      {
+        "name": "Stone Oak / North Central",
+        "why": "Large-scale residential absorption and medical/retail employment nodes on the north side"
+      },
+      {
+        "name": "Brooks / Southeast SA",
+        "why": "Former base redevelopment and relative affordability supporting south-side population growth"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.bexar.org/DocumentCenter/View/2370/Sheriff-Tax-Sale-Manual-English",
+      "https://www.bexar.org/1587/Public-Sale-of-Property-PDF",
+      "https://www.bexar.org/1515/Tax-Assessor-Collector",
+      "https://bcad.org/",
+      "https://bexar.trueautomation.com/mapSearch/?cid=110",
+      "https://bexar.tx.publicsearch.us/",
+      "https://maps.bexar.org/foreclosures/"
+    ]
+  },
+  "48453": {
+    "notes": "Redeemable deed. Travis County tax foreclosure sales are conducted online through RealAuction; Constable's Deed issues (not a warranty deed). Dual registration required: RealAuction + Travis County Tax Office bidder registration ($10).",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Travis County (RealForeclose)",
+      "url": "https://travis.texas.realforeclose.com/"
+    },
+    "auctionFrequency": "First Tuesday of each month (property lists typically online ~15 days before sale; published in the Austin Chronicle ~21 days before)",
+    "depositRules": "Register on Travis RealAuction and separately submit Tax Office Bidder Registration + $10 fee at least five business days before the sale (approved registrations valid one year). You must register with BOTH. Anyone owing back taxes in Travis County is ineligible. Payment/deposit mechanics follow RealAuction platform rules — complete platform training/FAQs before bidding.",
+    "taxCollector": {
+      "label": "Travis County Tax Office",
+      "url": "https://tax-office.traviscountytx.gov/properties/foreclosed"
+    },
+    "clerkOfCourt": {
+      "label": "Travis County Clerk (recording / real property records)",
+      "url": "https://countyclerk.traviscountytx.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Travis Central Appraisal District (TCAD)",
+      "url": "https://traviscad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive. Constable's Deed clears tax liens for years in the lawsuit only — other liens and post-judgment taxes may remain. Research before bidding.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "TCAD Property Search / Map",
+      "url": "https://traviscad.org/propertysearch/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "East Austin",
+        "why": "Continued infill and job access to downtown/tech corridors keep demand elevated despite higher price points"
+      },
+      {
+        "name": "Manor / Del Valle edge",
+        "why": "Eastern Travis County growth corridor with relatively more new-housing supply and school-driven demand"
+      },
+      {
+        "name": "Pflugerville",
+        "why": "North-corridor employment adjacency and inventory absorption versus softer outer exurbs"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://tax-office.traviscountytx.gov/properties/foreclosed",
+      "https://tax-office.traviscountytx.gov/properties/foreclosed/faq",
+      "https://travis.texas.realforeclose.com/",
+      "https://traviscad.org/",
+      "https://traviscad.org/propertysearch/",
+      "https://countyclerk.traviscountytx.gov/",
+      "https://www.tccsearch.org/",
+      "https://www.constable5.com/tax-sales/"
+    ]
+  },
+  "48085": {
+    "notes": "Redeemable deed. Collin County tax and execution sales are conducted in person by Constable precincts and/or the Sheriff on the first Tuesday of the month at the Russell A. Steindam Courts Building / Collin County Courthouse campus in McKinney. Notices published in the McKinney Courier-Gazette or Collin County Commercial Record. Confirm the administering constable/sheriff precinct for each parcel.",
+    "auctionFormat": "In-person",
+    "auctionPlatform": {
+      "label": "Collin County Constable / Sheriff Sales (courthouse)",
+      "url": "https://www.collincountytx.gov/courts/constables/constable-sales"
+    },
+    "auctionFrequency": "First Tuesday of each month, 10:00 a.m.–4:00 p.m., Russell A. Steindam Courts Building / 2100 Bloomdale Rd., McKinney",
+    "depositRules": "Typical Texas in-person pattern: no advance platform deposit; cash or certified funds at sale. Texas Tax Code §34.015 written statement of no delinquent taxes from the Collin County Tax Assessor-Collector is required before a tax-sale deed may issue. Confirm payment method with the selling constable/sheriff precinct for the specific sale notice.",
+    "taxCollector": {
+      "label": "Collin County Tax Assessor-Collector",
+      "url": "https://www.collincountytx.gov/tax-assessor"
+    },
+    "clerkOfCourt": {
+      "label": "Collin County Clerk (official public records)",
+      "url": "https://www.collincountytx.gov/"
+    },
+    "propertyAppraiser": {
+      "label": "Collin Central Appraisal District (CCAD)",
+      "url": "https://collincad.org/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive. Always search deed records for association and municipal liens before bidding.",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Collin CAD Interactive Map",
+      "url": "https://gis.bisclient.com/collincad/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Frisco",
+        "why": "Among the metro's strongest job/housing growth nodes (corporate campuses, sports, master-planned communities) into 2026"
+      },
+      {
+        "name": "McKinney",
+        "why": "County seat with sustained population and permit growth plus employment diversification"
+      },
+      {
+        "name": "Allen / Prosper corridor",
+        "why": "North Collin school-driven demand and continuing subdivision inventory along the US-75 / Dallas North Tollway belt"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.collincountytx.gov/courts/constables/constable-sales",
+      "https://www.collincountytx.gov/sheriff/sheriff-sales",
+      "https://www.collincountytx.gov/government/sales-and-auctions",
+      "https://www.collincountytx.gov/tax-assessor",
+      "https://collincad.org/",
+      "https://esearch.collincad.org/",
+      "https://gis.bisclient.com/collincad/",
+      "https://collin.tx.publicsearch.us"
+    ]
+  },
+  "48121": {
+    "notes": "Redeemable deed. Denton County Sheriff's tax sales are online-only via GovEase (first Tuesday monthly). Advertised in the Denton Record-Chronicle. Separate mortgage foreclosure trustee sales are also first-Tuesday but are not Sheriff tax sales.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "GovEase — Denton County Sheriff's Sale",
+      "url": "https://www.govease.com/"
+    },
+    "auctionFrequency": "First Tuesday of each month, 10:00 a.m. CST (online only)",
+    "depositRules": "Create a GovEase account, register for Denton County, and complete/upload required registration documents for county approval. Full payment due by 5:00 p.m. CST the day after the auction (GovEase accepts card with processing fee; county FAQ also references ACH/e-check via GovEase). Failure to pay can permanently bar future bidding and trigger TRCP 652 penalties. Confirm current deposit/payment rules on GovEase before each sale.",
+    "taxCollector": {
+      "label": "Denton County Tax Assessor-Collector / Delinquent Tax Sales",
+      "url": "https://www.dentoncounty.gov/867/Delinquent-Tax-Sales"
+    },
+    "clerkOfCourt": {
+      "label": "Denton County Clerk (property records / foreclosure postings)",
+      "url": "https://www.dentoncounty.gov/294/Foreclosure-Sale-Property-Search"
+    },
+    "propertyAppraiser": {
+      "label": "Denton Central Appraisal District",
+      "url": "https://www.dentoncad.com/"
+    },
+    "survivingLiens": "HOA/POA liens can survive a Texas tax sale if the association recorded its lien and was not properly joined/notified in the foreclosure suit. Federal tax liens survive. Post-judgment taxes may remain and accrue penalties. Sheriff's deed is without warranty; statutory redemption applies (Texas Tax Code §34.21).",
+    "quietTitle": "Not legally mandatory, but title companies generally require a completed suit to quiet title before insuring, because of statutory redemption rights and possible un-joined lienholders.",
+    "gisMap": {
+      "label": "Denton CAD Map Search",
+      "url": "https://www.dentoncad.com/maps"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Frisco / Little Elm edge (Denton County side)",
+        "why": "Spillover from Collin/Denton employment nodes and master-planned housing demand into 2026"
+      },
+      {
+        "name": "Denton (UNT / city core)",
+        "why": "University employment base and relative affordability versus southern DFW cores"
+      },
+      {
+        "name": "Celina / Prosper north fringe",
+        "why": "Among the fastest-growing North Texas edges by percentage population growth and new-home permits"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.dentoncounty.gov/1180/Sheriffs-Sale",
+      "https://www.dentoncounty.gov/867/Delinquent-Tax-Sales",
+      "https://www.govease.com/",
+      "https://govease.helpscoutdocs.com/article/279-denton-county-faq",
+      "https://www.dentoncad.com/",
+      "https://www.dentoncad.com/maps",
+      "https://denton.tx.publicsearch.us/"
+    ]
+  },
+  "12011": {
+    "notes": "Florida hybrid: annual tax certificate sale (Tax Collector / LienHub), then tax deed auction if unredeemed. IMPORTANT (2026): Tax deed auctions left DeedAuction and transitioned to RealAuction effective July 6, 2026; first RealAuction tax deed auction scheduled for October 26, 2026. Confirm schedule on the Records, Taxes and Treasury page before registering.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Broward County Tax Deed (broward.realtaxdeed.com)",
+      "url": "https://broward.realtaxdeed.com/"
+    },
+    "auctionFrequency": "Historically monthly; under RealAuction transition the first sale is scheduled October 26, 2026 — check broward.org/RecordsTaxesTreasury for the live calendar thereafter",
+    "depositRules": "Register on broward.realtaxdeed.com (existing RealAuction accounts work across counties). Florida statutory deposit pattern: greater of 5% of intended bid or $200 before bidding; final payment deadline is set per sale (prior Broward rules used ~11:00 a.m. ET next day — confirm on RealAuction for the Oct 2026+ cycle). Forfeiture can bar future bidding for one year (Fla. Stat. §197.542).",
+    "taxCollector": {
+      "label": "Broward County Records, Taxes and Treasury / Tax Collector functions",
+      "url": "https://www.broward.org/RecordsTaxesTreasury/Pages/Default.aspx"
+    },
+    "clerkOfCourt": {
+      "label": "Broward County Records, Taxes and Treasury (tax deed administration)",
+      "url": "https://www.broward.org/RecordsTaxesTreasury/Pages/Default.aspx"
+    },
+    "propertyAppraiser": {
+      "label": "Broward County Property Appraiser (BCPA)",
+      "url": "https://bcpa.net/"
+    },
+    "survivingLiens": "A Florida tax deed extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard.",
+    "gisMap": {
+      "label": "BCPA Web Map",
+      "url": "https://gisweb-adapters.bcpa.net/bcpawebmap_ex/bcpawebmap.aspx"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Flagler Village / downtown Fort Lauderdale",
+        "why": "Urban multifamily pipeline and employment adjacency continue to drive core Broward demand into 2026"
+      },
+      {
+        "name": "Hollywood",
+        "why": "Beach-adjacent redevelopment and relative value versus Fort Lauderdale proper"
+      },
+      {
+        "name": "Coral Springs / Parkland edge",
+        "why": "School-driven northwest Broward demand with tighter inventory than outer western edges"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.broward.org/RecordsTaxesTreasury/Pages/Default.aspx",
+      "https://broward.realtaxdeed.com/",
+      "https://broward.deedauction.net/",
+      "https://www.broward.org/RecordsTaxesTreasury/FAQs/Pages/TaxDeeds.aspx",
+      "https://browardtax.org/faqs/tax-certificate-sale/",
+      "https://bcpa.net/",
+      "https://gisweb-adapters.bcpa.net/bcpawebmap_ex/bcpawebmap.aspx",
+      "https://lienhub.com/county/broward"
+    ]
+  },
+  "12099": {
+    "notes": "Florida hybrid: Tax Collector sells certificates; Clerk of the Circuit Court & Comptroller runs online tax deed auctions on designated Wednesdays. Buyer-beware; tax deeds generally are not marketable title without further curative work.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "Palm Beach County Clerk — Online Tax Deed Auction",
+      "url": "https://www.mypalmbeachclerk.com/departments/courts/tax-deeds/online-sales"
+    },
+    "auctionFrequency": "Designated Wednesdays starting 9:30 a.m.; proxy bidding opens when a certificate appears on the auction calendar. Confirm dates on the Clerk auction calendar (no sales on designated holidays).",
+    "depositRules": "Register on the Clerk online auction site (no registration fee). Advance deposit = greater of 5% of maximum intended bid or $200. ACH online deposits must be submitted at least three full business days before the auction; or cash/official bank check/cashier's check to Tax Deeds by 4:00 p.m. the day before. Final payment by 2:00 p.m. the next business day (cash, official bank check, cashier's check, or wire — not ACH/personal check). Forfeiture triggers re-auction within 30 days.",
+    "taxCollector": {
+      "label": "Palm Beach County Tax Collector",
+      "url": "https://www.pbctax.gov/"
+    },
+    "clerkOfCourt": {
+      "label": "Palm Beach County Clerk of the Circuit Court & Comptroller — Tax Deeds",
+      "url": "https://www.mypalmbeachclerk.com/departments/courts/tax-deeds"
+    },
+    "propertyAppraiser": {
+      "label": "Palm Beach County Property Appraiser (PAPA)",
+      "url": "https://pbcpao.gov/"
+    },
+    "survivingLiens": "A Florida tax deed extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard. Clerk notes tax deeds are generally not marketable title.",
+    "gisMap": {
+      "label": "Palm Beach County Property Appraiser GIS Map Search",
+      "url": "https://maps.co.palm-beach.fl.us/cwgis/papa.html"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Downtown West Palm Beach",
+        "why": "CBD employment, waterfront redevelopment, and multifamily absorption keep core demand elevated into 2026"
+      },
+      {
+        "name": "Lake Worth Beach",
+        "why": "Relative coastal value versus Palm Beach/West Palm cores with ongoing main-street revitalization"
+      },
+      {
+        "name": "Wellington / western PBC",
+        "why": "School and equestrian-driven western county demand with continued residential expansion"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.mypalmbeachclerk.com/departments/courts/tax-deeds",
+      "https://www.mypalmbeachclerk.com/departments/courts/tax-deeds/sale-information",
+      "https://www.mypalmbeachclerk.com/departments/courts/tax-deeds/online-sales",
+      "https://www.pbctax.gov/",
+      "https://pbcpao.gov/",
+      "https://maps.co.palm-beach.fl.us/cwgis/papa.html"
+    ]
+  },
+  "12057": {
+    "notes": "Florida hybrid: Tax Collector sells certificates (LienHub/related portals); Clerk of Court & Comptroller runs weekly online tax deed sales on RealAuction. Unsold county-held parcels may go to Lands Available for Taxes.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Hillsborough County Tax Deed",
+      "url": "https://hillsborough.realtaxdeed.com"
+    },
+    "auctionFrequency": "Weekly on Thursdays at 10:00 a.m. online",
+    "depositRules": "Nonrefundable deposit of 5% of the bid or $200 (whichever greater) must be posted prior to bidding on a parcel. Full payment including documentary stamps and recording fees due by 10:00 a.m. the next business day (online or in person with cash/cashier's check payable to Clerk of the Circuit Court). Failure to pay cancels bids and applies deposit to re-sale costs.",
+    "taxCollector": {
+      "label": "Hillsborough County Tax Collector",
+      "url": "https://www.hillstaxfl.gov/"
+    },
+    "clerkOfCourt": {
+      "label": "Hillsborough County Clerk of Court & Comptroller — Tax Deed Sales",
+      "url": "https://www.hillsclerk.com/taxdeeds"
+    },
+    "propertyAppraiser": {
+      "label": "Hillsborough County Property Appraiser",
+      "url": "https://www.hcpafl.org/"
+    },
+    "survivingLiens": "A Florida tax deed extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Run a municipal/code-enforcement lien search before bidding.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard.",
+    "gisMap": {
+      "label": "Hillsborough County Property Appraiser (parcel search + maps)",
+      "url": "https://www.hcpafl.org/"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Tampa Heights / Seminole Heights",
+        "why": "Inner-core revitalization and downtown adjacency supporting multifamily and renovated SF demand into 2026"
+      },
+      {
+        "name": "Westshore",
+        "why": "Major employment node (airport/office) with continued commercial and residential absorption"
+      },
+      {
+        "name": "Riverview / SouthShore",
+        "why": "South county population and permit growth with relative value versus central Tampa"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.hillsclerk.com/taxdeeds",
+      "https://hillsborough.realtaxdeed.com",
+      "https://publicaccess.hillsclerk.com/TD/",
+      "https://www.hillstaxfl.gov/",
+      "https://www.hcpafl.org/"
+    ]
+  },
+  "12095": {
+    "notes": "Florida hybrid. Tax certificates sold by the Tax Collector; tax deed sales administered by the Orange County Comptroller (NOT the Clerk of Courts — mortgage foreclosure sales are separate). RealAuction online; Lands Available for Taxes list for unsold parcels.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Orange County Tax Deed",
+      "url": "https://orange.realtaxdeed.com/"
+    },
+    "auctionFrequency": "Rolling / as scheduled via the Comptroller RealAuction calendar (certificate holders apply after statutory hold period)",
+    "depositRules": "Register on orange.realtaxdeed.com and submit deposit by 4:00 p.m. the day before the auction. Minimum on deposit: $200 or 5% of the highest bid you intend to place (whichever greater). Winning bid has 5% or $200 (whichever greater) pulled from the deposit account; balance plus fees due per platform/Comptroller rules. Final payment can also be made in person at the Comptroller's office. RealAuction help: 877-361-7325.",
+    "taxCollector": {
+      "label": "Orange County Tax Collector",
+      "url": "https://octaxcol.com/"
+    },
+    "clerkOfCourt": {
+      "label": "Orange County Comptroller — Tax Deed Sales (Official Records)",
+      "url": "https://www.occompt.com/191/Tax-Deed-Sales"
+    },
+    "propertyAppraiser": {
+      "label": "Orange County Property Appraiser",
+      "url": "https://www.ocpafl.org/"
+    },
+    "survivingLiens": "A Florida tax deed extinguishes most private mortgages and liens, but does not clear governmental liens (code enforcement, municipal liens) or IRS liens (120-day federal redemption). Properties sold AS IS / buyer beware; may be subject to additional taxes and/or liens.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard.",
+    "gisMap": {
+      "label": "Orange County Tax Deed / Lands Available GIS map",
+      "url": "https://ocfl.maps.arcgis.com/apps/webappviewer/index.html?id=1436e42429f54bf88fde326e5aba9552"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Lake Nona",
+        "why": "Medical City / tech employment and master-planned growth remain among metro Orlando's strongest demand corridors into 2026"
+      },
+      {
+        "name": "Horizon West",
+        "why": "Western Orange large-scale residential expansion with school-driven absorption"
+      },
+      {
+        "name": "Downtown Orlando / Parramore edge",
+        "why": "CBD job access and infill redevelopment supporting urban multifamily demand"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.occompt.com/191/Tax-Deed-Sales",
+      "https://www.occompt.com/Faq.aspx?QID=119",
+      "https://orange.realtaxdeed.com/",
+      "https://octaxcol.com/",
+      "https://www.ocpafl.org/",
+      "https://ocfl.maps.arcgis.com/apps/webappviewer/index.html?id=1436e42429f54bf88fde326e5aba9552"
+    ]
+  },
+  "12031": {
+    "notes": "Florida hybrid. Clerk of the Circuit and County Court conducts online tax deed sales on RealAuction. Tax Collector handles certificate stage and redemptions up until full deed payment is received by the Clerk. Explicit buyer-beware: governmental liens survive; Clerk does not guarantee clear title.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {
+      "label": "RealAuction — Duval County Tax Deed",
+      "url": "https://duval.realtaxdeed.com"
+    },
+    "auctionFrequency": "As scheduled; sale date and property list posted ~30 days before each auction (also advertised weekly for four weeks in the Financial News and Daily Record)",
+    "depositRules": "Register on duval.realtaxdeed.com and post non-refundable deposit of 5% of bid or $200 (whichever greater) by 4:00 p.m. the day BEFORE the sale (ACH on RealAuction preferred; cashier's/certified/money order or wire also accepted if credited by deadline). Balance + recording/doc stamps due by 4:00 p.m. the next business day. Failure forfeits deposit and can ban future bidding.",
+    "taxCollector": {
+      "label": "Duval County Tax Collector",
+      "url": "https://taxcollector.coj.net/"
+    },
+    "clerkOfCourt": {
+      "label": "Duval County Clerk of Courts — Tax Deeds",
+      "url": "https://www.duvalclerk.com/departments/county-services/tax-deed-files"
+    },
+    "propertyAppraiser": {
+      "label": "Duval County Property Appraiser",
+      "url": "https://www.jacksonville.gov/departments/property-appraiser"
+    },
+    "survivingLiens": "Governmental liens and judgments survive the tax deed and are only partially satisfied from overbid monies if available; unsatisfied governmental liens remain against the property. IRS liens retain federal redemption rights. Clerk explicitly warns to research liens, zoning, and covenants before bidding.",
+    "quietTitle": "Under Fla. Stat. §95.192, continuous ownership and tax payment for 4+ years after the deed often supports marketable title without suit. For faster insurable title, a quiet title action with final judgment is standard. Professional title search and quiet-title costs are the buyer's responsibility.",
+    "gisMap": {
+      "label": "Duval County Property Appraiser (parcel search)",
+      "url": "https://www.jacksonville.gov/departments/property-appraiser"
+    },
+    "growthNeighborhoods": [
+      {
+        "name": "Brooklyn / Riverside",
+        "why": "Downtown-adjacent redevelopment and multifamily pipeline supporting urban Jacksonville demand into 2026"
+      },
+      {
+        "name": "Springfield",
+        "why": "Historic near-downtown inventory with renovation activity and relative value versus coastal Beaches"
+      },
+      {
+        "name": "Southside / Baymeadows",
+        "why": "Employment-corridor housing demand with stronger rental absorption than many outer Duval edges"
+      }
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.duvalclerk.com/departments/county-services/tax-deed-files",
+      "https://duval.realtaxdeed.com",
+      "https://taxcollector.coj.net/",
+      "https://www.jacksonville.gov/departments/property-appraiser",
+      "http://taxdeed.duvalclerk.com/"
+    ]
+  }
+}

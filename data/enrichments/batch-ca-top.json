@@ -1,0 +1,249 @@
+{
+  "06073": {
+    "notes": "County-run online tax-deed auction via Grant Street Group (MyTaxSale). 2026 primary auction March 13–18 with a May re-offer cycle; official page currently lists next cycle TBD for 2027. Registration free year-round on sdttc.mytaxsale.com. Properties generally 5+ years tax-defaulted; sold as-is.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {"label": "MyTaxSale (Grant Street) — San Diego County TTC", "url": "https://sdttc.mytaxsale.com/"},
+    "auctionFrequency": "Typically 1–2 online auctions per year (e.g. March 2026 primary + May 2026 re-offer); next full cycle TBA for 2027",
+    "depositRules": "Register at sdttc.mytaxsale.com; $1,000 advance bid deposit plus $35 non-refundable processing fee via ACH debit to Grant Street Group by the per-auction deadline (e.g. March 5, 2026 for the March sale). Unsuccessful deposits refunded within ~10 business days; winners' deposits credit the purchase. Final payment due within 5 business days of auction close.",
+    "taxCollector": {"label": "San Diego County Treasurer-Tax Collector — Property Tax Auction", "url": "https://www.sdttc.com/content/ttc/en/tax-collection/property-tax-sales.html", "phone": "877-829-4732"},
+    "clerkOfCourt": {"label": "San Diego County Assessor/Recorder/County Clerk (records tax deeds)", "url": "https://www.sdarcc.gov/"},
+    "propertyAppraiser": {"label": "San Diego County Assessor — ParcelQuest / property records", "url": "https://www.sdarcc.gov/content/arcc/home/divisions/assessor/property-records.html", "phone": "619-236-3771"},
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (the IRS keeps a 120-day post-sale redemption right), as do taxes/assessments that become payable after the sale.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most title insurers in California won't insure a tax-deed property without a completed quiet title action (commonly 3-6 months, $3,000-$8,000+ in legal fees), and many won't insure until a year after the deed is recorded.",
+    "gisMap": {"label": "San Diego County ARCC ParcelQuest parcel/maps access", "url": "https://www.sdarcc.gov/content/arcc/home/divisions/assessor/parcel-quest-disclaimer.html"},
+    "growthNeighborhoods": [
+      {"name": "Otay Mesa / South Bay (incl. Chula Vista edge)", "why": "Major employment and industrial/logistics growth corridor; SANDAG land-use forecasts concentrate regional job and housing gains in San Diego–Chula Vista–Otay; large housing approvals continuing into 2025–2026"},
+      {"name": "Chula Vista", "why": "Among top county cities for forecast housing and jobs share; relative affordability vs. coastal San Diego supports sustained demand into 2026"},
+      {"name": "Escondido / North County Metro", "why": "SANDAG identifies Escondido and North County Metro among highest-share population/housing growth areas outside the city core"}
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://sdttc.mytaxsale.com/",
+      "https://www.sdttc.com/content/ttc/en/tax-collection/property-tax-sales.html",
+      "https://www.sdttc.com/content/ttc/en/tax-collection/property-tax-sales/bidder-registration.html",
+      "https://www.sdarcc.gov/",
+      "https://www.sdarcc.gov/content/arcc/home/divisions/assessor/parcel-quest-disclaimer.html",
+      "https://www.sandag.org/-/media/SANDAG/Documents/PDF/regional-plan/2021-regional-plan/environmental-impact-report/eir-2021-regional-plan-chapter-4-14-2021-12-01.pdf"
+    ]
+  },
+  "06059": {
+    "notes": "Tax-deed county. Most recent real-property tax auction used Bid4Assets (June 25, 2025; timeshare re-offer Sept 17, 2025). An older MyTaxSale storefront (octaxauction.mytaxsale.com) still exists with free year-round registration but no scheduled auctions — always confirm the current vendor on octreasurer.gov/taxauction before registering. Right of redemption ends 5:00 PM the business day before auction.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {"label": "Bid4Assets — Orange County (confirm per cycle on county page)", "url": "https://www.bid4assets.com/Orange"},
+    "auctionFrequency": "Periodically (most recent real-property sale June 25, 2025; timeshare re-offer Sept 17, 2025) — subscribe at octreasurer.gov/taxauctionreminders for the next date",
+    "depositRules": "Bid deposit required before bidding; for the June 2025 real-property sale Bid4Assets listed a single $5,000 deposit + $35 non-refundable processing fee (timeshare deposits were lower, e.g. $100–$500 in re-offer cycles). Unsuccessful deposits refunded within ~10 business days. Final payment within 5 business days (cashier's check to County of Orange or cash in person); non-payment forfeits deposit and can ban future auctions.",
+    "taxCollector": {"label": "Orange County Treasurer-Tax Collector — Property Auctions", "url": "https://www.octreasurer.gov/taxauction", "phone": "714-834-3411"},
+    "clerkOfCourt": {"label": "Orange County Clerk-Recorder (records deeds)", "url": "https://ocrecorder.com/"},
+    "propertyAppraiser": {"label": "Orange County Assessor — Property Information and Parcel Maps", "url": "https://www.ocassessor.gov/page/property-information-and-parcel-maps", "phone": "714-834-2727"},
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (the IRS keeps a 120-day post-sale redemption right), as do taxes/assessments that become payable after the sale. County materials also note public liens (e.g. improvement bonds, demolition liens) may not always be discharged — verify R&T Code §3712 exceptions parcel-by-parcel.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most title insurers in California won't insure a tax-deed property without a completed quiet title action (commonly 3-6 months, $3,000-$8,000+ in legal fees), and many won't insure until a year after the deed is recorded.",
+    "gisMap": {"label": "OC Treasurer Tax Map (parcel GIS)", "url": "https://taxmap.octreasurer.gov/#!/"},
+    "growthNeighborhoods": [
+      {"name": "Irvine", "why": "Largest share of county multifamily under construction into 2025–2026 (~64% of units under construction in recent NAI Capital data); strong job base and elevated asking rents"},
+      {"name": "Placentia / City of Orange corridor", "why": "California DOF city growth leaders in OC for 2024–2025 (Placentia ~2.5%, Orange ~1.0%); relatively tighter inventory vs. inland metros"},
+      {"name": "Anaheim / central OC employment nodes", "why": "Core of the Anaheim–Santa Ana–Irvine metro job market; ongoing multifamily pipeline and institutional demand despite higher price points"}
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.octreasurer.gov/taxauction",
+      "https://www.bid4assets.com/Orange",
+      "https://octaxauction.mytaxsale.com/",
+      "https://ocrecorder.com/",
+      "https://www.ocassessor.gov/page/property-information-and-parcel-maps",
+      "https://taxmap.octreasurer.gov/#!/",
+      "https://www2.naicapital.com/oc-multifamily-market-outlook-q2-2025/"
+    ]
+  },
+  "06065": {
+    "notes": "Annual online tax-deed sale on Bid4Assets (TC-223). April 23–28, 2026 cycle hosted online; county posts parcel lists, terms of sale, and reduced-minimum lists on countytreasurer.org/tc-223. Sold as-is under R&T Code §3692.3.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {"label": "Bid4Assets — Riverside County", "url": "https://www.bid4assets.com/storefront/RiversideCountyApr25"},
+    "auctionFrequency": "Annually in April (e.g. April 23–28, 2026)",
+    "depositRules": "Single $5,000 refundable deposit + $35 non-refundable processing fee to Bid4Assets (wire or certified/cashier's check) by the published deadline (e.g. April 20, 2026 for the 2026 sale). One deposit covers all parcels in the sale.",
+    "taxCollector": {"label": "Riverside County Treasurer-Tax Collector — Tax Sale (TC-223)", "url": "https://countytreasurer.org/tc-223", "phone": "951-955-3971"},
+    "clerkOfCourt": {"label": "Riverside County Assessor-County Clerk-Recorder (records deeds)", "url": "https://www.rivcoacr.org/"},
+    "propertyAppraiser": {"label": "Riverside County Assessor — RivCoView property portal", "url": "https://rivcoview.rivcoacr.org/", "phone": "951-955-6200"},
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (the IRS keeps a 120-day post-sale redemption right), as do taxes/assessments that become payable after the sale. County tax-sale materials also flag special-assessment/PVID-type liens for independent review.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most title insurers in California won't insure a tax-deed property without a completed quiet title action (commonly 3-6 months, $3,000-$8,000+ in legal fees), and many won't insure until a year after the deed is recorded.",
+    "gisMap": {"label": "RivCoView (Assessor parcel maps + assessment data)", "url": "https://rivcoview.rivcoacr.org/"},
+    "growthNeighborhoods": [
+      {"name": "Menifee", "why": "Among California's standout growth cities (large housing-unit and labor-force gains 2019–2024; frequently cited in 2025–2026 national \"newest boomtown\" lists); SW Riverside new-construction pipeline"},
+      {"name": "Temecula / Murrieta corridor", "why": "Southwest Riverside's strongest family-buyer/job corridor into 2026; relatively tight inventory and newer housing stock vs. high-desert IE submarkets"},
+      {"name": "Wildomar / Beaumont–Banning growth edge", "why": "DOF and regional reporting list Wildomar among CA's fastest-growing cities; eastern IE still adding land and builder inventory for 2025–2026"}
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://countytreasurer.org/tc-223",
+      "https://rivco.gov/news/annual-riverside-county-tax-sale-returns-april",
+      "https://www.bid4assets.com/storefront/RiversideCountyApr25",
+      "https://www.rivcoacr.org/",
+      "https://rivcoview.rivcoacr.org/",
+      "https://www.eastbaytimes.com/2026/05/05/map-californias-fastest-growing-cities/",
+      "https://nypost.com/2026/06/23/us-news/why-everyone-is-moving-to-these-4-unexpected-california-cities/",
+      "https://www.lametrohomefinder.com/blog/inland-empire-real-estate-market-2026"
+    ]
+  },
+  "06071": {
+    "notes": "Tax-deed auction run online by Grant Street Group at sbcounty.mytaxsale.com (not Bid4Assets). July 11–17, 2026 sale of 1,600+ tax-defaulted parcels announced by the ATC. Older sbcounty.gov/arc/taxcollector/sbtaxsale URLs return errors — use sbcountyatc.gov / MyTaxSale.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {"label": "MyTaxSale (Grant Street) — San Bernardino County", "url": "https://sbcounty.mytaxsale.com/"},
+    "auctionFrequency": "Typically annual summer sale (e.g. July 11–17, 2026)",
+    "depositRules": "Per published terms for the July 2026 sale: $5,000 bid deposit + $40 non-refundable processing fee to Grant Street Group, due no later than 5:00 p.m. PT July 2, 2026 (deposits open June 10, 2026). Balance due within 5 business days of auction close. Unsuccessful deposits refunded within ~10 business days.",
+    "taxCollector": {"label": "San Bernardino County Auditor-Controller/Treasurer/Tax Collector — Tax Sale", "url": "https://www.sbcountyatc.gov/tax-collector/tax-sale/terms-and-conditions", "phone": "909-382-3226"},
+    "clerkOfCourt": {"label": "San Bernardino County Assessor-Recorder-Clerk (official records)", "url": "https://arc.sbcounty.gov/official-records/"},
+    "propertyAppraiser": {"label": "San Bernardino County Assessor — Property Information / govPIMS", "url": "https://arc.sbcounty.gov/property-information/"},
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (the IRS keeps a 120-day post-sale redemption right), as do taxes/assessments that become payable after the sale.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most title insurers in California won't insure a tax-deed property without a completed quiet title action (commonly 3-6 months, $3,000-$8,000+ in legal fees), and many won't insure until a year after the deed is recorded.",
+    "gisMap": {"label": "San Bernardino Assessor Parcel Access / govPIMS", "url": "https://arcpropertyinfo.sbcounty.gov/"},
+    "growthNeighborhoods": [
+      {"name": "Ontario", "why": "Logistics/warehouse job hub for the western IE; among CA cities repeatedly cited for 2025–2026 population and employment growth (DOF/media boomtown lists)"},
+      {"name": "Fontana", "why": "Large, active western-IE housing market with industrial employment spillover from the I-10/I-15 logistics corridor"},
+      {"name": "Rancho Cucamonga", "why": "Western IE residential demand and relative liquidity vs. High Desert; stronger appreciation profile in 2026 IE market updates"}
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://sbcounty.mytaxsale.com/",
+      "https://www.sbcountyatc.gov/tax-collector/tax-sale/terms-and-conditions",
+      "https://arc.sbcounty.gov/property-information/",
+      "https://arcpropertyinfo.sbcounty.gov/",
+      "https://homebuyinginstitute.com/mortgage/inland-empire-real-estate-news/",
+      "https://www.lametrohomefinder.com/blog/inland-empire-real-estate-market-2026"
+    ]
+  },
+  "06085": {
+    "notes": "California tax-deed county (no lien certificates). Department of Tax and Collections runs public internet auctions on Bid4Assets; recent cycles include May 16–19, 2025 and an October 23–26, 2026 listing on Bid4Assets. Power-to-sell after 5 years of delinquency (3 years for certain nonresidential commercial).",
+    "auctionFormat": "Online",
+    "auctionPlatform": {"label": "Bid4Assets — Santa Clara County", "url": "https://www.bid4assets.com/santaclara"},
+    "auctionFrequency": "Typically 1–2 times per year (e.g. May 2025; October 2026 storefront listed)",
+    "depositRules": "Single $5,000 deposit + $35 non-refundable processing fee to Bid4Assets by the posted deadline (e.g. 1:00 p.m. PT Monday before auction week). One deposit qualifies for all parcels. Full settlement per Bid4Assets/county terms after winning.",
+    "taxCollector": {"label": "Santa Clara County Department of Tax and Collections — Public Auction of Tax-Defaulted Properties", "url": "https://dtac.santaclaracounty.gov/taxes/public-auction-tax-defaulted-properties"},
+    "clerkOfCourt": {"label": "Santa Clara County Clerk-Recorder (records deeds)", "url": "https://clerkrecorder.santaclaracounty.gov/home"},
+    "propertyAppraiser": {"label": "Santa Clara County Assessor — Real Property Search", "url": "https://asr.santaclaracounty.gov/online-services/property-search/real-property", "phone": "408-299-5500"},
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (the IRS keeps a 120-day post-sale redemption right), as do taxes/assessments that become payable after the sale.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most title insurers in California won't insure a tax-deed property without a completed quiet title action (commonly 3-6 months, $3,000-$8,000+ in legal fees), and many won't insure until a year after the deed is recorded.",
+    "gisMap": {"label": "Santa Clara County Assessor Interactive Map", "url": "https://asr.santaclaracounty.gov/online-services/property-search/search-by-map"},
+    "growthNeighborhoods": [
+      {"name": "City of Santa Clara", "why": "California DOF: ~2.9% population growth year ending Jan 1, 2026 — among the state's fastest-growing large cities; tech-campus employment base"},
+      {"name": "Sunnyvale / Mountain View corridor", "why": "DOF lists Mountain View (~1.8%) and Sunnyvale (~1.2%) among Bay Area growth leaders; tight inventory and job density support 2025–2026 resilience"},
+      {"name": "North San Jose / Tasman–Milpitas edge", "why": "Ongoing tech/office and multifamily concentration near employment centers; inventory still tight relative to demand despite Bay Area-wide inventory build"}
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://dtac.santaclaracounty.gov/taxes/public-auction-tax-defaulted-properties",
+      "https://www.bid4assets.com/santaclara",
+      "https://www.bid4assets.com/county-tax-sales",
+      "https://clerkrecorder.santaclaracounty.gov/home",
+      "https://asr.santaclaracounty.gov/online-services/property-search/real-property",
+      "https://asr.santaclaracounty.gov/online-services/property-search/search-by-map",
+      "https://www.eastbaytimes.com/2026/05/05/map-californias-fastest-growing-cities/"
+    ]
+  },
+  "06001": {
+    "notes": "Tax-deed state/county process; no lien certificates. Primary online auction on Bid4Assets (e.g. March 20–23, 2026 AlamedaMar26 storefront) plus historical May re-offers of unsold parcels. Individual-year Bid4Assets storefront URLs change — use the county tax-defaulted land page and Bid4Assets county-tax-sales directory.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {"label": "Bid4Assets — Alameda County", "url": "https://www.bid4assets.com/storefront/AlamedaMar26"},
+    "auctionFrequency": "Annually, typically March (plus a May re-offer of unsold parcels in some years)",
+    "depositRules": "Single $5,000 refundable deposit + $35 non-refundable processing fee to Bid4Assets by the deposit deadline (e.g. March 17, 2026, 1:00 p.m. PT for the March 2026 sale). Deposit applied to wins or refunded if no wins; defaulting on a win can forfeit the full deposit.",
+    "taxCollector": {"label": "Alameda County Treasurer-Tax Collector — Tax Defaulted Land", "url": "https://treasurer.acgov.org/tax-defaulted-land/", "phone": "510-272-6800"},
+    "propertyAppraiser": {"label": "Alameda County Assessor — Parcel Viewer", "url": "https://www.acassessor.org/parcel_viewer/", "phone": "510-272-3787"},
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (the IRS keeps a 120-day post-sale redemption right), as do taxes/assessments that become payable after the sale.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most title insurers in California won't insure a tax-deed property without a completed quiet title action (commonly 3-6 months, $3,000-$8,000+ in legal fees), and many won't insure until a year after the deed is recorded.",
+    "gisMap": {"label": "Alameda County Assessor Parcel Viewer", "url": "https://www.acassessor.org/parcel_viewer/"},
+    "growthNeighborhoods": [
+      {"name": "Dublin / Tri-Valley", "why": "East Bay suburban job and housing growth corridor with BART access; inventory turns faster than many urban Oakland submarkets into 2025–2026"},
+      {"name": "Fremont", "why": "Large employment base (tech/manufacturing) and South Bay spillover demand; relatively stronger absorption than softer East Bay cores"},
+      {"name": "Livermore / eastern Alameda", "why": "Ongoing residential expansion and relative value vs. Silicon Valley cores; Lab/industrial employment supports renter and owner demand"}
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://treasurer.acgov.org/tax-defaulted-land/",
+      "https://www.bid4assets.com/storefront/AlamedaMar26",
+      "https://www.bid4assets.com/county-tax-sales",
+      "https://www.acassessor.org/parcel_viewer/",
+      "https://www.acassessor.org/homeowners/parcel-viewer/",
+      "https://www.ktvu.com/news/deadline-looms-property-auctioned-bay-area-county-bids-low-455"
+    ]
+  },
+  "06067": {
+    "notes": "IMPORTANT platform update vs older Bid4Assets-only notes: Sacramento County now directs bidders to sacramento.mytaxsale.com (Grant Street / RealAuction family). Does NOT sell tax lien certificates. Main sale last Monday in February; follow-up May/June. Next public auction scheduled February 2027 (check back January 2027 for list/terms). Buyers should research street/irrigation assessment liens that a tax deed may not clear; former owner/lienholder has one year to challenge sale validity.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {"label": "MyTaxSale (Grant Street) — Sacramento County Deed Auction", "url": "https://sacramento.mytaxsale.com/"},
+    "auctionFrequency": "Primary sale last Monday in February each year; follow-up sale typically second Monday in May (or May/June). Next: February 2027",
+    "depositRules": "Register at sacramento.mytaxsale.com with a $5,000 deposit. Deposit applies to winning bid; non-payment after winning forfeits deposit and bans bidder for 5 years. Non-winners refunded in ~5 business days. Payment in full within 5 business days via Grant Street; documentary transfer tax added at $0.55 per $500 of bid.",
+    "taxCollector": {"label": "Sacramento County Finance Department — Tax Sale", "url": "https://finance.saccounty.gov/content/finance/us/en/tax/tax/tax-sales.html", "phone": "916-874-6621"},
+    "clerkOfCourt": {"label": "Sacramento County Clerk-Recorder (document recording / lien search)", "url": "https://ccr.saccounty.gov/us/en/document-recording/index.html"},
+    "propertyAppraiser": {"label": "Sacramento County Assessor — Parcel Viewer", "url": "https://assessorparcelviewer.saccounty.gov/jsviewer/assessor.html", "phone": "916-875-0700"},
+    "survivingLiens": "A California tax deed conveys free of most prior encumbrances except those under R&T Code §3712, lis pendens, and undischarged federal IRS liens. County FAQs warn that foreclosed/unforeclosed street debt, irrigation assessments, and similar obligations may or may not be discharged — independent title research required.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most title insurers in California won't insure a tax-deed property without a completed quiet title action (commonly 3-6 months, $3,000-$8,000+ in legal fees), and many won't insure until a year after the deed is recorded. County also recommends waiting one year before major improvements because of the one-year challenge window.",
+    "gisMap": {"label": "Sacramento County Assessor Parcel Viewer", "url": "https://assessorparcelviewer.saccounty.gov/jsviewer/assessor.html"},
+    "growthNeighborhoods": [
+      {"name": "Rancho Cordova", "why": "DOF: ~3.2% pop growth 2024–2025, 5th-fastest CA city over 30k; ~21% housing-unit growth 2019–2024 and strong labor-force gains — top Sacramento growth story into 2026"},
+      {"name": "Elk Grove", "why": "Consistently cited as a Northern California growth leader with large new-development and retail expansion pipeline for 2025–2026"},
+      {"name": "Natomas / North Sacramento job corridors", "why": "Employment-access submarkets capturing in-migration from coastal metros; active multifamily and single-family inventory relative to core downtown"}
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://finance.saccounty.gov/content/finance/us/en/tax/tax/tax-sales.html",
+      "https://sacramento.mytaxsale.com/",
+      "https://assessorparcelviewer.saccounty.gov/jsviewer/assessor.html",
+      "https://ccr.saccounty.gov/us/en/document-recording/index.html",
+      "https://www.cityofranchocordova.org/Home/Components/News/News/4828/19",
+      "https://nypost.com/2026/06/23/us-news/why-everyone-is-moving-to-these-4-unexpected-california-cities/"
+    ]
+  },
+  "06013": {
+    "notes": "Uses GovEase.com (not Bid4Assets) for the annual public auction of tax-defaulted property. Confirm platform each cycle. Tax-deed state; 5-year default threshold generally applies. Redemption rights run until 5:00 p.m. the day before the auction starts. 3% buyer's premium and city-specific transfer taxes (Richmond, El Cerrito) can apply per county terms.",
+    "auctionFormat": "Online",
+    "auctionPlatform": {"label": "GovEase — Contra Costa County", "url": "https://www.govease.com"},
+    "auctionFrequency": "Annually (timing varies; list postings often mid-winter for a spring auction — confirm on county page)",
+    "depositRules": "Register at GovEase.com; single $5,000 refundable deposit + $35 non-refundable registration fee by the published deadline (wire only for final/deposit processing per county notice). Deposit applied to successful purchases; unused deposits refunded by GovEase in ~7–10 business days. Minimum bid increments $100; CA documentary transfer tax $0.55/$500 plus extra city transfer taxes where applicable.",
+    "taxCollector": {"label": "Contra Costa County Treasurer-Tax Collector — Annual Public Auction", "url": "https://www.contracosta.ca.gov/2218/Public-Auction-Information"},
+    "clerkOfCourt": {"label": "Contra Costa County Clerk-Recorder (records deeds)", "url": "https://www.contracostavote.gov/recorder/"},
+    "propertyAppraiser": {"label": "Contra Costa County Assessor — Maps & Property Information", "url": "https://www.contracosta.ca.gov/552/Maps-Property-Information", "phone": "925-313-7400"},
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (the IRS keeps a 120-day post-sale redemption right), as do taxes/assessments that become payable after the sale.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most title insurers in California won't insure a tax-deed property without a completed quiet title action (commonly 3-6 months, $3,000-$8,000+ in legal fees), and many won't insure until a year after the deed is recorded.",
+    "gisMap": {"label": "Contra Costa County Parcel Viewer (CCMap / ArcGIS)", "url": "https://ccmap.cccounty.us"},
+    "growthNeighborhoods": [
+      {"name": "Brentwood / far East County", "why": "Historically among Bay Area's fastest-growing suburban cities; more housing inventory and relative affordability vs. Lamorinda/central county into 2025–2026"},
+      {"name": "Antioch / Pittsburg corridor", "why": "East County value corridor with BART-adjacent demand and ongoing residential absorption as coastal Bay Area households seek space"},
+      {"name": "Concord / central county job nodes", "why": "Employment and transit hub for central Contra Costa; inventory build in 2025–2026 gives buyers more choice while jobs remain diversified"}
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.contracosta.ca.gov/2218/Public-Auction-Information",
+      "https://www.contracosta.ca.gov/DocumentCenter/View/48472/Online-Auction-Terms-and-Conditions-PDF?bidId=",
+      "https://www.govease.com",
+      "https://www.contracostavote.gov/recorder/",
+      "https://www.contracosta.ca.gov/552/Maps-Property-Information",
+      "https://ccmap.cccounty.us",
+      "https://www.contracosta.ca.gov/191/Assessor"
+    ]
+  },
+  "06019": {
+    "notes": "IMPORTANT platform update: Fresno now runs tax-defaulted sales on Realauction (fresnocounty.california.taxdefaultsale.com), not Bid4Assets. County and employees are shielded under R&T Code §3692.3 for property conditions. September 10–11, 2026 internet live auction scheduled; list preview week of August 10, 2026. Recent prior sales also held March/April and June 2025.",
+    "auctionFormat": "Online (live internet auction, one parcel at a time)",
+    "auctionPlatform": {"label": "Realauction — Fresno County Tax-Defaulted Sale", "url": "https://fresnocounty.california.taxdefaultsale.com/index.cfm"},
+    "auctionFrequency": "Multiple times per year in recent cycles (e.g. March/April 2025, June 2025, next Sept 10–11, 2026) — confirm each cycle on the county page",
+    "depositRules": "Single $5,000 deposit required via Realauction to participate (ACH/wire deadlines set per sale; e.g. June 2025 materials: ACH by 1:00 p.m. PT June 6, wire by 2:00 p.m. PT June 11). Final payment by wire within three business days of close. Unused deposit can stay on account or be refunded via same method received.",
+    "taxCollector": {"label": "Fresno County Auditor-Controller/Treasurer-Tax Collector — Tax Sale & Excess Proceeds", "url": "https://www.fresnocountyca.gov/Departments/Auditor-Controller-Treasurer-Tax-Collector/Property-Tax-Information/Tax-Sale-Excess-Proceeds", "phone": "559-600-3482"},
+    "clerkOfCourt": {"label": "Fresno County Recorder (records deeds)", "url": "https://www.fresnocountyca.gov/Departments/Recorder"},
+    "propertyAppraiser": {"label": "Fresno County Assessor — Parcel Maps / Assessed Value Lookup", "url": "https://www.fresnocountyca.gov/Departments/Assessor/Parcel-Maps"},
+    "survivingLiens": "A California tax deed conveys free of most liens existing before the sale, but federal tax liens survive (the IRS keeps a 120-day post-sale redemption right), as do taxes/assessments that become payable after the sale.",
+    "quietTitle": "Not a statutory prerequisite, but practically required — most title insurers in California won't insure a tax-deed property without a completed quiet title action (commonly 3-6 months, $3,000-$8,000+ in legal fees), and many won't insure until a year after the deed is recorded.",
+    "gisMap": {"label": "Fresno County GIS Portal", "url": "https://gisportal.co.fresno.ca.us/portal/home/"},
+    "growthNeighborhoods": [
+      {"name": "Clovis", "why": "North Fresno metro's preferred suburban growth city with stronger schools and newer inventory; continues to outpace central Fresno on buyer demand into 2025–2026"},
+      {"name": "Northwest Fresno / Herndon corridor", "why": "Primary residential expansion edge for the city with ongoing subdivision activity and job-access to medical/education employers"},
+      {"name": "Southeast Fresno industrial/logistics fringe", "why": "Valley logistics and ag-processing employment supports workforce housing demand; relatively lower entry prices vs. coastal CA for 2025–2026 investors"}
+    ],
+    "asOf": "2026-07",
+    "sources": [
+      "https://www.fresnocountyca.gov/Departments/Auditor-Controller-Treasurer-Tax-Collector/Property-Tax-Information/Tax-Sale-Excess-Proceeds",
+      "https://fresnocounty.california.taxdefaultsale.com/index.cfm",
+      "https://www.fresnocountyca.gov/files/assets/county/v/3/auditor-controller-treasurer-tax-collector/tax-sale-amp-excess-proceeds/bidder-acknowledgements-information-and-warnings.pdf",
+      "https://www.fresnocountyca.gov/Departments/Assessor/Parcel-Maps",
+      "https://gisportal.co.fresno.ca.us/portal/home/",
+      "https://www.fresnocountyca.gov/Departments/Recorder"
+    ]
+  }
+}
