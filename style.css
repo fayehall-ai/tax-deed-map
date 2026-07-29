@@ -284,6 +284,22 @@ select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+/* Course footnote — matches map.thetaxdeedcollective.com course note. */
+.footnote {
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  background: var(--paper-raised);
+  border-top: 1px solid var(--line);
+  padding: 0.7rem 1.5rem;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.footnote strong { color: var(--ink); }
+
 /* State/county panel header — match map.thetaxdeedcollective.com .panel-head */
 .detail-head {
   background: linear-gradient(135deg, var(--navy), var(--navy2));
