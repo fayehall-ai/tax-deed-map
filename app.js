@@ -22,14 +22,28 @@
   let countiesByStateFips = new Map(); // stateFips -> [feature,...]
   let countyRecordById = new Map(); // countyFips -> {feature, code:{...state fields}, name, stateCode, stateName}
   let currentStateFips = null;
-  let popThreshold = 0; // 0 = "all counties"; set from the population-filter select
+  // Default matches the "50,000+ population" option selected in index.html.
+  // Keep these two in sync — this value is used for the first render, before
+  // any change event fires on the select.
+  let popThreshold = 50000; // 0 = "all counties"
 
+  // Returns null when we genuinely have no figure for this county, so callers
+  // can tell "small" apart from "unknown".
   function countyPopulation(fips) {
-    return (typeof COUNTY_POPULATION !== "undefined" && COUNTY_POPULATION[fips]) || 0;
+    if (typeof COUNTY_POPULATION === "undefined") return null;
+    const pop = COUNTY_POPULATION[fips];
+    return typeof pop === "number" ? pop : null;
   }
 
+  // Fail open on unknown population. A handful of map polygons have no figure
+  // in the Census file — all 8 Connecticut counties (the file is keyed to CT's
+  // new planning-region FIPS, while the map uses CT's legacy county FIPS) and
+  // one retired Alaska census area. Those are real, mostly large jurisdictions;
+  // hiding them because we lack a number would be worse than showing them.
   function meetsPopFilter(fips) {
-    return countyPopulation(fips) >= popThreshold;
+    const pop = countyPopulation(fips);
+    if (pop === null) return true;
+    return pop >= popThreshold;
   }
 
   buildLegend();
@@ -264,7 +278,77 @@
         ${field("Governing statute", info.statute)}
         ${field("Auction notes", info.notes)}
       </div>
+      ${docReportBlock(code, feature.properties.name)}
     `;
+  }
+
+  // Everything below comes from the user's source report, kept visually and
+  // textually separate from the atlas's own STATE_DATA above it. The report
+  // is transcribed, not independently verified, so it is labelled with its
+  // title/author rather than blended into the fields above as if it were the
+  // same class of information.
+  function docReportBlock(code, stateName) {
+    if (typeof STATE_DOC_SUMMARY === "undefined") return "";
+    const sum = STATE_DOC_SUMMARY[code];
+    const det = typeof STATE_DOC_DETAIL !== "undefined" ? STATE_DOC_DETAIL[code] : null;
+    if (!sum && !det) return "";
+
+    const src = STATE_DOC_SOURCE;
+    let html = `<p class="detail-section-title">From the 50-state report</p>
+      <p class="doc-attrib">${src.title}. Transcribed from ${src.file}; the report's own citations were accessed ${src.citationsAccessed}. Not independently verified.</p>`;
+
+    if (sum) {
+      html += `<div class="field-grid">
+        ${field("System type", sum.type)}
+        ${field("Statutory interest / penalty", sum.rate)}
+        ${field("Statutory redemption period", sum.redemption)}
+      </div>`;
+    }
+
+    // The current source covers all 50 states, so this branch should not
+    // fire. It stays as a guard: if a future revision of the report drops a
+    // state, say so plainly rather than leaving the panel looking finished.
+    if (!det) {
+      html += `<div class="county-flag doc-flag">
+        <strong>Summary only.</strong> The report has no detailed section for ${stateName} &mdash; only the summary-table row above, with no system overview, statutory detail, or resource links.
+      </div>`;
+      return html;
+    }
+
+    if (det.truncated) {
+      html += `<div class="county-flag doc-flag">
+        <strong>Incomplete in the source.</strong> The document cuts off mid-sentence partway through this state's overview and goes straight to its bibliography. What follows is everything it actually contains.
+      </div>`;
+    }
+
+    html += `<div class="field-grid">
+      ${field("Classification", det.classification)}
+      ${field("Governing statutes", det.governingStatutes)}
+    </div>`;
+
+    if (det.overview && det.overview.length) {
+      html += `<p class="detail-subsection-title">System overview</p>
+        <div class="doc-prose">${det.overview.map((p) => `<p>${escapeHtml(p)}</p>`).join("")}</div>`;
+    }
+    if (det.redemptionPeriod || det.interestRate) {
+      html += `<p class="detail-subsection-title">Statutory framework</p>
+        <div class="field-grid">
+          ${field("Redemption period", det.redemptionPeriod)}
+          ${field("Interest / penalty rate", det.interestRate)}
+        </div>`;
+    }
+    if (det.resources && det.resources.length) {
+      html += `<p class="detail-subsection-title">State-level resources</p>
+        <ul class="doc-links">${det.resources
+          .map((r) => `<li><a href="${r.url}" target="_blank" rel="noopener">${escapeHtml(r.label)}</a></li>`)
+          .join("")}</ul>`;
+    }
+    return html;
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   }
 
   function showCountyDetail(record) {
@@ -282,14 +366,15 @@
         <p class="detail-sub">${record.stateName}</p>
         ${typePill(info.type)}
         <div class="county-flag">
-          <strong>Showing state-level defaults.</strong> ${record.name} County hasn't been individually researched yet — these fields are inherited from ${record.stateName}'s statewide rules. County auction calendars, local surplus/overage procedures, and any county-specific ordinances can differ and should be confirmed with the ${record.name} County treasurer or tax collector.
+          <strong>Using state defaults.</strong> This county has not been individually researched. The information below comes from ${record.stateName} statewide rules.
         </div>
         <div class="type-desc">${TYPE_DESCRIPTIONS[info.type]}</div>
+        <p class="detail-section-title">State-level rules (inherited)</p>
         <div class="field-grid">
           ${field("Redemption period", info.redemption)}
           ${field("Investor return / penalty", info.returns)}
           ${field("Governing statute", info.statute)}
-          ${field("State-level auction notes", info.notes)}
+          ${field("Auction notes", info.notes)}
         </div>
       `;
       return;

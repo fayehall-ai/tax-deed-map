@@ -98,9 +98,8 @@ select:focus, .reset-btn:focus { outline: 2px solid var(--focus); outline-offset
 
 .layout {
   flex: 1;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 380px;
-  gap: 0;
+  display: flex;
+  flex-direction: column;
   min-height: 0;
 }
 
@@ -132,6 +131,8 @@ select:focus, .reset-btn:focus { outline: 2px solid var(--focus); outline-offset
 
 #map { width: 100%; flex: 1; min-height: 420px; background: var(--paper-raised); border: 1px solid var(--line); border-radius: 10px; }
 
+/* Map shapes. These are SVG paths, so they take SVG defaults when unstyled —
+   notably fill:black and pointer-events:visiblePainted. Both matter below. */
 .state-shape, .county-shape, .state-outline { vector-effect: non-scaling-stroke; }
 
 .state-shape { stroke: var(--paper-raised); stroke-width: 0.6; cursor: pointer; transition: filter 0.15s ease; }
@@ -139,27 +140,66 @@ select:focus, .reset-btn:focus { outline: 2px solid var(--focus); outline-offset
 .state-shape.selected { stroke: var(--ink); stroke-width: 1.6; }
 .state-shape.dimmed { opacity: 0.35; }
 
+/* The stroke is what makes individual counties legible — without it the
+   whole state renders as one undifferentiated block of the type color. */
 .county-shape { stroke: var(--paper-raised); stroke-width: 0.4; cursor: pointer; transition: filter 0.15s ease; }
 .county-shape:hover { filter: brightness(1.15); }
 .county-shape.selected { stroke: var(--ink); stroke-width: 1.4; }
+/* Counties below the population filter get their fill attribute removed in
+   app.js, so this rule is their only fill — without it they default to black. */
 .county-shape.county-excluded { fill: var(--line); cursor: default; opacity: 0.55; }
 .county-shape.county-excluded:hover { filter: none; }
 
+/* fill:none and pointer-events:none are both load-bearing: the outline layer
+   is drawn on top of the counties, so a filled outline would hide every
+   county underneath it and swallow their clicks. */
 .state-outline { fill: none; stroke: var(--ink); stroke-width: 1.4; pointer-events: none; }
 
-.hint { margin: 0.6rem 0 0; font-size: 0.78rem; color: var(--ink-soft); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.map-pane {
+  padding: 1rem 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
 
+/* Detail pane scrolls internally so long county entries never spill
+   past the layout and collide with the footer disclaimer. */
 .detail-pane {
-  border-left: 1px solid var(--line);
-  background: var(--paper-raised);
-  padding: 1.5rem;
+  min-width: 0;
+  min-height: 0;
   overflow-y: auto;
+  padding: 1.25rem 1.5rem 1.5rem;
+  background: var(--paper);
+}
+
+.hint {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-.detail-empty h2 { font-family: inherit; font-size: 1.05rem; margin: 0 0 0.5rem; }
-.detail-empty p { color: var(--ink-soft); font-size: 0.88rem; line-height: 1.5; }
+/* Footer disclaimer: opaque and outside the scrolling area, so map and
+   detail content can never render through or over it. */
+.disclaimer {
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  background: var(--paper-raised);
+  border-top: 1px solid var(--line);
+  padding: 0.7rem 1.5rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
 
+.disclaimer strong { color: var(--ink); }
+
+/* Detail-pane content. These were dropped in the same rewrite that removed
+   the map-shape rules, which left every label/value pair rendering as plain
+   unstyled paragraphs. */
 .detail-kicker { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-soft); margin: 0 0 0.2rem; }
 .detail-title { font-size: 1.4rem; margin: 0 0 0.15rem; font-family: "Iowan Old Style", Georgia, serif; }
 .detail-sub { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 1rem; }
@@ -175,7 +215,6 @@ select:focus, .reset-btn:focus { outline: 2px solid var(--focus); outline-offset
   color: #fff;
   margin-bottom: 1rem;
 }
-
 .type-pill-dot { width: 0.55rem; height: 0.55rem; border-radius: 50%; background: rgba(255,255,255,0.85); }
 
 .field-grid { display: grid; grid-template-columns: 1fr; gap: 0.9rem; margin-bottom: 1.1rem; }
@@ -194,8 +233,6 @@ select:focus, .reset-btn:focus { outline: 2px solid var(--focus); outline-offset
   padding: 0.7rem 0.85rem;
   margin-bottom: 1.1rem;
 }
-
-.county-list-link { font-size: 0.85rem; color: var(--accent); background: none; border: none; padding: 0; cursor: pointer; text-decoration: underline; font-family: inherit; }
 
 .detail-section-title {
   font-size: 0.72rem;
@@ -221,30 +258,162 @@ select:focus, .reset-btn:focus { outline: 2px solid var(--focus); outline-offset
 }
 .source-note a { color: var(--ink-soft); }
 
-.disclaimer {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.76rem;
+/* Transcribed source-report block. Deliberately set apart from the atlas's
+   own fields above it so the weaker provenance stays visible. */
+.detail-subsection-title {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+}
+
+.doc-attrib {
+  font-size: 0.74rem;
   line-height: 1.5;
   color: var(--ink-soft);
-  padding: 0.85rem 1.75rem;
-  border-top: 1px solid var(--line);
+  font-style: italic;
+  margin: 0 0 1rem;
+}
+
+.doc-flag { background: var(--paper); border-color: var(--line); color: var(--ink-soft); }
+
+.doc-prose { margin-bottom: 1.1rem; }
+.doc-prose p { margin: 0 0 0.7rem; font-size: 0.88rem; line-height: 1.55; }
+.doc-prose p:last-child { margin-bottom: 0; }
+
+.doc-links { margin: 0 0 1.1rem; padding-left: 1.1rem; font-size: 0.85rem; line-height: 1.5; }
+.doc-links li { margin-bottom: 0.35rem; }
+.doc-links a { color: var(--accent); }
+
+#map {
+  width: 100%;
+  flex: 1;
+  min-height: 420px;
   background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 10px;
 }
 
-@media (max-width: 860px) {
-  .layout { grid-template-columns: 1fr; }
-  .detail-pane { border-left: none; border-top: 1px solid var(--line); }
-  #map { min-height: 340px; }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --ink: #ece7d8;
-    --ink-soft: #a8a290;
-    --paper: #1c1a15;
-    --paper-raised: #262319;
-    --line: #3a3527;
-    color-scheme: dark;
+/* Mobile-first: stack map on top, details below. Grid only on larger screens. */
+@media (max-width: 700px) {
+  .layout {
+    display: flex !important;
+    flex-direction: column !important;
   }
-  .county-flag { background: #3a2c12; border-color: #6b4d16; color: #e8c98a; }
+
+  .map-pane {
+    flex: 0 0 auto !important;
+    margin-bottom: 6px !important;
+    padding: 0.6rem 0.8rem 0.3rem !important;
+  }
+
+  #map {
+    flex: 0 0 auto !important;
+    height: auto !important;
+    max-height: 148px !important;
+    min-height: 90px !important;
+  }
+
+  .detail-pane {
+    flex: 1 1 auto !important;
+    margin-top: 0 !important;
+    padding-top: 10px !important;
+    border-top: 2px solid var(--line) !important;
+  }
+
+  .hint {
+    display: none !important;
+  }
+}
+
+@media (min-width: 701px) {
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 380px;
+    gap: 0;
+  }
+
+  /* Divider only makes sense in the two-column desktop layout. */
+  .detail-pane { border-left: 1px solid var(--line); }
+}
+
+/* Strong mobile stacking: map small at top, details flow below cleanly */
+@media (max-width: 700px) {
+  .layout {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .map-pane {
+    flex: 0 0 auto !important;
+    margin-bottom: 4px !important;
+    padding-bottom: 2px !important;
+  }
+  #map {
+    flex: 0 0 auto !important;
+    height: auto !important;
+    max-height: 135px !important;
+    min-height: 80px !important;
+    width: 100% !important;
+  }
+  .detail-pane {
+    flex: 1 1 auto !important;
+    margin-top: 0 !important;
+    padding-top: 8px !important;
+    border-top: 2px solid var(--line) !important;
+  }
+  .hint { display: none !important; }
+}
+
+@media (min-width: 701px) {
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 380px;
+    gap: 0;
+  }
+}
+
+/* Extra strong mobile override - force map small and detail below in flow */
+@media (max-width: 600px) {
+  .layout,
+  .map-pane,
+  #map,
+  .detail-pane {
+    all: revert !important;
+  }
+
+  .layout {
+    display: block !important;
+    flex: none !important;
+  }
+
+  .map-pane {
+    height: 130px !important;
+    max-height: 130px !important;
+    overflow: hidden !important;
+    padding: 0.4rem 0.6rem 0.2rem !important;
+    margin-bottom: 4px !important;
+    box-sizing: border-box !important;
+  }
+
+  #map {
+    height: 100% !important;
+    width: 100% !important;
+    max-height: 100% !important;
+    min-height: 0 !important;
+    border-radius: 8px !important;
+  }
+
+  .detail-pane {
+    display: block !important;
+    margin-top: 0 !important;
+    padding: 8px 12px 20px !important;
+    border-top: 2px solid var(--line) !important;
+    box-sizing: border-box !important;
+  }
+
+  .hint {
+    display: none !important;
+  }
 }

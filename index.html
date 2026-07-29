@@ -32,8 +32,8 @@
     <label>
       Population
       <select id="population-filter">
+        <option value="50000" selected>50,000+ population</option>
         <option value="all">All counties</option>
-        <option value="50000">50,000+ population</option>
       </select>
     </label>
     <button id="reset-btn" class="reset-btn" disabled>National view</button>
@@ -60,13 +60,14 @@
 </main>
 
 <footer class="disclaimer">
-  <strong>Educational reference only.</strong> Tax sale rules vary by state and county, and change with legislation. County-level entries currently inherit their state's default rules as a starting point and have not been individually verified — always confirm current statutes, redemption periods, and auction procedures with the county treasurer/tax collector or an attorney before bidding.
+  <strong>Educational reference only.</strong> Tax sale rules vary by state and county and change with legislation. Counties with a listed source and "as of" date were researched individually; counties without an entry fall back to their state's default rules. Always confirm current statutes, redemption periods, and auction procedures with the county treasurer/tax collector or an attorney before bidding.
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 <script src="data/fips.js"></script>
 <script src="data/state-data.js"></script>
+<script src="data/state-doc.js"></script>
 <script src="data/county-data.js"></script>
 <script src="data/county-population.js"></script>
 <script src="app.js"></script>
