@@ -29,12 +29,15 @@
         <option value="">Select a state first…</option>
       </select>
     </label>
-    <label>
-      Population
-      <select id="population-filter">
-        <option value="50000" selected>50,000+ population</option>
-        <option value="all">All counties</option>
-      </select>
+    <label class="pop-label">
+      <span class="pop-label-row">
+        Minimum population
+        <output id="population-readout" for="population-filter">50,000+</output>
+      </span>
+      <!-- min/max/value are set from POP_STOPS in app.js so the scale is
+           defined in exactly one place. -->
+      <input type="range" id="population-filter" min="0" max="0" step="1" value="0"
+             aria-label="Minimum county population" />
     </label>
     <button id="reset-btn" class="reset-btn" disabled>National view</button>
   </div>

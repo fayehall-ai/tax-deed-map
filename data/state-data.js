@@ -58,11 +58,22 @@ const STATE_DATA = {
   WY: { type: "Tax Lien", redemption: "4 years from sale", returns: "15% per annum plus a 3% penalty", statute: "Wyoming Statutes Title 39, Ch. 13", notes: "County treasurer certificate sales, typically in the second week of August." },
 };
 
+// Categorical palette for the four sale types, pulled toward the Tax Deed
+// Collective brand (Hybrid is the brand blue #0957E1 exactly) but chosen for
+// colour-vision separation rather than by eye. The previous warm palette put
+// green #2f6f4f next to red #8a3b2f, which deuteranopes read as ΔE 4.7 —
+// effectively the same colour. These four clear every check in the palette
+// validator at all-pairs: worst CVD separation is ΔE 11.0 (deutan) and the
+// normal-vision floor is 15.6.
+//
+// #E69F00 sits below 3:1 against a white surface, so type identity is never
+// carried by fill alone — the legend labels every colour, each shape has a
+// <title>, and the detail pane names the type in text.
 const TYPE_COLORS = {
-  "Tax Lien": "#2f6f4f",
-  "Tax Deed": "#8a3b2f",
-  "Redeemable Deed": "#b8842f",
-  "Hybrid": "#3f5c8a",
+  "Tax Lien": "#009E73",
+  "Tax Deed": "#D55E00",
+  "Redeemable Deed": "#E69F00",
+  "Hybrid": "#0957E1",
 };
 
 const TYPE_DESCRIPTIONS = {

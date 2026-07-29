@@ -9,7 +9,8 @@
 
   const stateSelect = document.getElementById("state-select");
   const countySelect = document.getElementById("county-select");
-  const popFilterSelect = document.getElementById("population-filter");
+  const popFilterInput = document.getElementById("population-filter");
+  const popReadout = document.getElementById("population-readout");
   const resetBtn = document.getElementById("reset-btn");
   const breadcrumb = document.getElementById("breadcrumb");
   const mapHint = document.getElementById("map-hint");
@@ -22,10 +23,38 @@
   let countiesByStateFips = new Map(); // stateFips -> [feature,...]
   let countyRecordById = new Map(); // countyFips -> {feature, code:{...state fields}, name, stateCode, stateName}
   let currentStateFips = null;
-  // Default matches the "50,000+ population" option selected in index.html.
-  // Keep these two in sync — this value is used for the first render, before
-  // any change event fires on the select.
-  let popThreshold = 50000; // 0 = "all counties"
+
+  // County population is heavily skewed — median ~26k, but the largest county
+  // is 9.7M — so a linear slider would spend most of its travel on a handful
+  // of counties and none where the data actually lives. These stops are
+  // roughly logarithmic, with the finest granularity below 100k where ~80% of
+  // counties sit. Index 0 means "no minimum" (show every county).
+  const POP_STOPS = [
+    0, 500, 1000, 2000, 3000, 5000, 7500, 10000, 15000, 20000, 25000,
+    35000, 50000, 75000, 100000, 150000, 250000, 500000, 750000,
+    1000000, 2000000, 5000000,
+  ];
+  const DEFAULT_STOP = POP_STOPS.indexOf(50000);
+  let popThreshold = POP_STOPS[DEFAULT_STOP]; // 0 = "all counties"
+
+  // The slider's range is derived from POP_STOPS rather than hard-coded in
+  // index.html, so adding or removing a stop can't desync the two.
+  popFilterInput.max = String(POP_STOPS.length - 1);
+  popFilterInput.value = String(DEFAULT_STOP);
+  updatePopReadout();
+
+  function formatThreshold(n) {
+    if (!n) return "All counties";
+    if (n >= 1000000) return (n / 1000000) + "M+";
+    if (n >= 1000) return (n / 1000) + "k+";
+    return n + "+";
+  }
+
+  function updatePopReadout() {
+    popReadout.textContent = formatThreshold(popThreshold);
+    popFilterInput.setAttribute("aria-valuetext",
+      popThreshold ? formatThreshold(popThreshold) + " population" : "No minimum");
+  }
 
   // Returns null when we genuinely have no figure for this county, so callers
   // can tell "small" apart from "unknown".
@@ -124,10 +153,15 @@
 
     resetBtn.addEventListener("click", () => drawNationalView());
 
-    popFilterSelect.addEventListener("change", () => {
-      popThreshold = Number(popFilterSelect.value) || 0;
-      // Re-render whatever's currently on screen with the new filter.
-      if (currentStateFips) selectState(currentStateFips);
+    // "input" (not "change") so the map tracks the handle as it's dragged.
+    // This deliberately does NOT call selectState: that re-runs the 600ms
+    // zoom transition and rebuilds the detail pane, which makes dragging
+    // stutter and throws away the reader's scroll position. applyPopFilter
+    // only repaints what the filter actually affects.
+    popFilterInput.addEventListener("input", () => {
+      popThreshold = POP_STOPS[Number(popFilterInput.value)] ?? 0;
+      updatePopReadout();
+      applyPopFilter();
     });
   }
 
@@ -179,26 +213,62 @@
       .classed("dimmed", (d) => d.id !== fips)
       .classed("selected", (d) => d.id === fips);
 
-    const counties = (countiesByStateFips.get(fips) || []).slice().sort((a, b) => a.properties.name.localeCompare(b.properties.name));
+    const counties = countiesForState(fips);
     const csel = countiesLayer.selectAll("path.county-shape").data(counties, (d) => d.id);
     csel.join("path")
       .attr("class", "county-shape")
       .attr("d", path)
-      .attr("fill", (d) => meetsPopFilter(d.id) ? (TYPE_COLORS[info.type] || "#999") : null)
-      .classed("county-excluded", (d) => !meetsPopFilter(d.id))
       .on("click", (event, d) => meetsPopFilter(d.id) && selectCounty(d.id))
-      .append("title")
-      .text((d) => `${d.properties.name} County, ${feature.properties.name}`
-        + (meetsPopFilter(d.id) ? "" : ` — below ${popThreshold.toLocaleString()} population, hidden by filter`));
+      .append("title");
+    paintCounties(feature, info);
     countiesLayer.selectAll("path.county-shape").classed("selected", false);
 
     outlineLayer.selectAll("*").remove();
     outlineLayer.append("path").datum(feature).attr("class", "state-outline").attr("d", path);
 
-    const filteredCounties = counties.filter((c) => meetsPopFilter(c.id));
-    populateCountySelect(fips, filteredCounties, counties.length);
+    populateCountySelect(fips, counties.filter((c) => meetsPopFilter(c.id)), counties.length);
     zoomTo(feature);
     showStateDetail(feature, code, info);
+  }
+
+  function countiesForState(fips) {
+    return (countiesByStateFips.get(fips) || [])
+      .slice()
+      .sort((a, b) => a.properties.name.localeCompare(b.properties.name));
+  }
+
+  // Everything the population filter affects, and nothing else — so it can be
+  // re-run cheaply on every slider tick.
+  function paintCounties(feature, info) {
+    countiesLayer.selectAll("path.county-shape")
+      .attr("fill", (d) => meetsPopFilter(d.id) ? (TYPE_COLORS[info.type] || "#999") : null)
+      .classed("county-excluded", (d) => !meetsPopFilter(d.id))
+      .select("title")
+      .text((d) => `${d.properties.name} County, ${feature.properties.name}`
+        + (meetsPopFilter(d.id) ? "" : ` — below ${popThreshold.toLocaleString()} population, hidden by filter`));
+  }
+
+  function applyPopFilter() {
+    if (!currentStateFips) return; // national view shows no counties
+    const feature = statesByFips.get(currentStateFips);
+    const info = STATE_DATA[FIPS_TO_STATE[currentStateFips]];
+    if (!feature || !info) return;
+
+    paintCounties(feature, info);
+
+    // Repopulating the dropdown clears its value, so carry the current
+    // selection across — but drop it if the county no longer passes the
+    // filter, otherwise the dropdown would show a county the map has greyed
+    // out and made unclickable.
+    const selected = countySelect.value;
+    const counties = countiesForState(currentStateFips);
+    populateCountySelect(currentStateFips, counties.filter((c) => meetsPopFilter(c.id)), counties.length);
+    if (selected && meetsPopFilter(selected)) {
+      countySelect.value = selected;
+      countiesLayer.selectAll("path.county-shape").classed("selected", (d) => d.id === selected);
+    } else {
+      countiesLayer.selectAll("path.county-shape").classed("selected", false);
+    }
   }
 
   function populateCountySelect(fips, counties, totalCount) {
@@ -254,8 +324,30 @@
     detailContent.hidden = true;
   }
 
+  // White text is unreadable on the lighter type fills (2.25:1 on the gold,
+  // 3.42:1 on the green), so pick whichever of white/brand-navy actually
+  // contrasts with the fill instead of assuming white.
+  const INK = "#021137";
+
+  function relativeLuminance(hex) {
+    const ch = [1, 3, 5]
+      .map((i) => parseInt(hex.slice(i, i + 2), 16) / 255)
+      .map((v) => (v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4)));
+    return 0.2126 * ch[0] + 0.7152 * ch[1] + 0.0722 * ch[2];
+  }
+
+  function contrastRatio(a, b) {
+    const x = relativeLuminance(a), y = relativeLuminance(b);
+    return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05);
+  }
+
+  function readableOn(bg) {
+    return contrastRatio("#ffffff", bg) >= contrastRatio(INK, bg) ? "#ffffff" : INK;
+  }
+
   function typePill(type) {
-    return `<span class="type-pill" style="background:${TYPE_COLORS[type]}"><span class="type-pill-dot"></span>${type}</span>`;
+    const bg = TYPE_COLORS[type] || "#999999";
+    return `<span class="type-pill" style="background:${bg};color:${readableOn(bg)}"><span class="type-pill-dot"></span>${type}</span>`;
   }
 
   function showStateDetail(feature, code, info) {
