@@ -6,6 +6,8 @@
   const statesLayer = zoomGroup.append("g").attr("class", "states-layer");
   const countiesLayer = zoomGroup.append("g").attr("class", "counties-layer");
   const outlineLayer = zoomGroup.append("g").attr("class", "outline-layer");
+  // Above fills so USPS abbreviations stay readable; pointer-events none in CSS.
+  const labelsLayer = zoomGroup.append("g").attr("class", "state-labels-layer");
 
   const stateSelect = document.getElementById("state-select");
   const countySelect = document.getElementById("county-select");
@@ -165,6 +167,42 @@
     });
   }
 
+  // Small New England / mid-Atlantic states have centroids that sit on top of
+  // each other at national scale — nudge the USPS label so CA/TX stay on
+  // centroid while RI/DE/DC remain legible. Units are SVG (pre-projected) px.
+  const LABEL_OFFSETS = {
+    "09": [6, 2],    // CT
+    "10": [10, 10],  // DE
+    "11": [14, 6],   // DC
+    "24": [4, 6],    // MD
+    "25": [8, -6],   // MA
+    "33": [2, -8],   // NH
+    "34": [8, 4],    // NJ
+    "44": [12, 6],   // RI
+    "50": [-2, -10], // VT
+  };
+
+  function drawStateLabels() {
+    const labels = labelsLayer.selectAll("text.state-label")
+      .data(statesFC.features, (d) => d.id);
+    labels.join("text")
+      .attr("class", "state-label")
+      .attr("transform", (d) => {
+        const c = path.centroid(d);
+        const off = LABEL_OFFSETS[d.id] || [0, 0];
+        // Guard against empty multipolygons returning NaN centroids.
+        if (!Number.isFinite(c[0]) || !Number.isFinite(c[1])) return null;
+        return `translate(${c[0] + off[0]},${c[1] + off[1]})`;
+      })
+      .attr("text-anchor", "middle")
+      .attr("dominant-baseline", "central")
+      .text((d) => FIPS_TO_STATE[d.id] || "");
+  }
+
+  function clearStateLabels() {
+    labelsLayer.selectAll("*").remove();
+  }
+
   function drawNationalView() {
     currentStateFips = null;
     stateSelect.value = "";
@@ -183,9 +221,13 @@
       .attr("fill", (d) => colorForState(d.id))
       .on("click", (event, d) => selectState(d.id))
       .append("title")
-      .text((d) => d.properties.name);
+      .text((d) => {
+        const code = FIPS_TO_STATE[d.id];
+        return code ? `${d.properties.name} (${code})` : d.properties.name;
+      });
 
     statesLayer.selectAll("path.state-shape").classed("dimmed", false).classed("selected", false);
+    drawStateLabels();
     zoomTo(null);
     showEmptyDetail();
   }
@@ -212,6 +254,10 @@
     statesLayer.selectAll("path.state-shape")
       .classed("dimmed", (d) => d.id !== fips)
       .classed("selected", (d) => d.id === fips);
+
+    // Labels ride the zoom transform; at state scale they blow up and cover
+    // counties, so only show USPS codes on the national view.
+    clearStateLabels();
 
     const counties = countiesForState(fips);
     const csel = countiesLayer.selectAll("path.county-shape").data(counties, (d) => d.id);

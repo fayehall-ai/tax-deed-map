@@ -216,6 +216,23 @@ select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px 
 .state-shape.selected { stroke: var(--ink); stroke-width: 1.6; }
 .state-shape.dimmed { opacity: 0.35; }
 
+/* Two-letter USPS codes on the national map. Halo (paint-order stroke)
+   keeps labels legible on every type-color fill; pointer-events none so
+   clicks still hit the state path underneath. */
+.state-label {
+  fill: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  pointer-events: none;
+  user-select: none;
+  paint-order: stroke fill;
+  stroke: rgba(255, 255, 255, 0.85);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
 /* The stroke is what makes individual counties legible — without it the
    whole state renders as one undifferentiated block of the type color. */
 .county-shape { stroke: var(--paper-raised); stroke-width: 0.4; cursor: pointer; transition: filter 0.15s ease; }
