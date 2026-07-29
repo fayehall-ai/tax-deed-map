@@ -19,10 +19,15 @@
 // superseded here. If a state ever lacks detail again, the UI still degrades
 // to a summary-only note rather than implying the entry is complete.
 //
-// Extraction notes: the source mixes two bullet conventions ("\t*\t" for the
-// earlier sections, "*"/"o" for the later ones), so lines are normalised
-// before heading matching. Superscript footnote markers ("expires.1", "0%.4")
-// were stripped. Keyed by USPS state abbreviation.
+// Extraction notes: text is read from the .docx XML directly, not from a
+// flattened text conversion. The report's citation markers are superscript
+// text runs (419 of them), not Word footnotes, so they are dropped by run -
+// structurally, never pattern-stripped. That distinction matters: a strip
+// over flattened text cannot tell "2019.1" (year + citation) from "2.5 years"
+// (a decimal) or "MCL 211.78" (a statute cite), and silently truncated all
+// three. Soft breaks (<w:br/>) are read as whitespace, since a run carrying
+// one holds no text of its own and ignoring it welds words together.
+// Keyed by USPS state abbreviation.
 
 const STATE_DOC_SOURCE = {
   title: "TDC 50-State Report on Real Property Tax Auction Systems",
@@ -281,7 +286,7 @@ const STATE_DOC_DETAIL = {
   IL: {
     classification: "Tax Lien",
     governingStatutes: "Illinois Compiled Statutes (ILCS) Chapter 35, Act 200, Article 21",
-    redemptionPeriod: "The redemption period in Illinois varies: Standard Properties: 2. years (30 months) from the date of the sale. Residential (1-6 units) & some Commercial: 2 years (24 months) from the date of the sale. Vacant Non-Farm & some Commercial: Can be shortened to 6 months.",
+    redemptionPeriod: "The redemption period in Illinois varies: Standard Properties: 2.5 years (30 months) from the date of the sale. Residential (1-6 units) & some Commercial: 2 years (24 months) from the date of the sale. Vacant Non-Farm & some Commercial: Can be shortened to 6 months.",
     interestRate: "The rate is a penalty, not per-annum interest, and is determined by the bid-down auction. Annual Sale: The winning bid percentage (from 0% to 18%) is applied to the tax amount for each 6-month period or fraction thereof that passes before redemption. For example, a winning bid of 9% would result in a 9% penalty if redeemed within 6 months, an 18% penalty if redeemed between 6 and 12 months, and so on. Scavenger Sale: The penalty is statutorily fixed and more severe. For example, it is 12% of the tax amount if redeemed between 2 and 6 months, and 24% if redeemed between 6 and 12 months.",
     overview: [
       "Illinois is a Tax Lien state with a multifaceted system that includes several types of sales. The primary method is the Annual Tax Sale, where county collectors sell liens on properties with delinquent taxes from the previous year. This sale is a \"bid-down\" penalty auction. Bidders compete by bidding down the penalty percentage they are willing to accept upon redemption, starting at a maximum of",
@@ -393,7 +398,7 @@ const STATE_DOC_DETAIL = {
     classification: "Tax Lien",
     governingStatutes: "Annotated Code of Maryland, Tax-Property Article, § 14-801 et seq.",
     redemptionPeriod: "The property owner has the right to redeem at any time until the right of redemption is finally foreclosed by an order of the Circuit Court. The certificate holder may begin foreclosure proceedings 6 months after the date of the tax sale.",
-    interestRate: "The interest rate paid upon redemption is set by each individual county and varies widely. Examples include: Montgomery County: 20% per annum 91 Prince George's County: 20% per annum 91 Baltimore City: 18% per annum 91 Baltimore County: 12% per annum 91 Anne Arundel County: 12% per annum 91 Howard County: 18% per annum 91",
+    interestRate: "The interest rate paid upon redemption is set by each individual county and varies widely. Examples include: Montgomery County: 20% per annum Prince George's County: 20% per annum Baltimore City: 18% per annum Baltimore County: 12% per annum Anne Arundel County: 12% per annum Howard County: 18% per annum",
     overview: [
       "Maryland is a Tax Lien state. County governments hold annual public auctions to sell tax lien certificates for properties with delinquent taxes. The auction is a",
       "high bid premium auction. The lien is sold for an amount that includes the back taxes, interest, and penalties, plus a premium bid by the investor. The lien certificate is awarded to the bidder who pays the highest premium for the property.",
@@ -423,7 +428,7 @@ const STATE_DOC_DETAIL = {
   },
   MI: {
     classification: "Tax Deed",
-    governingStatutes: "Michigan Compiled Laws (MCL) 211. et seq. (General Property Tax Act)",
+    governingStatutes: "Michigan Compiled Laws (MCL) 211.78 et seq. (General Property Tax Act)",
     redemptionPeriod: "All redemption rights are extinguished when the Circuit Court enters the judgment of foreclosure, which occurs before the public auction. There is no post-sale redemption period for the former owner.",
     interestRate: "Not applicable, as there is no post-sale redemption. The owner must pay all taxes, fees, and a significantly higher interest rate (1.5% per month) during the forfeiture/foreclosure period to prevent the loss of the property.",
     overview: [
@@ -667,7 +672,7 @@ const STATE_DOC_DETAIL = {
   },
   PA: {
     classification: "Tax Deed",
-    governingStatutes: "Real Estate Tax Sale Law, 72 P.S. § 5860. et seq.; Municipal Claims and Tax Liens Act for certain cities",
+    governingStatutes: "Real Estate Tax Sale Law, 72 P.S. § 5860.101 et seq.; Municipal Claims and Tax Liens Act for certain cities",
     redemptionPeriod: "Generally, redemption must occur before a valid Upset Sale; there is no ordinary post-sale redemption after a valid Upset Sale under the Real Estate Tax Sale Law. Local city procedures and special property types may vary.",
     interestRate: "Not applicable as an investor certificate return. The purchaser is acquiring property through a tax sale process.",
     overview: [
@@ -802,7 +807,7 @@ const STATE_DOC_DETAIL = {
   },
   WA: {
     classification: "Tax Deed",
-    governingStatutes: "Revised Code of Washington (RCW) Chapter 84.",
+    governingStatutes: "Revised Code of Washington (RCW) Chapter 84.64",
     redemptionPeriod: "Redemption generally occurs before the tax foreclosure sale, commonly no later than the day before the sale. There is no ordinary post-sale redemption after a valid tax foreclosure sale.",
     interestRate: "Not applicable as a private certificate return. The purchaser buys the property at foreclosure sale.",
     overview: [
@@ -811,7 +816,7 @@ const STATE_DOC_DETAIL = {
       "Washington tax foreclosure sales can be attractive for acquisition, but bidders must pay close attention to county-specific sale terms, title exceptions, occupancy, environmental issues, utilities, and whether surplus proceeds are handled by the county. Many counties use third-party auction platforms and require strict registration and payment deadlines.",
     ],
     resources: [
-      { label: "RCW Chapter 84.", url: "https://app.leg.wa.gov/RCW/default.aspx?cite=84.64" },
+      { label: "RCW Chapter 84.64", url: "https://app.leg.wa.gov/RCW/default.aspx?cite=84.64" },
       { label: "Washington Department of Revenue - Property Tax", url: "https://dor.wa.gov/taxes-rates/property-tax" },
     ],
   },
