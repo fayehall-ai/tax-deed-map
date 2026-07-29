@@ -1,22 +1,24 @@
-/* Palette taken from thetaxdeedcollective.com's Elementor global kit:
-   primary #021137, secondary #4A6EC9, accent #FFB341, text #021137 at 60%,
-   surfaces #F8F8F8 / #FFFFFF.
-
-   Two brand values are deliberately not used as written. The gold #FFB341
-   scores 1.78:1 on white, so it is a fill only — never text or a border on a
-   light surface. And the brand's own text colour is #021137 at 60% opacity,
-   which composites to #677087; it is written out flat here so it stays
-   correct over both surfaces instead of picking up whatever is behind it. */
+/* Palette aligned to map.thetaxdeedcollective.com (interactive 50-state map):
+   --tax-deed #0B2E59, --redeemable #22C7FF, --tax-lien #FFE600, --hybrid #FF8A00,
+   --navy #052A66 / --navy2 #031B43, --bg #f4f7fb, --ink #12233a, --muted #607089,
+   --line #dbe4ef. Sale-type fills live in data/state-data.js TYPE_COLORS. */
 :root {
-  --ink: #021137;        /* brand primary        18.45:1 on white */
-  --ink-soft: #677087;   /* brand text @60%       4.95:1 on white */
-  --paper: #f8f8f8;      /* brand surface */
-  --paper-raised: #ffffff;
-  --line: #dce3f1;       /* brand secondary, heavily tinted */
-  --accent: #0957e1;     /* brand blue            6.07:1 on white */
-  --accent-soft: #4a6ec9;/* brand secondary */
-  --highlight: #ffb341;  /* brand gold — fills only, navy text on top */
-  --focus: #0957e1;
+  --ink: #12233a;          /* map --ink */
+  --ink-soft: #607089;     /* map --muted */
+  --paper: #f4f7fb;        /* map --bg */
+  --paper-raised: #ffffff; /* map --card */
+  --line: #dbe4ef;         /* map --line */
+  --accent: #052a66;       /* map --navy */
+  --accent-soft: #22c7ff;  /* map --redeemable */
+  --highlight: #ff8a00;    /* map --hybrid */
+  --tax-deed: #0b2e59;
+  --redeemable: #22c7ff;
+  --tax-lien: #ffe600;
+  --hybrid: #ff8a00;
+  --navy: #052a66;
+  --navy2: #031b43;
+  --focus: #052a66;
+  --shadow: 0 18px 45px rgba(6, 29, 56, 0.12);
   color-scheme: light;
 }
 
@@ -216,19 +218,19 @@ select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px 
 .state-shape.selected { stroke: var(--ink); stroke-width: 1.6; }
 .state-shape.dimmed { opacity: 0.35; }
 
-/* Two-letter USPS codes on the national map. No fill/rect behind the
-   letters — only a soft semi-transparent halo so type stays legible on
-   colored state fills. pointer-events none so clicks hit the state path. */
+/* Two-letter USPS codes — match map.thetaxdeedcollective.com .inside-label
+   (white fill + dark halo) so codes read on navy tax-deed fills and lighter
+   cyan/yellow/orange fills. No opaque background rect. */
 .state-label {
-  fill: var(--ink);
+  fill: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
+  font-weight: 900;
+  letter-spacing: 0.04em;
   pointer-events: none;
   user-select: none;
   paint-order: stroke fill;
-  stroke: rgba(255, 255, 255, 0.35);
+  stroke: rgba(0, 0, 0, 0.55);
   stroke-width: 2.5px;
   stroke-linejoin: round;
 }

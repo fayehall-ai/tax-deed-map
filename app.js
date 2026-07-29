@@ -373,7 +373,8 @@
   // White text is unreadable on the lighter type fills (2.25:1 on the gold,
   // 3.42:1 on the green), so pick whichever of white/brand-navy actually
   // contrasts with the fill instead of assuming white.
-  const INK = "#021137";
+  // Match map.thetaxdeedcollective.com --ink for type-pill contrast choices.
+  const INK = "#12233a";
 
   function relativeLuminance(hex) {
     const ch = [1, 3, 5]

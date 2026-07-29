@@ -522,22 +522,14 @@ const STATE_DATA = {
   },
 };
 
-// Categorical palette for the four sale types, pulled toward the Tax Deed
-// collective brand (Hybrid is the brand blue #0957E1 exactly) but chosen for
-// colour-vision separation rather than by eye. The previous warm palette put
-// green #2f6f4f next to red #8a3b2f, which deuteranopes read as ΔE 4.7 —
-// effectively the same colour. These four clear every check in the palette
-// validator at all-pairs: worst CVD separation is ΔE 11.0 (deutan) and the
-// normal-vision floor is 15.6.
-//
-// #E69F00 sits below 3:1 against a white surface, so type identity is never
-// carried by fill alone — the legend labels every colour, each shape has a
-// <title>, and the detail pane names the type in text.
+// Sale-type fills copied from map.thetaxdeedcollective.com (interactive
+// 50-state map custom code :root). Legend labels + detail pane still name
+// the type in text so identity is not fill-only (yellow/cyan are light).
 const TYPE_COLORS = {
-  "Tax Lien": "#009E73",
-  "Tax Deed": "#D55E00",
-  "Redeemable Deed": "#E69F00",
-  "Hybrid": "#0957E1",
+  "Tax Deed": "#0B2E59",
+  "Redeemable Deed": "#22C7FF",
+  "Tax Lien": "#FFE600",
+  "Hybrid": "#FF8A00",
 };
 
 const TYPE_DESCRIPTIONS = {
