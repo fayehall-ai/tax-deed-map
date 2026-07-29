@@ -397,27 +397,44 @@
     return `<span class="type-pill" style="background:${bg};color:${readableOn(bg)}"><span class="type-pill-dot"></span>${type}</span>`;
   }
 
+  function detailHead({ kicker, title, sub, extra }) {
+    return `<div class="detail-head">
+      ${kicker ? `<p class="detail-kicker">${kicker}</p>` : ""}
+      <h2 class="detail-title">${title}</h2>
+      ${sub ? `<p class="detail-sub">${sub}</p>` : ""}
+      ${extra || ""}
+    </div>`;
+  }
+
   function showStateDetail(feature, code, info) {
     detailEmpty.hidden = true;
     detailContent.hidden = false;
     if (!info) {
-      detailContent.innerHTML = `<p class="detail-kicker">State</p><h2 class="detail-title">${feature.properties.name}</h2><p>No reference data compiled for this state yet.</p>`;
+      detailContent.innerHTML = detailHead({
+        kicker: "State",
+        title: feature.properties.name,
+        sub: "No reference data compiled for this state yet.",
+      });
       return;
     }
     const countyCount = (countiesByStateFips.get(feature.id) || []).length;
     detailContent.innerHTML = `
-      <p class="detail-kicker">State overview</p>
-      <h2 class="detail-title">${feature.properties.name}</h2>
-      <p class="detail-sub">${countyCount} counties &middot; click one on the map or use the dropdown above</p>
-      ${typePill(info.type)}
-      <div class="type-desc">${TYPE_DESCRIPTIONS[info.type]}</div>
-      <div class="field-grid">
-        ${field("Redemption period", info.redemption)}
-        ${field("Investor return / penalty", info.returns)}
-        ${field("Governing statute", info.statute)}
-        ${field("Auction notes", info.notes)}
+      ${detailHead({
+        kicker: "State overview",
+        title: feature.properties.name,
+        sub: `${countyCount} counties · click one on the map or use the dropdown above`,
+        extra: typePill(info.type),
+      })}
+      <div class="detail-body">
+        <div class="type-desc">${TYPE_DESCRIPTIONS[info.type]}</div>
+        <div class="field-grid">
+          ${field("Redemption period", info.redemption)}
+          ${field("Investor return / penalty", info.returns)}
+          ${field("Governing statute", info.statute)}
+          ${field("Auction notes", info.notes)}
+        </div>
+        ${docReportBlock(code, feature.properties.name)}
       </div>
-      ${docReportBlock(code, feature.properties.name)}
     `;
   }
 
@@ -495,25 +512,33 @@
     detailContent.hidden = false;
     const info = record.info;
     if (!info) {
-      detailContent.innerHTML = `<p class="detail-kicker">County</p><h2 class="detail-title">${record.name} County</h2><p class="detail-sub">${record.stateName}</p><p>No reference data compiled for this state yet.</p>`;
+      detailContent.innerHTML = detailHead({
+        kicker: "County",
+        title: `${record.name} County`,
+        sub: `${record.stateName} — no reference data compiled for this state yet.`,
+      });
       return;
     }
     if (!record.hasCountyData) {
       detailContent.innerHTML = `
-        <p class="detail-kicker">County detail</p>
-        <h2 class="detail-title">${record.name} County</h2>
-        <p class="detail-sub">${record.stateName}</p>
-        ${typePill(info.type)}
-        <div class="county-flag">
-          <strong>Using state defaults.</strong> This county has not been individually researched. The information below comes from ${record.stateName} statewide rules.
-        </div>
-        <div class="type-desc">${TYPE_DESCRIPTIONS[info.type]}</div>
-        <p class="detail-section-title">State-level rules (inherited)</p>
-        <div class="field-grid">
-          ${field("Redemption period", info.redemption)}
-          ${field("Investor return / penalty", info.returns)}
-          ${field("Governing statute", info.statute)}
-          ${field("Auction notes", info.notes)}
+        ${detailHead({
+          kicker: "County detail",
+          title: `${record.name} County`,
+          sub: record.stateName,
+          extra: typePill(info.type),
+        })}
+        <div class="detail-body">
+          <div class="county-flag">
+            <strong>Using state defaults.</strong> This county has not been individually researched. The information below comes from ${record.stateName} statewide rules.
+          </div>
+          <div class="type-desc">${TYPE_DESCRIPTIONS[info.type]}</div>
+          <p class="detail-section-title">State-level rules (inherited)</p>
+          <div class="field-grid">
+            ${field("Redemption period", info.redemption)}
+            ${field("Investor return / penalty", info.returns)}
+            ${field("Governing statute", info.statute)}
+            ${field("Auction notes", info.notes)}
+          </div>
         </div>
       `;
       return;
@@ -557,14 +582,18 @@
       .join("");
 
     detailContent.innerHTML = `
-      <p class="detail-kicker">County detail — individually researched</p>
-      <h2 class="detail-title">${record.name} County</h2>
-      <p class="detail-sub">${record.stateName}</p>
-      ${typePill(info.type)}
-      <div class="type-desc">${TYPE_DESCRIPTIONS[info.type]}</div>
-      ${sectionsHtml}
-      ${neighborhoodsBlock(info.growthNeighborhoods)}
-      ${sourceNote(info.asOf, info.sources)}
+      ${detailHead({
+        kicker: "County detail — individually researched",
+        title: `${record.name} County`,
+        sub: record.stateName,
+        extra: typePill(info.type),
+      })}
+      <div class="detail-body">
+        <div class="type-desc">${TYPE_DESCRIPTIONS[info.type]}</div>
+        ${sectionsHtml}
+        ${neighborhoodsBlock(info.growthNeighborhoods)}
+        ${sourceNote(info.asOf, info.sources)}
+      </div>
     `;
   }
 
