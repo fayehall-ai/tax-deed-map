@@ -36,44 +36,155 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Top banner — same navy gradient as map.thetaxdeedcollective.com .hero */
-.topbar {
+.page {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0;
+  flex: 1;
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.15rem 1.75rem;
+  flex-direction: column;
+  min-height: 0;
+  box-sizing: border-box;
+}
+
+/* Hero — exact structure/colors from map.thetaxdeedcollective.com */
+.hero {
   background: linear-gradient(135deg, var(--navy), var(--navy2));
   color: #fff;
-  border-bottom: none;
+  border-radius: 24px;
+  padding: 1.75rem;
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 1.5rem;
+  box-shadow: var(--shadow);
+  align-items: center;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: #b7d9ff;
+}
+
+.hero h1 {
+  margin: 0 0 0.65rem;
+  font-size: clamp(1.85rem, 3.6vw, 3.1rem);
+  line-height: 1.05;
+  font-weight: 800;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-lead {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  max-width: 48rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* Glass legend panel on the right of the hero */
+.hero-legend {
+  align-self: center;
+  justify-self: stretch;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 18px;
+  padding: 1.15rem 1.25rem;
+  display: grid;
+  gap: 0.65rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+.hero-legend .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.hero-legend .legend-swatch {
+  width: 1.5rem;
+  height: 1.15rem;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* Map card + detail panel row */
+.layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.65fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  align-items: start;
+  min-height: 0;
+}
+
+.card,
+.panel {
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 24px;
   box-shadow: var(--shadow);
 }
 
-.brand { display: flex; align-items: center; gap: 0.85rem; }
-
-/* Official logo from thetaxdeedcollective.com (LOGO-1.webp). */
-.brand-logo {
-  display: block;
-  width: 3.25rem;
-  height: 3.25rem;
-  object-fit: contain;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: transparent;
+.map-pane {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
 }
 
-.brand h1 { margin: 0; font-size: 1.25rem; letter-spacing: 0.01em; color: #fff; }
-.brand p {
-  margin: 0.15rem 0 0;
-  font-size: 0.8rem;
-  color: #b7d9ff; /* TDC .eyebrow blue on navy */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+.map-toolbar {
+  margin-bottom: 0.85rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.picker { display: flex; gap: 0.9rem; align-items: flex-end; flex-wrap: wrap; }
+.map-heading {
+  margin: 0 0 0.35rem;
+  color: var(--navy);
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.sub {
+  margin: 0 0 0.35rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+  font-size: 0.9rem;
+}
+
+.hint-inline { margin-bottom: 0.75rem; }
+
+.breadcrumb { font-size: 0.9rem; color: var(--ink-soft); }
+.breadcrumb strong { color: var(--ink); }
+.breadcrumb .crumb-link {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: var(--navy);
+}
+.breadcrumb .crumb-link:hover { color: var(--hybrid); }
+
+.controls.picker {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top: 0.35rem;
+}
 
 .picker label {
   display: flex;
@@ -82,26 +193,27 @@ body {
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #b7d9ff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ink-soft);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 select {
   font: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
-  padding: 0.45rem 0.6rem;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  padding: 0.55rem 0.75rem;
+  border-radius: 12px;
+  border: 1px solid var(--line);
   background: #fff;
   color: var(--ink);
-  min-width: 170px;
+  min-width: 160px;
 }
 
-select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+select:focus, .reset-btn:focus, #population-filter:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
 
-/* Population slider. Sized to match the adjacent selects so the toolbar
-   keeps a single baseline. */
 .pop-label { min-width: 190px; }
 
 .pop-label-row {
@@ -113,8 +225,8 @@ select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px 
 
 #population-readout {
   font-size: 0.8rem;
-  font-weight: 600;
-  color: #fff;
+  font-weight: 700;
+  color: var(--navy);
   text-transform: none;
   letter-spacing: 0;
   font-variant-numeric: tabular-nums;
@@ -131,17 +243,15 @@ select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px 
   cursor: pointer;
 }
 
-/* Track and thumb need separate WebKit/Firefox rules — a combined selector
-   list is dropped wholesale by both engines if either half is unknown. */
 #population-filter::-webkit-slider-runnable-track {
   height: 4px;
   border-radius: 2px;
-  background: rgba(255, 255, 255, 0.28);
+  background: var(--line);
 }
 #population-filter::-moz-range-track {
   height: 4px;
   border-radius: 2px;
-  background: rgba(255, 255, 255, 0.28);
+  background: var(--line);
 }
 
 #population-filter::-webkit-slider-thumb {
@@ -149,28 +259,28 @@ select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px 
   appearance: none;
   width: 1rem;
   height: 1rem;
-  margin-top: -0.375rem; /* centres the thumb on the 4px track */
+  margin-top: -0.375rem;
   border-radius: 50%;
-  background: #fff;
-  border: 2px solid var(--navy);
+  background: var(--navy);
+  border: 2px solid #fff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 #population-filter::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  background: #fff;
-  border: 2px solid var(--navy);
+  background: var(--navy);
+  border: 2px solid #fff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .reset-btn {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.85rem;
-  padding: 0.5rem 0.9rem;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  background: rgba(255, 255, 255, 0.12);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  padding: 0.55rem 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--navy);
+  background: var(--navy);
   color: #fff;
   cursor: pointer;
   font-weight: 700;
@@ -178,45 +288,29 @@ select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px 
 
 .reset-btn:disabled { opacity: 0.4; cursor: default; }
 .reset-btn:not(:disabled):hover {
-  background: #fff;
-  color: var(--navy);
-  border-color: #fff;
+  background: var(--navy2);
+  border-color: var(--navy2);
 }
 
-.layout {
+.map-wrap {
+  width: 100%;
+  overflow: auto;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 0.5rem;
   flex: 1;
-  display: flex;
-  flex-direction: column;
   min-height: 0;
 }
 
-.map-pane {
-  padding: 1.25rem 1.5rem;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
+#map {
+  width: 100%;
+  display: block;
+  min-height: 420px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
 }
-
-.map-toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-bottom: 0.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
-
-.breadcrumb { font-size: 0.9rem; color: var(--ink-soft); }
-.breadcrumb strong { color: var(--ink); }
-.breadcrumb .crumb-link { cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
-.breadcrumb .crumb-link:hover { color: var(--accent); }
-
-.legend { display: flex; gap: 0.9rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--ink-soft); }
-.legend-item { display: inline-flex; align-items: center; gap: 0.35rem; }
-.legend-swatch { width: 0.7rem; height: 0.7rem; border-radius: 2px; display: inline-block; }
-
-#map { width: 100%; flex: 1; min-height: 420px; background: var(--paper-raised); border: 1px solid var(--line); border-radius: 10px; }
 
 /* Map shapes. These are SVG paths, so they take SVG defaults when unstyled —
    notably fill:black and pointer-events:visiblePainted. Both matter below. */
@@ -259,58 +353,57 @@ select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px 
    county underneath it and swallow their clicks. */
 .state-outline { fill: none; stroke: var(--ink); stroke-width: 1.4; pointer-events: none; }
 
-.map-pane {
-  padding: 1rem 1rem 0.5rem;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  min-height: 0;
-}
-
-/* Detail pane scrolls internally so long county entries never spill
-   past the layout and collide with the footer disclaimer. */
+/* Detail panel — white card like TDC .panel */
 .detail-pane {
   min-width: 0;
   min-height: 0;
+  max-height: calc(100vh - 8rem);
   overflow-y: auto;
-  padding: 1.25rem 1.5rem 1.5rem;
-  background: var(--paper);
+  padding: 0;
+  background: var(--paper-raised);
+  position: sticky;
+  top: 1rem;
 }
 
-.hint {
-  margin: 0.5rem 0 0;
-  font-size: 0.8rem;
-  color: var(--ink-soft);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+.detail-empty,
+.detail-content {
+  padding: 1.25rem;
 }
 
 /* Course footnote — matches map.thetaxdeedcollective.com course note. */
 .footnote {
   flex-shrink: 0;
-  position: relative;
-  z-index: 2;
-  background: var(--paper-raised);
-  border-top: 1px solid var(--line);
-  padding: 0.7rem 1.5rem;
-  font-size: 0.78rem;
+  margin: 1.25rem 0 0;
+  padding: 0.85rem 0.25rem 1.25rem;
+  font-size: 0.82rem;
   line-height: 1.5;
   color: var(--ink-soft);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background: transparent;
+  border-top: none;
 }
 
 .footnote strong { color: var(--ink); }
 
 /* State/county panel header — match map.thetaxdeedcollective.com .panel-head */
 .detail-head {
-  background: linear-gradient(135deg, var(--navy), var(--navy2));
+  background: var(--navy);
   color: #fff;
-  padding: 1.25rem 1.35rem;
-  border-radius: 16px;
-  margin: 0 0 1.15rem;
-  box-shadow: var(--shadow);
+  padding: 1.35rem 1.35rem 1.25rem;
+  border-radius: 24px 24px 0 0;
+  margin: 0;
+  box-shadow: none;
 }
 
-.detail-empty .detail-head { margin-bottom: 0; }
+.detail-empty .detail-head {
+  margin-bottom: 0;
+  border-radius: 24px;
+}
+
+.detail-content .detail-head {
+  margin: -1.25rem -1.25rem 1.15rem;
+  border-radius: 24px 24px 0 0;
+}
 
 .detail-kicker {
   font-size: 0.72rem;
@@ -426,91 +519,37 @@ select:focus, .reset-btn:focus, #population-filter:focus-visible { outline: 2px 
 .doc-links li { margin-bottom: 0.35rem; }
 .doc-links a { color: var(--accent); }
 
-#map {
-  width: 100%;
-  flex: 1;
-  min-height: 420px;
-  background: var(--paper-raised);
-  border: 1px solid var(--line);
-  border-radius: 10px;
-}
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
 
-/* Mobile-first: stack map on top, details below. Grid only on larger screens. */
-@media (max-width: 700px) {
   .layout {
-    display: flex !important;
-    flex-direction: column !important;
-  }
-
-  .map-pane {
-    flex: 0 0 auto !important;
-    margin-bottom: 6px !important;
-    padding: 0.6rem 0.8rem 0.3rem !important;
-  }
-
-  #map {
-    flex: 0 0 auto !important;
-    height: auto !important;
-    max-height: 148px !important;
-    min-height: 90px !important;
+    grid-template-columns: 1fr;
   }
 
   .detail-pane {
-    flex: 1 1 auto !important;
-    margin-top: 0 !important;
-    padding-top: 10px !important;
-    border-top: 2px solid var(--line) !important;
+    position: static;
+    max-height: none;
   }
 
-  .hint {
-    display: none !important;
-  }
-}
-
-@media (min-width: 701px) {
-  .layout {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 380px;
-    gap: 0;
-  }
-
-  /* Divider only makes sense in the two-column desktop layout. */
-  .detail-pane { border-left: 1px solid var(--line); }
-}
-
-/* Strong mobile stacking: map small at top, details flow below cleanly */
-@media (max-width: 700px) {
-  .layout {
-    display: flex !important;
-    flex-direction: column !important;
-  }
-  .map-pane {
-    flex: 0 0 auto !important;
-    margin-bottom: 4px !important;
-    padding-bottom: 2px !important;
-  }
   #map {
-    flex: 0 0 auto !important;
-    height: auto !important;
-    max-height: 135px !important;
-    min-height: 80px !important;
-    width: 100% !important;
+    min-height: 280px;
   }
-  .detail-pane {
-    flex: 1 1 auto !important;
-    margin-top: 0 !important;
-    padding-top: 8px !important;
-    border-top: 2px solid var(--line) !important;
-  }
-  .hint { display: none !important; }
 }
 
-@media (min-width: 701px) {
-  .layout {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 380px;
-    gap: 0;
+@media (max-width: 600px) {
+  .page { padding: 1rem 0.85rem 0; }
+
+  .hero {
+    border-radius: 18px;
+    padding: 1.25rem;
   }
+
+  .hero h1 { font-size: 1.7rem; }
+
+  .map-pane,
+  .panel { border-radius: 18px; }
 }
 
 /* Extra strong mobile override - force map small and detail below in flow */

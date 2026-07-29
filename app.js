@@ -119,8 +119,12 @@
 
   function buildLegend() {
     legendEl.innerHTML = "";
-    Object.entries(TYPE_COLORS).forEach(([type, color]) => {
-      const item = document.createElement("span");
+    // Order matches map.thetaxdeedcollective.com hero legend.
+    const order = ["Tax Deed", "Redeemable Deed", "Tax Lien", "Hybrid"];
+    order.forEach((type) => {
+      const color = TYPE_COLORS[type];
+      if (!color) return;
+      const item = document.createElement("div");
       item.className = "legend-item";
       item.innerHTML = `<span class="legend-swatch" style="background:${color}"></span>${type}`;
       legendEl.appendChild(item);
